@@ -43,7 +43,7 @@
   "calendar": "Personal",
   "calendar_id": "cal-mLY1RVDaHpz9qkW",
   "cover": "https://images.lumacdn.com/uploads/78/9b88fe86-ab19-4c21-94f1-72746da6b555.png",
-  "guests": 75,
+  "guests": 82,
   "vendors": [],
   "source": "luma-sg-feed+cal:Menlo Research",
   "kind": "luma",
@@ -67,9 +67,9 @@
   "calendar": "Personal",
   "calendar_id": "cal-4spKNCW0JEPox3y",
   "cover": "https://images.lumacdn.com/uploads/4x/cc0e02bb-28a4-4475-b5ed-6eebb4ff1d6c.png",
-  "guests": 24,
+  "guests": 0,
   "vendors": [],
-  "source": "cal:cal-6iIeDGNQ7vK8cfx",
+  "source": "cal:cal-6iIeDGNQ7vK8cfx+cal:cal-4spKNCW0JEPox3y",
   "kind": "luma",
   "first_seen": "2026-09-06",
   "last_seen": "2026-09-06"
@@ -162,7 +162,7 @@
   "calendar": "The AI Collective",
   "calendar_id": "cal-E74MDlDKBaeAwXK",
   "cover": "https://images.lumacdn.com/uploads/sg/a098549a-b988-4388-8649-9a20c5bf6793.png",
-  "guests": 169,
+  "guests": 181,
   "vendors": [
    "OpenAI"
   ],
@@ -198,6 +198,31 @@
   "credits_kind": "perk"
  },
  {
+  "id": "evt-fcM8mwlI0F7aUIy",
+  "url": "https://lu.ma/claude-fwyq",
+  "name": "Singapore | Claude Meetup",
+  "start": "2026-09-10T10:30:00.000Z",
+  "end": "2026-09-10T13:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "",
+  "hosts": [
+   "Ruban SK"
+  ],
+  "calendar": "Claude Community Events",
+  "calendar_id": "cal-TOpA5LAFfuDeFpu",
+  "cover": "https://images.lumacdn.com/api-uploads/ru/645b4a41-23ee-4bd5-bb80-fafe87ade9d5.png",
+  "guests": 66,
+  "vendors": [
+   "Anthropic"
+  ],
+  "source": "luma-sg-feed+cal:Claude Community Events",
+  "kind": "luma",
+  "first_seen": "2026-09-05",
+  "last_seen": "2026-09-06"
+ },
+ {
   "id": "evt-tsho7FVPCJFAbAm",
   "url": "https://lu.ma/phxj8f0v",
   "name": "Supercharge your company with AI - How Glints achieved 4x Output",
@@ -218,31 +243,6 @@
   "guests": 0,
   "vendors": [],
   "source": "luma-sg-feed+cal:Glints AI Transformation",
-  "kind": "luma",
-  "first_seen": "2026-09-05",
-  "last_seen": "2026-09-06"
- },
- {
-  "id": "evt-fcM8mwlI0F7aUIy",
-  "url": "https://lu.ma/claude-fwyq",
-  "name": "Singapore | Claude Meetup",
-  "start": "2026-09-10T10:30:00.000Z",
-  "end": "2026-09-10T13:00:00.000Z",
-  "tz": "Asia/Singapore",
-  "virtual": false,
-  "sg": true,
-  "venue": "",
-  "hosts": [
-   "Ruban SK"
-  ],
-  "calendar": "Claude Community Events",
-  "calendar_id": "cal-TOpA5LAFfuDeFpu",
-  "cover": "https://images.lumacdn.com/api-uploads/ru/645b4a41-23ee-4bd5-bb80-fafe87ade9d5.png",
-  "guests": 46,
-  "vendors": [
-   "Anthropic"
-  ],
-  "source": "cal:Claude Community Events",
   "kind": "luma",
   "first_seen": "2026-09-05",
   "last_seen": "2026-09-06"
@@ -287,7 +287,7 @@
   "calendar": "Personal",
   "calendar_id": "cal-7xEpna9688PSFwd",
   "cover": "https://images.lumacdn.com/uploads/pp/52e5c5ad-0041-4de9-bf6c-cfafc3cfaf80.jpg",
-  "guests": 16,
+  "guests": 17,
   "vendors": [],
   "source": "cal:The AI Capitol / OpenBuilder",
   "kind": "luma",
@@ -337,7 +337,7 @@
   "calendar": "Personal",
   "calendar_id": "cal-7xEpna9688PSFwd",
   "cover": "https://images.lumacdn.com/uploads/yo/d81ff4d6-a834-4489-b92f-35b4693e7e11.png",
-  "guests": 1,
+  "guests": 2,
   "vendors": [],
   "source": "cal:The AI Capitol / OpenBuilder",
   "kind": "luma",
@@ -498,7 +498,7 @@
   "calendar": "Personal",
   "calendar_id": "cal-7xEpna9688PSFwd",
   "cover": "https://images.lumacdn.com/uploads/wu/aab198a4-472e-4d3d-8e77-4363dbd85432.jpg",
-  "guests": 120,
+  "guests": 129,
   "vendors": [
    "MiniMax"
   ],
@@ -526,7 +526,7 @@
   "calendar": "Claude SG Community",
   "calendar_id": "cal-Dkjza6RmAxAYMWj",
   "cover": "https://images.lumacdn.com/uploads/h7/13c9598c-8fa5-4ebb-a9d4-8e3633503808.jpg",
-  "guests": 411,
+  "guests": 410,
   "vendors": [
    "Anthropic"
   ],
@@ -626,7 +626,7 @@
   "cover": "https://images.lumacdn.com/uploads/of/1a857d6d-55f6-4239-9f66-3928f3a4a4d1.png",
   "guests": 0,
   "vendors": [],
-  "source": "luma-sg-feed+cal:cal-EjofbbSct1gpRQ6",
+  "source": "luma-sg-feed+cal:cal-6iIeDGNQ7vK8cfx+cal:cal-EjofbbSct1gpRQ6",
   "kind": "luma",
   "first_seen": "2026-09-05",
   "last_seen": "2026-09-06"
@@ -650,7 +650,7 @@
   "calendar": "Personal",
   "calendar_id": "cal-7xEpna9688PSFwd",
   "cover": "https://images.lumacdn.com/uploads/o3/89e729eb-df75-424d-af28-096d2c1efdf4.jpg",
-  "guests": 226,
+  "guests": 229,
   "vendors": [],
   "source": "cal:The AI Capitol / OpenBuilder",
   "kind": "luma",
@@ -759,9 +759,9 @@
   "calendar": "Techies",
   "calendar_id": "cal-i9QxU3ZODPclPpp",
   "cover": "https://images.lumacdn.com/uploads/vm/3e0a08e4-c422-4379-b60b-35861b15aebe.jpg",
-  "guests": 21,
+  "guests": 22,
   "vendors": [],
-  "source": "cal:cal-6iIeDGNQ7vK8cfx",
+  "source": "cal:cal-6iIeDGNQ7vK8cfx+cal:cal-i9QxU3ZODPclPpp",
   "kind": "luma",
   "first_seen": "2026-09-06",
   "last_seen": "2026-09-06"
@@ -783,7 +783,7 @@
   "calendar": "Personal",
   "calendar_id": "cal-7xEpna9688PSFwd",
   "cover": "https://images.lumacdn.com/uploads/qb/317d7c81-d315-43c6-bc66-b4335b3e1977.png",
-  "guests": 100,
+  "guests": 102,
   "vendors": [],
   "source": "cal:The AI Capitol / OpenBuilder",
   "kind": "luma",
@@ -860,7 +860,7 @@
   "calendar": "Personal",
   "calendar_id": "cal-7xEpna9688PSFwd",
   "cover": "https://images.lumacdn.com/uploads/67/d83c04fd-551e-4176-8788-a180cf51e90f.png",
-  "guests": 38,
+  "guests": 44,
   "vendors": [],
   "source": "cal:The AI Capitol / OpenBuilder",
   "kind": "luma",
@@ -885,13 +885,36 @@
   "calendar": "Claude SG Community",
   "calendar_id": "cal-Dkjza6RmAxAYMWj",
   "cover": "https://images.lumacdn.com/uploads/7c/9c9d5c1e-573d-457c-b3ff-b9569d08b84a.jpg",
-  "guests": 33,
+  "guests": 32,
   "vendors": [
    "Anthropic"
   ],
   "source": "luma-sg-feed+cal:Claude SG Community",
   "kind": "luma",
   "first_seen": "2026-09-05",
+  "last_seen": "2026-09-06"
+ },
+ {
+  "id": "evt-RD4UpX5eh1AQ5Bv",
+  "url": "https://lu.ma/26y6h47v",
+  "name": "The One About Signals & Detection",
+  "start": "2026-09-23T07:00:00.000Z",
+  "end": "2026-09-23T09:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Lorong AI @ One-North, 69 Ayer Rajah Cres., Singapore 139961",
+  "hosts": [
+   "Lorong AI"
+  ],
+  "calendar": "Lorong AI",
+  "calendar_id": "cal-6iIeDGNQ7vK8cfx",
+  "cover": "https://images.lumacdn.com/event-covers/z3/b79dda64-61b1-40d5-a865-490604434a7b.png",
+  "guests": 0,
+  "vendors": [],
+  "source": "cal:cal-6iIeDGNQ7vK8cfx",
+  "kind": "luma",
+  "first_seen": "2026-09-06",
   "last_seen": "2026-09-06"
  },
  {
@@ -1083,7 +1106,7 @@
   "calendar": "Personal",
   "calendar_id": "cal-7xEpna9688PSFwd",
   "cover": "https://images.lumacdn.com/uploads/96/538f0bd2-f917-473b-a10b-b9bbc9ff8998.png",
-  "guests": 3,
+  "guests": 4,
   "vendors": [
    "Anthropic"
   ],
@@ -1133,7 +1156,7 @@
   "calendar": "Claude SG Community",
   "calendar_id": "cal-Dkjza6RmAxAYMWj",
   "cover": "https://images.lumacdn.com/uploads/y3/406378a2-0bd7-4501-9337-87e37d120253.jpg",
-  "guests": 54,
+  "guests": 56,
   "vendors": [
    "Anthropic"
   ],
@@ -1159,7 +1182,7 @@
   "calendar": "Personal",
   "calendar_id": "cal-7xEpna9688PSFwd",
   "cover": "https://images.lumacdn.com/uploads/ja/ffb3f369-c2d1-4c70-92aa-0dc60f1bfcd9.png",
-  "guests": 403,
+  "guests": 411,
   "vendors": [
    "AWS"
   ],
@@ -1216,7 +1239,7 @@
   "cover": "https://images.lumacdn.com/uploads/ja/1818b69f-d628-46cb-9b3d-7bb377d57a54.png",
   "guests": 11,
   "vendors": [],
-  "source": "cal:cal-6iIeDGNQ7vK8cfx",
+  "source": "cal:cal-6iIeDGNQ7vK8cfx+cal:cal-i9QxU3ZODPclPpp",
   "kind": "luma",
   "first_seen": "2026-09-06",
   "last_seen": "2026-09-06"
