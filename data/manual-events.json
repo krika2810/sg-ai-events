@@ -364,5 +364,27 @@
   "source": "manual",
   "kind": "manual",
   "note": "GovTech flagship developer conference, Nov 4-5; strong AI/agentic tracks."
+ },
+ {
+  "id": "manual-xathon-2026",
+  "name": "Xathon 2026 (BeyondX Lab AI hack weekend)",
+  "url": "https://www.meetup.com/padang-and-co/events/315768706/",
+  "start": "2026-09-26T01:00:00.000Z",
+  "end": "2026-09-27T10:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "BeyondX Building, 21 Keppel Rd",
+  "hosts": [
+   "BeyondX Lab",
+   "Padang & Co"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Two-day AI innovation hack weekend across 4 missions (smart cities, creator economy, mobility/EV, health). Cash prizes; top 3 teams showcase at BeyondXpo Oct 12. Register at xathon.beyondx.co."
  }
 ]
