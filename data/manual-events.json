@@ -565,5 +565,28 @@
   "source": "manual",
   "kind": "manual",
   "note": "Virtual meetup, Oct 9, midnight-2:00 AM SGT."
+ },
+ {
+  "id": "manual-whatthehack-2026",
+  "name": "What The Hack 2026 (SUTD)",
+  "url": "https://root.sutd.edu.sg/WhatTheHack2026",
+  "start": "2026-10-09T01:00:00.000Z",
+  "end": "2026-10-11T10:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Singapore University of Technology and Design",
+  "hosts": [
+   "SUTD"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "8th edition, 36-hour student hackathon (secondary school to university), hardware x software with an AI theme. Dates 9-11 Oct are TENTATIVE per the site; registration/prize details TBA.",
+  "credits": "Prizes planned; details TBA in official announcement",
+  "credits_kind": "perk"
  }
 ]

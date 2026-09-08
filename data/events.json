@@ -1,31 +1,5 @@
 [
  {
-  "id": "evt-5WshFPmZSNUDlUx",
-  "url": "https://lu.ma/z64x4k6e",
-  "name": "CloudHacks 2026",
-  "start": "2026-09-07T01:00:00.000Z",
-  "end": "2026-09-08T07:00:00.000Z",
-  "tz": "Asia/Singapore",
-  "virtual": false,
-  "sg": true,
-  "venue": "Lorong AI @ One-North, 69 Ayer Rajah Cres., Level 3 Vidacity, Singapore 139961",
-  "hosts": [
-   "CloudHacks Team",
-   "Kalio",
-   "Lorong AI",
-   "Superteam SG"
-  ],
-  "calendar": "Lorong AI",
-  "calendar_id": "cal-6iIeDGNQ7vK8cfx",
-  "cover": "https://images.lumacdn.com/uploads/yq/0f55c70d-38ac-4f0a-ab9c-d9047999beb4.png",
-  "guests": 0,
-  "vendors": [],
-  "source": "cal:cal-6iIeDGNQ7vK8cfx",
-  "kind": "luma",
-  "first_seen": "2026-09-06",
-  "last_seen": "2026-09-07"
- },
- {
   "id": "evt-UzourgvYTVs3S2g",
   "url": "https://lu.ma/iwutjl8f",
   "name": "Data For Life Competition Season 4 Kick-Off Singapore Edition",
@@ -107,6 +81,7 @@
   "venue": "",
   "hosts": [
    "AI Builders",
+   "ClickHouse Team",
    "ClickHouse APJ",
    "Qiao"
   ],
@@ -161,7 +136,7 @@
   "calendar": "The AI Collective",
   "calendar_id": "cal-E74MDlDKBaeAwXK",
   "cover": "https://images.lumacdn.com/uploads/sg/a098549a-b988-4388-8649-9a20c5bf6793.png",
-  "guests": 217,
+  "guests": 250,
   "vendors": [
    "OpenAI"
   ],
@@ -239,7 +214,7 @@
   "calendar": "Claude Community Events",
   "calendar_id": "cal-TOpA5LAFfuDeFpu",
   "cover": "https://images.lumacdn.com/api-uploads/ru/645b4a41-23ee-4bd5-bb80-fafe87ade9d5.png",
-  "guests": 83,
+  "guests": 108,
   "vendors": [
    "Anthropic"
   ],
@@ -361,7 +336,7 @@
   "calendar": "Personal",
   "calendar_id": "cal-7xEpna9688PSFwd",
   "cover": "https://images.lumacdn.com/uploads/ca/9d979b52-1392-4a1d-94d2-6f7a2cf60b0c.jpg",
-  "guests": 199,
+  "guests": 197,
   "vendors": [],
   "source": "cal:The AI Capitol / OpenBuilder",
   "kind": "luma",
@@ -438,14 +413,14 @@
    "Sherry Jiang",
    "Gabriel Chua"
   ],
-  "calendar": "Codex Community Singapore",
-  "calendar_id": "cal-ERmmBH1GOCSMkgM",
+  "calendar": "Codex Community Events",
+  "calendar_id": "cal-63UOFcweB97l2gc",
   "cover": "https://images.lumacdn.com/uploads/yd/49d9b0ea-4ce1-4aea-bc52-38dec2366523.png",
   "guests": 0,
   "vendors": [
    "OpenAI"
   ],
-  "source": "luma-sg-feed+cal:Codex Community Singapore+cal:Codex Community Events",
+  "source": "luma-sg-feed+cal:Codex Community Events",
   "kind": "luma",
   "first_seen": "2026-09-05",
   "last_seen": "2026-09-08",
@@ -491,7 +466,7 @@
   "calendar": "Reactor School",
   "calendar_id": "cal-9FiK2oO6xKiqLTd",
   "cover": "https://images.lumacdn.com/uploads/f4/7c3e7438-218d-4b68-8ae6-d61954bc6c3f.png",
-  "guests": 93,
+  "guests": 97,
   "vendors": [],
   "source": "luma-sg-feed+cal:cal-9FiK2oO6xKiqLTd+cal:cal-9FiK2oO6xKiqLTd",
   "kind": "luma",
@@ -742,7 +717,7 @@
   "tz": "Asia/Singapore",
   "virtual": false,
   "sg": true,
-  "venue": "Lorong AI @ One-North, 69 Ayer Rajah Cres., Level 3 Vidacity, Singapore 139961",
+  "venue": "",
   "hosts": [
    "Gabriel Chua",
    "Lorong AI"
@@ -776,7 +751,7 @@
   "calendar": "Personal",
   "calendar_id": "cal-7xEpna9688PSFwd",
   "cover": "https://images.lumacdn.com/uploads/o3/89e729eb-df75-424d-af28-096d2c1efdf4.jpg",
-  "guests": 234,
+  "guests": 238,
   "vendors": [],
   "source": "cal:The AI Capitol / OpenBuilder",
   "kind": "luma",
@@ -857,7 +832,7 @@
   "calendar": "Personal",
   "calendar_id": "cal-eFke1vkoaubCHFc",
   "cover": "https://images.lumacdn.com/uploads/um/bd4843f6-6a86-4a07-9b50-6ebf84def689.png",
-  "guests": 43,
+  "guests": 44,
   "vendors": [],
   "source": "luma-sg-feed+cal:cal-eFke1vkoaubCHFc+cal:cal-6iIeDGNQ7vK8cfx",
   "kind": "luma",
@@ -885,7 +860,7 @@
   "calendar": "Techies",
   "calendar_id": "cal-i9QxU3ZODPclPpp",
   "cover": "https://images.lumacdn.com/uploads/3e/a30cc1f8-9036-4e02-9e70-49e05531a2f4.jpg",
-  "guests": 31,
+  "guests": 35,
   "vendors": [],
   "source": "cal:cal-6iIeDGNQ7vK8cfx+cal:cal-i9QxU3ZODPclPpp",
   "kind": "luma",
@@ -909,7 +884,7 @@
   "calendar": "Personal",
   "calendar_id": "cal-7xEpna9688PSFwd",
   "cover": "https://images.lumacdn.com/uploads/qb/317d7c81-d315-43c6-bc66-b4335b3e1977.png",
-  "guests": 106,
+  "guests": 110,
   "vendors": [],
   "source": "cal:The AI Capitol / OpenBuilder",
   "kind": "luma",
@@ -962,7 +937,7 @@
   "calendar": "Personal",
   "calendar_id": "cal-7xEpna9688PSFwd",
   "cover": "https://images.lumacdn.com/uploads/z1/fa38e075-458d-4df8-885f-bde759fca9b8.png",
-  "guests": 79,
+  "guests": 84,
   "vendors": [],
   "source": "cal:The AI Capitol / OpenBuilder",
   "kind": "luma",
@@ -986,7 +961,7 @@
   "calendar": "Personal",
   "calendar_id": "cal-7xEpna9688PSFwd",
   "cover": "https://images.lumacdn.com/uploads/67/d83c04fd-551e-4176-8788-a180cf51e90f.png",
-  "guests": 51,
+  "guests": 57,
   "vendors": [],
   "source": "cal:The AI Capitol / OpenBuilder",
   "kind": "luma",
@@ -1011,7 +986,7 @@
   "calendar": "Claude SG Community",
   "calendar_id": "cal-Dkjza6RmAxAYMWj",
   "cover": "https://images.lumacdn.com/uploads/7c/9c9d5c1e-573d-457c-b3ff-b9569d08b84a.jpg",
-  "guests": 32,
+  "guests": 33,
   "vendors": [
    "Anthropic"
   ],
@@ -1120,6 +1095,30 @@
   "last_seen": "2026-09-08"
  },
  {
+  "id": "evt-HnYP23vkLk9WSuF",
+  "url": "https://lu.ma/aic-gl-9-24",
+  "name": "Lunch & Hack: AI Agents vs Agentic Workflows (w/ The AI Collective)",
+  "start": "2026-09-24T17:00:00.000Z",
+  "end": "2026-09-24T18:00:00.000Z",
+  "tz": "America/Los_Angeles",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "The AI Collective",
+   "Adelina Martiniuc"
+  ],
+  "calendar": "The AI Collective",
+  "calendar_id": "cal-E74MDlDKBaeAwXK",
+  "cover": "https://images.lumacdn.com/api-uploads/7o/c5e857ef-76ad-4225-bd36-040488bd9553.png",
+  "guests": 0,
+  "vendors": [],
+  "source": "cal:The AI Collective",
+  "kind": "luma",
+  "first_seen": "2026-09-08",
+  "last_seen": "2026-09-08"
+ },
+ {
   "id": "evt-W8OIFVWMWyRHZt4",
   "url": "https://lu.ma/xb9vlwe9",
   "name": "Practical AI at Work: Create a \"Write Emails Like Me\" Skill",
@@ -1136,7 +1135,7 @@
   "calendar": "The AI Collective",
   "calendar_id": "cal-E74MDlDKBaeAwXK",
   "cover": "https://images.lumacdn.com/uploads/n9/a4d489b0-3079-4c37-9caf-7df990789fb5.png",
-  "guests": 4,
+  "guests": 5,
   "vendors": [],
   "source": "cal:The AI Collective",
   "kind": "luma",
@@ -1306,7 +1305,7 @@
   "calendar": "Claude SG Community",
   "calendar_id": "cal-Dkjza6RmAxAYMWj",
   "cover": "https://images.lumacdn.com/uploads/y3/406378a2-0bd7-4501-9337-87e37d120253.jpg",
-  "guests": 56,
+  "guests": 66,
   "vendors": [
    "Anthropic"
   ],
@@ -1332,7 +1331,7 @@
   "calendar": "Personal",
   "calendar_id": "cal-7xEpna9688PSFwd",
   "cover": "https://images.lumacdn.com/uploads/ja/ffb3f369-c2d1-4c70-92aa-0dc60f1bfcd9.png",
-  "guests": 422,
+  "guests": 432,
   "vendors": [
    "AWS"
   ],
@@ -1459,7 +1458,7 @@
   "calendar": "Techies",
   "calendar_id": "cal-i9QxU3ZODPclPpp",
   "cover": "https://images.lumacdn.com/uploads/39/f75d269e-ff1d-4225-899c-39dec43ddcb6.jpg",
-  "guests": 26,
+  "guests": 29,
   "vendors": [],
   "source": "cal:cal-6iIeDGNQ7vK8cfx+cal:cal-i9QxU3ZODPclPpp",
   "kind": "luma",
@@ -1685,6 +1684,31 @@
   "last_seen": "2026-09-08"
  },
  {
+  "id": "manual-whatthehack-2026",
+  "name": "What The Hack 2026 (SUTD)",
+  "url": "https://root.sutd.edu.sg/WhatTheHack2026",
+  "start": "2026-10-09T01:00:00.000Z",
+  "end": "2026-10-11T10:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Singapore University of Technology and Design",
+  "hosts": [
+   "SUTD"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "8th edition, 36-hour student hackathon (secondary school to university), hardware x software with an AI theme. Dates 9-11 Oct are TENTATIVE per the site; registration/prize details TBA.",
+  "credits": "Prizes planned; details TBA in official announcement",
+  "credits_kind": "perk",
+  "first_seen": "2026-09-08",
+  "last_seen": "2026-09-08"
+ },
+ {
   "id": "evt-tB0G2l03Bw69p59",
   "url": "https://lu.ma/n0mg86x2",
   "name": "ChatGPT Work for Finance Hands on Beginner Workshop",
@@ -1708,6 +1732,34 @@
   "source": "cal:The AI Capitol / OpenBuilder",
   "kind": "luma",
   "first_seen": "2026-09-05",
+  "last_seen": "2026-09-08"
+ },
+ {
+  "id": "evt-g1BNSA2VcIxzOFM",
+  "url": "https://lu.ma/mas4a3v1",
+  "name": "Beta Screening of DeepHumanity.ai",
+  "start": "2026-10-12T10:30:00.000Z",
+  "end": "2026-10-12T12:30:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "*SCAPE, 2 Orchard Link, Singapore 237978",
+  "hosts": [
+   "Kimberly Tan",
+   "Angeline D",
+   "Freddy Lim",
+   "Richard Bleasdale"
+  ],
+  "calendar": "Claude SG Community",
+  "calendar_id": "cal-Dkjza6RmAxAYMWj",
+  "cover": "https://images.lumacdn.com/uploads/rp/eccaf4c7-9a07-45ca-9b0e-13419b4bd809.jpg",
+  "guests": 2,
+  "vendors": [
+   "Anthropic"
+  ],
+  "source": "cal:Claude SG Community",
+  "kind": "luma",
+  "first_seen": "2026-09-08",
   "last_seen": "2026-09-08"
  },
  {
@@ -1775,7 +1827,7 @@
   "calendar": "Personal",
   "calendar_id": "cal-7xEpna9688PSFwd",
   "cover": "https://images.lumacdn.com/uploads/3p/89011e8d-0b18-4c04-b83f-d13374002d50.jpg",
-  "guests": 16,
+  "guests": 19,
   "vendors": [],
   "source": "cal:The AI Capitol / OpenBuilder",
   "kind": "luma",
