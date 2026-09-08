@@ -386,5 +386,184 @@
   "source": "manual",
   "kind": "manual",
   "note": "Two-day AI innovation hack weekend across 4 missions (smart cities, creator economy, mobility/EV, health). Cash prizes; top 3 teams showcase at BeyondXpo Oct 12. Register at xathon.beyondx.co."
+ },
+ {
+  "id": "manual-odsc-context-agents-2026",
+  "name": "Building Context-Aware AI Agents with Real-Time Data (ODSC webinar)",
+  "url": "https://www.createwith.com/event/building-context-aware-ai-agents-with-real-time-data-sep-2026",
+  "start": "2026-09-09T19:00:00.000Z",
+  "end": "2026-09-09T20:00:00.000Z",
+  "tz": "UTC",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "ODSC AI Barcelona"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [
+   "Google",
+   "IBM"
+  ],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Free. 19:00 UTC start (Sep 10, 3:00 AM SGT). IBM, Confluent and Google Cloud speakers; live streaming-native agent demo."
+ },
+ {
+  "id": "manual-maven-multi-agent-2026",
+  "name": "How to Engineer a Multi-Agent System (Maven, Stefan Jansen)",
+  "url": "https://maven.com/p/c7565e/how-to-engineer-a-multi-agent-system",
+  "start": "2026-09-09T16:00:00.000Z",
+  "end": "2026-09-09T16:30:00.000Z",
+  "tz": "America/New_York",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Maven",
+   "Stefan Jansen"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Free 30-min session, Sep 9 12:00 PM US Eastern (Sep 10, midnight SGT)."
+ },
+ {
+  "id": "manual-hackerrank-orchestrate-2026",
+  "name": "HackerRank Orchestrate (24h agent hackathon)",
+  "url": "https://www.hackerrank.com/hackerrank-orchestrate-september26",
+  "start": "2026-09-12T12:30:00.000Z",
+  "end": "2026-09-13T12:30:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "HackerRank"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "24-hour online agent hackathon starting Sep 12, 8:30 PM SGT. No fee listed."
+ },
+ {
+  "id": "manual-coreshift-2026",
+  "name": "CoreShift 2026 (enterprise + agentic AI virtual summit)",
+  "url": "https://acuvate.com/webinar/coreshift-2026-a-global-virtual-event/",
+  "start": "2026-09-15T12:00:00.000Z",
+  "end": "2026-09-16T15:45:00.000Z",
+  "tz": "Europe/Berlin",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Acuvate"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [
+   "Microsoft"
+  ],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Free 2-day virtual summit, Sep 15-16; sessions run 14:00-17:45 CEST (8:00-11:45 PM SGT)."
+ },
+ {
+  "id": "manual-ms-reactor-agent-swarms-2026",
+  "name": "Orchestrating Secure Parallel Agent Swarms (Microsoft Reactor)",
+  "url": "https://www.meetup.com/microsoft-reactor-redmond/events/315415335/",
+  "start": "2026-09-30T20:00:00.000Z",
+  "end": "2026-09-30T21:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Microsoft Reactor"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [
+   "Microsoft"
+  ],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Online session, Oct 1, 4:00 AM SGT."
+ },
+ {
+  "id": "manual-open-agent-hackathon-2026",
+  "name": "Open Agent Hackathon 2026 (GenAI.Works)",
+  "url": "https://hackathon.genai.works/event/open-agent-hackathon-2026",
+  "start": "2026-10-07T00:00:00.000Z",
+  "end": "2026-10-09T23:59:00.000Z",
+  "tz": "UTC",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "GenAI.Works"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "72-hour online hackathon Oct 7-9, teams of 1-5, up to $20k prizes. Registration closes Oct 5.",
+  "credits": "Up to $20k prize pool (winners only)",
+  "credits_kind": "perk"
+ },
+ {
+  "id": "manual-redhat-mcp-webcast-2026",
+  "name": "What Is MCP and Why It Matters (Red Hat / PureAI webcast)",
+  "url": "https://pureai.com/webcasts/2026/10/red-hat-deep-dive-what-is-model-context-protocol-mcp-and-why-it-matters.aspx",
+  "start": "2026-10-07T18:00:00.000Z",
+  "end": "2026-10-07T19:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Red Hat",
+   "PureAI"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Free webcast, Oct 8, 2:00 AM SGT."
+ },
+ {
+  "id": "manual-mcp-agents-skills-meetup-2026",
+  "name": "MCP, Agents and Skills Meetup (Zoom)",
+  "url": "https://www.meetup.com/singapore-computer-vision-meetup/events/316022230/",
+  "start": "2026-10-08T16:00:00.000Z",
+  "end": "2026-10-08T18:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online (Zoom)",
+  "hosts": [
+   "Singapore Computer Vision Meetup"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Virtual meetup, Oct 9, midnight-2:00 AM SGT."
  }
 ]
