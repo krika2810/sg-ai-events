@@ -38,5 +38,9 @@
  "cal-UuQU9afE8swDhPc": {
   "name": "OpenAI Developers",
   "trusted": false
+ },
+ "cal-gmMOid1Rsqc3Hih": {
+  "name": "ClickHouse Events",
+  "trusted": false
  }
 }

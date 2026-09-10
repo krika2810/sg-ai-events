@@ -588,5 +588,28 @@
   "note": "8th edition, 36-hour student hackathon (secondary school to university), hardware x software with an AI theme. Dates 9-11 Oct are TENTATIVE per the site; registration/prize details TBA.",
   "credits": "Prizes planned; details TBA in official announcement",
   "credits_kind": "perk"
+ },
+ {
+  "id": "manual-sg-india-hackathon-2026",
+  "name": "Singapore-India Hackathon 2026 (4th edition, SMU x AICTE)",
+  "url": "https://iie.smu.edu.sg/singapore-india-hackathon-2026",
+  "start": "2026-11-15T01:00:00.000Z",
+  "end": "2026-11-17T10:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "SMU Connexion, 40 Stamford Road",
+  "hosts": [
+   "SMU IIE",
+   "TiE Singapore",
+   "AICTE"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Bilateral student hackathon (120 students, cross-border teams), 36h build Nov 15-17. Four tracks incl. fintech and emerging tech; teams equipped with AI tools. Registration open to Singapore-based students; shortlist Sep-Oct."
  }
 ]
