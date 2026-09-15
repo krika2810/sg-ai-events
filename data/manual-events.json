@@ -611,5 +611,70 @@
   "source": "manual",
   "kind": "manual",
   "note": "Bilateral student hackathon (120 students, cross-border teams), 36h build Nov 15-17. Four tracks incl. fintech and emerging tech; teams equipped with AI tools. Registration open to Singapore-based students; shortlist Sep-Oct."
+ },
+ {
+  "id": "manual-containerdays-ai-context-sg-2026",
+  "name": "ContainerDays & AI Context Singapore 2026",
+  "url": "https://www.containerdays.io/containerdays-singapore-2026/",
+  "start": "2026-10-27T01:00:00.000Z",
+  "end": "2026-10-28T09:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Suntec Singapore Convention & Exhibition Centre, 1 Raffles Boulevard",
+  "hosts": [
+   "Dockland Media Group",
+   "AI Context Series"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Two-day in-person cloud-native and AI engineering conference; AI Context track covers MCP and agentic AI. Official page and ticket page confirm Oct 27-28, 9:00 AM-5:00 PM SGT."
+ },
+ {
+  "id": "manual-big-data-ai-world-asia-2026",
+  "name": "Big Data & AI World Asia 2026",
+  "url": "https://www.singaporetechnologyweek.com/big-data-ai-world/visit",
+  "start": "2026-09-29T01:00:00.000Z",
+  "end": "2026-09-30T09:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Marina Bay Sands Expo and Convention Centre, 10 Bayfront Avenue",
+  "hosts": [
+   "CloserStill Media",
+   "Tech Week Singapore"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Two-day in-person data and AI conference, Sep 29-30, 9:00 AM-5:00 PM SGT. Complimentary for trade professionals; co-located Tech Week ticket covers all five shows."
+ },
+ {
+  "id": "manual-aigc-singapore-2026",
+  "name": "AIGC Singapore 2026 - Global AI Innovation Competition",
+  "url": "https://www.aigc-singapore.com/",
+  "start": "2026-12-12T01:00:00.000Z",
+  "end": "2026-12-13T10:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "NTU Alumni Club, Singapore",
+  "hosts": [
+   "AIGC Singapore"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "In-person finals Dec 12-13 at NTU Alumni Club. Official page says schedule is tentative and final timings will be confirmed; registration opens soon."
  }
 ]

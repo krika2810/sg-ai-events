@@ -1,29 +1,5 @@
 [
  {
-  "id": "manual-aim-asean-2026",
-  "name": "AIM ASEAN Singapore 2026: Flagship Forum",
-  "url": "https://luma.com/azljrdvu",
-  "start": "2026-09-15T05:30:00.000Z",
-  "end": "2026-09-15T10:00:00.000Z",
-  "tz": "Asia/Singapore",
-  "virtual": false,
-  "sg": true,
-  "venue": "Singapore Polytechnic Convention Centre",
-  "hosts": [
-   "BlackStorm Group",
-   "Project Asia Data"
-  ],
-  "calendar": "",
-  "cover": null,
-  "guests": null,
-  "vendors": [],
-  "source": "manual",
-  "kind": "manual",
-  "note": "~800 business owners/SME leaders; practical AI adoption. ASEAN Foundation initiative supported by Google + ADB.",
-  "first_seen": "2026-09-05",
-  "last_seen": "2026-09-15"
- },
- {
   "id": "manual-coreshift-2026",
   "name": "CoreShift 2026 (enterprise + agentic AI virtual summit)",
   "url": "https://acuvate.com/webinar/coreshift-2026-a-global-virtual-event/",
@@ -91,7 +67,7 @@
   "cover": "https://images.lumacdn.com/event-covers/z3/b79dda64-61b1-40d5-a865-490604434a7b.png",
   "guests": 0,
   "vendors": [],
-  "source": "cal:cal-6iIeDGNQ7vK8cfx",
+  "source": "luma-sg-feed+cal:cal-6iIeDGNQ7vK8cfx",
   "kind": "luma",
   "first_seen": "2026-09-06",
   "last_seen": "2026-09-15"
@@ -139,7 +115,7 @@
   "calendar": "Personal",
   "calendar_id": "cal-7xEpna9688PSFwd",
   "cover": "https://images.lumacdn.com/uploads/o3/89e729eb-df75-424d-af28-096d2c1efdf4.jpg",
-  "guests": 251,
+  "guests": 246,
   "vendors": [],
   "source": "cal:The AI Capitol / OpenBuilder",
   "kind": "luma",
@@ -272,7 +248,7 @@
   "calendar": "Techies",
   "calendar_id": "cal-i9QxU3ZODPclPpp",
   "cover": "https://images.lumacdn.com/uploads/3e/a30cc1f8-9036-4e02-9e70-49e05531a2f4.jpg",
-  "guests": 55,
+  "guests": 57,
   "vendors": [],
   "source": "cal:cal-6iIeDGNQ7vK8cfx+cal:cal-i9QxU3ZODPclPpp",
   "kind": "luma",
@@ -296,7 +272,7 @@
   "calendar": "Personal",
   "calendar_id": "cal-7xEpna9688PSFwd",
   "cover": "https://images.lumacdn.com/uploads/qb/317d7c81-d315-43c6-bc66-b4335b3e1977.png",
-  "guests": 177,
+  "guests": 179,
   "vendors": [],
   "source": "cal:The AI Capitol / OpenBuilder",
   "kind": "luma",
@@ -348,7 +324,7 @@
   "calendar": "Glints AI Transformation",
   "calendar_id": "cal-9g9YygWZPabmf8o",
   "cover": "https://images.lumacdn.com/uploads/km/2e6fcb52-7520-42a0-9421-75de067d4c52.png",
-  "guests": 1,
+  "guests": 17,
   "vendors": [],
   "source": "cal:Glints AI Transformation",
   "kind": "luma",
@@ -374,7 +350,7 @@
   "calendar": "Lorong AI",
   "calendar_id": "cal-6iIeDGNQ7vK8cfx",
   "cover": "https://images.lumacdn.com/event-covers/bd/d4cc74b7-3430-4737-bb38-4fb9f74d61c6.png",
-  "guests": 5,
+  "guests": 0,
   "vendors": [],
   "source": "cal:cal-6iIeDGNQ7vK8cfx",
   "kind": "luma",
@@ -428,7 +404,7 @@
   "calendar": "Personal",
   "calendar_id": "cal-7xEpna9688PSFwd",
   "cover": "https://images.lumacdn.com/uploads/z1/fa38e075-458d-4df8-885f-bde759fca9b8.png",
-  "guests": 115,
+  "guests": 123,
   "vendors": [],
   "source": "cal:The AI Capitol / OpenBuilder",
   "kind": "luma",
@@ -601,7 +577,7 @@
   "calendar": "Personal",
   "calendar_id": "cal-972ANGTZriNdiws",
   "cover": "https://images.lumacdn.com/uploads/lr/b7471998-490f-4800-a1b5-bd88cec9e015.png",
-  "guests": 61,
+  "guests": 125,
   "vendors": [
    "NVIDIA"
   ],
@@ -635,6 +611,32 @@
   "last_seen": "2026-09-15"
  },
  {
+  "id": "evt-CwB24PAcnCrnB2j",
+  "url": "https://lu.ma/5a5dpr2w",
+  "name": "Building Brands AI Can't Fake",
+  "start": "2026-09-24T18:00:00.000Z",
+  "end": "2026-09-24T19:00:00.000Z",
+  "tz": "America/Chicago",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Cat Valverde",
+   "Supriya Gupta",
+   "The AI Collective",
+   "Abraham"
+  ],
+  "calendar": "The AI Collective",
+  "calendar_id": "cal-E74MDlDKBaeAwXK",
+  "cover": "https://images.lumacdn.com/uploads/2o/df0706c9-a1d8-47d2-bae7-b4e8e6845580.png",
+  "guests": 3,
+  "vendors": [],
+  "source": "cal:The AI Collective",
+  "kind": "luma",
+  "first_seen": "2026-09-15",
+  "last_seen": "2026-09-15"
+ },
+ {
   "id": "evt-W8OIFVWMWyRHZt4",
   "url": "https://lu.ma/xb9vlwe9",
   "name": "Practical AI at Work: Create a \"Write Emails Like Me\" Skill",
@@ -651,7 +653,7 @@
   "calendar": "The AI Collective",
   "calendar_id": "cal-E74MDlDKBaeAwXK",
   "cover": "https://images.lumacdn.com/uploads/y3/d61dcabf-0091-4fb3-af44-97d2c2f52efe.png",
-  "guests": 21,
+  "guests": 23,
   "vendors": [],
   "source": "cal:The AI Collective",
   "kind": "luma",
@@ -880,6 +882,30 @@
   "last_seen": "2026-09-15"
  },
  {
+  "id": "manual-big-data-ai-world-asia-2026",
+  "name": "Big Data & AI World Asia 2026",
+  "url": "https://www.singaporetechnologyweek.com/big-data-ai-world/visit",
+  "start": "2026-09-29T01:00:00.000Z",
+  "end": "2026-09-30T09:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Marina Bay Sands Expo and Convention Centre, 10 Bayfront Avenue",
+  "hosts": [
+   "CloserStill Media",
+   "Tech Week Singapore"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Two-day in-person data and AI conference, Sep 29-30, 9:00 AM-5:00 PM SGT. Complimentary for trade professionals; co-located Tech Week ticket covers all five shows.",
+  "first_seen": "2026-09-15",
+  "last_seen": "2026-09-15"
+ },
+ {
   "id": "evt-ujvKacbC5DsvFEC",
   "url": "https://lu.ma/claudeweb3",
   "name": "Claude for Blockchain: Trading Agents",
@@ -923,7 +949,7 @@
   "calendar": "Personal",
   "calendar_id": "cal-7xEpna9688PSFwd",
   "cover": "https://images.lumacdn.com/uploads/ja/ffb3f369-c2d1-4c70-92aa-0dc60f1bfcd9.png",
-  "guests": 494,
+  "guests": 503,
   "vendors": [
    "AWS"
   ],
@@ -950,7 +976,7 @@
   "calendar": "AI Builders",
   "calendar_id": "cal-PKazQdrRmpFJSXz",
   "cover": "https://images.lumacdn.com/uploads/kv/399671db-6068-47fb-9821-1922e5f78abd.png",
-  "guests": 53,
+  "guests": 60,
   "vendors": [],
   "source": "cal:AI Builders",
   "kind": "luma",
@@ -1099,7 +1125,7 @@
   "calendar": "AI Builders",
   "calendar_id": "cal-PKazQdrRmpFJSXz",
   "cover": "https://images.lumacdn.com/uploads/p6/3e8dedfa-780d-4f56-b191-e1a8e247d555.png",
-  "guests": 19,
+  "guests": 18,
   "vendors": [],
   "source": "cal:AI Builders",
   "kind": "luma",
@@ -1597,6 +1623,30 @@
   "last_seen": "2026-09-15"
  },
  {
+  "id": "manual-containerdays-ai-context-sg-2026",
+  "name": "ContainerDays & AI Context Singapore 2026",
+  "url": "https://www.containerdays.io/containerdays-singapore-2026/",
+  "start": "2026-10-27T01:00:00.000Z",
+  "end": "2026-10-28T09:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Suntec Singapore Convention & Exhibition Centre, 1 Raffles Boulevard",
+  "hosts": [
+   "Dockland Media Group",
+   "AI Context Series"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Two-day in-person cloud-native and AI engineering conference; AI Context track covers MCP and agentic AI. Official page and ticket page confirm Oct 27-28, 9:00 AM-5:00 PM SGT.",
+  "first_seen": "2026-09-15",
+  "last_seen": "2026-09-15"
+ },
+ {
   "id": "manual-stack-conf-2026",
   "name": "STACK Conference 2026 (GovTech)",
   "url": "https://www.tech.gov.sg/events/stack-conference-2026/",
@@ -1776,6 +1826,29 @@
   "source": "cal:SG AI & Robotics Demo Nights",
   "kind": "luma",
   "first_seen": "2026-09-05",
+  "last_seen": "2026-09-15"
+ },
+ {
+  "id": "manual-aigc-singapore-2026",
+  "name": "AIGC Singapore 2026 - Global AI Innovation Competition",
+  "url": "https://www.aigc-singapore.com/",
+  "start": "2026-12-12T01:00:00.000Z",
+  "end": "2026-12-13T10:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "NTU Alumni Club, Singapore",
+  "hosts": [
+   "AIGC Singapore"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "In-person finals Dec 12-13 at NTU Alumni Club. Official page says schedule is tentative and final timings will be confirmed; registration opens soon.",
+  "first_seen": "2026-09-15",
   "last_seen": "2026-09-15"
  }
 ]
