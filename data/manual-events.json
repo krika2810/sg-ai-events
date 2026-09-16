@@ -676,5 +676,116 @@
   "source": "manual",
   "kind": "manual",
   "note": "In-person finals Dec 12-13 at NTU Alumni Club. Official page says schedule is tentative and final timings will be confirmed; registration opens soon."
+ },
+ {
+  "id": "manual-agentic-ai-forum-sg-2026",
+  "name": "Singapore Agentic AI Forum 2026",
+  "url": "https://www.agenticaiforum.net/singapore/",
+  "start": "2026-11-04T01:00:00.000Z",
+  "end": "2026-11-04T10:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Singapore (venue TBA)",
+  "hosts": [
+   "Scribe Minds & Media",
+   "Agentic AI Forum"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Enterprise agentic-AI forum on Nov 4 in Singapore; official page confirms date and city, with exact venue/time not yet listed."
+ },
+ {
+  "id": "manual-ai-engineering-summit-sg-2026",
+  "name": "AI Engineering Summit Singapore 2026",
+  "url": "https://www.eventbrite.com/e/ai-engineering-summit-singapore-2026-tickets-1995178186665",
+  "start": "2026-12-03T01:00:00.000Z",
+  "end": "2026-12-03T09:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Four Points by Sheraton Singapore, Riverview, 382 Havelock Road",
+  "hosts": [
+   "AI Engineering Summit"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "One-day in-person summit for teams building and scaling production AI systems, Dec 3, 9:00 AM-5:00 PM SGT."
+ },
+ {
+  "id": "manual-supertype-agentic-codealong-2026",
+  "name": "Agentic AI Patterns: Code-Along Classroom",
+  "url": "https://supertype.ai/events/code-along",
+  "start": "2026-11-04T05:00:00.000Z",
+  "end": "2026-11-04T09:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Waterloo Centre, Singapore",
+  "hosts": [
+   "Supertype",
+   "Samuel Chan"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Four-hour in-person hands-on workshop, Nov 4, 1:00-5:00 PM SGT. Paid event; listed price IDR 1,230,000."
+ },
+ {
+  "id": "manual-aws-kiro-agents-2026",
+  "name": "AWS Startups x JAM: Kiro for Agents",
+  "url": "https://startups.aws.com/events/aws-startups-x-jam-kiro-for-agents",
+  "start": "2026-10-02T05:30:00.000Z",
+  "end": "2026-10-02T09:30:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "AWS Singapore, IOI Central Boulevard, East Tower, Level 2",
+  "hosts": [
+   "AWS Startups",
+   "Just After Midnight"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [
+   "AWS"
+  ],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Small in-person Kiro-for-agents workshop, Oct 2, 1:30-5:30 PM SGT; limited to 30-40 participants."
+ },
+ {
+  "id": "manual-supertype-finance-terminal-2026",
+  "name": "Building Your Personal Finance Terminal",
+  "url": "https://supertype.ai/events/finance-terminal",
+  "start": "2026-09-24T11:00:00.000Z",
+  "end": "2026-09-25T13:30:00.000Z",
+  "tz": "Asia/Jakarta",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online (Zoom)",
+  "hosts": [
+   "Supertype",
+   "Vincentius C. Calvin"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Two-evening online code-along building an AI-powered Telegram finance agent with IDX and SGX data, Sep 24-25, 7:00-9:30 PM SGT."
  }
 ]

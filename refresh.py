@@ -203,9 +203,28 @@ def main():
         if eid not in kept:
             kept[eid] = prev
 
+    # 4a) drop mirrored Luma duplicates: same normalized title and exact start.
+    #     Some hosts publish the same event under two slugs/calendars.
+    import re as _re
+    def _event_sig(e):
+        name = _re.sub(r"\s*\([^)]*\)\s*$", "", e.get("name") or "")
+        name = _re.sub(r"[^a-z0-9]", "", name.lower())
+        return (name, e.get("start") or "")
+    seen_sigs = {}
+    for eid in list(kept):
+        sig = _event_sig(kept[eid])
+        if sig in seen_sigs:
+            # Prefer the older tracked record to keep first_seen stable.
+            prev_id = seen_sigs[sig]
+            a, b = kept[prev_id], kept[eid]
+            keep_id, drop_id = (prev_id, eid) if a.get("first_seen", today) <= b.get("first_seen", today) else (eid, prev_id)
+            seen_sigs[sig] = keep_id
+            del kept[drop_id]
+        else:
+            seen_sigs[sig] = eid
+
     # 4b) drop harvested events that duplicate a manual curated entry
     #     (same start date + same name prefix, e.g. official non-Luma page)
-    import re as _re
     def _sig(name):
         return _re.sub(r"[^a-z0-9]", "", (name or "").lower())[:12]
     man_sigs = {(_sig(m.get("name")), (m.get("start") or "")[:10])
