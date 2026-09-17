@@ -787,5 +787,27 @@
   "source": "manual",
   "kind": "manual",
   "note": "Two-evening online code-along building an AI-powered Telegram finance agent with IDX and SGX data, Sep 24-25, 7:00-9:30 PM SGT."
+ },
+ {
+  "id": "manual-iaim-ntu-2026",
+  "name": "International Conference on AI in Medicine (iAIM) 2026",
+  "url": "https://event.ntu.edu.sg/iAIM",
+  "start": "2026-12-03T00:30:00.000Z",
+  "end": "2026-12-05T10:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Lee Kong Chian School of Medicine Headquarters, 11 Mandalay Road, Singapore 308232",
+  "hosts": [
+   "NTU Centre of AI in Medicine",
+   "Lee Kong Chian School of Medicine"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Three-day in-person conference, Dec 3-5. Industry Day starts 8:30 AM Dec 3; conference programme runs Dec 4-5. Registration deadline listed as Oct 15."
  }
 ]
