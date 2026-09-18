@@ -809,5 +809,68 @@
   "source": "manual",
   "kind": "manual",
   "note": "Three-day in-person conference, Dec 3-5. Industry Day starts 8:30 AM Dec 3; conference programme runs Dec 4-5. Registration deadline listed as Oct 15."
+ },
+ {
+  "id": "manual-nus-ai-governance-liability-2026",
+  "name": "AI Governance & Liability Conference",
+  "url": "https://law.nus.edu.sg/trail/trailaidec2026-home/",
+  "start": "2026-12-10T01:00:00.000Z",
+  "end": "2026-12-11T10:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Wee Chong Jin Moot Court, NUS Faculty of Law, 16 College Avenue West",
+  "hosts": [
+   "NUS Centre for Technology, Robotics, Artificial Intelligence and the Law"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Two-day academic and industry conference on AI governance and liability, Dec 10-11. Official page confirms dates and venue."
+ },
+ {
+  "id": "manual-kenx-ai-gxp-sg-2026",
+  "name": "Harness the Power of AI in GxP - Singapore 2026",
+  "url": "https://kenx.org/conferences/harness-the-power-of-ai-in-gxp-singapore-2026/",
+  "start": "2026-11-19T00:00:00.000Z",
+  "end": "2026-11-20T09:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Singapore (venue not listed)",
+  "hosts": [
+   "Knowledge Exchange Network"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Paid two-day in-person conference for regulated life sciences, Nov 19-20, approximately 8:00 AM-5:00 PM SGT. Venue not yet listed."
+ },
+ {
+  "id": "manual-founders-2-conf-sg-2026",
+  "name": "Founders 2.0 Conference Singapore 2026",
+  "url": "https://www.founders2conf.com/",
+  "start": "2026-12-02T01:00:00.000Z",
+  "end": "2026-12-04T09:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Marina Bay Sands, Sands Expo & Convention Centre",
+  "hosts": [
+   "Founders 2.0 Conference"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Three-day founder and business summit, Dec 2-4, with substantial AI and innovation programming."
  }
 ]
