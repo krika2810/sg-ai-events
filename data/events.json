@@ -71,7 +71,7 @@
   "source": "cal:cal-6iIeDGNQ7vK8cfx",
   "kind": "luma",
   "first_seen": "2026-09-06",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-mHTaLwFEYjyHWhA",
@@ -92,41 +92,14 @@
   "calendar": "Claude SG Community",
   "calendar_id": "cal-Dkjza6RmAxAYMWj",
   "cover": "https://images.lumacdn.com/uploads/ou/75100af8-dee0-4eb6-a817-88e0074b3f3c.jpg",
-  "guests": 183,
+  "guests": 214,
   "vendors": [
    "Anthropic"
   ],
   "source": "cal:Claude SG Community",
   "kind": "luma",
   "first_seen": "2026-09-17",
-  "last_seen": "2026-09-21"
- },
- {
-  "id": "evt-ZkkbMV6KFF2UJ4b",
-  "url": "https://lu.ma/aic-gl-9-23",
-  "name": "Technology, AI and Addictive Behaviors: Can They Be Treated?",
-  "start": "2026-09-23T16:00:00.000Z",
-  "end": "2026-09-23T17:30:00.000Z",
-  "tz": "Europe/Paris",
-  "virtual": true,
-  "sg": false,
-  "venue": "Online",
-  "hosts": [
-   "The AI Collective",
-   "Ana De Alencar",
-   "Abraham",
-   "Ana Catarina De Alencar",
-   "AJ Green"
-  ],
-  "calendar": "The AI Collective",
-  "calendar_id": "cal-E74MDlDKBaeAwXK",
-  "cover": "https://images.lumacdn.com/uploads/tw/0331c69b-f428-4f92-9d94-eec2731529ae.png",
-  "guests": 0,
-  "vendors": [],
-  "source": "cal:The AI Collective",
-  "kind": "luma",
-  "first_seen": "2026-09-05",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "manual-agenticon-2026",
@@ -149,7 +122,7 @@
   "kind": "manual",
   "note": "Enterprise agentic-AI conference; industry spotlight sessions run Sep 9-23.",
   "first_seen": "2026-09-05",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-i12bMnEWI9yMGeE",
@@ -172,7 +145,7 @@
   "source": "cal:cal-6iIeDGNQ7vK8cfx",
   "kind": "luma",
   "first_seen": "2026-09-16",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-tZWG1emcl43Z2oO",
@@ -196,7 +169,7 @@
   "source": "cal:cal-6iIeDGNQ7vK8cfx",
   "kind": "luma",
   "first_seen": "2026-09-17",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-uDtmn1pY9IzQOeI",
@@ -215,14 +188,14 @@
   "calendar": "Personal",
   "calendar_id": "cal-972ANGTZriNdiws",
   "cover": "https://images.lumacdn.com/uploads/lr/b7471998-490f-4800-a1b5-bd88cec9e015.png",
-  "guests": 128,
+  "guests": 138,
   "vendors": [
    "NVIDIA"
   ],
   "source": "luma-sg-feed+cal:SGInnovate",
   "kind": "luma",
   "first_seen": "2026-09-05",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "manual-supertype-finance-terminal-2026",
@@ -246,7 +219,7 @@
   "kind": "manual",
   "note": "Two-evening online code-along building an AI-powered Telegram finance agent with IDX and SGX data, Sep 24-25, 7:00-9:30 PM SGT.",
   "first_seen": "2026-09-16",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-HnYP23vkLk9WSuF",
@@ -270,7 +243,7 @@
   "source": "cal:The AI Collective",
   "kind": "luma",
   "first_seen": "2026-09-08",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-CwB24PAcnCrnB2j",
@@ -286,17 +259,18 @@
    "Cat Valverde",
    "Supriya Gupta",
    "The AI Collective",
-   "Abraham"
+   "Abraham",
+   "Paula McMahon"
   ],
   "calendar": "The AI Collective",
   "calendar_id": "cal-E74MDlDKBaeAwXK",
   "cover": "https://images.lumacdn.com/uploads/2o/df0706c9-a1d8-47d2-bae7-b4e8e6845580.png",
-  "guests": 11,
+  "guests": 15,
   "vendors": [],
   "source": "cal:The AI Collective",
   "kind": "luma",
   "first_seen": "2026-09-15",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-W8OIFVWMWyRHZt4",
@@ -315,12 +289,12 @@
   "calendar": "The AI Collective",
   "calendar_id": "cal-E74MDlDKBaeAwXK",
   "cover": "https://images.lumacdn.com/uploads/y3/d61dcabf-0091-4fb3-af44-97d2c2f52efe.png",
-  "guests": 31,
+  "guests": 32,
   "vendors": [],
   "source": "cal:The AI Collective",
   "kind": "luma",
   "first_seen": "2026-09-05",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-hkDOhS6RbxEzW2K",
@@ -343,7 +317,30 @@
   "source": "cal:Build Club",
   "kind": "luma",
   "first_seen": "2026-09-20",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
+ },
+ {
+  "id": "evt-ZfvHfuPKCHB5Fdx",
+  "url": "https://lu.ma/5v2p04it",
+  "name": "Empower Your Tourism Business with GenAI: Staying Visible in AI Travel Search",
+  "start": "2026-09-25T01:30:00.000Z",
+  "end": "2026-09-25T04:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Lorong AI @ One-North, 69 Ayer Rajah Cres., Singapore 139961",
+  "hosts": [
+   "Tcube"
+  ],
+  "calendar": "Tcube",
+  "calendar_id": "cal-XuZEyb4s4K2jSiy",
+  "cover": "https://images.lumacdn.com/uploads/di/1ba70e96-5e99-45d4-ab54-b086d9e9da32.jpg",
+  "guests": 0,
+  "vendors": [],
+  "source": "cal:cal-6iIeDGNQ7vK8cfx",
+  "kind": "luma",
+  "first_seen": "2026-09-22",
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-NVyS8rCDnFMUmZJ",
@@ -367,7 +364,7 @@
   "source": "cal:Glints AI Transformation",
   "kind": "luma",
   "first_seen": "2026-09-05",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-iNCnkWHhKSVvyjm",
@@ -390,7 +387,7 @@
   "source": "cal:cal-6iIeDGNQ7vK8cfx",
   "kind": "luma",
   "first_seen": "2026-09-12",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-No2sqXZfDaifRha",
@@ -416,7 +413,7 @@
   "source": "luma-sg-feed+cal:cal-gmMOid1Rsqc3Hih",
   "kind": "luma",
   "first_seen": "2026-09-10",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "manual-ai-salon-sep-2026",
@@ -440,7 +437,7 @@
   "kind": "manual",
   "note": "Where is AI value being created, what investors are betting on, defensibility.",
   "first_seen": "2026-09-05",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-LBlA2dwmgmmQzNg",
@@ -457,7 +454,8 @@
    "Nourdine Ouattara",
    "Gerard Kra",
    "Undinel Gerard Ayekoyeett",
-   "AKA Noellie"
+   "AKA Noellie",
+   "KOFFI KOMENAN MICHEL"
   ],
   "calendar": "The AI Collective",
   "calendar_id": "cal-E74MDlDKBaeAwXK",
@@ -467,7 +465,7 @@
   "source": "cal:The AI Collective",
   "kind": "luma",
   "first_seen": "2026-09-10",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "manual-xathon-2026",
@@ -491,7 +489,7 @@
   "kind": "manual",
   "note": "Two-day AI innovation hack weekend across 4 missions (smart cities, creator economy, mobility/EV, health). Cash prizes; top 3 teams showcase at BeyondXpo Oct 12. Register at xathon.beyondx.co.",
   "first_seen": "2026-09-07",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-gVaYIXcXRXoLl98",
@@ -515,7 +513,7 @@
   "source": "cal:The AI Capitol / OpenBuilder",
   "kind": "luma",
   "first_seen": "2026-09-05",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-SkxdDlur76VnRly",
@@ -541,7 +539,7 @@
   "source": "cal:The AI Capitol / OpenBuilder",
   "kind": "luma",
   "first_seen": "2026-09-05",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-AtOS7XkIN1npkr7",
@@ -567,7 +565,34 @@
   "source": "cal:The AI Collective",
   "kind": "luma",
   "first_seen": "2026-09-20",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
+ },
+ {
+  "id": "evt-ZkkbMV6KFF2UJ4b",
+  "url": "https://lu.ma/aic-gl-9-23",
+  "name": "Technology, AI and Addictive Behaviors: Can They Be Treated? [This event will be recorded and shared with all registered participants]",
+  "start": "2026-09-27T16:00:00.000Z",
+  "end": "2026-09-27T17:30:00.000Z",
+  "tz": "Europe/Paris",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "The AI Collective",
+   "Ana De Alencar",
+   "Abraham",
+   "Ana Catarina De Alencar",
+   "AJ Green"
+  ],
+  "calendar": "The AI Collective",
+  "calendar_id": "cal-E74MDlDKBaeAwXK",
+  "cover": "https://images.lumacdn.com/uploads/tw/0331c69b-f428-4f92-9d94-eec2731529ae.png",
+  "guests": 0,
+  "vendors": [],
+  "source": "cal:The AI Collective",
+  "kind": "luma",
+  "first_seen": "2026-09-05",
+  "last_seen": "2026-09-22"
  },
  {
   "id": "manual-oasec-2026",
@@ -590,7 +615,7 @@
   "kind": "manual",
   "note": "Technical talks on AI safety/security; complimentary but registration closed Sep 4 (subject to capacity).",
   "first_seen": "2026-09-05",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "manual-big-data-ai-world-asia-2026",
@@ -614,7 +639,7 @@
   "kind": "manual",
   "note": "Two-day in-person data and AI conference, Sep 29-30, 9:00 AM-5:00 PM SGT. Complimentary for trade professionals; co-located Tech Week ticket covers all five shows.",
   "first_seen": "2026-09-15",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-Za8kF4VDXfeg7JC",
@@ -642,7 +667,7 @@
   "source": "cal:cal-L8EuVHDQtkwVTxa",
   "kind": "luma",
   "first_seen": "2026-09-20",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-ujvKacbC5DsvFEC",
@@ -662,14 +687,14 @@
   "calendar": "Claude SG Community",
   "calendar_id": "cal-Dkjza6RmAxAYMWj",
   "cover": "https://images.lumacdn.com/uploads/y3/406378a2-0bd7-4501-9337-87e37d120253.jpg",
-  "guests": 123,
+  "guests": 131,
   "vendors": [
    "Anthropic"
   ],
   "source": "cal:Claude SG Community",
   "kind": "luma",
   "first_seen": "2026-09-05",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-G1YgaWKvmoGbnNz",
@@ -689,14 +714,14 @@
   "calendar": "Personal",
   "calendar_id": "cal-7xEpna9688PSFwd",
   "cover": "https://images.lumacdn.com/uploads/ja/ffb3f369-c2d1-4c70-92aa-0dc60f1bfcd9.png",
-  "guests": 624,
+  "guests": 658,
   "vendors": [
    "AWS"
   ],
   "source": "luma-sg-feed+cal:The AI Capitol / OpenBuilder",
   "kind": "luma",
   "first_seen": "2026-09-05",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-GTYmOvIfOF5Rjf2",
@@ -716,12 +741,12 @@
   "calendar": "AI Builders",
   "calendar_id": "cal-PKazQdrRmpFJSXz",
   "cover": "https://images.lumacdn.com/uploads/kv/399671db-6068-47fb-9821-1922e5f78abd.png",
-  "guests": 98,
+  "guests": 112,
   "vendors": [],
   "source": "cal:AI Builders",
   "kind": "luma",
   "first_seen": "2026-09-07",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-ZEUyYJfKkoa0DzA",
@@ -747,7 +772,7 @@
   "source": "luma-sg-feed+cal:cal-L8EuVHDQtkwVTxa",
   "kind": "luma",
   "first_seen": "2026-09-19",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "manual-openai-devday-2026",
@@ -772,7 +797,7 @@
   "kind": "manual",
   "note": "Keynote livestreamed free online; in-person at Fort Mason, San Francisco.",
   "first_seen": "2026-09-05",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-Tip5W8wqgxA4onA",
@@ -799,7 +824,7 @@
   "source": "cal:The AI Collective",
   "kind": "luma",
   "first_seen": "2026-09-21",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-Nnm7B4vyZq7Ed9X",
@@ -819,14 +844,14 @@
   "calendar": "Claude SG Community",
   "calendar_id": "cal-Dkjza6RmAxAYMWj",
   "cover": "https://images.lumacdn.com/uploads/c2/a96f6243-fa36-4777-9dc8-aef889c8a88b.jpg",
-  "guests": 251,
+  "guests": 300,
   "vendors": [
    "Anthropic"
   ],
   "source": "cal:Claude SG Community",
   "kind": "luma",
   "first_seen": "2026-09-17",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-aMWTA3BkHy5mBWX",
@@ -851,7 +876,7 @@
   "source": "cal:The AI Collective",
   "kind": "luma",
   "first_seen": "2026-09-16",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "manual-ms-reactor-agent-swarms-2026",
@@ -876,7 +901,7 @@
   "kind": "manual",
   "note": "Online session, Oct 1, 4:00 AM SGT.",
   "first_seen": "2026-09-08",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-Veha2WSlsjkDkpS",
@@ -899,7 +924,7 @@
   "source": "cal:Glints AI Transformation",
   "kind": "luma",
   "first_seen": "2026-09-09",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-EQgZfEeHsw0FKkP",
@@ -922,12 +947,12 @@
   "calendar": "Techies",
   "calendar_id": "cal-i9QxU3ZODPclPpp",
   "cover": "https://images.lumacdn.com/uploads/39/f75d269e-ff1d-4225-899c-39dec43ddcb6.jpg",
-  "guests": 53,
+  "guests": 61,
   "vendors": [],
   "source": "cal:cal-6iIeDGNQ7vK8cfx+cal:cal-i9QxU3ZODPclPpp",
   "kind": "luma",
   "first_seen": "2026-09-06",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-aPrMCVspGdYQXvf",
@@ -970,12 +995,12 @@
   "calendar": "AI Builders",
   "calendar_id": "cal-PKazQdrRmpFJSXz",
   "cover": "https://images.lumacdn.com/uploads/p6/3e8dedfa-780d-4f56-b191-e1a8e247d555.png",
-  "guests": 77,
+  "guests": 85,
   "vendors": [],
   "source": "cal:AI Builders",
   "kind": "luma",
   "first_seen": "2026-09-05",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "manual-oracle-apex-ai-2026",
@@ -1000,7 +1025,7 @@
   "kind": "manual",
   "note": "Full-day roadshow: generative development, AI agents, AI interactive reports.",
   "first_seen": "2026-09-05",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "manual-aws-kiro-agents-2026",
@@ -1026,7 +1051,7 @@
   "kind": "manual",
   "note": "Small in-person Kiro-for-agents workshop, Oct 2, 1:30-5:30 PM SGT; limited to 30-40 participants.",
   "first_seen": "2026-09-16",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-NMHiAsAXBMcLRG4",
@@ -1050,7 +1075,7 @@
   "source": "cal:cal-6iIeDGNQ7vK8cfx",
   "kind": "luma",
   "first_seen": "2026-09-18",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "manual-0g-devday-2026",
@@ -1073,7 +1098,7 @@
   "kind": "manual",
   "note": "Keynote, live AI app demos, ecosystem showcase, panels on decentralized AI infrastructure.",
   "first_seen": "2026-09-05",
-  "last_seen": "2026-09-21",
+  "last_seen": "2026-09-22",
   "credits": "0G Passport stamps redeemable at swag shop for exclusives (0G Panda Labubus etc.)",
   "credits_kind": "perk"
  },
@@ -1098,7 +1123,7 @@
   "kind": "manual",
   "note": "Practical AI agents for search/retrieval over rich content. Date tentative per host.",
   "first_seen": "2026-09-05",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-zfG44YeHtrwrZeC",
@@ -1121,7 +1146,7 @@
   "source": "cal:Build Club",
   "kind": "luma",
   "first_seen": "2026-09-21",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-Oo71eqAmpHRLQFw",
@@ -1146,7 +1171,7 @@
   "source": "cal:The AI Collective",
   "kind": "luma",
   "first_seen": "2026-09-09",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-bQOSK443RBshffY",
@@ -1166,12 +1191,43 @@
   "calendar": "Personal",
   "calendar_id": "cal-W3A01Mw9dfZZQBY",
   "cover": "https://images.lumacdn.com/uploads/eo/80b59a6a-a419-466a-a531-bf4160497675.jpg",
-  "guests": 9,
+  "guests": 13,
   "vendors": [],
   "source": "luma-sg-feed+cal:cal-W3A01Mw9dfZZQBY",
   "kind": "luma",
   "first_seen": "2026-09-18",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
+ },
+ {
+  "id": "evt-xBgnU6MHbWTQGqv",
+  "url": "https://lu.ma/8q80l11c",
+  "name": "OpenAI DevDay Recap Party",
+  "start": "2026-10-06T10:00:00.000Z",
+  "end": "2026-10-06T13:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "",
+  "hosts": [
+   "Gabriel Chua",
+   "William Liu",
+   "Raymond Chong",
+   "Brian Chew",
+   "Sherry Jiang",
+   "Zane Chee",
+   "Qing Ze Hum"
+  ],
+  "calendar": "Personal",
+  "calendar_id": "cal-EjofbbSct1gpRQ6",
+  "cover": "https://images.lumacdn.com/uploads/pv/5bd51513-30ea-4345-b787-5c5dfb6aad56.png",
+  "guests": 0,
+  "vendors": [
+   "OpenAI"
+  ],
+  "source": "luma-sg-feed+cal:cal-EjofbbSct1gpRQ6",
+  "kind": "luma",
+  "first_seen": "2026-09-22",
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-CvncDFfByXOAghd",
@@ -1194,7 +1250,7 @@
   "source": "cal:cal-gmMOid1Rsqc3Hih",
   "kind": "luma",
   "first_seen": "2026-09-10",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "manual-open-agent-hackathon-2026",
@@ -1219,7 +1275,7 @@
   "credits": "Up to $20k prize pool (winners only)",
   "credits_kind": "perk",
   "first_seen": "2026-09-08",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-nN9KvwyDlqP8p2x",
@@ -1242,7 +1298,7 @@
   "source": "cal:cal-6iIeDGNQ7vK8cfx",
   "kind": "luma",
   "first_seen": "2026-09-17",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-AekZVGtBQWsuqqP",
@@ -1267,7 +1323,7 @@
   "source": "cal:Claude Community Events",
   "kind": "luma",
   "first_seen": "2026-09-05",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "manual-redhat-mcp-webcast-2026",
@@ -1291,7 +1347,7 @@
   "kind": "manual",
   "note": "Free webcast, Oct 8, 2:00 AM SGT.",
   "first_seen": "2026-09-08",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "manual-aicon-2026",
@@ -1314,7 +1370,7 @@
   "kind": "manual",
   "note": "Two-day AI consumer show: showcases, live demos, creator experiences, startup innovations.",
   "first_seen": "2026-09-05",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-11BWLYcWvu8j97s",
@@ -1343,7 +1399,7 @@
   "source": "luma-sg-feed+cal:cal-VHDrIKN12bM5IwG",
   "kind": "luma",
   "first_seen": "2026-09-13",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-4TIKXQqTXucQXRa",
@@ -1368,7 +1424,7 @@
   "source": "cal:Claude Community Events",
   "kind": "luma",
   "first_seen": "2026-09-17",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "manual-mcp-agents-skills-meetup-2026",
@@ -1391,7 +1447,7 @@
   "kind": "manual",
   "note": "Virtual meetup, Oct 9, midnight-2:00 AM SGT.",
   "first_seen": "2026-09-08",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-hNNr1fqTW4kqq40",
@@ -1415,7 +1471,7 @@
   "source": "cal:The AI Collective",
   "kind": "luma",
   "first_seen": "2026-09-17",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "manual-whatthehack-2026",
@@ -1440,18 +1496,18 @@
   "credits": "Prizes planned; details TBA in official announcement",
   "credits_kind": "perk",
   "first_seen": "2026-09-08",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-mM5RouiWCm03J4F",
-  "url": "https://lu.ma/p3je2msf",
+  "url": "https://lu.ma/devdayexchangesg",
   "name": "DevDay Exchange Community: Singapore",
   "start": "2026-10-09T10:00:00.000Z",
   "end": "2026-10-09T13:00:00.000Z",
   "tz": "Asia/Singapore",
   "virtual": false,
   "sg": true,
-  "venue": "",
+  "venue": "Innovation 4.0, 3 Research Link, #01-01, Singapore 117602",
   "hosts": [
    "Brian Chew",
    "Zane Chee",
@@ -1468,7 +1524,7 @@
   "source": "cal:Codex Community Events",
   "kind": "luma",
   "first_seen": "2026-09-21",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-Dg64Tgn9sYdRTMB",
@@ -1492,7 +1548,7 @@
   "source": "cal:The AI Capitol / OpenBuilder",
   "kind": "luma",
   "first_seen": "2026-09-16",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-Q00FFp9yLjDnTvW",
@@ -1515,7 +1571,7 @@
   "source": "cal:cal-RJzlehiWa4JSyuL",
   "kind": "luma",
   "first_seen": "2026-09-14",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-tB0G2l03Bw69p59",
@@ -1560,12 +1616,12 @@
   "calendar": "Personal",
   "calendar_id": "cal-7xEpna9688PSFwd",
   "cover": "https://images.lumacdn.com/uploads/1d/1ba04978-53a4-45a4-a364-1aac750b7caa.jpg",
-  "guests": 13,
+  "guests": 16,
   "vendors": [],
   "source": "cal:The AI Capitol / OpenBuilder",
   "kind": "luma",
   "first_seen": "2026-09-21",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-g1BNSA2VcIxzOFM",
@@ -1586,14 +1642,14 @@
   "calendar": "Claude SG Community",
   "calendar_id": "cal-Dkjza6RmAxAYMWj",
   "cover": "https://images.lumacdn.com/uploads/rp/eccaf4c7-9a07-45ca-9b0e-13419b4bd809.jpg",
-  "guests": 57,
+  "guests": 80,
   "vendors": [
    "Anthropic"
   ],
   "source": "cal:Claude SG Community",
   "kind": "luma",
   "first_seen": "2026-09-08",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-LJb24g91EB1BnF9",
@@ -1616,7 +1672,7 @@
   "source": "cal:SG AI & Robotics Demo Nights",
   "kind": "luma",
   "first_seen": "2026-09-05",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-6lZ5WnePNKluZRG",
@@ -1639,7 +1695,7 @@
   "source": "cal:cal-6iIeDGNQ7vK8cfx",
   "kind": "luma",
   "first_seen": "2026-09-20",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-VqJLcNRFMluK5qx",
@@ -1665,7 +1721,7 @@
   "source": "cal:The AI Collective",
   "kind": "luma",
   "first_seen": "2026-09-05",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-7hrDJuB3WkzQxEV",
@@ -1688,7 +1744,7 @@
   "source": "cal:The AI Capitol / OpenBuilder",
   "kind": "luma",
   "first_seen": "2026-09-08",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-nwF4ga1tnEN9NRf",
@@ -1711,12 +1767,12 @@
   "calendar": "Techies",
   "calendar_id": "cal-i9QxU3ZODPclPpp",
   "cover": "https://images.lumacdn.com/uploads/6f/d27262c0-06f3-48d2-8832-b865141bb6c8.jpg",
-  "guests": 0,
+  "guests": 5,
   "vendors": [],
   "source": "cal:cal-i9QxU3ZODPclPpp",
   "kind": "luma",
   "first_seen": "2026-09-16",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-pykpkCCEbOBow8W",
@@ -1739,7 +1795,7 @@
   "source": "cal:cal-6iIeDGNQ7vK8cfx",
   "kind": "luma",
   "first_seen": "2026-09-06",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "manual-switch-2026",
@@ -1762,7 +1818,7 @@
   "kind": "manual",
   "note": "Flagship innovation week with heavy AI track programming.",
   "first_seen": "2026-09-05",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "manual-containerdays-ai-context-sg-2026",
@@ -1786,7 +1842,7 @@
   "kind": "manual",
   "note": "Two-day in-person cloud-native and AI engineering conference; AI Context track covers MCP and agentic AI. Official page and ticket page confirm Oct 27-28, 9:00 AM-5:00 PM SGT.",
   "first_seen": "2026-09-15",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "manual-stack-conf-2026",
@@ -1809,7 +1865,7 @@
   "kind": "manual",
   "note": "GovTech flagship developer conference, Nov 4-5; strong AI/agentic tracks.",
   "first_seen": "2026-09-05",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "manual-agentic-ai-forum-sg-2026",
@@ -1833,7 +1889,7 @@
   "kind": "manual",
   "note": "Enterprise agentic-AI forum on Nov 4 in Singapore; official page confirms date and city, with exact venue/time not yet listed.",
   "first_seen": "2026-09-16",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "manual-supertype-agentic-codealong-2026",
@@ -1857,7 +1913,7 @@
   "kind": "manual",
   "note": "Four-hour in-person hands-on workshop, Nov 4, 1:00-5:00 PM SGT. Paid event; listed price IDR 1,230,000.",
   "first_seen": "2026-09-16",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "manual-agentcon-sg-2026",
@@ -1879,7 +1935,7 @@
   "source": "manual",
   "kind": "manual",
   "first_seen": "2026-09-05",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-kGEkzP0M0oqkwo3",
@@ -1902,7 +1958,7 @@
   "source": "cal:SG AI & Robotics Demo Nights",
   "kind": "luma",
   "first_seen": "2026-09-05",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "manual-sbr-tech-summit-2026",
@@ -1924,7 +1980,7 @@
   "source": "manual",
   "kind": "manual",
   "first_seen": "2026-09-05",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "manual-convergence-summit-2026",
@@ -1946,7 +2002,7 @@
   "source": "manual",
   "kind": "manual",
   "first_seen": "2026-09-05",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "manual-sg-india-hackathon-2026",
@@ -1971,7 +2027,7 @@
   "kind": "manual",
   "note": "Bilateral student hackathon (120 students, cross-border teams), 36h build Nov 15-17. Four tracks incl. fintech and emerging tech; teams equipped with AI tools. Registration open to Singapore-based students; shortlist Sep-Oct.",
   "first_seen": "2026-09-10",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "manual-kenx-ai-gxp-sg-2026",
@@ -1994,7 +2050,7 @@
   "kind": "manual",
   "note": "Paid two-day in-person conference for regulated life sciences, Nov 19-20, approximately 8:00 AM-5:00 PM SGT. Venue not yet listed.",
   "first_seen": "2026-09-18",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "manual-ai-innovation-asia-2026",
@@ -2016,7 +2072,7 @@
   "source": "manual",
   "kind": "manual",
   "first_seen": "2026-09-05",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "manual-founders-2-conf-sg-2026",
@@ -2039,7 +2095,7 @@
   "kind": "manual",
   "note": "Three-day founder and business summit, Dec 2-4, with substantial AI and innovation programming.",
   "first_seen": "2026-09-18",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "manual-iaim-ntu-2026",
@@ -2063,7 +2119,7 @@
   "kind": "manual",
   "note": "Three-day in-person conference, Dec 3-5. Industry Day starts 8:30 AM Dec 3; conference programme runs Dec 4-5. Registration deadline listed as Oct 15.",
   "first_seen": "2026-09-17",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "manual-ai-engineering-summit-sg-2026",
@@ -2086,7 +2142,7 @@
   "kind": "manual",
   "note": "One-day in-person summit for teams building and scaling production AI systems, Dec 3, 9:00 AM-5:00 PM SGT.",
   "first_seen": "2026-09-16",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "evt-yfFxfNQCG2CPk9C",
@@ -2109,7 +2165,7 @@
   "source": "cal:SG AI & Robotics Demo Nights",
   "kind": "luma",
   "first_seen": "2026-09-05",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "manual-nus-ai-governance-liability-2026",
@@ -2132,7 +2188,7 @@
   "kind": "manual",
   "note": "Two-day academic and industry conference on AI governance and liability, Dec 10-11. Official page confirms dates and venue.",
   "first_seen": "2026-09-18",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  },
  {
   "id": "manual-aigc-singapore-2026",
@@ -2155,6 +2211,6 @@
   "kind": "manual",
   "note": "In-person finals Dec 12-13 at NTU Alumni Club. Official page says schedule is tentative and final timings will be confirmed; registration opens soon.",
   "first_seen": "2026-09-15",
-  "last_seen": "2026-09-21"
+  "last_seen": "2026-09-22"
  }
 ]
