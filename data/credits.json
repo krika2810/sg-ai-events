@@ -1,34 +1,38 @@
 {
- "https://lu.ma/vytaj7o2": {
-  "text": "$100 Codex credits + $50 OpenAI API credits (registered attendees)",
-  "kind": "credits"
- },
- "https://singapore.aitinkerers.org/p/agents-everywhere-bots-channels-more-global-hackathon": {
-  "text": "Winning teams: $1000/$500/$250 Codex credits (1st/2nd/3rd) + 3 months ChatGPT Pro; builder credits/offers for participants",
-  "kind": "perk"
- },
- "https://lu.ma/aic-kul-20260910": {
-  "text": "Starbucks Buy-1-Free-1 voucher (stay to the end + complete check-in/check-out forms)",
-  "kind": "perk"
- },
- "https://lu.ma/mrn0vt28": {
-  "text": "Free Kimi vouchers (details TBA on page)",
-  "kind": "perk"
- },
- "https://lu.ma/26fqf3hy": {
-  "text": "Free AI credits for all hackathon participants + registration gifts; SGD 10,000 top cash prize",
-  "kind": "credits"
- },
- "https://lu.ma/6wcmwhqz": {
-  "text": "Platform access + compute credits provided by Bitdeer AI for the workshop",
-  "kind": "credits"
- },
- "https://gic.careers/events/codetoimpact-hackathon-2026/": {
-  "text": "Prizes for winners (page says 'amazing prizes', no details given)",
-  "kind": "perk"
- },
- "https://luma.com/0g-devday-2026": {
-  "text": "0G Passport stamps redeemable at swag shop for exclusives (0G Panda Labubus etc.)",
-  "kind": "perk"
- }
+  "https://lu.ma/vytaj7o2": {
+    "text": "$100 Codex credits + $50 OpenAI API credits (registered attendees)",
+    "kind": "credits"
+  },
+  "https://singapore.aitinkerers.org/p/agents-everywhere-bots-channels-more-global-hackathon": {
+    "text": "Winning teams: $1000/$500/$250 Codex credits (1st/2nd/3rd) + 3 months ChatGPT Pro; builder credits/offers for participants",
+    "kind": "perk"
+  },
+  "https://lu.ma/aic-kul-20260910": {
+    "text": "Starbucks Buy-1-Free-1 voucher (stay to the end + complete check-in/check-out forms)",
+    "kind": "perk"
+  },
+  "https://lu.ma/mrn0vt28": {
+    "text": "Free Kimi vouchers (details TBA on page)",
+    "kind": "perk"
+  },
+  "https://lu.ma/26fqf3hy": {
+    "text": "Free AI credits for all hackathon participants + registration gifts; SGD 10,000 top cash prize",
+    "kind": "credits"
+  },
+  "https://lu.ma/6wcmwhqz": {
+    "text": "Platform access + compute credits provided by Bitdeer AI for the workshop",
+    "kind": "credits"
+  },
+  "https://gic.careers/events/codetoimpact-hackathon-2026/": {
+    "text": "Prizes for winners (page says 'amazing prizes', no details given)",
+    "kind": "perk"
+  },
+  "https://luma.com/0g-devday-2026": {
+    "text": "0G Passport stamps redeemable at swag shop for exclusives (0G Panda Labubus etc.)",
+    "kind": "perk"
+  },
+  "https://lu.ma/cqtdcolv": {
+    "text": "Ortcloud credits for attendees to keep building after the workshop (plus a live agent on your own Ortcloud VM)",
+    "kind": "credits"
+  }
 }
