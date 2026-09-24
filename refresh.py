@@ -263,10 +263,16 @@ def main():
                 else:
                     e["credits"] = v
 
+    # 5c) curated exclusions (event URLs or calendar ids): non-AI items pulled in by broad feeds
+    excluded = {u.rstrip("/").lower() for u in load_json(DATA / "excluded-urls.json", [])}
+
     # 6) prune only events whose date has passed
     final = []
     pruned = 0
     for e in kept.values():
+        if (e.get("url") or "").rstrip("/").lower() in excluded or \
+                (e.get("calendar_id") or "").lower() in excluded:
+            continue
         end = e.get("end") or e.get("start")
         try:
             end_dt = datetime.fromisoformat(end.replace("Z", "+00:00"))
