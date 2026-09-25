@@ -897,5 +897,114 @@
     "note": "Student AI challenge for Singapore IHL students (teams of 1-4). Round 1 submissions close Oct 6, 23:59 SGT (Devpost: https://daisisg26.devpost.com/). Demo Day Oct 27, 7 PM SGT. Built free on Databricks; top 3 teams share US$24,500 in credits, training and certification.",
     "credits": "Top 3 teams share US$24,500 in Databricks credits, training and certification; build free on Databricks",
     "credits_kind": "perk"
+  },
+  {
+    "id": "manual-openai-codex-bootcamp-201-20260930",
+    "name": "Codex bootcamp 201: Team workflows (OpenAI Academy)",
+    "url": "https://academy.openai.com/public/clubs/builders-etkn1/events/codex-bootcamp-201-team-workflows-05zs2kad9n",
+    "start": "2026-09-30T17:00:00.000Z",
+    "end": "2026-09-30T18:00:00.000Z",
+    "tz": "America/New_York",
+    "virtual": true,
+    "sg": false,
+    "venue": "Online",
+    "hosts": [
+      "OpenAI"
+    ],
+    "calendar": "",
+    "cover": null,
+    "guests": null,
+    "vendors": [
+      "OpenAI"
+    ],
+    "source": "manual",
+    "kind": "manual",
+    "note": "Official OpenAI Academy listing, 1-2 PM EDT (Oct 1, 1-2 AM SGT)."
+  },
+  {
+    "id": "manual-openai-codex-bootcamp-301-20261007",
+    "name": "Codex bootcamp 301: Advanced automation (OpenAI Academy)",
+    "url": "https://academy.openai.com/public/clubs/builders-etkn1/events/codex-bootcamp-301-advanced-automation-zejtj1ae6t",
+    "start": "2026-10-07T17:00:00.000Z",
+    "end": "2026-10-07T18:00:00.000Z",
+    "tz": "America/New_York",
+    "virtual": true,
+    "sg": false,
+    "venue": "Online",
+    "hosts": [
+      "OpenAI"
+    ],
+    "calendar": "",
+    "cover": null,
+    "guests": null,
+    "vendors": [
+      "OpenAI"
+    ],
+    "source": "manual",
+    "kind": "manual",
+    "note": "Official OpenAI Academy listing, 1-2 PM EDT (Oct 8, 1-2 AM SGT)."
+  },
+  {
+    "id": "manual-mindstone-sg-ai-meetup-20261014",
+    "name": "Mindstone Singapore October AI Meetup",
+    "url": "https://www.meetup.com/mindstone-singapore-ai-meetup/events/316565594/",
+    "start": "2026-10-14T10:30:00.000Z",
+    "end": "2026-10-14T13:00:00.000Z",
+    "tz": "Asia/Singapore",
+    "virtual": false,
+    "sg": true,
+    "venue": "EHL Campus Singapore, 3 Lady Hill Rd, Singapore 258672",
+    "hosts": [
+      "Mindstone Singapore AI Meetup"
+    ],
+    "calendar": "",
+    "cover": null,
+    "guests": null,
+    "vendors": [],
+    "source": "manual",
+    "kind": "manual",
+    "note": "Three AI talks, demos and networking."
+  },
+  {
+    "id": "manual-apac-ai-ml-cv-meetup-20261001",
+    "name": "Oct 1 APAC AI, ML and Computer Vision Meetup",
+    "url": "https://www.meetup.com/singapore-computer-vision-meetup/events/316613760/",
+    "start": "2026-10-02T01:00:00.000Z",
+    "end": "2026-10-02T03:00:00.000Z",
+    "tz": "America/Los_Angeles",
+    "virtual": true,
+    "sg": false,
+    "venue": "Online (Zoom)",
+    "hosts": [
+      "Singapore AI, Machine Learning and Computer Vision Meetup"
+    ],
+    "calendar": "",
+    "cover": null,
+    "guests": null,
+    "vendors": [],
+    "source": "manual",
+    "kind": "manual",
+    "note": "Event page says Oct 1, 6-8 PM PDT, corresponding to Oct 2, 9-11 AM SGT."
+  },
+  {
+    "id": "manual-ai-ml-cv-meetup-20261015",
+    "name": "Oct 15 AI, ML, and Computer Vision Meetup",
+    "url": "https://www.meetup.com/singapore-computer-vision-meetup/events/316572341/",
+    "start": "2026-10-15T16:00:00.000Z",
+    "end": "2026-10-15T18:00:00.000Z",
+    "tz": "America/Los_Angeles",
+    "virtual": true,
+    "sg": false,
+    "venue": "Online (Zoom)",
+    "hosts": [
+      "Singapore AI, Machine Learning and Computer Vision Meetup"
+    ],
+    "calendar": "",
+    "cover": null,
+    "guests": null,
+    "vendors": [],
+    "source": "manual",
+    "kind": "manual",
+    "note": "Event page says Oct 15, 9-11 AM Pacific (Oct 16, midnight-2 AM SGT)."
   }
 ]
