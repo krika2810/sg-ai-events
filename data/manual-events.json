@@ -1006,5 +1006,47 @@
     "source": "manual",
     "kind": "manual",
     "note": "Event page says Oct 15, 9-11 AM Pacific (Oct 16, midnight-2 AM SGT)."
+  },
+  {
+    "id": "manual-nov11-ai-ml-cv-meetup-2026",
+    "name": "Nov 11 AI, ML and Computer Vision Meetup",
+    "url": "https://www.meetup.com/singapore-computer-vision-meetup/events/316572580/",
+    "start": "2026-11-11T17:00:00.000Z",
+    "end": "2026-11-11T19:00:00.000Z",
+    "tz": "America/Los_Angeles",
+    "virtual": true,
+    "sg": false,
+    "venue": "Online (Zoom)",
+    "hosts": [
+      "Singapore AI, Machine Learning and Computer Vision Meetup"
+    ],
+    "calendar": "",
+    "cover": null,
+    "guests": null,
+    "vendors": [],
+    "source": "manual",
+    "kind": "manual",
+    "note": "Talks on agentic RAG, GeoAI and autonomous research agents. Nov 11 9-11 AM PST = Nov 12 1-3 AM SGT."
+  },
+  {
+    "id": "manual-nov19-lerobot-data-2026",
+    "name": "Nov 19 Visualizing and Debugging Hugging Face's LeRobot Data",
+    "url": "https://www.meetup.com/singapore-computer-vision-meetup/events/316617426/",
+    "start": "2026-11-19T17:00:00.000Z",
+    "end": "2026-11-19T18:00:00.000Z",
+    "tz": "America/Los_Angeles",
+    "virtual": true,
+    "sg": false,
+    "venue": "Online (Zoom)",
+    "hosts": [
+      "Singapore AI, Machine Learning and Computer Vision Meetup"
+    ],
+    "calendar": "",
+    "cover": null,
+    "guests": null,
+    "vendors": [],
+    "source": "manual",
+    "kind": "manual",
+    "note": "Hands-on Voxel51 workshop. Nov 19 9-10 AM PST = Nov 20 1-2 AM SGT."
   }
 ]
