@@ -1048,5 +1048,95 @@
     "source": "manual",
     "kind": "manual",
     "note": "Hands-on Voxel51 workshop. Nov 19 9-10 AM PST = Nov 20 1-2 AM SGT."
+  },
+  {
+    "id": "manual-uob-ai-ready-changemakers-summit-2026",
+    "name": "UOB AI Ready Changemakers Summit",
+    "url": "https://thefinlab.com/events/uob-ai-ready-changemakers-summit/",
+    "start": "2026-09-28T01:00:00.000Z",
+    "end": "2026-09-28T06:00:00.000Z",
+    "tz": "Asia/Singapore",
+    "virtual": false,
+    "sg": true,
+    "venue": "Paradox Singapore Merchant Court, 20 Merchant Rd, Singapore 058281",
+    "hosts": [
+      "UOB FinLab"
+    ],
+    "calendar": "",
+    "cover": null,
+    "guests": null,
+    "vendors": [],
+    "source": "manual",
+    "kind": "manual",
+    "note": "SME AI adoption summit, Sep 28 9 AM-2 PM SGT."
+  },
+  {
+    "id": "manual-finlab-gemini-content-creation-2026",
+    "name": "Generative AI Content Creation with Gemini and Other Tools",
+    "url": "https://thefinlab.com/events/generative-ai-content-creation/",
+    "start": "2026-10-02T01:00:00.000Z",
+    "end": "2026-10-03T10:00:00.000Z",
+    "tz": "Asia/Singapore",
+    "virtual": false,
+    "sg": true,
+    "venue": "Ngee Ann Polytechnic, 535 Clementi Rd, Singapore 599489",
+    "hosts": [
+      "UOB FinLab"
+    ],
+    "calendar": "",
+    "cover": null,
+    "guests": null,
+    "vendors": [
+      "Google"
+    ],
+    "source": "manual",
+    "kind": "manual",
+    "note": "Two-day hands-on course, Oct 2-3, 9 AM-6 PM SGT each day; check registration page for any fee."
+  },
+  {
+    "id": "manual-finlab-genai-productivity-2026",
+    "name": "Generative Artificial Intelligence for Productivity",
+    "url": "https://thefinlab.com/events/generative-artificial-intelligence-for-productivity/",
+    "start": "2026-10-21T01:00:00.000Z",
+    "end": "2026-10-21T10:00:00.000Z",
+    "tz": "Asia/Singapore",
+    "virtual": false,
+    "sg": true,
+    "venue": "Ngee Ann Polytechnic, 535 Clementi Rd, Singapore 599489",
+    "hosts": [
+      "UOB FinLab"
+    ],
+    "calendar": "",
+    "cover": null,
+    "guests": null,
+    "vendors": [],
+    "source": "manual",
+    "kind": "manual",
+    "note": "Hands-on AI productivity course, Oct 21 9 AM-6 PM SGT; check registration page for any fee."
+  },
+  {
+    "id": "manual-google-cloud-gaming-ai-powerup-20261008",
+    "name": "Google Cloud Gaming Global Expansion: AI Power-Up Station",
+    "url": "https://luma.com/j7it396i",
+    "start": "2026-10-08T05:30:00.000Z",
+    "end": "2026-10-08T10:00:00.000Z",
+    "tz": "Asia/Singapore",
+    "virtual": false,
+    "sg": true,
+    "venue": "Google Singapore Office, Block 70, 70 Pasir Panjang Road, #03-71, Singapore",
+    "hosts": [
+      "021Lab",
+      "Google Cloud",
+      "Sieger"
+    ],
+    "calendar": "",
+    "cover": null,
+    "guests": null,
+    "vendors": [
+      "Google"
+    ],
+    "source": "manual",
+    "kind": "manual",
+    "note": "Approval required. Public page states Oct 8 1:30-6 PM SGT; embedded Luma metadata says 1 PM and uses a different event title. Timing/title may change, check organizer page. Complimentary Google Cloud/Gemini resources and experience credits possible, terms not stated."
   }
 ]
