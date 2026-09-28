@@ -1138,5 +1138,30 @@
     "source": "manual",
     "kind": "manual",
     "note": "Approval required. Public page states Oct 8 1:30-6 PM SGT; embedded Luma metadata says 1 PM and uses a different event title. Timing/title may change, check organizer page. Complimentary Google Cloud/Gemini resources and experience credits possible, terms not stated."
+  },
+  {
+    "id": "manual-anthropic-claude-foundry-rebroadcast-20260930",
+    "name": "Claude in Microsoft Foundry: Tool Integrations in Practice (EMEA rebroadcast)",
+    "url": "https://www.anthropic.com/webinars/claude-in-microsoft-foundry-tool-integrations-in-practice-emea-rebroadcast",
+    "start": "2026-09-30T08:00:00.000Z",
+    "end": "2026-09-30T08:30:00.000Z",
+    "tz": "Europe/London",
+    "virtual": true,
+    "sg": false,
+    "venue": "Online (pre-recorded rebroadcast with live Anthropic Q&A)",
+    "hosts": [
+      "Anthropic",
+      "Microsoft"
+    ],
+    "calendar": "",
+    "cover": null,
+    "guests": null,
+    "vendors": [
+      "Anthropic",
+      "Microsoft"
+    ],
+    "source": "manual",
+    "kind": "manual",
+    "note": "Sep 30 9-9:30 AM BST = 4-4:30 PM SGT. Rebroadcast of Sep 3 session; Anthropic team in live chat."
   }
 ]
