@@ -1163,5 +1163,89 @@
     "source": "manual",
     "kind": "manual",
     "note": "Sep 30 9-9:30 AM BST = 4-4:30 PM SGT. Rebroadcast of Sep 3 session; Anthropic team in live chat."
+  },
+  {
+    "id": "manual-lfdt-agent-authorization-20261002",
+    "name": "Policy-Checked, Attributable, Revocable, Provable AI Agent Authorization",
+    "url": "https://www.meetup.com/lfdt-singapore/events/315990284/",
+    "start": "2026-10-02T14:00:00.000Z",
+    "end": "2026-10-02T15:00:00.000Z",
+    "tz": "Asia/Singapore",
+    "virtual": true,
+    "sg": false,
+    "venue": "Online",
+    "hosts": [
+      "LFDT Singapore"
+    ],
+    "calendar": "",
+    "cover": null,
+    "guests": null,
+    "vendors": [],
+    "source": "manual",
+    "kind": "manual",
+    "note": "Global virtual talk on Caracal agent authorization. 10-11 PM SGT."
+  },
+  {
+    "id": "manual-platform-engineering-ai-20261007",
+    "name": "Platform Engineering in the Age of AI: Scalable Visibility",
+    "url": "https://www.meetup.com/platform-engineering-singapore/events/316419265/",
+    "start": "2026-10-06T17:00:00.000Z",
+    "end": "2026-10-06T17:45:00.000Z",
+    "tz": "Asia/Singapore",
+    "virtual": true,
+    "sg": false,
+    "venue": "Online",
+    "hosts": [
+      "Platform Engineers Singapore"
+    ],
+    "calendar": "",
+    "cover": null,
+    "guests": null,
+    "vendors": [],
+    "source": "manual",
+    "kind": "manual",
+    "note": "AI-driven and agentic SRE telemetry, 1-1:45 AM SGT Oct 7."
+  },
+  {
+    "id": "manual-fiftyone-vision-workflows-20261007",
+    "name": "Building Composable Vision Workflows in FiftyOne",
+    "url": "https://www.meetup.com/singapore-computer-vision-meetup/events/316064656/",
+    "start": "2026-10-07T16:00:00.000Z",
+    "end": "2026-10-07T18:00:00.000Z",
+    "tz": "Asia/Singapore",
+    "virtual": true,
+    "sg": false,
+    "venue": "Online (Zoom)",
+    "hosts": [
+      "Singapore AI, Machine Learning and Computer Vision Meetup"
+    ],
+    "calendar": "",
+    "cover": null,
+    "guests": null,
+    "vendors": [],
+    "source": "manual",
+    "kind": "manual",
+    "note": "Meetup structured schedule Oct 8 midnight-2 AM SGT; description says Oct 7 9-10 AM PST, an inconsistent duration/timezone. Confirm with organizer."
+  },
+  {
+    "id": "manual-ksug-ai-sg-49-20261021",
+    "name": "KSUG.AI Singapore #49 Cloud Native & AI Meetup",
+    "url": "https://www.meetup.com/ksug-sg/events/316384465/",
+    "start": "2026-10-21T10:00:00.000Z",
+    "end": "2026-10-21T13:00:00.000Z",
+    "tz": "Asia/Singapore",
+    "virtual": false,
+    "sg": true,
+    "venue": "IMDA, 10 Pasir Panjang Rd, #03-01 Mapletree Business City, Singapore 117438 (also online)",
+    "hosts": [
+      "KSUG.AI APAC"
+    ],
+    "calendar": "",
+    "cover": null,
+    "guests": null,
+    "vendors": [],
+    "source": "manual",
+    "kind": "manual",
+    "note": "Hybrid meetup, Oct 21 6-9 PM SGT. AI talk topics TBC. Food and quiz swag giveaways, not guaranteed."
   }
 ]
