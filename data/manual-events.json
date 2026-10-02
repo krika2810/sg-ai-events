@@ -1247,5 +1247,138 @@
     "source": "manual",
     "kind": "manual",
     "note": "Hybrid meetup, Oct 21 6-9 PM SGT. AI talk topics TBC. Food and quiz swag giveaways, not guaranteed."
+  },
+  {
+    "id": "manual-actuarial-agentic-claude-workshop-20261006",
+    "name": "AI Workshop - Introduction to Agentic AI with Claude Code and CoWork",
+    "url": "https://actuaries.org.sg/event/ai-workshop-introduction-to-agentic-ai-with-claude-code-and-cowork-6-oct/",
+    "start": "2026-10-06T04:00:00.000Z",
+    "end": "2026-10-06T08:00:00.000Z",
+    "tz": "Asia/Singapore",
+    "virtual": false,
+    "sg": true,
+    "venue": "APSN, Kembangan-Chai Chee Community Hub, 11 Jalan Ubi, Block 4, #01-51, Singapore 409074",
+    "hosts": [
+      "Singapore Actuarial Society"
+    ],
+    "calendar": "",
+    "cover": null,
+    "guests": null,
+    "vendors": [
+      "Anthropic"
+    ],
+    "source": "manual",
+    "kind": "manual",
+    "note": "Hands-on workshop on Claude Code and CoWork, 12-4 PM SGT. Singapore Actuarial Society page lists member attendance as complimentary and non-member fee as S$70; laptop and preinstalled software required."
+  },
+  {
+    "id": "manual-factor-data-ai-day-singapore-20261007",
+    "name": "Data+AI Day | Singapore",
+    "url": "https://www.factor-insights.com/events/dataai-day-or-singapore-vkl0q7z",
+    "start": "2026-10-07T00:30:00.000Z",
+    "end": "2026-10-07T10:00:00.000Z",
+    "tz": "Asia/Singapore",
+    "virtual": false,
+    "sg": true,
+    "venue": "Sofitel Singapore City Centre",
+    "hosts": [
+      "Factor"
+    ],
+    "calendar": "",
+    "cover": null,
+    "guests": null,
+    "vendors": [],
+    "source": "manual",
+    "kind": "manual",
+    "note": "Data and AI conference; published schedule runs 8:30 AM-6 PM SGT on Oct 7, with enterprise AI talks and hands-on agentic AI workshop."
+  },
+  {
+    "id": "manual-sfa-agentic-ai-20261020",
+    "name": "Beyond Prompting: Architecting Enterprise AI Agents",
+    "url": "https://singaporefintech.org/event/beyond-prompting-architecting-enterprise-ai-agents/",
+    "start": "2026-10-20T07:00:00.000Z",
+    "end": "2026-10-20T10:00:00.000Z",
+    "tz": "Asia/Singapore",
+    "virtual": false,
+    "sg": true,
+    "venue": "16 Raffles Quay, #24-01, Hong Leong Building, Singapore 048581",
+    "hosts": [
+      "Singapore FinTech Association"
+    ],
+    "calendar": "",
+    "cover": null,
+    "guests": null,
+    "vendors": [
+      "Google Gemini Enterprise"
+    ],
+    "source": "manual",
+    "kind": "manual",
+    "note": "Practitioner session with hands-on Gemini Enterprise workflow-agent workshop and expert panel; 3-6 PM SGT."
+  },
+  {
+    "id": "manual-generative-beings-ads-ai-sg-20261015",
+    "name": "Ads & AI Singapore Meetup #12: Agents Buying & Selling",
+    "url": "https://thegenerativebeings.com/events/ads-ai-singapore-meetup-12-agents-buying-selling-vHmX57",
+    "start": "2026-10-15T10:30:00.000Z",
+    "end": "2026-10-15T12:30:00.000Z",
+    "tz": "Asia/Singapore",
+    "virtual": false,
+    "sg": true,
+    "venue": "SQ Collective x Gen-AI Labs, 65 Mohamed Sultan Rd, Singapore 239003",
+    "hosts": [
+      "The Generative Beings"
+    ],
+    "calendar": "",
+    "cover": null,
+    "guests": null,
+    "vendors": [],
+    "source": "manual",
+    "kind": "manual",
+    "note": "AI advertising and agents meetup; date/time shown as 15 Oct, 6:30-8:30 PM GMT+8."
+  },
+  {
+    "id": "manual-zai-aisg-aixtech-meetup-2026",
+    "name": "Build with Frontier Intelligence: AISG × Z.ai AIxTech Community Meetup",
+    "url": "https://lu.ma/ib9bnj2p",
+    "start": "2026-10-22T10:00:00.000Z",
+    "end": "2026-10-22T12:00:00.000Z",
+    "tz": "Asia/Singapore",
+    "virtual": false,
+    "sg": true,
+    "venue": "Singapore (Luma shows location after registration)",
+    "hosts": [
+      "AI Singapore",
+      "Z.ai"
+    ],
+    "calendar": "",
+    "cover": null,
+    "guests": null,
+    "vendors": [
+      "Z.ai"
+    ],
+    "source": "manual",
+    "kind": "manual",
+    "note": "Hands-on GLM-5.2 event with direct API time, date Oct 22; Luma page does not show exact venue publicly."
+  },
+  {
+    "id": "manual-agentic-ai-club-jev-20261002",
+    "name": "The Agentic AI Club: A First Look at Jev, the Model That Won't Write a Word",
+    "url": "https://www.eventbrite.sg/e/the-agentic-ai-club-a-first-look-at-jev-the-model-that-wont-write-a-word-tickets-2002183543877",
+    "start": "2026-10-02T10:00:00.000Z",
+    "end": "2026-10-02T12:00:00.000Z",
+    "tz": "Asia/Singapore",
+    "virtual": false,
+    "sg": true,
+    "venue": "20 Anson Road, Singapore 079912",
+    "hosts": [
+      "The Agentic AI Club"
+    ],
+    "calendar": "",
+    "cover": null,
+    "guests": null,
+    "vendors": [],
+    "source": "manual",
+    "kind": "manual",
+    "note": "Practical session on Jev and where it fits in a real AI stack; 6-8 PM SGT, with networking afterward."
   }
 ]
