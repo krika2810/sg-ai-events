@@ -1380,5 +1380,32 @@
     "source": "manual",
     "kind": "manual",
     "note": "Practical session on Jev and where it fits in a real AI stack; 6-8 PM SGT, with networking afterward."
+  },
+  {
+    "id": "manual-sg-agentic-nights-docker-20261029",
+    "name": "SG Agentic Nights - Exclusive Hands on Labs with Docker",
+    "url": "https://globalai.community/e/rjlhdm80",
+    "start": "2026-10-29T08:00:00.000Z",
+    "end": "2026-10-29T11:30:00.000Z",
+    "tz": "Asia/Singapore",
+    "virtual": false,
+    "sg": true,
+    "venue": "UBS Singapore, 9 Penang Road, Singapore 238459",
+    "hosts": [
+      "Global AI Singapore",
+      "Docker",
+      "UBS",
+      "Microsoft"
+    ],
+    "calendar": "",
+    "cover": null,
+    "guests": null,
+    "vendors": [
+      "Docker",
+      "Microsoft"
+    ],
+    "source": "manual",
+    "kind": "manual",
+    "note": "Official Global AI Community listing: Thu Oct 29, 4-7:30 PM SGT at UBS Singapore. Technical talks and hands-on learning on agentic applications, security and enterprise AI."
   }
 ]
