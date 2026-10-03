@@ -66,14 +66,14 @@
   },
   {
     "id": "manual-agentcon-sg-2026",
-    "name": "AgentCon Singapore (Global AI Community)",
+    "name": "AgentCon - Singapore",
     "url": "https://globalai.community/e/awgteae7",
-    "start": "2026-11-05T01:00:00.000Z",
-    "end": "2026-11-05T10:00:00.000Z",
+    "start": "2026-11-05T00:30:00.000Z",
+    "end": "2026-11-05T09:00:00.000Z",
     "tz": "Asia/Singapore",
     "virtual": false,
     "sg": true,
-    "venue": "Singapore",
+    "venue": "Singapore University of Technology and Design (SUTD), 8 Somapah Rd, Singapore 487372",
     "hosts": [
       "Global AI Community"
     ],
@@ -82,7 +82,8 @@
     "guests": null,
     "vendors": [],
     "source": "manual",
-    "kind": "manual"
+    "kind": "manual",
+    "note": "Official listing states Nov 5, 8:30 AM-5:00 PM SGT at SUTD, with talks, technical workshops, demos, and AI agents content."
   },
   {
     "id": "manual-sbr-tech-summit-2026",
@@ -1407,5 +1408,30 @@
     "source": "manual",
     "kind": "manual",
     "note": "Official Global AI Community listing: Thu Oct 29, 4-7:30 PM SGT at UBS Singapore. Technical talks and hands-on learning on agentic applications, security and enterprise AI."
+  },
+  {
+    "id": "manual-databricks-daisi-hackathon-2026",
+    "name": "Databricks AI Social Impact (DAISI) Challenge - Singapore",
+    "url": "https://hackathonsingapore.com/events/databricks-ai-social-impact-daisi-challenge-singapore",
+    "start": "2026-09-16T00:00:00.000Z",
+    "end": "2026-10-07T16:00:00.000Z",
+    "tz": "Asia/Singapore",
+    "virtual": false,
+    "sg": true,
+    "venue": "Singapore (student challenge; demo-day venue details TBA)",
+    "hosts": [
+      "Databricks Singapore"
+    ],
+    "calendar": "",
+    "cover": null,
+    "guests": null,
+    "vendors": [
+      "Databricks"
+    ],
+    "source": "manual",
+    "kind": "manual",
+    "note": "Open to Singapore IHL students; submissions close Oct 7 at 12:00 AM SGT. Teams build on Databricks Free Edition at no cost, with Databricks engineer mentoring; winning teams receive US$24,500 total value in credits, training and certification. Official Devpost and event calendar list a noon deadline while other event summaries say Oct 6 23:59 SGT (same instant); Oct 27 Demo Day listing remains separately tracked.",
+    "credits": "Teams build free on Databricks Free Edition; top 3 teams share US$24,500 in credits, training and certification",
+    "credits_kind": "perk"
   }
 ]
