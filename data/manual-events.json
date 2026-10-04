@@ -1433,5 +1433,72 @@
     "note": "Open to Singapore IHL students; submissions close Oct 7 at 12:00 AM SGT. Teams build on Databricks Free Edition at no cost, with Databricks engineer mentoring; winning teams receive US$24,500 total value in credits, training and certification. Official Devpost and event calendar list a noon deadline while other event summaries say Oct 6 23:59 SGT (same instant); Oct 27 Demo Day listing remains separately tracked.",
     "credits": "Teams build free on Databricks Free Edition; top 3 teams share US$24,500 in credits, training and certification",
     "credits_kind": "perk"
+  },
+  {
+    "id": "manual-mindstone-sg-ai-meetup-20261104",
+    "name": "Mindstone Singapore November AI Meetup",
+    "url": "https://www.meetup.com/mindstone-singapore-ai-meetup/events/316567489/",
+    "start": "2026-11-04T10:30:00.000Z",
+    "end": "2026-11-04T13:00:00.000Z",
+    "tz": "Asia/Singapore",
+    "virtual": false,
+    "sg": true,
+    "venue": "EHL Campus (Singapore), 3 Lady Hill Rd, Singapore 258672",
+    "hosts": [
+      "Mindstone Singapore AI Meetup"
+    ],
+    "calendar": "",
+    "cover": null,
+    "guests": null,
+    "vendors": [],
+    "source": "manual",
+    "kind": "manual",
+    "note": "Three AI talks, demos and networking; Meetup page confirms Nov 4, 6:30-9:00 PM SGT and the EHL Campus venue."
+  },
+  {
+    "id": "manual-humanoid-hack-singapore-20261031",
+    "name": "Humanoid Hack Singapore",
+    "url": "https://hackathonsingapore.com/events/humanoid-hack-singapore",
+    "start": "2026-10-31T02:00:00.000Z",
+    "end": "2026-11-01T10:30:00.000Z",
+    "tz": "Asia/Singapore",
+    "virtual": false,
+    "sg": true,
+    "venue": "Singapore (exact address shared with registered guests)",
+    "hosts": [
+      "Orboh, Inc.",
+      "Acacia College"
+    ],
+    "calendar": "",
+    "cover": null,
+    "guests": null,
+    "vendors": [],
+    "source": "manual",
+    "kind": "manual",
+    "note": "In-person humanoid-robot hackathon on Unitree G1 robots, Oct 31-Nov 1. Schedule: Oct 31 10:00 AM-10:00 PM and Nov 1 8:00 AM-6:30 PM SGT. Selection process; free Day 2 public viewer ticket offered to registrants not selected as hackers."
+  },
+  {
+    "id": "manual-nodes-2026-20261112",
+    "name": "NODES 2026",
+    "url": "https://www.meetup.com/graphdb-singapore/events/314437681/",
+    "start": "2026-11-11T20:30:00.000Z",
+    "end": "2026-11-12T06:30:00.000Z",
+    "tz": "Asia/Singapore",
+    "virtual": true,
+    "sg": false,
+    "venue": "Online",
+    "hosts": [
+      "Neo4j",
+      "Graph Database Singapore"
+    ],
+    "calendar": "",
+    "cover": null,
+    "guests": null,
+    "vendors": [
+      "Neo4j"
+    ],
+    "source": "manual",
+    "kind": "manual",
+    "note": "Free online conference; Meetup event metadata explicitly marks eventType ONLINE and VirtualLocation. Listed Nov 12, 4:30 AM-2:30 PM SGT; AI engineering tracks cover generative AI, RAG, agents and intelligent systems."
   }
 ]

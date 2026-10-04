@@ -15,10 +15,6 @@
     "text": "Free Kimi vouchers (details TBA on page)",
     "kind": "perk"
   },
-  "https://lu.ma/26fqf3hy": {
-    "text": "Free AI credits for all hackathon participants + registration gifts; SGD 10,000 top cash prize",
-    "kind": "credits"
-  },
   "https://lu.ma/6wcmwhqz": {
     "text": "Platform access + compute credits provided by Bitdeer AI for the workshop",
     "kind": "credits"
@@ -38,5 +34,9 @@
   "https://luma.com/j7it396i": {
     "text": "Approved attendees may receive complimentary Google Cloud and Gemini resources and experience credits (amount and eligibility not stated)",
     "kind": "perk"
+  },
+  "https://luma.com/26fqf3hy": {
+    "text": "1,000 credits per registered participant to use Tencent CodeBuddy, WorkBuddy and Tencent Design Miora. All participants receive CodeBuddy and WorkBuddy credits; top Demo Day teams win SGD 10,000 / 5,000 / 2,000.",
+    "kind": "credits"
   }
 }
