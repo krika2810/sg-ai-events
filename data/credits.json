@@ -38,5 +38,9 @@
   "https://luma.com/26fqf3hy": {
     "text": "1,000 credits per registered participant to use Tencent CodeBuddy, WorkBuddy and Tencent Design Miora. All participants receive CodeBuddy and WorkBuddy credits; top Demo Day teams win SGD 10,000 / 5,000 / 2,000.",
     "kind": "credits"
+  },
+  "https://hackathonsingapore.com/events/common-ground-makeathon-design-x-tech-x-culture": {
+    "text": "All participants receive Codex credits to prototype; USD $5,000 Codex credits prize pool judged across both tracks.",
+    "kind": "perk"
   }
 }

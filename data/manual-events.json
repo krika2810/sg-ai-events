@@ -1500,5 +1500,28 @@
     "source": "manual",
     "kind": "manual",
     "note": "Free online conference; Meetup event metadata explicitly marks eventType ONLINE and VirtualLocation. Listed Nov 12, 4:30 AM-2:30 PM SGT; AI engineering tracks cover generative AI, RAG, agents and intelligent systems."
+  },
+  {
+    "id": "manual-common-ground-makeathon-20261011",
+    "name": "Common Ground Makeathon: Design x Tech x Culture",
+    "url": "https://hackathonsingapore.com/events/common-ground-makeathon-design-x-tech-x-culture",
+    "start": "2026-10-11T01:00:00.000Z",
+    "end": "2026-10-11T09:00:00.000Z",
+    "tz": "Asia/Singapore",
+    "virtual": false,
+    "sg": true,
+    "venue": "SQ Collective, Singapore",
+    "hosts": [
+      "Common Ground"
+    ],
+    "calendar": "",
+    "cover": null,
+    "guests": null,
+    "vendors": [
+      "OpenAI"
+    ],
+    "source": "manual",
+    "kind": "manual",
+    "note": "Free one-day creative-tech makeathon, 9 AM-5 PM SGT; all participants receive Codex credits. USD $5,000 Codex credits prize pool judged across both tracks."
   }
 ]
