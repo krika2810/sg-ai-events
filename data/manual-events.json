@@ -1523,5 +1523,28 @@
     "source": "manual",
     "kind": "manual",
     "note": "Free one-day creative-tech makeathon, 9 AM-5 PM SGT; all participants receive Codex credits. USD $5,000 Codex credits prize pool judged across both tracks."
+  },
+  {
+    "id": "manual-replit-tpf-singapore-20261104",
+    "name": "Ship It | Replit x TPF Singapore Edition",
+    "url": "https://luma.com/gizf6zfy",
+    "start": "2026-11-04T10:30:00.000Z",
+    "end": "2026-11-04T13:30:00.000Z",
+    "tz": "Asia/Singapore",
+    "virtual": false,
+    "sg": true,
+    "venue": "Singapore (exact venue on registration)",
+    "hosts": [
+      "The Product Folks"
+    ],
+    "calendar": "",
+    "cover": null,
+    "guests": 0,
+    "vendors": [
+      "Replit"
+    ],
+    "source": "manual",
+    "kind": "manual",
+    "note": "In-person Replit build session, 6:30-9:30 PM SGT. Event page says attendees leave with Replit credits to continue building after the event; amount and eligibility not specified."
   }
 ]

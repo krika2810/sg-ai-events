@@ -42,5 +42,9 @@
   "https://hackathonsingapore.com/events/common-ground-makeathon-design-x-tech-x-culture": {
     "text": "All participants receive Codex credits to prototype; USD $5,000 Codex credits prize pool judged across both tracks.",
     "kind": "perk"
+  },
+  "https://luma.com/gizf6zfy": {
+    "text": "Replit credits to continue building after the event; amount and eligibility not specified.",
+    "kind": "credits"
   }
 }
