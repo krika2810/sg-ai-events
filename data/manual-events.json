@@ -1546,5 +1546,33 @@
     "source": "manual",
     "kind": "manual",
     "note": "In-person Replit build session, 6:30-9:30 PM SGT. Event page says attendees leave with Replit credits to continue building after the event; amount and eligibility not specified."
+  },
+  {
+    "id": "manual-aigov-meetup-singapore-20261029",
+    "name": "AIGov Meetup Singapore: Agentic AI Governance",
+    "url": "https://www.meetup.com/collabnix/events/316863949/",
+    "start": "2026-10-29T10:00:00.000Z",
+    "end": "2026-10-29T13:00:00.000Z",
+    "tz": "Asia/Singapore",
+    "virtual": false,
+    "sg": true,
+    "venue": "ThoughtWorks, 18 Cross St, #12-01 18 Cross, Singapore 048423",
+    "hosts": [
+      "Collabnix",
+      "Docker",
+      "Thoughtworks",
+      "Cloudera"
+    ],
+    "calendar": "",
+    "cover": null,
+    "guests": null,
+    "vendors": [
+      "Docker",
+      "Thoughtworks",
+      "Cloudera"
+    ],
+    "source": "manual",
+    "kind": "manual",
+    "note": "In-person governance meetup. 6:00-9:00 PM SGT; talks on Docker Sandboxes for governing AI coding agents, Thoughtworks and Cloudera. Meetup duplicated this event under two group slugs; retained collabnix URL."
   }
 ]
