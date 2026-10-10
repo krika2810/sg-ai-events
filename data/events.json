@@ -53,29 +53,6 @@
   "last_seen": "2026-10-10"
  },
  {
-  "id": "evt-Q00FFp9yLjDnTvW",
-  "url": "https://lu.ma/ri5l6eqh",
-  "name": "AI Tinkerers Singapore — Build and demo to Joe Heitzeberg, founder of AI Tinkerer -",
-  "start": "2026-10-10T01:30:00.000Z",
-  "end": "2026-10-10T04:30:00.000Z",
-  "tz": "Asia/Singapore",
-  "virtual": false,
-  "sg": true,
-  "venue": "Singapore",
-  "hosts": [
-   "Son Le Thanh"
-  ],
-  "calendar": "AI Tinkerers Singapore",
-  "calendar_id": "cal-RJzlehiWa4JSyuL",
-  "cover": "https://images.lumacdn.com/uploads/hu/2e8b05c0-da20-4da5-a22a-6db26a89daf8.png",
-  "guests": 29,
-  "vendors": [],
-  "source": "cal:cal-RJzlehiWa4JSyuL",
-  "kind": "luma",
-  "first_seen": "2026-09-14",
-  "last_seen": "2026-10-10"
- },
- {
   "id": "manual-common-ground-makeathon-20261011",
   "name": "Common Ground Makeathon: Design x Tech x Culture",
   "url": "https://hackathonsingapore.com/events/common-ground-makeathon-design-x-tech-x-culture",
@@ -118,7 +95,7 @@
   "calendar": "Personal",
   "calendar_id": "cal-H6itAGU0hJPX8Ua",
   "cover": "https://images.lumacdn.com/gallery-images/87/0b766ae1-14a6-4eae-925f-75e0515c671f.png",
-  "guests": 0,
+  "guests": 7,
   "vendors": [
    "Anthropic"
   ],
@@ -152,6 +129,34 @@
   "last_seen": "2026-10-10"
  },
  {
+  "id": "evt-g1BNSA2VcIxzOFM",
+  "url": "https://lu.ma/mas4a3v1",
+  "name": "DeepHumanity.ai Storylabs Session & Networking",
+  "start": "2026-10-12T10:30:00.000Z",
+  "end": "2026-10-12T12:30:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "*SCAPE, 2 Orchard Link, Singapore 237978",
+  "hosts": [
+   "Kimberly Tan",
+   "Angeline D",
+   "Freddy Lim",
+   "Richard Bleasdale"
+  ],
+  "calendar": "Claude SG Community",
+  "calendar_id": "cal-Dkjza6RmAxAYMWj",
+  "cover": "https://images.lumacdn.com/uploads/rp/eccaf4c7-9a07-45ca-9b0e-13419b4bd809.jpg",
+  "guests": 150,
+  "vendors": [
+   "Anthropic"
+  ],
+  "source": "luma-sg-feed+luma-category:cat-ai+luma-category:cat-tech+cal:Claude SG Community",
+  "kind": "luma",
+  "first_seen": "2026-09-08",
+  "last_seen": "2026-10-10"
+ },
+ {
   "id": "evt-2y8vhHJoDSKQ5KF",
   "url": "https://lu.ma/3ypd6s00",
   "name": "The Enterprise AI Mixer with OpenAI, Supabase, FailSafe, Notion, and AWS",
@@ -180,34 +185,6 @@
   "source": "luma-sg-feed+luma-category:cat-ai+luma-category:cat-tech+cal:cal-AMEyZlEbAQV74VG",
   "kind": "luma",
   "first_seen": "2026-10-10",
-  "last_seen": "2026-10-10"
- },
- {
-  "id": "evt-g1BNSA2VcIxzOFM",
-  "url": "https://lu.ma/mas4a3v1",
-  "name": "DeepHumanity.ai Storylabs Session & Networking",
-  "start": "2026-10-12T10:30:00.000Z",
-  "end": "2026-10-12T12:30:00.000Z",
-  "tz": "Asia/Singapore",
-  "virtual": false,
-  "sg": true,
-  "venue": "*SCAPE, 2 Orchard Link, Singapore 237978",
-  "hosts": [
-   "Kimberly Tan",
-   "Angeline D",
-   "Freddy Lim",
-   "Richard Bleasdale"
-  ],
-  "calendar": "Claude SG Community",
-  "calendar_id": "cal-Dkjza6RmAxAYMWj",
-  "cover": "https://images.lumacdn.com/uploads/rp/eccaf4c7-9a07-45ca-9b0e-13419b4bd809.jpg",
-  "guests": 145,
-  "vendors": [
-   "Anthropic"
-  ],
-  "source": "cal:Claude SG Community",
-  "kind": "luma",
-  "first_seen": "2026-09-08",
   "last_seen": "2026-10-10"
  },
  {
@@ -343,7 +320,7 @@
  {
   "id": "evt-IVtJmoCO3cCLhtB",
   "url": "https://lu.ma/cqtdcolv",
-  "name": "OpenBuilder x Ortcloud Hands On Workshop: Deploy Your AI Agent to Production",
+  "name": "Deploy Your AI Infrastructure By Ortcloud and OpenBuilder",
   "start": "2026-10-13T10:00:00.000Z",
   "end": "2026-10-13T13:00:00.000Z",
   "tz": "Asia/Singapore",
@@ -358,7 +335,7 @@
   "calendar": "Personal",
   "calendar_id": "cal-7xEpna9688PSFwd",
   "cover": "https://images.lumacdn.com/uploads/ow/ccaa3ff0-c437-4add-a063-646c47cf2fb2.png",
-  "guests": 78,
+  "guests": 79,
   "vendors": [],
   "source": "cal:The AI Capitol / OpenBuilder",
   "kind": "luma",
@@ -366,6 +343,29 @@
   "last_seen": "2026-10-10",
   "credits": "Ortcloud credits for attendees to keep building after the workshop (plus a live agent on your own Ortcloud VM)",
   "credits_kind": "credits"
+ },
+ {
+  "id": "evt-EAp2PUktaX13HeS",
+  "url": "https://lu.ma/hzc10o5v",
+  "name": "AI x Climate Risk: From Forecast to Decision",
+  "start": "2026-10-13T10:30:00.000Z",
+  "end": "2026-10-13T13:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Lorong AI @ One-North, 69 Ayer Rajah Cres., Level 3 Vidacity, Singapore 139961",
+  "hosts": [
+   "Lorong AI"
+  ],
+  "calendar": "Lorong AI",
+  "calendar_id": "cal-6iIeDGNQ7vK8cfx",
+  "cover": "https://images.lumacdn.com/uploads/6a/9a729945-1db2-4ad7-b444-c085eb837b97.jpg",
+  "guests": 0,
+  "vendors": [],
+  "source": "luma-sg-feed+luma-category:cat-ai+luma-category:cat-tech+cal:cal-6iIeDGNQ7vK8cfx",
+  "kind": "luma",
+  "first_seen": "2026-09-28",
+  "last_seen": "2026-10-10"
  },
  {
   "id": "evt-LJb24g91EB1BnF9",
@@ -410,36 +410,13 @@
   "calendar": "Claude SG Community",
   "calendar_id": "cal-Dkjza6RmAxAYMWj",
   "cover": "https://images.lumacdn.com/uploads/di/a3964fb4-c2a4-4029-b837-00021fd4cd7f.jpg",
-  "guests": 26,
+  "guests": 28,
   "vendors": [
    "Anthropic"
   ],
   "source": "cal:Claude SG Community",
   "kind": "luma",
   "first_seen": "2026-09-24",
-  "last_seen": "2026-10-10"
- },
- {
-  "id": "evt-EAp2PUktaX13HeS",
-  "url": "https://lu.ma/hzc10o5v",
-  "name": "AI x Climate Risk: From Forecast to Decision",
-  "start": "2026-10-13T10:30:00.000Z",
-  "end": "2026-10-13T13:00:00.000Z",
-  "tz": "Asia/Singapore",
-  "virtual": false,
-  "sg": true,
-  "venue": "Lorong AI @ One-North, 69 Ayer Rajah Cres., Level 3 Vidacity, Singapore 139961",
-  "hosts": [
-   "Lorong AI"
-  ],
-  "calendar": "Lorong AI",
-  "calendar_id": "cal-6iIeDGNQ7vK8cfx",
-  "cover": "https://images.lumacdn.com/uploads/6a/9a729945-1db2-4ad7-b444-c085eb837b97.jpg",
-  "guests": 0,
-  "vendors": [],
-  "source": "cal:cal-6iIeDGNQ7vK8cfx",
-  "kind": "luma",
-  "first_seen": "2026-09-28",
   "last_seen": "2026-10-10"
  },
  {
@@ -556,7 +533,7 @@
   "calendar": "Personal",
   "calendar_id": "cal-nKCyp2f0b6rvJUm",
   "cover": "https://images.lumacdn.com/uploads/al/8d330159-e7da-4ed4-8958-9e53507b79b5.png",
-  "guests": 116,
+  "guests": 117,
   "vendors": [
    "Google"
   ],
@@ -637,7 +614,7 @@
  {
   "id": "evt-ddrNfK9jfNgHk2X",
   "url": "https://lu.ma/s391bqwl",
-  "name": "Tencent Cloud x Gentube | AI CAN DO IT Hackathon 2026: AI Film & Creative Challenge",
+  "name": "Tencent Cloud x Gentube | AI CAN DO IT Hackathon: AI Film & Creative Challenge",
   "start": "2026-10-15T07:30:00.000Z",
   "end": "2026-10-15T09:30:00.000Z",
   "tz": "Asia/Singapore",
@@ -742,7 +719,8 @@
   "hosts": [
    "Lorong AI",
    "Tung Meng Fai",
-   "RJ He"
+   "RJ He",
+   "Ethan Sia"
   ],
   "calendar": "Lorong AI",
   "calendar_id": "cal-6iIeDGNQ7vK8cfx",
@@ -795,7 +773,7 @@
   "calendar": "Personal",
   "calendar_id": "cal-7xEpna9688PSFwd",
   "cover": "https://images.lumacdn.com/uploads/yj/1f87683e-24e2-4d93-9247-d49b8b4aa652.jpg",
-  "guests": 69,
+  "guests": 74,
   "vendors": [],
   "source": "luma-sg-feed+luma-category:cat-ai+luma-category:cat-tech+cal:The AI Capitol / OpenBuilder",
   "kind": "luma",
@@ -843,7 +821,7 @@
   "calendar": "Claude SG Community",
   "calendar_id": "cal-Dkjza6RmAxAYMWj",
   "cover": "https://images.lumacdn.com/uploads/dg/7d1523e9-d031-4bf3-b534-a2efeb8a00fa.jpg",
-  "guests": 149,
+  "guests": 181,
   "vendors": [
    "Anthropic"
   ],
@@ -1070,7 +1048,7 @@
   "calendar": "Techies",
   "calendar_id": "cal-i9QxU3ZODPclPpp",
   "cover": "https://images.lumacdn.com/uploads/6f/d27262c0-06f3-48d2-8832-b865141bb6c8.jpg",
-  "guests": 128,
+  "guests": 131,
   "vendors": [],
   "source": "luma-sg-feed+luma-category:cat-ai+luma-category:cat-tech+cal:cal-i9QxU3ZODPclPpp",
   "kind": "luma",
