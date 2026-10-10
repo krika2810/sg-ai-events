@@ -36,6 +36,8 @@ h1 .dot{color:var(--accent)}
 #search:focus{outline:none;border-color:var(--accent)}
 #search::placeholder{color:var(--faint)}
 .vendors{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.mobile-tools{display:none}
+.vendor-toggle{display:none}
 .vchip{border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:999px;padding:3px 10px;font-size:12px;cursor:pointer;user-select:none}
 .vchip:hover{border-color:var(--faint);color:var(--text)}
 .vchip.on{background:var(--blue-soft);border-color:var(--blue-line);color:var(--blue);font-weight:600}
@@ -48,7 +50,24 @@ h1 .dot{color:var(--accent)}
 /* event cards - Luma style */
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
 @media(max-width:960px){.grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:620px){.grid{grid-template-columns:1fr}}
+@media(max-width:620px){
+  .grid{grid-template-columns:1fr}
+  header.top{position:sticky;top:0;backdrop-filter:blur(8px)}
+  header.top .wrap{padding:6px 12px}
+  .brand{gap:6px;align-items:center;flex-wrap:nowrap}
+  h1{font-size:16px;white-space:nowrap}
+  .meta{font-size:10.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .controls{display:flex;gap:5px;margin-top:6px}
+  .controls .chip{display:none;flex:0 0 auto;padding:4px 8px;font-size:11.5px}
+  header.top.expanded .controls .chip{display:block}
+  #search{flex:1 1 100%;min-width:0;padding:5px 10px;font-size:12px}
+  .mobile-tools{display:flex;justify-content:flex-end;margin-top:3px}
+  .header-toggle{border:0;background:transparent;color:var(--muted);font-size:11px;padding:2px 4px;cursor:pointer}
+  .vendors{display:none;margin-top:6px}
+  header.top.expanded .vendors{display:flex}
+  .vchip{padding:2px 8px;font-size:11px}
+  #countline{display:none}
+}
 .card{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;position:relative;transition:box-shadow .15s,transform .15s}
 .card:hover{box-shadow:0 6px 24px rgba(15,23,42,.09);transform:translateY(-1px)}
 .card.registered{border-color:var(--green-line);box-shadow:0 0 0 1.5px var(--green)}
@@ -92,6 +111,7 @@ footer{margin-top:44px;border-top:1px solid var(--line);padding-top:18px;color:v
     <div class="chip" data-f="registered">✓ Registered</div>
     <input id="search" type="search" placeholder="Search events, hosts, venues...">
   </div>
+  <div class="mobile-tools"><button class="header-toggle" id="header-toggle" type="button" aria-expanded="false">Filters & hosts <span id="header-toggle-mark">＋</span></button></div>
   <div class="vendors" id="vendors"></div>
   <div id="countline"></div>
 </div></header>
@@ -199,6 +219,11 @@ async function boot(){
   // vendor chips
   const vs=new Set();EVENTS.forEach(e=>(e.vendors||[]).forEach(v=>vs.add(v)));
   $('#vendors').innerHTML=[...vs].sort().map(v=>`<span class="vchip" data-v="${esc(v)}">${esc(v)}</span>`).join('');
+  $('#header-toggle').onclick=()=>{
+    const open=$('header.top').classList.toggle('expanded');
+    $('#header-toggle').setAttribute('aria-expanded',String(open));
+    $('#header-toggle-mark').textContent=open?'−':'＋';
+  };
   document.querySelectorAll('.vchip').forEach(c=>c.onclick=()=>{const v=c.dataset.v;state.vendors.has(v)?state.vendors.delete(v):state.vendors.add(v);c.classList.toggle('on');render()});
   document.querySelectorAll('#filters .chip').forEach(c=>c.onclick=()=>{
     document.querySelectorAll('#filters .chip').forEach(x=>x.classList.remove('on'));c.classList.add('on');state.f=c.dataset.f;render();
