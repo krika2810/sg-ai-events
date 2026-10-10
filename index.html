@@ -127,6 +127,8 @@ footer{margin-top:44px;border-top:1px solid var(--line);padding-top:18px;color:v
 <script>
 const $=s=>document.querySelector(s);
 let EVENTS=[],META={},state={f:'all',q:'',vendors:new Set()};
+const NOW_MS=Date.now();
+function eventIsPast(e){const end=e.end||e.start;const t=Date.parse(end||'');return Number.isFinite(t)&&t<NOW_MS;}
 const REG_KEY='sgai-registered-v1';
 const reg=new Set(JSON.parse(localStorage.getItem(REG_KEY)||'[]'));
 const saveReg=()=>localStorage.setItem(REG_KEY,JSON.stringify([...reg]));
@@ -192,7 +194,7 @@ window.toggleReg=id=>{
 };
 
 function render(){
-  const list=EVENTS.filter(matches);
+  const list=EVENTS.filter(e=>!eventIsPast(e)).filter(matches);
   const secs=$('#sections');secs.innerHTML='';
   const groups={};
   list.forEach(e=>{(groups[monthKey(e)]=groups[monthKey(e)]||[]).push(e)});
@@ -203,9 +205,10 @@ function render(){
   });
   $('#empty').style.display=list.length?'none':'block';
   // counts on chips
-  const cnt={all:EVENTS.length,sg:EVENTS.filter(e=>e.sg&&!e.virtual).length,virtual:EVENTS.filter(e=>e.virtual).length,credits:EVENTS.filter(e=>e.credits).length,registered:EVENTS.filter(e=>reg.has(e.id)).length};
+  const upcoming=EVENTS.filter(e=>!eventIsPast(e));
+  const cnt={all:upcoming.length,sg:upcoming.filter(e=>e.sg&&!e.virtual).length,virtual:upcoming.filter(e=>e.virtual).length,credits:upcoming.filter(e=>e.credits).length,registered:upcoming.filter(e=>reg.has(e.id)).length};
   document.querySelectorAll('#filters .chip').forEach(c=>{const f=c.dataset.f;const base=c.textContent.replace(/\s*\d+$/,'');c.innerHTML=esc(base)+`<span class="n">${cnt[f]}</span>`});
-  $('#countline').textContent=`Showing ${list.length} of ${EVENTS.length} events`;
+  $('#countline').textContent=`Showing ${list.length} of ${upcoming.length} events`;
 }
 
 async function boot(){
@@ -215,6 +218,7 @@ async function boot(){
   ]);
   EVENTS=ev;META=meta;
   const when=META.refreshed_at?new Date(META.refreshed_at).toLocaleString('en-SG',{timeZone:'Asia/Singapore',dateStyle:'medium',timeStyle:'short'}):'';
+  EVENTS=EVENTS.filter(e=>!eventIsPast(e));
   $('#meta').textContent=`${EVENTS.length} events · Singapore + virtual · refreshed ${when} SGT`;
   // vendor chips
   const vs=new Set();EVENTS.forEach(e=>(e.vendors||[]).forEach(v=>vs.add(v)));

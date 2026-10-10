@@ -10,8 +10,8 @@ Harvests AI events (Singapore physical + virtual) from Luma:
   5. New calendars spotted hosting AI events in Singapore are added to
      data/calendars.json so future runs watch them automatically.
 
-Archive mode: events are NEVER removed until their date has passed
-(end time older than 12 hours). Nothing else ever drops off.
+Past events are removed from the live listing once their end time has passed.
+Upcoming events remain tracked unless explicitly excluded.
 
 Run:  python3 refresh.py          (stdlib only, no dependencies)
 Then commit + push, or deploy:    vercel deploy --prod --yes --token "$VERCEL_TOKEN"
@@ -25,7 +25,7 @@ DATA = ROOT / "data"
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/126.0 Safari/537.36"}
 SG_PLACE = "discplace-mUbtdfNjfWaLQ72"
 NOW = datetime.now(timezone.utc)
-PRUNE_BEFORE = NOW - timedelta(hours=12)
+PRUNE_BEFORE = NOW
 
 # AI-dedicated calendars: keep ALL their events (SG physical or virtual)
 TRUSTED_CALENDARS = {
@@ -266,7 +266,7 @@ def main():
     # 5c) curated exclusions (event URLs or calendar ids): non-AI items pulled in by broad feeds
     excluded = {u.rstrip("/").lower() for u in load_json(DATA / "excluded-urls.json", [])}
 
-    # 6) prune only events whose date has passed
+    # 6) prune events whose end time has passed; never show expired events
     final = []
     pruned = 0
     for e in kept.values():
