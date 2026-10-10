@@ -61,7 +61,7 @@
   "tz": "Asia/Singapore",
   "virtual": false,
   "sg": true,
-  "venue": "",
+  "venue": "Singapore",
   "hosts": [
    "Son Le Thanh"
   ],
@@ -74,60 +74,6 @@
   "kind": "luma",
   "first_seen": "2026-09-14",
   "last_seen": "2026-10-10"
- },
- {
-  "id": "evt-tB0G2l03Bw69p59",
-  "url": "https://lu.ma/n0mg86x2",
-  "name": "ChatGPT Work for Finance Hands on Beginner Workshop",
-  "start": "2026-10-10T02:00:00.000Z",
-  "end": "2026-10-10T07:00:00.000Z",
-  "tz": "Asia/Singapore",
-  "virtual": false,
-  "sg": true,
-  "venue": "",
-  "hosts": [
-   "Lionel Sim",
-   "Benjamin Cheng"
-  ],
-  "calendar": "Personal",
-  "calendar_id": "cal-7xEpna9688PSFwd",
-  "cover": "https://images.lumacdn.com/uploads/57/65ed9d39-b79a-4eb0-b8a4-27852002d2d0.png",
-  "guests": 0,
-  "vendors": [
-   "OpenAI"
-  ],
-  "source": "cal:The AI Capitol / OpenBuilder",
-  "kind": "luma",
-  "first_seen": "2026-09-05",
-  "last_seen": "2026-09-08"
- },
- {
-  "id": "evt-BTh4y9FClguDuvB",
-  "url": "https://lu.ma/claude-ssil",
-  "name": "Build Your End-to-End AI Design System with Claude ad Connectors",
-  "start": "2026-10-10T22:00:00.000Z",
-  "end": "2026-10-11T01:00:00.000Z",
-  "tz": "America/Los_Angeles",
-  "virtual": true,
-  "sg": false,
-  "venue": "Online",
-  "hosts": [
-   "Arjita Sethi",
-   "Rhythm Gandhi",
-   "Build with AI Club"
-  ],
-  "calendar": "Claude Community Events",
-  "calendar_id": "cal-TOpA5LAFfuDeFpu",
-  "cover": "https://images.lumacdn.com/api-uploads/dr/87088810-c1e9-4f3a-a9a8-9a3ae4760c68.png",
-  "guests": 0,
-  "vendors": [
-   "Anthropic",
-   "Google"
-  ],
-  "source": "cal:Claude Community Events",
-  "kind": "luma",
-  "first_seen": "2026-09-24",
-  "last_seen": "2026-09-24"
  },
  {
   "id": "manual-common-ground-makeathon-20261011",
@@ -165,7 +111,7 @@
   "tz": "Asia/Singapore",
   "virtual": false,
   "sg": true,
-  "venue": "",
+  "venue": "Singapore",
   "hosts": [
    "Akriti Vij"
   ],
@@ -190,7 +136,7 @@
   "tz": "Asia/Singapore",
   "virtual": false,
   "sg": true,
-  "venue": "",
+  "venue": "Singapore",
   "hosts": [
    "Lionel Sim",
    "Carl Dimick Enyegue"
@@ -214,7 +160,7 @@
   "tz": "Asia/Singapore",
   "virtual": false,
   "sg": true,
-  "venue": "",
+  "venue": "Singapore",
   "hosts": [
    "Aneirin Flynn",
    "lilycak3s | AWS",
@@ -231,7 +177,7 @@
    "OpenAI",
    "AWS"
   ],
-  "source": "luma-sg-feed",
+  "source": "luma-sg-feed+luma-category:cat-ai+luma-category:cat-tech+cal:cal-AMEyZlEbAQV74VG",
   "kind": "luma",
   "first_seen": "2026-10-10",
   "last_seen": "2026-10-10"
@@ -265,30 +211,51 @@
   "last_seen": "2026-10-10"
  },
  {
-  "id": "evt-tWUwDV5y1nAzRxM",
-  "url": "https://lu.ma/aic-kc-roundtable28",
-  "name": "AI Roundtable #28: Beyond Assistants - What Autonomous AI Agents Change About Work (w/ The AI Collective KC & Voyage Consulting)",
-  "start": "2026-10-12T17:00:00.000Z",
-  "end": "2026-10-12T18:00:00.000Z",
-  "tz": "America/Chicago",
+  "id": "sginnovate-sincon-trainings-ai-security-laboratory-hands-full-stack-lifetime-lab-access",
+  "name": "[SINCON Trainings] AI Security Laboratory: Hands-On + Full-Stack (Lifetime Lab Access)",
+  "url": "https://www.sginnovate.com/event/sincon-trainings-ai-security-laboratory-hands-full-stack-lifetime-lab-access",
+  "start": "2026-10-13T00:00:00+08:00",
+  "end": "2026-10-13T02:00:00+08:00",
+  "tz": "Asia/Singapore",
   "virtual": true,
   "sg": false,
   "venue": "Online",
   "hosts": [
-   "The AI Collective",
-   "Daniel Green",
-   "Kelly Byrnes",
-   "Alex Colley",
-   "Kristina Sorrelli"
+   "SGInnovate"
   ],
-  "calendar": "The AI Collective",
-  "calendar_id": "cal-E74MDlDKBaeAwXK",
-  "cover": "https://images.lumacdn.com/api-uploads/z9/dc62e8c6-12d0-4be7-b884-0b1f97bb9c3f.png",
-  "guests": 0,
+  "calendar": "SGInnovate",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [
+   "OpenAI"
+  ],
+  "source": "sginnovate",
+  "kind": "sginnovate",
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10"
+ },
+ {
+  "id": "sginnovate-ai-builders-night-build-seedance-25",
+  "name": "AI Builders Night: Build with Seedance 2.5",
+  "url": "https://www.sginnovate.com/event/ai-builders-night-build-seedance-25",
+  "start": "2026-10-13T00:00:00+08:00",
+  "end": "2026-10-13T02:00:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "32 Carpenter Street, 059911\" />",
+  "hosts": [
+   "SGInnovate"
+  ],
+  "calendar": "SGInnovate",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
   "vendors": [],
-  "source": "cal:The AI Collective",
-  "kind": "luma",
-  "first_seen": "2026-10-07",
+  "source": "sginnovate",
+  "kind": "sginnovate",
+  "first_seen": "2026-10-10",
   "last_seen": "2026-10-10"
  },
  {
@@ -300,7 +267,7 @@
   "tz": "Asia/Singapore",
   "virtual": false,
   "sg": true,
-  "venue": "",
+  "venue": "Singapore",
   "hosts": [
    "Max Del Vita",
    "Gang Rui",
@@ -315,7 +282,7 @@
   "vendors": [
    "Anthropic"
   ],
-  "source": "luma-sg-feed+cal:Claude Community Events",
+  "source": "luma-sg-feed+luma-category:cat-ai+luma-category:cat-tech+cal:Claude Community Events",
   "kind": "luma",
   "first_seen": "2026-10-06",
   "last_seen": "2026-10-10"
@@ -338,7 +305,7 @@
   "cover": "https://images.lumacdn.com/uploads/kj/30993346-c3a7-45d5-abc0-f671d021eb7d.jpg",
   "guests": 0,
   "vendors": [],
-  "source": "luma-sg-feed+cal:cal-6iIeDGNQ7vK8cfx",
+  "source": "luma-sg-feed+luma-category:cat-ai+luma-category:cat-tech+cal:cal-6iIeDGNQ7vK8cfx",
   "kind": "luma",
   "first_seen": "2026-10-02",
   "last_seen": "2026-10-10"
@@ -352,7 +319,7 @@
   "tz": "Asia/Singapore",
   "virtual": false,
   "sg": true,
-  "venue": "",
+  "venue": "Singapore",
   "hosts": [
    "Max Del Vita",
    "Gang Rui",
@@ -368,7 +335,7 @@
   "vendors": [
    "Anthropic"
   ],
-  "source": "luma-sg-feed+cal:Claude Community Events",
+  "source": "luma-sg-feed+luma-category:cat-ai+luma-category:cat-tech+cal:Claude Community Events",
   "kind": "luma",
   "first_seen": "2026-09-29",
   "last_seen": "2026-10-10"
@@ -382,7 +349,7 @@
   "tz": "Asia/Singapore",
   "virtual": false,
   "sg": true,
-  "venue": "",
+  "venue": "Singapore",
   "hosts": [
    "Lionel Sim",
    "Carl Dimick Enyegue",
@@ -418,7 +385,7 @@
   "cover": "https://images.lumacdn.com/event-covers/oi/3f64f340-a7e8-410d-88c4-ffba55e5f9fd.jpg",
   "guests": 0,
   "vendors": [],
-  "source": "luma-sg-feed+cal:SG AI & Robotics Demo Nights",
+  "source": "luma-sg-feed+luma-category:cat-ai+luma-category:cat-tech+cal:SG AI & Robotics Demo Nights",
   "kind": "luma",
   "first_seen": "2026-09-05",
   "last_seen": "2026-10-10"
@@ -432,7 +399,7 @@
   "tz": "Asia/Singapore",
   "virtual": false,
   "sg": true,
-  "venue": "",
+  "venue": "Singapore",
   "hosts": [
    "Kimberly Tan",
    "Freddy Lim",
@@ -473,6 +440,31 @@
   "source": "cal:cal-6iIeDGNQ7vK8cfx",
   "kind": "luma",
   "first_seen": "2026-09-28",
+  "last_seen": "2026-10-10"
+ },
+ {
+  "id": "sginnovate-pipeline-close-building-your-ai-sales-engine-google-cloud-x-jdi-x-ingram",
+  "name": "From Pipeline to Close: Building Your AI Sales Engine | Google Cloud x JDI x Ingram",
+  "url": "https://www.sginnovate.com/event/pipeline-close-building-your-ai-sales-engine-google-cloud-x-jdi-x-ingram",
+  "start": "2026-10-14T00:00:00+08:00",
+  "end": "2026-10-14T02:00:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Google Office, 70 Pasir Panjang Rd, #03-71 , 117371",
+  "hosts": [
+   "SGInnovate"
+  ],
+  "calendar": "SGInnovate",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [
+   "Google"
+  ],
+  "source": "sginnovate",
+  "kind": "sginnovate",
+  "first_seen": "2026-10-10",
   "last_seen": "2026-10-10"
  },
  {
@@ -556,7 +548,7 @@
   "tz": "Asia/Singapore",
   "virtual": false,
   "sg": true,
-  "venue": "",
+  "venue": "Singapore",
   "hosts": [
    "Sherry Jiang",
    "Emily Nguyen"
@@ -574,30 +566,73 @@
   "last_seen": "2026-10-10"
  },
  {
-  "id": "evt-VqJLcNRFMluK5qx",
-  "url": "https://lu.ma/aic-gl-10-14",
-  "name": "Can AI Help Prevent Toxic Relationships and Gender-Based Violence? Lessons from Finland and Brazil",
-  "start": "2026-10-14T16:00:00.000Z",
-  "end": "2026-10-14T17:30:00.000Z",
-  "tz": "Europe/Paris",
+  "id": "meetup-316908352",
+  "name": "APAC Cloud Native & AI Workshops - Virtual",
+  "url": "https://www.meetup.com/ksug-sg/events/316908352/",
+  "start": "2026-10-14T15:00:00+08:00",
+  "end": "2026-10-14T17:00:00+08:00",
+  "tz": "Asia/Singapore",
   "virtual": true,
   "sg": false,
   "venue": "Online",
   "hosts": [
-   "The AI Collective",
-   "Ana De Alencar",
-   "AJ Green",
-   "Ana Catarina De Alencar"
+   "KSUG.AI APAC"
   ],
-  "calendar": "The AI Collective",
-  "calendar_id": "cal-E74MDlDKBaeAwXK",
-  "cover": "https://images.lumacdn.com/uploads/9k/215d5d2f-3a31-43f8-8486-83d2c67d9172.png",
-  "guests": 0,
+  "calendar": "KSUG.AI APAC",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
   "vendors": [],
-  "source": "cal:The AI Collective",
-  "kind": "luma",
-  "first_seen": "2026-09-05",
-  "last_seen": "2026-10-06"
+  "source": "meetup:ksug-sg",
+  "kind": "meetup",
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10"
+ },
+ {
+  "id": "meetup-316691360",
+  "name": "Applied AI Ethics MonthlyMixer - Where Innovation Meets Responsibility",
+  "url": "https://www.meetup.com/ac-sin/events/316691360/",
+  "start": "2026-10-14T17:00:00+08:00",
+  "end": "2026-10-14T19:00:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Analytics.Club Singapore"
+  ],
+  "calendar": "Analytics.Club Singapore",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "meetup:ac-sin",
+  "kind": "meetup",
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10"
+ },
+ {
+  "id": "meetup-316666837",
+  "name": "Oct 14 - Advances in AI at SDSU",
+  "url": "https://www.meetup.com/singapore-computer-vision-meetup/events/316666837/",
+  "start": "2026-10-15T00:00:00+08:00",
+  "end": "2026-10-15T02:00:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Singapore AI, Machine Learning and Computer Vision Meetup"
+  ],
+  "calendar": "Singapore AI, Machine Learning and Computer Vision Meetup",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "meetup:singapore-computer-vision-meetup",
+  "kind": "meetup",
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10"
  },
  {
   "id": "evt-ddrNfK9jfNgHk2X",
@@ -695,29 +730,6 @@
   "last_seen": "2026-10-10"
  },
  {
-  "id": "evt-kkzoGbdjEj2gy8S",
-  "url": "https://lu.ma/x34syq0f",
-  "name": "City Lead Town Hall",
-  "start": "2026-10-16T00:00:00.000Z",
-  "end": "2026-10-16T00:30:00.000Z",
-  "tz": "America/Los_Angeles",
-  "virtual": true,
-  "sg": false,
-  "venue": "Online",
-  "hosts": [
-   "Annie Liao"
-  ],
-  "calendar": "Build Club",
-  "calendar_id": "cal-yrYsEKDQ91hPMWy",
-  "cover": "https://images.lumacdn.com/uploads/0q/2f309dc7-3c0b-449a-b16e-3e404421e168.png",
-  "guests": 0,
-  "vendors": [],
-  "source": "cal:Build Club",
-  "kind": "luma",
-  "first_seen": "2026-09-25",
-  "last_seen": "2026-10-10"
- },
- {
   "id": "evt-fhpmlO011B2jova",
   "url": "https://lu.ma/4fx8j6ju",
   "name": "What Happens When AI Runs the Robotics Experiments?",
@@ -751,7 +763,7 @@
   "tz": "Asia/Singapore",
   "virtual": false,
   "sg": true,
-  "venue": "",
+  "venue": "Singapore",
   "hosts": [
    "B71 Singapore",
    "Nicole Yap"
@@ -761,7 +773,7 @@
   "cover": "https://images.lumacdn.com/uploads/31/15329e72-e54a-4b5e-9f9b-92ca712aa662.png",
   "guests": 28,
   "vendors": [],
-  "source": "luma-sg-feed",
+  "source": "luma-sg-feed+luma-category:cat-ai+luma-category:cat-tech+cal:cal-6LuzdQ7EQHmBAbG",
   "kind": "luma",
   "first_seen": "2026-10-10",
   "last_seen": "2026-10-10"
@@ -775,7 +787,7 @@
   "tz": "Asia/Singapore",
   "virtual": false,
   "sg": true,
-  "venue": "",
+  "venue": "Singapore",
   "hosts": [
    "Lionel Sim",
    "SMU Artificial Intelligence Club"
@@ -785,33 +797,33 @@
   "cover": "https://images.lumacdn.com/uploads/yj/1f87683e-24e2-4d93-9247-d49b8b4aa652.jpg",
   "guests": 69,
   "vendors": [],
-  "source": "luma-sg-feed+cal:The AI Capitol / OpenBuilder",
+  "source": "luma-sg-feed+luma-category:cat-ai+luma-category:cat-tech+cal:The AI Capitol / OpenBuilder",
   "kind": "luma",
   "first_seen": "2026-10-07",
   "last_seen": "2026-10-10"
  },
  {
-  "id": "evt-7hrDJuB3WkzQxEV",
-  "url": "https://lu.ma/b5ajaxw6",
-  "name": "OpenBuilder x Instinct Agent",
-  "start": "2026-10-16T10:00:00.000Z",
-  "end": "2026-10-16T13:00:00.000Z",
+  "id": "sginnovate-sincon-trainings-full-stack-pentesting-laboratory-100-hands-lifetime-lab-access",
+  "name": "[SINCON Trainings] Full-Stack Pentesting Laboratory: 100% Hands-On + Lifetime Lab Access",
+  "url": "https://www.sginnovate.com/event/sincon-trainings-full-stack-pentesting-laboratory-100-hands-lifetime-lab-access",
+  "start": "2026-10-19T00:00:00+08:00",
+  "end": "2026-10-19T02:00:00+08:00",
   "tz": "Asia/Singapore",
-  "virtual": false,
-  "sg": true,
-  "venue": "",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
   "hosts": [
-   "Lionel Sim"
+   "SGInnovate"
   ],
-  "calendar": "Personal",
-  "calendar_id": "cal-7xEpna9688PSFwd",
-  "cover": "https://images.lumacdn.com/uploads/3p/89011e8d-0b18-4c04-b83f-d13374002d50.jpg",
-  "guests": 38,
+  "calendar": "SGInnovate",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
   "vendors": [],
-  "source": "cal:The AI Capitol / OpenBuilder",
-  "kind": "luma",
-  "first_seen": "2026-09-08",
-  "last_seen": "2026-10-06"
+  "source": "sginnovate",
+  "kind": "sginnovate",
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10"
  },
  {
   "id": "evt-DRvBFw8qbJ91IZj",
@@ -835,7 +847,7 @@
   "vendors": [
    "Anthropic"
   ],
-  "source": "luma-sg-feed+cal:Claude SG Community",
+  "source": "luma-sg-feed+luma-category:cat-ai+luma-category:cat-tech+cal:Claude SG Community",
   "kind": "luma",
   "first_seen": "2026-10-07",
   "last_seen": "2026-10-10"
@@ -889,32 +901,6 @@
   "last_seen": "2026-10-10"
  },
  {
-  "id": "evt-WeBUbqHOiAlPqLR",
-  "url": "https://lu.ma/claude-qv5r",
-  "name": "Oslo | Claude Impact Lab",
-  "start": "2026-10-21T07:00:00.000Z",
-  "end": "2026-10-21T12:00:00.000Z",
-  "tz": "Europe/Oslo",
-  "virtual": true,
-  "sg": false,
-  "venue": "Online",
-  "hosts": [
-   "Aleksander Stensby",
-   "Mesh Oslo"
-  ],
-  "calendar": "Claude Community Events",
-  "calendar_id": "cal-TOpA5LAFfuDeFpu",
-  "cover": "https://images.lumacdn.com/uploads/4z/701d75a6-eceb-42e2-bc9d-5e8a972e1d33.png",
-  "guests": 0,
-  "vendors": [
-   "Anthropic"
-  ],
-  "source": "cal:Claude Community Events",
-  "kind": "luma",
-  "first_seen": "2026-10-06",
-  "last_seen": "2026-10-10"
- },
- {
   "id": "evt-DmhpUJB3KdKkeDl",
   "url": "https://lu.ma/uj0h41xe",
   "name": "The One About AI for Risk & Assurance",
@@ -946,7 +932,7 @@
   "tz": "Asia/Singapore",
   "virtual": false,
   "sg": true,
-  "venue": "",
+  "venue": "Singapore",
   "hosts": [
    "Nicky Schaub",
    "Jeffrey D Abbott",
@@ -991,31 +977,26 @@
   "last_seen": "2026-10-10"
  },
  {
-  "id": "evt-rKtFLK7dYu4HNjr",
-  "url": "https://lu.ma/ufz54chc",
-  "name": "DevDay Exchange Community: Bogotá",
-  "start": "2026-10-21T23:30:00.000Z",
-  "end": "2026-10-22T01:30:00.000Z",
-  "tz": "America/Los_Angeles",
+  "id": "meetup-316793506",
+  "name": "Agentic AI Multimodal MonthlyMixer - Where Agents Minds Meet",
+  "url": "https://www.meetup.com/ac-sin/events/316793506/",
+  "start": "2026-10-21T17:00:00+08:00",
+  "end": "2026-10-21T19:00:00+08:00",
+  "tz": "Asia/Singapore",
   "virtual": true,
   "sg": false,
   "venue": "Online",
   "hosts": [
-   "Ari Sabogal",
-   "Pauline P. Narvas",
-   "Vaibhav Srivastav",
-   "Rhiannon Payne"
+   "Analytics.Club Singapore"
   ],
-  "calendar": "Codex Community Events",
-  "calendar_id": "cal-63UOFcweB97l2gc",
-  "cover": "https://images.lumacdn.com/uploads/f4/786d3833-d3c9-49b4-8e5e-008048750190.jpg",
-  "guests": 13,
-  "vendors": [
-   "OpenAI"
-  ],
-  "source": "cal:Codex Community Events",
-  "kind": "luma",
-  "first_seen": "2026-09-24",
+  "calendar": "Analytics.Club Singapore",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "meetup:ac-sin",
+  "kind": "meetup",
+  "first_seen": "2026-10-10",
   "last_seen": "2026-10-10"
  },
  {
@@ -1089,9 +1070,9 @@
   "calendar": "Techies",
   "calendar_id": "cal-i9QxU3ZODPclPpp",
   "cover": "https://images.lumacdn.com/uploads/6f/d27262c0-06f3-48d2-8832-b865141bb6c8.jpg",
-  "guests": 125,
+  "guests": 128,
   "vendors": [],
-  "source": "luma-sg-feed+cal:cal-i9QxU3ZODPclPpp",
+  "source": "luma-sg-feed+luma-category:cat-ai+luma-category:cat-tech+cal:cal-i9QxU3ZODPclPpp",
   "kind": "luma",
   "first_seen": "2026-09-16",
   "last_seen": "2026-10-10"
@@ -1144,6 +1125,52 @@
   "last_seen": "2026-10-10"
  },
  {
+  "id": "meetup-316555260",
+  "name": "AIDataTech Connect: Global Virtual Networking Event for AI, Data & Tech Pros",
+  "url": "https://www.meetup.com/ac-sin/events/316555260/",
+  "start": "2026-10-22T17:00:00+08:00",
+  "end": "2026-10-22T19:00:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Analytics.Club Singapore"
+  ],
+  "calendar": "Analytics.Club Singapore",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "meetup:ac-sin",
+  "kind": "meetup",
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10"
+ },
+ {
+  "id": "meetup-316667028",
+  "name": "Oct 22 - Advances in AI at Virginia Tech",
+  "url": "https://www.meetup.com/singapore-computer-vision-meetup/events/316667028/",
+  "start": "2026-10-23T00:00:00+08:00",
+  "end": "2026-10-23T02:00:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Singapore AI, Machine Learning and Computer Vision Meetup"
+  ],
+  "calendar": "Singapore AI, Machine Learning and Computer Vision Meetup",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "meetup:singapore-computer-vision-meetup",
+  "kind": "meetup",
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10"
+ },
+ {
   "id": "evt-683Kovc6OMX5fJf",
   "url": "https://lu.ma/6t79vmmi",
   "name": "Build Your Own AI Personal Assistant — A Hands-On Workshop with an OpenAI Codex Ambassador",
@@ -1169,27 +1196,28 @@
   "last_seen": "2026-10-10"
  },
  {
-  "id": "evt-32DUNnRC8wq9wpP",
-  "url": "https://lu.ma/h8jncmh8",
+  "id": "evt-pnPXYT2AkzLMDGu",
+  "url": "https://lu.ma/gevpn3sm",
   "name": "Build Your Hermes AI Agent in 5 Hours workshop",
   "start": "2026-10-24T02:00:00.000Z",
   "end": "2026-10-24T07:00:00.000Z",
   "tz": "Asia/Singapore",
   "virtual": false,
   "sg": true,
-  "venue": "",
+  "venue": "Singapore",
   "hosts": [
-   "Lionel Sim"
+   "Lionel Sim",
+   "Benjamin Cheng"
   ],
   "calendar": "Personal",
   "calendar_id": "cal-7xEpna9688PSFwd",
-  "cover": "https://images.lumacdn.com/uploads/wo/d44bd642-17e5-482a-a3d2-30eeeb34b632.jpg",
-  "guests": 0,
+  "cover": "https://images.lumacdn.com/uploads/qp/bdc3fd1e-f80d-4417-97b2-cbc209bbb828.png",
+  "guests": 2,
   "vendors": [],
   "source": "cal:The AI Capitol / OpenBuilder",
   "kind": "luma",
-  "first_seen": "2026-09-26",
-  "last_seen": "2026-09-26"
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10"
  },
  {
   "id": "evt-pykpkCCEbOBow8W",
@@ -1399,6 +1427,29 @@
   "last_seen": "2026-10-10"
  },
  {
+  "id": "meetup-316758213",
+  "name": "Oct 29 - How to Build Vision Data Agents with Tools, Skills, and MCP",
+  "url": "https://www.meetup.com/singapore-computer-vision-meetup/events/316758213/",
+  "start": "2026-10-30T00:00:00+08:00",
+  "end": "2026-10-30T02:00:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Singapore AI, Machine Learning and Computer Vision Meetup"
+  ],
+  "calendar": "Singapore AI, Machine Learning and Computer Vision Meetup",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "meetup:singapore-computer-vision-meetup",
+  "kind": "meetup",
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10"
+ },
+ {
   "id": "manual-humanoid-hack-singapore-20261031",
   "name": "Humanoid Hack Singapore",
   "url": "https://hackathonsingapore.com/events/humanoid-hack-singapore",
@@ -1431,7 +1482,7 @@
   "tz": "Asia/Singapore",
   "virtual": false,
   "sg": true,
-  "venue": "",
+  "venue": "Singapore",
   "hosts": [
    "AI Builders",
    "Daytona",
@@ -1572,6 +1623,29 @@
   "credits_kind": "credits"
  },
  {
+  "id": "meetup-314946218",
+  "name": "TechConnect: Global Virtual Job & Networking Event for Data, AI, and Tech Pros",
+  "url": "https://www.meetup.com/ac-sin/events/314946218/",
+  "start": "2026-11-04T16:00:00+08:00",
+  "end": "2026-11-04T18:00:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Analytics.Club Singapore"
+  ],
+  "calendar": "Analytics.Club Singapore",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "meetup:ac-sin",
+  "kind": "meetup",
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10"
+ },
+ {
   "id": "manual-agentcon-sg-2026",
   "name": "AgentCon - Singapore",
   "url": "https://globalai.community/e/awgteae7",
@@ -1592,6 +1666,52 @@
   "kind": "manual",
   "note": "Official listing states Nov 5, 8:30 AM-5:00 PM SGT at SUTD, with talks, technical workshops, demos, and AI agents content.",
   "first_seen": "2026-09-05",
+  "last_seen": "2026-10-10"
+ },
+ {
+  "id": "meetup-316768291",
+  "name": "Nov 5 - Visual AI Agriculture Meetup",
+  "url": "https://www.meetup.com/singapore-computer-vision-meetup/events/316768291/",
+  "start": "2026-11-06T01:00:00+08:00",
+  "end": "2026-11-06T03:00:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Singapore AI, Machine Learning and Computer Vision Meetup"
+  ],
+  "calendar": "Singapore AI, Machine Learning and Computer Vision Meetup",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "meetup:singapore-computer-vision-meetup",
+  "kind": "meetup",
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10"
+ },
+ {
+  "id": "meetup-316914870",
+  "name": "AnalyticsCLUB JobExpo Virtual Business, Data & Technology Job Expo",
+  "url": "https://www.meetup.com/ac-sin/events/316914870/",
+  "start": "2026-11-06T11:00:00+08:00",
+  "end": "2026-11-06T14:00:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Analytics.Club Singapore"
+  ],
+  "calendar": "Analytics.Club Singapore",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "meetup:ac-sin",
+  "kind": "meetup",
+  "first_seen": "2026-10-10",
   "last_seen": "2026-10-10"
  },
  {
@@ -1644,6 +1764,29 @@
   "last_seen": "2026-10-10",
   "credits": "ElevenLabs credits for eligible registered participants, subject to confirmation.",
   "credits_kind": "perk"
+ },
+ {
+  "id": "meetup-phcqrtyjcpbpb",
+  "name": "Applied AI Ethics MonthlyMixer - Where Innovation Meets Responsibility",
+  "url": "https://www.meetup.com/ac-sin/events/phcqrtyjcpbpb/",
+  "start": "2026-11-11T17:00:00+08:00",
+  "end": "2026-11-11T19:00:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Analytics.Club Singapore"
+  ],
+  "calendar": "Analytics.Club Singapore",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "meetup:ac-sin",
+  "kind": "meetup",
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10"
  },
  {
   "id": "manual-nov11-ai-ml-cv-meetup-2026",
@@ -1764,6 +1907,29 @@
   "last_seen": "2026-10-10"
  },
  {
+  "id": "meetup-nhcqrtyjcpbxb",
+  "name": "Agentic AI Multimodal MonthlyMixer - Where Agents Minds Meet",
+  "url": "https://www.meetup.com/ac-sin/events/nhcqrtyjcpbxb/",
+  "start": "2026-11-18T17:00:00+08:00",
+  "end": "2026-11-18T19:00:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Analytics.Club Singapore"
+  ],
+  "calendar": "Analytics.Club Singapore",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "meetup:ac-sin",
+  "kind": "meetup",
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10"
+ },
+ {
   "id": "manual-kenx-ai-gxp-sg-2026",
   "name": "Harness the Power of AI in GxP - Singapore 2026",
   "url": "https://kenx.org/conferences/harness-the-power-of-ai-in-gxp-singapore-2026/",
@@ -1843,7 +2009,7 @@
   "tz": "Asia/Singapore",
   "virtual": false,
   "sg": true,
-  "venue": "",
+  "venue": "Singapore",
   "hosts": [
    "AI Builders",
    "Bright Data"
@@ -1878,6 +2044,29 @@
   "source": "manual",
   "kind": "manual",
   "first_seen": "2026-09-05",
+  "last_seen": "2026-10-10"
+ },
+ {
+  "id": "meetup-316597410",
+  "name": "AIDataTech Connect: Global Virtual Networking Event for AI, Data & Tech Pros",
+  "url": "https://www.meetup.com/ac-sin/events/316597410/",
+  "start": "2026-11-26T17:00:00+08:00",
+  "end": "2026-11-26T19:00:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Analytics.Club Singapore"
+  ],
+  "calendar": "Analytics.Club Singapore",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "meetup:ac-sin",
+  "kind": "meetup",
+  "first_seen": "2026-10-10",
   "last_seen": "2026-10-10"
  },
  {
@@ -1929,6 +2118,29 @@
   "last_seen": "2026-10-10"
  },
  {
+  "id": "meetup-314946220",
+  "name": "TechConnect: Global Virtual Job & Networking Event for Data, AI, and Tech Pros",
+  "url": "https://www.meetup.com/ac-sin/events/314946220/",
+  "start": "2026-12-02T16:00:00+08:00",
+  "end": "2026-12-02T18:00:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Analytics.Club Singapore"
+  ],
+  "calendar": "Analytics.Club Singapore",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "meetup:ac-sin",
+  "kind": "meetup",
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10"
+ },
+ {
   "id": "manual-iaim-ntu-2026",
   "name": "International Conference on AI in Medicine (iAIM) 2026",
   "url": "https://event.ntu.edu.sg/iAIM",
@@ -1976,6 +2188,29 @@
   "last_seen": "2026-10-10"
  },
  {
+  "id": "meetup-pqkprtyjcqbgb",
+  "name": "AnalyticsCLUB JobExpo Virtual Business, Data & Technology Job Expo",
+  "url": "https://www.meetup.com/ac-sin/events/pqkprtyjcqbgb/",
+  "start": "2026-12-04T11:00:00+08:00",
+  "end": "2026-12-04T14:00:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Analytics.Club Singapore"
+  ],
+  "calendar": "Analytics.Club Singapore",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "meetup:ac-sin",
+  "kind": "meetup",
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10"
+ },
+ {
   "id": "evt-yfFxfNQCG2CPk9C",
   "url": "https://lu.ma/iue679ne",
   "name": "Singapore AI & Robotics Demo Night (Dec 2026)",
@@ -1996,6 +2231,29 @@
   "source": "cal:SG AI & Robotics Demo Nights",
   "kind": "luma",
   "first_seen": "2026-09-05",
+  "last_seen": "2026-10-10"
+ },
+ {
+  "id": "meetup-phcqrtyjcqbmb",
+  "name": "Applied AI Ethics MonthlyMixer - Where Innovation Meets Responsibility",
+  "url": "https://www.meetup.com/ac-sin/events/phcqrtyjcqbmb/",
+  "start": "2026-12-09T17:00:00+08:00",
+  "end": "2026-12-09T19:00:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Analytics.Club Singapore"
+  ],
+  "calendar": "Analytics.Club Singapore",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "meetup:ac-sin",
+  "kind": "meetup",
+  "first_seen": "2026-10-10",
   "last_seen": "2026-10-10"
  },
  {
@@ -2022,6 +2280,31 @@
   "last_seen": "2026-10-10"
  },
  {
+  "id": "meetup-316757901",
+  "name": "Dec 10 - AI, ML and Computer Vision Meetup",
+  "url": "https://www.meetup.com/singapore-computer-vision-meetup/events/316757901/",
+  "start": "2026-12-11T01:00:00+08:00",
+  "end": "2026-12-11T03:00:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Singapore AI, Machine Learning and Computer Vision Meetup"
+  ],
+  "calendar": "Singapore AI, Machine Learning and Computer Vision Meetup",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [
+   "NVIDIA"
+  ],
+  "source": "meetup:singapore-computer-vision-meetup",
+  "kind": "meetup",
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10"
+ },
+ {
   "id": "manual-aigc-singapore-2026",
   "name": "AIGC Singapore 2026 - Global AI Innovation Competition",
   "url": "https://www.aigc-singapore.com/",
@@ -2042,6 +2325,52 @@
   "kind": "manual",
   "note": "In-person finals Dec 12-13 at NTU Alumni Club. Official page says schedule is tentative and final timings will be confirmed; registration opens soon.",
   "first_seen": "2026-09-15",
+  "last_seen": "2026-10-10"
+ },
+ {
+  "id": "meetup-nhcqrtyjcqbvb",
+  "name": "Agentic AI Multimodal MonthlyMixer - Where Agents Minds Meet",
+  "url": "https://www.meetup.com/ac-sin/events/nhcqrtyjcqbvb/",
+  "start": "2026-12-16T17:00:00+08:00",
+  "end": "2026-12-16T19:00:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Analytics.Club Singapore"
+  ],
+  "calendar": "Analytics.Club Singapore",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "meetup:ac-sin",
+  "kind": "meetup",
+  "first_seen": "2026-10-10",
+  "last_seen": "2026-10-10"
+ },
+ {
+  "id": "meetup-316597411",
+  "name": "AIDataTech Connect: Global Virtual Networking Event for AI, Data & Tech Pros",
+  "url": "https://www.meetup.com/ac-sin/events/316597411/",
+  "start": "2026-12-24T17:00:00+08:00",
+  "end": "2026-12-24T19:00:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Analytics.Club Singapore"
+  ],
+  "calendar": "Analytics.Club Singapore",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "meetup:ac-sin",
+  "kind": "meetup",
+  "first_seen": "2026-10-10",
   "last_seen": "2026-10-10"
  }
 ]
