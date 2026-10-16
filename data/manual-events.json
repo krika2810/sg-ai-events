@@ -878,8 +878,8 @@
     "id": "manual-databricks-daisi-sg-2026",
     "name": "Databricks AI Social Impact (DAISI) Challenge Singapore - Demo Day",
     "url": "https://daisi.online/",
-    "start": "2026-10-27T11:00:00.000Z",
-    "end": "2026-10-27T14:00:00.000Z",
+    "start": "2026-10-27T08:00:00.000Z",
+    "end": "2026-10-27T11:00:00.000Z",
     "tz": "Asia/Singapore",
     "virtual": false,
     "sg": true,
@@ -895,8 +895,8 @@
     ],
     "source": "manual",
     "kind": "manual",
-    "note": "Student AI challenge for Singapore IHL students (teams of 1-4). Round 1 submissions close Oct 6, 23:59 SGT (Devpost: https://daisisg26.devpost.com/). Demo Day Oct 27, 7 PM SGT. Built free on Databricks; top 3 teams share US$24,500 in credits, training and certification.",
-    "credits": "Top 3 teams share US$24,500 in Databricks credits, training and certification; build free on Databricks",
+    "note": "Student AI challenge for Singapore IHL students (teams of 1-4); Round 1 submissions closed Oct 6. Official DAISI page lists Demo Day on Oct 27, 4-7pm; the line does not restate a time zone, so Singapore time is inferred from the Singapore Edition page. All teams build free on Databricks; top 3 share US$3,000 in Databricks credits plus training/certification vouchers; total prize value US$24,500.",
+    "credits": "Top 3 teams receive US$3,000 total in Databricks credits ($1,500 / $1,000 / $500 by place), plus training/certification vouchers; total prize value up to US$24,500.",
     "credits_kind": "perk"
   },
   {
@@ -1574,5 +1574,143 @@
     "source": "manual",
     "kind": "manual",
     "note": "In-person governance meetup. 6:00-9:00 PM SGT; talks on Docker Sandboxes for governing AI coding agents, Thoughtworks and Cloudera. Meetup duplicated this event under two group slugs; retained collabnix URL."
+  },
+  {
+    "id": "manual-sginnovate-physical-ai-webinar-2026-10-22",
+    "name": "Webinar - Physical AI: From Simulation to the Real World",
+    "url": "https://www.sginnovate.com/event/webinar-physical-ai-simulation-real-world-0",
+    "start": "2026-10-22T07:00:00.000Z",
+    "end": "2026-10-22T08:00:00.000Z",
+    "tz": "Asia/Singapore",
+    "virtual": true,
+    "sg": false,
+    "venue": "Online",
+    "hosts": [
+      "SGInnovate",
+      "NVIDIA"
+    ],
+    "calendar": "",
+    "calendar_id": null,
+    "cover": null,
+    "guests": null,
+    "vendors": [
+      "NVIDIA"
+    ],
+    "source": "manual",
+    "kind": "manual",
+    "note": "Official SGInnovate page lists Oct 22, 3-4 PM SGT, online. Webinar covers NVIDIA robotics and physical-AI tools for simulation, training and edge deployment."
+  },
+  {
+    "id": "manual-media-learning-agentic-learning-2026-10-22",
+    "name": "Deep Dive into Agentic Learning",
+    "url": "https://media-and-learning.eu/uncategorised/sign-up-for-our-first-deep-dive-into-agentic-learning/",
+    "start": "2026-10-22T12:00:00.000Z",
+    "end": "2026-10-22T15:00:00.000Z",
+    "tz": "Europe/Amsterdam",
+    "virtual": true,
+    "sg": false,
+    "venue": "Online",
+    "hosts": [
+      "Media & Learning Association"
+    ],
+    "calendar": "",
+    "calendar_id": null,
+    "cover": null,
+    "guests": null,
+    "vendors": [],
+    "source": "manual",
+    "kind": "manual",
+    "note": "Official page lists Oct 22, 2-5 PM CEST, online. Hands-on workshop on agents using goals, tools and context to carry out learning and media-production tasks."
+  },
+  {
+    "id": "manual-grok-bot-singapore-meetup-2026-10-23",
+    "name": "Grok Bot Singapore Meetup - Build Your AI Team Before 2027",
+    "url": "https://www.eventbrite.sg/e/grok-bot-singapore-meetup-build-your-ai-team-before-2027-tickets-2003234466214",
+    "start": "2026-10-23T06:00:00.000Z",
+    "end": "2026-10-23T08:00:00.000Z",
+    "tz": "Asia/Singapore",
+    "virtual": false,
+    "sg": true,
+    "venue": "SG Innovation, 71 Ayer Rajah Crescent, #04-01, Singapore 139951",
+    "hosts": [
+      "AI Hustle - BK Han"
+    ],
+    "calendar": "",
+    "calendar_id": null,
+    "cover": null,
+    "guests": null,
+    "vendors": [
+      "xAI / SpaceXAI"
+    ],
+    "source": "manual",
+    "kind": "manual",
+    "note": "Eventbrite listing confirms Oct 23, 2-4 PM SGT, in person in Singapore; ticket listed at SGD 10. Hands-on no-code AI-agent team workshop."
+  },
+  {
+    "id": "manual-insead-ai-forum-asia-2026-10-30",
+    "name": "AI Forum Asia 2026 (INSEAD)",
+    "url": "https://www.eventbrite.co.uk/e/ai-forum-asia-2026-tickets-2001421235793",
+    "start": "2026-10-30T01:00:00.000Z",
+    "end": "2026-10-31T09:30:00.000Z",
+    "tz": "Asia/Singapore",
+    "virtual": false,
+    "sg": true,
+    "venue": "INSEAD Asia Campus, 1 Ayer Rajah Avenue, Singapore 138676",
+    "hosts": [
+      "INSEAD"
+    ],
+    "calendar": "",
+    "calendar_id": null,
+    "cover": null,
+    "guests": null,
+    "vendors": [],
+    "source": "manual",
+    "kind": "manual",
+    "note": "Eventbrite lists Oct 30-31, in person at INSEAD Asia Campus. A EuroCham partner page gives a 9:00 AM SGT start; Eventbrite lists 9:15 AM, so the exact start differs by 15 minutes across listings. Covers AI in practice, physical AI, geopolitics and the future of work."
+  },
+  {
+    "id": "manual-ainext-conference-singapore-2026-11-03",
+    "name": "AINext Conference Singapore 2026",
+    "url": "https://asia.ainextconference.com/",
+    "start": "2026-11-03T01:15:00.000Z",
+    "end": "2026-11-03T09:30:00.000Z",
+    "tz": "Asia/Singapore",
+    "virtual": false,
+    "sg": true,
+    "venue": "Singapore (venue not listed)",
+    "hosts": [
+      "AINext"
+    ],
+    "calendar": "",
+    "calendar_id": null,
+    "cover": null,
+    "guests": null,
+    "vendors": [],
+    "source": "manual",
+    "kind": "manual",
+    "note": "Official conference page gives Nov 3, 2026 in Singapore; its agenda PDF lists 9:15 AM-5:30 PM. The venue is not stated on the page."
+  },
+  {
+    "id": "manual-sginnovate-ai-salon-tech-talk-2026-11-12",
+    "name": "SGInnovate x AI Salon Singapore Tech Talk",
+    "url": "https://www.sginnovate.com/event/sginnovate-x-ai-salon-singapore-tech-talk-12-nov",
+    "start": "2026-11-12T10:00:00.000Z",
+    "end": "2026-11-12T13:00:00.000Z",
+    "tz": "Asia/Singapore",
+    "virtual": false,
+    "sg": true,
+    "venue": "32 Carpenter Street, Singapore 059911",
+    "hosts": [
+      "SGInnovate",
+      "AI Salon"
+    ],
+    "calendar": "",
+    "calendar_id": null,
+    "cover": null,
+    "guests": null,
+    "vendors": [],
+    "source": "manual",
+    "kind": "manual",
+    "note": "Official SGInnovate page lists Nov 12, 6-9 PM SGT. AI builders, founders and operators; program and speakers to be announced."
   }
 ]
