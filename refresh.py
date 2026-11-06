@@ -95,6 +95,18 @@ VENDOR_KW = {
     "Perplexity": ["perplexity"],
     "MiniMax": ["minimax"],
     "Miro": ["miro"],
+    "Hugging Face": ["hugging face", "huggingface", "lerobot"],
+    "ClickHouse": ["clickhouse"],
+    "Base44": ["base44"],
+    "Bitdeer": ["bitdeer"],
+    "ElevenLabs": ["elevenlabs"],
+    "Kiro": ["kiro"],
+    "GMI Cloud": ["gmi cloud"],
+    "Qwen / Alibaba": ["qwen"],
+    "Daytona": ["daytona"],
+    "Nosana": ["nosana"],
+    "vLLM": ["vllm"],
+    "Vultr": ["vultr"],
 }
 
 
@@ -139,7 +151,7 @@ def norm(x, source):
     g = ev.get("geo_address_info") or {}
     loc_type = ev.get("location_type")
     # Luma location_type is an explicit enum; missing/unknown must not mean online.
-    is_virtual = loc_type in ("online", "virtual", "hybrid")
+    is_virtual = loc_type in ("online", "virtual", "hybrid", "zoom", "youtube", "teams", "google_meet", "meet", "webinar", "livestream", "stream", "hopin", "airmeet", "webex", "discord", "twitch")
     is_sg = (g.get("country_code") == "SG") or (
         ev.get("timezone") == "Asia/Singapore" and loc_type in ("offline", "hybrid"))
     city = " ".join(str(g.get(k) or "") for k in ("city", "city_state", "full_address", "address")).lower()

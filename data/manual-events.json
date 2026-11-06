@@ -1731,7 +1731,9 @@
   "calendar_id": null,
   "cover": null,
   "guests": null,
-  "vendors": [],
+  "vendors": [
+   "Qwen / Alibaba"
+  ],
   "source": "manual",
   "kind": "manual",
   "note": "Kickoff workshop Nov 17, 7-9 PM. Submit a 3-minute demo video by Nov 23; finalists emailed Nov 30; live pitch Dec 11. Free, host approval required, no coding experience needed."
@@ -1757,7 +1759,9 @@
   "calendar_id": null,
   "cover": null,
   "guests": null,
-  "vendors": [],
+  "vendors": [
+   "vLLM"
+  ],
   "source": "manual",
   "kind": "manual",
   "note": "Half-day technical meetup on inference, Blackwell and agent infrastructure. Free, host approval required. No credits stated."
@@ -1780,7 +1784,9 @@
   "calendar_id": null,
   "cover": null,
   "guests": null,
-  "vendors": [],
+  "vendors": [
+   "Bitdeer"
+  ],
   "source": "manual",
   "kind": "manual",
   "note": "Closed-door style industry session. Free, host approval required. No credits stated on the page."
@@ -1803,11 +1809,13 @@
   "calendar_id": null,
   "cover": null,
   "guests": null,
-  "vendors": [],
+  "vendors": [
+   "Vultr"
+  ],
   "source": "manual",
   "kind": "manual",
   "note": "Online build 3-8 Nov. Register on lablab.ai. Teams of 1-6. Organiser says every participant gets $200 in Vultr credits (per the lablab page; a new Vultr account is required per the Vultr community page summary).",
-  "credits": "Every registered participant gets $200 in Vultr credits (new Vultr account; credits are for use during the hackathon, which ends Nov 8).",
+  "credits": "Every registered participant gets $200 in free Vultr credits, claimed with the hackathon gift code. The organiser says credits stay active during the event (3-8 Nov); no exact expiry time is stated.",
   "credits_kind": "credits"
  }
 ]

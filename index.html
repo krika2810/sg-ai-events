@@ -109,6 +109,14 @@ footer{margin:46px 0 80px;padding-top:18px;border-top:1px solid var(--line);colo
   .name{font-size:16px}
   .title{font-size:17px}
 }
+.credit.fee{background:#fdecec;border-color:#f3b9b9;color:#7a1f1f}.credit.fee b{color:#a12626}@media(prefers-color-scheme:dark){.credit.fee{background:#3a1f22;border-color:#6b3238;color:#f3c9cc}.credit.fee b{color:#ff9aa2}}
+.labs{display:flex;gap:6px;overflow-x:auto;padding:0 0 10px;scrollbar-width:none;align-items:center}
+.labs::-webkit-scrollbar{display:none}
+.labs .lab-l{font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--mut);flex:none;margin-right:2px}
+.lchip{flex:none;border:1px solid var(--line);background:var(--card);color:var(--mut);border-radius:999px;padding:5px 11px;font:500 12.5px/1 Inter,system-ui,sans-serif;cursor:pointer}
+.lchip.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.vtags{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
+.vtag{font-size:11px;font-weight:600;color:var(--mut);border:1px solid var(--line);border-radius:999px;padding:2.5px 8px}
 </style>
 </head>
 <body>
@@ -124,6 +132,7 @@ footer{margin:46px 0 80px;padding-top:18px;border-top:1px solid var(--line);colo
     <button class="tab" data-f="credits">Credits</button>
     <button class="tab" data-f="registered">Registered</button>
   </div>
+  <div class="labs" id="labs" aria-label="AI labs filter"></div>
   <div class="search"><input id="q" type="search" placeholder="Search events, hosts or places" autocomplete="off"></div>
 </div></header>
 <main class="wrap">
@@ -146,7 +155,7 @@ const NOW=Date.now();
 const REG_KEY='sgai-registered-v1';
 const reg=new Set(JSON.parse(localStorage.getItem(REG_KEY)||'[]'));
 const save=()=>localStorage.setItem(REG_KEY,JSON.stringify([...reg]));
-let EVENTS=[],state={f:'all',q:''};
+let EVENTS=[],state={f:'all',q:'',vendors:new Set()};
 const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const fmt=(d,o)=>d.toLocaleString('en-US',{timeZone:TZ,...o});
 const dayKey=d=>fmt(d,{year:'numeric',month:'2-digit',day:'2-digit'});
@@ -166,7 +175,8 @@ function timeText(e){
   return t1+' - '+fmt(en,{hour:'numeric',minute:'2-digit'});
 }
 function matches(e){
-  if(state.f==='sg'&&!(e.sg&&!e.virtual))return false;
+  if(state.vendors.size){const hit=(e.vendors||[]).some(v=>state.vendors.has(v))||(!(e.vendors||[]).length&&state.vendors.has('__none__'));if(!hit)return false;}
+  if(state.f==='sg'&&!e.sg)return false;
   if(state.f==='virtual'&&!e.virtual)return false;
   if(state.f==='credits'&&!e.credits)return false;
   if(state.f==='registered'&&!reg.has(e.id))return false;
@@ -190,7 +200,9 @@ function card(e){
       <div class="time">${live?'<span class="live">Happening now</span>':''}<span>${esc(timeText(e))} SGT</span></div>
       <div class="name"><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.name)}</a></div>
       ${hosts?`<div class="row">${usr}<span>By ${esc(hosts)}</span></div>`:''}
+      ${(e.vendors&&e.vendors.length)?`<div class="vtags">${e.vendors.map(v=>`<span class="vtag">${esc(v)}</span>`).join('')}</div>`:''}
       <div class="row">${e.virtual?globe:pin}<span>${esc(where)}</span></div>
+      ${e.fee?`<div class="credit fee"><b>Paid workshop proposed</b>${esc(e.fee)}</div>`:''}
       ${cr}
       <div class="tools"><button class="btn${isReg?' on':''}" data-reg="${esc(e.id)}">${isReg?'Registered':'Mark registered'}</button></div>
     </div>
@@ -208,11 +220,17 @@ function render(){
   }
   $('#days').innerHTML=[...groups.values()].map(g=>`<section class="day"><div class="dayhead"><div class="d">${esc(fmt(g.d,{month:'short',day:'numeric'}))}</div><div class="w">${esc(fmt(g.d,{weekday:'long'}))}</div></div><div class="list">${g.items.map(card).join('')}</div></section>`).join('');
   $('#empty').style.display=list.length?'none':'block';
-  const c=f=>EVENTS.filter(e=>f==='sg'?(e.sg&&!e.virtual):f==='virtual'?e.virtual:f==='credits'?e.credits:f==='registered'?reg.has(e.id):true).length;
+  const vs=new Set();EVENTS.forEach(e=>(e.vendors||[]).forEach(v=>vs.add(v)));
+  for(const v of [...state.vendors])if(!vs.has(v)&&v!=='__none__')state.vendors.delete(v);
+  const lab=$('#labs');
+  lab.style.display=vs.size?'flex':'none';
+  lab.innerHTML=(vs.size?'<span class="lab-l">AI labs</span>':'')+[...vs].sort().map(v=>`<button class="lchip${state.vendors.has(v)?' on':''}" data-v="${esc(v)}">${esc(v)}</button>`).join('')+`<button class="lchip${state.vendors.has('__none__')?' on':''}" data-v="__none__">Untagged</button>`;
+  const c=f=>EVENTS.filter(e=>f==='sg'?e.sg:f==='virtual'?e.virtual:f==='credits'?e.credits:f==='registered'?reg.has(e.id):true).length;
   document.querySelectorAll('.tab').forEach(t=>{const f=t.dataset.f;t.querySelector('.n')?.remove();t.insertAdjacentHTML('beforeend',`<span class="n">${c(f)}</span>`);t.classList.toggle('on',f===state.f)});
 }
 document.addEventListener('click',ev=>{
   const t=ev.target.closest('.tab');if(t){state.f=t.dataset.f;render();return}
+  const c=ev.target.closest('.lchip');if(c){const v=c.dataset.v;state.vendors.has(v)?state.vendors.delete(v):state.vendors.add(v);render();return}
   const b=ev.target.closest('[data-reg]');if(b){const id=b.dataset.reg;reg.has(id)?reg.delete(id):reg.add(id);save();render()}
 });
 $('#q').addEventListener('input',e=>{state.q=e.target.value.trim().toLowerCase();render()});
