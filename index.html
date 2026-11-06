@@ -2,241 +2,229 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SG AI Events - Singapore AI events, tracked daily</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>SG AI Events - Singapore and virtual AI events</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root{
-  --bg:#f4f5f7; --card:#ffffff; --line:rgba(15,23,42,.08); --line2:rgba(15,23,42,.14);
-  --text:#111827; --muted:#6b7280; --faint:#9ca3af;
-  --accent:#f04e5f; --accent-soft:#fef0f1;
-  --green:#16a34a; --green-soft:#eafaf0; --green-line:#bbe8cb;
-  --blue:#2563eb; --blue-soft:#eff4ff; --blue-line:#c9dbff;
-  --amber:#b45309; --amber-soft:#fdf3e3; --amber-line:#f0dcb4;
+  --bg:#ffffff; --surface:#ffffff; --soft:#f5f6f7; --hover:#fafafa;
+  --text:#131517; --muted:#6b6e72; --faint:#9a9da1;
+  --line:rgba(19,21,23,.09); --line2:rgba(19,21,23,.16);
+  --accent:#131517; --accent-text:#ffffff;
+  --green:#12803b; --green-bg:#e9f7ee; --green-line:#bfe6cd;
+  --amber:#9a5b00; --amber-bg:#fff4df; --amber-line:#f1d9a6;
+  --live:#d6336c;
+  --shadow:0 1px 2px rgba(19,21,23,.04),0 4px 16px rgba(19,21,23,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#131517; --surface:#1d1f22; --soft:#26292d; --hover:#222428;
+    --text:#f2f3f4; --muted:#a2a6ab; --faint:#7b7f84;
+    --line:rgba(255,255,255,.09); --line2:rgba(255,255,255,.18);
+    --accent:#f2f3f4; --accent-text:#131517;
+    --green:#58d18a; --green-bg:rgba(88,209,138,.12); --green-line:rgba(88,209,138,.35);
+    --amber:#f2b658; --amber-bg:rgba(242,182,88,.12); --amber-line:rgba(242,182,88,.35);
+    --live:#ff6b9b;
+    --shadow:none;
+  }
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{-webkit-text-size-adjust:100%}
-body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Inter","Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.5;font-size:15px}
+body{background:var(--bg);color:var(--text);font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased}
 a{color:inherit;text-decoration:none}
-.wrap{max-width:1120px;margin:0 auto;padding:0 20px 80px}
+button{font:inherit;color:inherit}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
 
-/* header */
-header.top{position:sticky;top:0;z-index:30;background:rgba(244,245,247,.85);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
-header.top .wrap{padding-top:16px;padding-bottom:14px}
-.brand{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
-h1{font-size:21px;font-weight:700;letter-spacing:-.02em}
-h1 .dot{color:var(--accent)}
-.meta{color:var(--muted);font-size:12.5px}
-.controls{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px;align-items:center}
-.chip{border:1px solid var(--line2);background:var(--card);color:var(--muted);border-radius:999px;padding:6px 13px;font-size:13px;font-weight:500;cursor:pointer;user-select:none;transition:all .12s}
-.chip:hover{border-color:var(--faint);color:var(--text)}
-.chip.on{background:var(--text);border-color:var(--text);color:#fff}
-.chip.on .n{color:rgba(255,255,255,.65)}
-.chip .n{opacity:.55;font-weight:400;margin-left:3px}
-#search{flex:1;min-width:170px;background:var(--card);border:1px solid var(--line2);border-radius:999px;color:var(--text);padding:7px 14px;font-size:13.5px}
-#search:focus{outline:none;border-color:var(--accent)}
-#search::placeholder{color:var(--faint)}
-.vendors{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
-.mobile-tools{display:none}
-.vendor-toggle{display:none}
-.vchip{border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:999px;padding:3px 10px;font-size:12px;cursor:pointer;user-select:none}
-.vchip:hover{border-color:var(--faint);color:var(--text)}
-.vchip.on{background:var(--blue-soft);border-color:var(--blue-line);color:var(--blue);font-weight:600}
+header.top{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:saturate(1.4) blur(14px);-webkit-backdrop-filter:saturate(1.4) blur(14px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;gap:12px;padding:14px 0 10px}
+.logo{width:30px;height:30px;border-radius:9px;background:var(--accent);color:var(--accent-text);display:grid;place-items:center;font-weight:700;font-size:13px;letter-spacing:-.02em;flex:none}
+.title{font-size:18px;font-weight:650;letter-spacing:-.02em;line-height:1.2}
+.sub{font-size:12.5px;color:var(--muted);margin-top:1px}
+.tabs{display:flex;gap:6px;overflow-x:auto;padding:2px 0 12px;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:none;border:1px solid var(--line2);background:transparent;border-radius:999px;padding:7px 14px;font-size:13.5px;font-weight:500;color:var(--muted);cursor:pointer;white-space:nowrap}
+.tab:hover{color:var(--text)}
+.tab.on{background:var(--accent);border-color:var(--accent);color:var(--accent-text)}
+.tab .n{opacity:.6;margin-left:4px;font-weight:400}
+.search{padding:0 0 12px}
+.search input{width:100%;border:1px solid var(--line2);background:var(--soft);color:var(--text);border-radius:12px;padding:10px 14px;font:inherit;font-size:14.5px}
+.search input::placeholder{color:var(--faint)}
+.search input:focus{outline:2px solid var(--text);outline-offset:-1px;background:var(--surface)}
 
-/* month sections */
-.month{margin-top:30px}
-.month h2{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--faint);margin-bottom:12px;display:flex;align-items:center;gap:10px}
-.month h2::after{content:"";flex:1;height:1px;background:var(--line)}
+.intro{padding:18px 0 4px;color:var(--muted);font-size:14px}
+.legend{display:flex;flex-wrap:wrap;gap:8px 14px;padding:10px 0 2px;font-size:12.5px;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.dot{width:8px;height:8px;border-radius:50%;display:inline-block}
+.dot.g{background:var(--green)}.dot.a{background:var(--amber)}
 
-/* event cards - Luma style */
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-@media(max-width:960px){.grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:620px){
-  .grid{grid-template-columns:1fr}
-  header.top{position:sticky;top:0;backdrop-filter:blur(8px)}
-  header.top.expanded{position:relative;backdrop-filter:none}
-  header.top .wrap{padding:6px 12px}
-  .brand{gap:6px;align-items:center;flex-wrap:nowrap}
-  h1{font-size:16px;white-space:nowrap}
-  .meta{font-size:10.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-  .controls{display:flex;gap:5px;margin-top:6px}
-  .controls .chip{display:none;flex:0 0 auto;padding:4px 8px;font-size:11.5px}
-  header.top.expanded .controls .chip{display:block}
-  #search{flex:1 1 100%;min-width:0;padding:5px 10px;font-size:12px}
-  .mobile-tools{display:flex;justify-content:flex-end;margin-top:3px}
-  .header-toggle{border:0;background:transparent;color:var(--muted);font-size:11px;padding:2px 4px;cursor:pointer}
-  .vendors{display:none;margin-top:6px}
-  header.top.expanded .vendors{display:flex}
-  .vchip{padding:2px 8px;font-size:11px}
-  #countline{display:none}
+.day{display:grid;grid-template-columns:132px 1fr;gap:0 18px;margin-top:26px;position:relative}
+.dayhead{position:relative;padding-top:4px}
+.dayhead .d{font-size:15px;font-weight:650;letter-spacing:-.01em}
+.dayhead .w{font-size:13.5px;color:var(--muted)}
+.day::before{content:"";position:absolute;left:150px;top:10px;bottom:-26px;border-left:1px dashed var(--line2)}
+.list{display:flex;flex-direction:column;gap:14px;padding-left:20px;position:relative}
+.list::before{content:"";position:absolute;left:-4px;top:9px;width:9px;height:9px;border-radius:50%;background:var(--bg);border:2px solid var(--faint)}
+
+.card{position:relative;display:flex;gap:14px;background:var(--soft);border:1px solid transparent;border-radius:16px;padding:14px;transition:background .12s,border-color .12s}
+.card:hover{background:var(--hover);border-color:var(--line2)}
+.card.reg{border-color:var(--green-line);background:var(--green-bg)}
+.cbody{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px}
+.time{font-size:13.5px;color:var(--muted);font-weight:500;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.live{color:var(--live);font-weight:600}
+.name{font-size:17px;font-weight:620;line-height:1.3;letter-spacing:-.015em}
+.name a::after{content:"";position:absolute;inset:0;border-radius:16px}
+.row{font-size:13.5px;color:var(--muted);display:flex;gap:6px;align-items:flex-start;min-width:0}
+.row svg{flex:none;width:14px;height:14px;margin-top:3px;opacity:.8}
+.row span{min-width:0;overflow-wrap:anywhere}
+.thumb{flex:none;width:96px;height:96px;border-radius:12px;overflow:hidden;background:linear-gradient(135deg,#d9dde3,#bcc3cf);display:grid;place-items:center;color:rgba(255,255,255,.9);font-weight:700;font-size:28px}
+@media (prefers-color-scheme:dark){.thumb{background:linear-gradient(135deg,#34383e,#23262a);color:rgba(255,255,255,.6)}}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.credit{margin-top:8px;border:1px solid var(--green-line);background:var(--green-bg);color:var(--text);border-radius:10px;padding:8px 10px;font-size:13px;line-height:1.45}
+.credit b{display:block;font-size:12px;font-weight:650;letter-spacing:.01em;color:var(--green);margin-bottom:1px}
+.credit.perk{border-color:var(--amber-line);background:var(--amber-bg)}
+.credit.perk b{color:var(--amber)}
+.tools{display:flex;gap:8px;margin-top:10px;position:relative;z-index:2}
+.btn{border:1px solid var(--line2);background:var(--surface);border-radius:9px;padding:6px 11px;font-size:12.5px;font-weight:550;cursor:pointer}
+.btn:hover{border-color:var(--text)}
+.btn.on{background:var(--green);border-color:var(--green);color:#fff}
+.badge{font-size:11px;font-weight:600;border-radius:6px;padding:1px 7px;background:var(--surface);border:1px solid var(--line2);color:var(--muted)}
+.badge.new{background:var(--accent);border-color:var(--accent);color:var(--accent-text)}
+
+.empty{padding:70px 0;text-align:center;color:var(--muted)}
+footer{margin:46px 0 80px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:12.5px;display:flex;flex-direction:column;gap:6px}
+
+@media (max-width:640px){
+  .wrap{padding:0 16px}
+  .day{grid-template-columns:1fr;margin-top:22px}
+  .day::before{display:none}
+  .list{padding-left:0}
+  .list::before{display:none}
+  .dayhead{display:flex;gap:8px;align-items:baseline;padding:0 2px 8px}
+  .dayhead .d{font-size:15px}
+  .card{padding:12px;gap:12px}
+  .thumb{width:76px;height:76px;font-size:22px}
+  .name{font-size:16px}
+  .title{font-size:17px}
 }
-.card{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;position:relative;transition:box-shadow .15s,transform .15s}
-.card:hover{box-shadow:0 6px 24px rgba(15,23,42,.09);transform:translateY(-1px)}
-.card.registered{border-color:var(--green-line);box-shadow:0 0 0 1.5px var(--green)}
-.cover{display:block;position:relative;aspect-ratio:16/9;background:linear-gradient(135deg,#e8ecf3,#dfe5ee);overflow:hidden}
-.cover img{width:100%;height:100%;object-fit:cover;display:block}
-.cover .fallback{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:34px;color:#94a3b8}
-.newtag{position:absolute;top:10px;left:10px;background:var(--text);color:#fff;font-size:10.5px;font-weight:700;letter-spacing:.06em;border-radius:6px;padding:3px 8px}
-.regtag{position:absolute;top:10px;right:10px;background:var(--green);color:#fff;font-size:10.5px;font-weight:700;letter-spacing:.06em;border-radius:6px;padding:3px 8px}
-.virttag{position:absolute;bottom:10px;left:10px;background:rgba(17,24,39,.72);color:#fff;font-size:10.5px;font-weight:600;border-radius:6px;padding:3px 8px;backdrop-filter:blur(4px)}
-.body{padding:14px 16px 12px;display:flex;flex-direction:column;gap:6px;flex:1}
-.when{font-size:12.5px;font-weight:600;color:var(--accent);letter-spacing:.02em}
-.name{font-size:15.5px;font-weight:650;line-height:1.35;letter-spacing:-.01em}
-.name a:hover{color:var(--accent)}
-.host,.where{font-size:13px;color:var(--muted);display:flex;gap:6px;align-items:baseline;min-width:0}
-.host span,.where span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.credit{display:inline-flex;align-items:center;gap:5px;background:var(--green-soft);border:1px solid var(--green-line);color:var(--green);font-size:12px;font-weight:600;border-radius:8px;padding:4px 9px;line-height:1.3}
-.credit.perk{background:var(--amber-soft);border-color:var(--amber-line);color:var(--amber)}
-.note{font-size:12px;color:var(--faint);line-height:1.4}
-.vtags{display:flex;flex-wrap:wrap;gap:5px}
-.vtag{font-size:11px;font-weight:500;border-radius:6px;padding:2px 8px;background:var(--blue-soft);color:var(--blue);border:1px solid var(--blue-line)}
-.actions{display:flex;gap:8px;margin-top:auto;padding:10px 16px 14px}
-.btn{flex:1;text-align:center;font-size:13px;font-weight:600;border-radius:10px;padding:8px 10px;border:1px solid var(--line2);background:var(--card);color:var(--text);cursor:pointer;transition:all .12s}
-.btn:hover{border-color:var(--faint);background:#fafafa}
-.btn.rsvp{background:var(--text);border-color:var(--text);color:#fff}
-.btn.rsvp:hover{background:#000}
-.btn.regbtn.on{background:var(--green);border-color:var(--green);color:#fff}
-
-footer{margin-top:44px;border-top:1px solid var(--line);padding-top:18px;color:var(--muted);font-size:12.5px;display:flex;flex-direction:column;gap:5px}
-.empty{margin-top:50px;text-align:center;color:var(--faint);font-size:14px}
-#countline{font-size:12.5px;color:var(--faint);margin-top:10px}
 </style>
 </head>
 <body>
 <header class="top"><div class="wrap">
-  <div class="brand"><h1>SG AI Events</h1><div class="meta" id="meta">Loading events...</div></div>
-  <div class="controls" id="filters">
-    <div class="chip on" data-f="all">All</div>
-    <div class="chip" data-f="sg">In Singapore</div>
-    <div class="chip" data-f="virtual">Virtual</div>
-    <div class="chip" data-f="credits">🎁 Credits & perks</div>
-    <div class="chip" data-f="registered">✓ Registered</div>
-    <input id="search" type="search" placeholder="Search events, hosts, venues...">
+  <div class="bar">
+    <div class="logo">AI</div>
+    <div><div class="title">SG AI Events</div><div class="sub" id="meta">Loading...</div></div>
   </div>
-  <div class="mobile-tools"><button class="header-toggle" id="header-toggle" type="button" aria-expanded="false">Filters & hosts <span id="header-toggle-mark">＋</span></button></div>
-  <div class="vendors" id="vendors"></div>
-  <div id="countline"></div>
+  <div class="tabs" id="tabs" role="tablist">
+    <button class="tab on" data-f="all">All</button>
+    <button class="tab" data-f="sg">Singapore</button>
+    <button class="tab" data-f="virtual">Virtual</button>
+    <button class="tab" data-f="credits">Credits</button>
+    <button class="tab" data-f="registered">Registered</button>
+  </div>
+  <div class="search"><input id="q" type="search" placeholder="Search events, hosts or places" autocomplete="off"></div>
 </div></header>
-<div class="wrap">
-  <div id="sections"></div>
-  <div class="empty" id="empty" style="display:none">No events match these filters.</div>
-  <footer>
-    <div>Updated daily around 7 AM SGT from Luma (Singapore discover feed + watched AI calendars) and curated sources. New events are added as they appear; past events are removed as soon as they end.</div>
-    <div>"Mark registered" is saved in this browser only (localStorage) - it won't sync between your phone and laptop.</div>
-    <div>Credits & perks chips are verified against the event page when marked; green = guaranteed attendee credits, amber = prize-only or perk offers. See the event page for exact terms.</div>
+<main class="wrap">
+  <div class="legend">
+    <span><i class="dot g"></i>Credits for attendees (organiser states it)</span>
+    <span><i class="dot a"></i>Conditional, approval-based or winner-only</span>
+  </div>
+  <div id="days"></div>
+  <div class="empty" id="empty" style="display:none">No events match this filter.</div>
+  <footer id="foot">
+    <div>Times are Singapore time. Ended events disappear on their own. Many Luma events need host approval, so registering does not guarantee a seat.</div>
+    <div>Credit boxes quote the organiser's page when it was checked. Read the event page for the exact terms before relying on them.</div>
+    <div>Registered marks are saved in this browser only and do not sync between devices.</div>
   </footer>
-</div>
+</main>
 <script>
 const $=s=>document.querySelector(s);
-let EVENTS=[],META={},state={f:'all',q:'',vendors:new Set()};
-const NOW_MS=Date.now();
-function eventIsPast(e){const end=e.end||e.start;const t=Date.parse(end||'');return Number.isFinite(t)&&t<NOW_MS;}
+const TZ='Asia/Singapore';
+const NOW=Date.now();
 const REG_KEY='sgai-registered-v1';
 const reg=new Set(JSON.parse(localStorage.getItem(REG_KEY)||'[]'));
-const saveReg=()=>localStorage.setItem(REG_KEY,JSON.stringify([...reg]));
+const save=()=>localStorage.setItem(REG_KEY,JSON.stringify([...reg]));
+let EVENTS=[],state={f:'all',q:''};
+const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fmt=(d,o)=>d.toLocaleString('en-US',{timeZone:TZ,...o});
+const dayKey=d=>fmt(d,{year:'numeric',month:'2-digit',day:'2-digit'});
+const isPast=e=>{const t=Date.parse(e.end||e.start);return Number.isFinite(t)&&t<NOW};
+const started=e=>Date.parse(e.start)<=NOW;
+const pin='<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 14.5s5-4.2 5-8a5 5 0 1 0-10 0c0 3.8 5 8 5 8Z"/><circle cx="8" cy="6.5" r="1.8"/></svg>';
+const usr='<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="8" cy="5.5" r="2.5"/><path d="M3 13.5c.6-2.4 2.6-3.5 5-3.5s4.4 1.1 5 3.5"/></svg>';
+const globe='<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="8" cy="8" r="6"/><path d="M2 8h12M8 2c2 2 2 10 0 12M8 2c-2 2-2 10 0 12"/></svg>';
 
-const MONTHS=['January','February','March','April','May','June','July','August','September','October','November','December'];
-function dparse(s){try{return new Date(s)}catch(e){return null}}
-function fmtWhen(e){
-  const d=dparse(e.start); if(!d) return '';
-  const opts={timeZone:e.tz||'Asia/Singapore'};
-  const wd=d.toLocaleDateString('en-US',{...opts,weekday:'short'});
-  const mon=d.toLocaleDateString('en-US',{...opts,month:'short'});
-  const day=d.toLocaleDateString('en-US',{...opts,day:'numeric'});
-  const t1=d.toLocaleTimeString('en-US',{...opts,hour:'numeric',minute:'2-digit',hour12:true});
-  let t2='';
-  const de=dparse(e.end);
-  if(de) t2=de.toLocaleTimeString('en-US',{...opts,hour:'numeric',minute:'2-digit',hour12:true});
-  const sameDay=de&&d.toLocaleDateString('en-US',opts)===de.toLocaleDateString('en-US',opts);
-  return `${wd}, ${mon} ${day} · ${t1}${t2?(sameDay?' – '+t2:' → '+de.toLocaleDateString('en-US',{...opts,month:'short',day:'numeric'})+' '+t2):''}`;
+function timeText(e){
+  const s=new Date(e.start),en=e.end?new Date(e.end):null;
+  const t1=fmt(s,{hour:'numeric',minute:'2-digit'});
+  if(!en)return t1;
+  const multi=dayKey(s)!==dayKey(en);
+  if(started(e)&&multi)return 'Until '+fmt(en,{month:'short',day:'numeric'});
+  if(multi)return t1+' to '+fmt(en,{month:'short',day:'numeric'})+', '+fmt(en,{hour:'numeric',minute:'2-digit'});
+  return t1+' - '+fmt(en,{hour:'numeric',minute:'2-digit'});
 }
-function monthKey(e){const d=dparse(e.start);return d?d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0'):'9999-99'}
-function monthLabel(k){const[y,m]=k.split('-');return MONTHS[+m-1]+' '+y}
-function isNew(e){if(!e.first_seen)return false;const fs=new Date(e.first_seen+'T00:00:00Z');return (Date.now()-fs.getTime())<3*864e5}
-function esc(s){return (s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
-
 function matches(e){
   if(state.f==='sg'&&!(e.sg&&!e.virtual))return false;
   if(state.f==='virtual'&&!e.virtual)return false;
-  if(state.f==='registered'&&!reg.has(e.id))return false;
   if(state.f==='credits'&&!e.credits)return false;
-  if(state.vendors.size&&!(e.vendors||[]).some(v=>state.vendors.has(v)))return false;
-  if(state.q){const h=(e.name+' '+(e.hosts||[]).join(' ')+' '+(e.venue||'')+' '+(e.calendar||'')).toLowerCase();if(!h.includes(state.q))return false;}
+  if(state.f==='registered'&&!reg.has(e.id))return false;
+  if(state.q){
+    const h=(e.name+' '+(e.hosts||[]).join(' ')+' '+(e.venue||'')+' '+(e.note||'')+' '+(e.credits||'')).toLowerCase();
+    if(!state.q.split(/\s+/).every(w=>h.includes(w)))return false;
+  }
   return true;
 }
-
 function card(e){
   const isReg=reg.has(e.id);
-  const cover=e.cover
-    ?`<img src="${esc(e.cover)}" loading="lazy" alt="" onerror="this.remove()">`
-    :`<div class="fallback">🗓️</div>`;
-  return `<div class="card${isReg?' registered':''}" data-id="${esc(e.id)}">
-    <a class="cover" href="${esc(e.url)}" target="_blank" rel="noopener">${cover}
-      ${isNew(e)?'<span class="newtag">NEW</span>':''}
-      ${isReg?'<span class="regtag">REGISTERED</span>':''}
-      ${e.virtual?'<span class="virttag">🌐 Virtual</span>':''}
-    </a>
-    <div class="body">
-      <div class="when">${esc(fmtWhen(e))}</div>
+  const live=started(e);
+  const hosts=(e.hosts||[]).filter(Boolean).slice(0,3).join(', ');
+  const where=e.virtual?'Online':(e.venue||'Singapore');
+  const initial=esc((e.name||'?').trim().charAt(0).toUpperCase());
+  const cov=e.cover?`<img src="${esc(e.cover)}" alt="" loading="lazy" onerror="this.remove()">`:'';
+  const cr=e.credits?`<div class="credit ${e.credits_kind==='credits'?'':'perk'}"><b>${e.credits_kind==='credits'?'Credits for attendees':'Conditional or prize-based'}</b>${esc(e.credits)}</div>`:'';
+  const isNew=e.first_seen&&(NOW-Date.parse(e.first_seen+'T00:00:00Z'))<3*864e5;
+  return `<article class="card${isReg?' reg':''}" data-id="${esc(e.id)}">
+    <div class="cbody">
+      <div class="time">${live?'<span class="live">Happening now</span>':''}<span>${esc(timeText(e))} SGT</span></div>
       <div class="name"><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.name)}</a></div>
-      ${(e.hosts&&e.hosts.length)?`<div class="host">By <span>${esc(e.hosts.join(', '))}</span></div>`:''}
-      ${e.venue?`<div class="where">📍 <span>${esc(e.venue)}</span></div>`:''}
-      ${e.credits?`<div><span class="credit${e.credits_kind==='perk'?' perk':''}">${e.credits_kind==='perk'?'🎀 Perk: ':'🎁 Credits: '}${esc(e.credits)}</span></div>`:''}
-      ${(e.vendors&&e.vendors.length)?`<div class="vtags">${e.vendors.map(v=>`<span class="vtag">${esc(v)}</span>`).join('')}</div>`:''}
-      ${e.note?`<div class="note">${esc(e.note)}</div>`:''}
+      ${hosts?`<div class="row">${usr}<span>By ${esc(hosts)}</span></div>`:''}
+      <div class="row">${e.virtual?globe:pin}<span>${esc(where)}</span></div>
+      ${cr}
+      <div class="tools"><button class="btn${isReg?' on':''}" data-reg="${esc(e.id)}">${isReg?'Registered':'Mark registered'}</button></div>
     </div>
-    <div class="actions">
-      <a class="btn rsvp" href="${esc(e.url)}" target="_blank" rel="noopener">View event →</a>
-      <button class="btn regbtn${isReg?' on':''}" onclick="toggleReg('${esc(e.id)}')">${isReg?'✓ Registered':'Mark registered'}</button>
-    </div>
-  </div>`;
+    <div class="thumb">${cov}${cov?'':initial}</div>
+  </article>`;
 }
-window.toggleReg=id=>{
-  reg.has(id)?reg.delete(id):reg.add(id);saveReg();render();
-};
-
 function render(){
-  const list=EVENTS.filter(e=>!eventIsPast(e)).filter(matches);
-  const secs=$('#sections');secs.innerHTML='';
-  const groups={};
-  list.forEach(e=>{(groups[monthKey(e)]=groups[monthKey(e)]||[]).push(e)});
-  Object.keys(groups).sort().forEach(k=>{
-    const sec=document.createElement('div');sec.className='month';
-    sec.innerHTML=`<h2>${monthLabel(k)}</h2><div class="grid">${groups[k].map(card).join('')}</div>`;
-    secs.appendChild(sec);
-  });
+  const list=EVENTS.filter(matches);
+  const groups=new Map();
+  for(const e of list){
+    const d=new Date(Math.max(Date.parse(e.start),NOW<Date.parse(e.start)?0:NOW));
+    const k=dayKey(d);
+    if(!groups.has(k))groups.set(k,{d,items:[]});
+    groups.get(k).items.push(e);
+  }
+  $('#days').innerHTML=[...groups.values()].map(g=>`<section class="day"><div class="dayhead"><div class="d">${esc(fmt(g.d,{month:'short',day:'numeric'}))}</div><div class="w">${esc(fmt(g.d,{weekday:'long'}))}</div></div><div class="list">${g.items.map(card).join('')}</div></section>`).join('');
   $('#empty').style.display=list.length?'none':'block';
-  // counts on chips
-  const upcoming=EVENTS.filter(e=>!eventIsPast(e));
-  const cnt={all:upcoming.length,sg:upcoming.filter(e=>e.sg&&!e.virtual).length,virtual:upcoming.filter(e=>e.virtual).length,credits:upcoming.filter(e=>e.credits).length,registered:upcoming.filter(e=>reg.has(e.id)).length};
-  document.querySelectorAll('#filters .chip').forEach(c=>{const f=c.dataset.f;const base=c.textContent.replace(/\s*\d+$/,'');c.innerHTML=esc(base)+`<span class="n">${cnt[f]}</span>`});
-  $('#countline').textContent=`Showing ${list.length} of ${upcoming.length} events`;
+  const c=f=>EVENTS.filter(e=>f==='sg'?(e.sg&&!e.virtual):f==='virtual'?e.virtual:f==='credits'?e.credits:f==='registered'?reg.has(e.id):true).length;
+  document.querySelectorAll('.tab').forEach(t=>{const f=t.dataset.f;t.querySelector('.n')?.remove();t.insertAdjacentHTML('beforeend',`<span class="n">${c(f)}</span>`);t.classList.toggle('on',f===state.f)});
 }
-
-async function boot(){
-  const [ev,meta]=await Promise.all([
-    fetch('data/events.json?'+Date.now()).then(r=>r.json()),
-    fetch('data/meta.json?'+Date.now()).then(r=>r.json()).catch(()=>({}))
-  ]);
-  EVENTS=ev;META=meta;
-  const when=META.refreshed_at?new Date(META.refreshed_at).toLocaleString('en-SG',{timeZone:'Asia/Singapore',dateStyle:'medium',timeStyle:'short'}):'';
-  EVENTS=EVENTS.filter(e=>!eventIsPast(e));
-  $('#meta').textContent=`${EVENTS.length} events · Singapore + virtual · refreshed ${when} SGT`;
-  // vendor chips
-  const vs=new Set();EVENTS.forEach(e=>(e.vendors||[]).forEach(v=>vs.add(v)));
-  $('#vendors').innerHTML=[...vs].sort().map(v=>`<span class="vchip" data-v="${esc(v)}">${esc(v)}</span>`).join('');
-  $('#header-toggle').onclick=()=>{
-    const open=$('header.top').classList.toggle('expanded');
-    $('#header-toggle').setAttribute('aria-expanded',String(open));
-    $('#header-toggle-mark').textContent=open?'−':'＋';
-  };
-  document.querySelectorAll('.vchip').forEach(c=>c.onclick=()=>{const v=c.dataset.v;state.vendors.has(v)?state.vendors.delete(v):state.vendors.add(v);c.classList.toggle('on');render()});
-  document.querySelectorAll('#filters .chip').forEach(c=>c.onclick=()=>{
-    document.querySelectorAll('#filters .chip').forEach(x=>x.classList.remove('on'));c.classList.add('on');state.f=c.dataset.f;render();
-  });
-  $('#search').oninput=e=>{state.q=e.target.value.trim().toLowerCase();render()};
+document.addEventListener('click',ev=>{
+  const t=ev.target.closest('.tab');if(t){state.f=t.dataset.f;render();return}
+  const b=ev.target.closest('[data-reg]');if(b){const id=b.dataset.reg;reg.has(id)?reg.delete(id):reg.add(id);save();render()}
+});
+$('#q').addEventListener('input',e=>{state.q=e.target.value.trim().toLowerCase();render()});
+Promise.all([
+  fetch('data/events.json?'+Date.now()).then(r=>r.json()),
+  fetch('data/meta.json?'+Date.now()).then(r=>r.json()).catch(()=>({}))
+]).then(([ev,meta])=>{
+  EVENTS=ev.filter(e=>!isPast(e)).sort((a,b)=>Date.parse(a.start)-Date.parse(b.start));
+  const when=meta.refreshed_at?new Date(meta.refreshed_at).toLocaleString('en-SG',{timeZone:TZ,day:'numeric',month:'short',hour:'numeric',minute:'2-digit'}):'';
+  $('#meta').textContent=`${EVENTS.length} upcoming${when?' - checked '+when:''}`;
   render();
-}
-boot().catch(e=>{$('#meta').textContent='Failed to load events: '+e});
+}).catch(()=>{$('#meta').textContent='Could not load events';});
 </script>
 </body>
 </html>

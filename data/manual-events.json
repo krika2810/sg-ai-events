@@ -1,1716 +1,1813 @@
 [
-  {
-    "id": "manual-openai-devday-2026",
-    "name": "OpenAI DevDay 2026 (keynote livestream)",
-    "url": "https://devday.openai.com/",
-    "start": "2026-09-29T17:00:00.000Z",
-    "end": "2026-09-30T02:00:00.000Z",
-    "tz": "America/Los_Angeles",
-    "virtual": true,
-    "sg": false,
-    "venue": "Online livestream (in-person in San Francisco)",
-    "hosts": [
-      "OpenAI"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [
-      "OpenAI"
-    ],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Keynote livestreamed free online; in-person at Fort Mason, San Francisco."
-  },
-  {
-    "id": "manual-switch-2026",
-    "name": "SWITCH 2026 - Singapore Week of Innovation and Technology",
-    "url": "https://www.switchsg.org/",
-    "start": "2026-10-27T01:00:00.000Z",
-    "end": "2026-10-29T10:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "Marina Bay Sands, Sands Expo & Convention Centre, Singapore",
-    "hosts": [
-      "Enterprise Singapore"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Flagship innovation week with heavy AI track programming."
-  },
-  {
-    "id": "manual-agenticon-2026",
-    "name": "Agenticon 2026 - Agentic AI Conference for Enterprises & CXOs",
-    "url": "https://www.strategink.com/agenticon/1st-edition/singapore/",
-    "start": "2026-09-24T01:00:00.000Z",
-    "end": "2026-09-24T10:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "Singapore",
-    "hosts": [
-      "StrategINK"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Enterprise agentic-AI conference; industry spotlight sessions run Sep 9-23."
-  },
-  {
-    "id": "manual-agentcon-sg-2026",
-    "name": "AgentCon - Singapore",
-    "url": "https://globalai.community/e/awgteae7",
-    "start": "2026-11-05T00:30:00.000Z",
-    "end": "2026-11-05T09:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "Singapore University of Technology and Design (SUTD), 8 Somapah Rd, Singapore 487372",
-    "hosts": [
-      "Global AI Community"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Official listing states Nov 5, 8:30 AM-5:00 PM SGT at SUTD, with talks, technical workshops, demos, and AI agents content."
-  },
-  {
-    "id": "manual-sbr-tech-summit-2026",
-    "name": "Singapore Business Review Technology Enterprise Summit 2026",
-    "url": "https://sbr.com.sg/event/singapore-business-review-technology-enterprise-summit-2026-november-12-2026",
-    "start": "2026-11-12T01:00:00.000Z",
-    "end": "2026-11-12T10:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "Singapore",
-    "hosts": [
-      "Singapore Business Review"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual"
-  },
-  {
-    "id": "manual-convergence-summit-2026",
-    "name": "Convergence Summit",
-    "url": "https://www.convergencesummit.ai/",
-    "start": "2026-11-13T01:00:00.000Z",
-    "end": "2026-11-13T10:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "Singapore",
-    "hosts": [
-      "Convergence"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual"
-  },
-  {
-    "id": "manual-ai-innovation-asia-2026",
-    "name": "AI Innovation Asia (Economist Enterprise)",
-    "url": "https://events.economistenterprise.com/ai-innovation-asia/",
-    "start": "2026-11-26T01:00:00.000Z",
-    "end": "2026-11-26T10:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "Singapore",
-    "hosts": [
-      "Economist Enterprise"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual"
-  },
-  {
-    "id": "manual-gic-codetoimpact-2026",
-    "name": "#CODETOIMPACT Hackathon 2026 (GIC x Anthropic)",
-    "url": "https://gic.careers/events/codetoimpact-hackathon-2026/",
-    "start": "2026-09-18T00:30:00.000Z",
-    "end": "2026-09-18T14:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "GIC Singapore Office, Capital Tower, 168 Robinson Road",
-    "hosts": [
-      "GIC",
-      "Anthropic"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [
-      "Anthropic"
-    ],
-    "source": "manual",
-    "kind": "manual",
-    "note": "One-day AI hackathon for undergraduates, in collaboration with Anthropic. Problem statement released online Sep 17 evening."
-  },
-  {
-    "id": "manual-aitinkerers-agents-hack-2026",
-    "name": "Agents, Everywhere: Global Hackathon (AI Tinkerers SG x OpenAI)",
-    "url": "https://singapore.aitinkerers.org/p/agents-everywhere-bots-channels-more-global-hackathon",
-    "start": "2026-09-12T02:00:00.000Z",
-    "end": "2026-09-12T11:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "Singapore (location shared upon acceptance)",
-    "hosts": [
-      "AI Tinkerers Singapore",
-      "OpenAI"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [
-      "OpenAI"
-    ],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Global one-day buildathon with OpenAI as headline partner. Application required. Official registration page; Luma mirror: https://lu.ma/b4fdnzoc",
-    "credits": "Codex credit prizes (OpenAI-sponsored)"
-  },
-  {
-    "id": "manual-oasec-2026",
-    "name": "OASec 2026: AI Safety & Security Conference",
-    "url": "https://oasec.org/",
-    "start": "2026-09-28T01:00:00.000Z",
-    "end": "2026-09-28T10:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "PIXEL @ one-north, 10 Central Exchange Green",
-    "hosts": [
-      "OASec"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Technical talks on AI safety/security; complimentary but registration closed Sep 4 (subject to capacity)."
-  },
-  {
-    "id": "manual-aicon-2026",
-    "name": "AICON 2026 - World's #1 AI Consumer Show",
-    "url": "https://luma.com/ong7gwwk",
-    "start": "2026-10-08T01:00:00.000Z",
-    "end": "2026-10-09T13:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "*SCAPE, Singapore",
-    "hosts": [
-      "AICON 2026"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Two-day AI consumer show: showcases, live demos, creator experiences, startup innovations."
-  },
-  {
-    "id": "manual-aim-asean-2026",
-    "name": "AIM ASEAN Singapore 2026: Flagship Forum",
-    "url": "https://luma.com/azljrdvu",
-    "start": "2026-09-15T05:30:00.000Z",
-    "end": "2026-09-15T10:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "Singapore Polytechnic Convention Centre",
-    "hosts": [
-      "BlackStorm Group",
-      "Project Asia Data"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "~800 business owners/SME leaders; practical AI adoption. ASEAN Foundation initiative supported by Google + ADB."
-  },
-  {
-    "id": "manual-0g-devday-2026",
-    "name": "0G Dev Day: ZERO TO INFINITY",
-    "url": "https://luma.com/0g-devday-2026",
-    "start": "2026-10-05T01:30:00.000Z",
-    "end": "2026-10-05T09:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "National Gallery Singapore",
-    "hosts": [
-      "0G Foundation"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Keynote, live AI app demos, ecosystem showcase, panels on decentralized AI infrastructure."
-  },
-  {
-    "id": "manual-oracle-apex-ai-2026",
-    "name": "Oracle APEX AI Roadshow 2026, ASEAN Edition (Singapore)",
-    "url": "https://luma.com/pkzmqpgb",
-    "start": "2026-10-02T01:00:00.000Z",
-    "end": "2026-10-02T08:30:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "Oracle Singapore @ Fusionopolis",
-    "hosts": [
-      "APAC Oracle User Groups Community"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [
-      "Oracle"
-    ],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Full-day roadshow: generative development, AI agents, AI interactive reports."
-  },
-  {
-    "id": "manual-ai-salon-sep-2026",
-    "name": "AI Salon Singapore x SGInnovate Tech Talk (September 2026)",
-    "url": "https://luma.com/AI-Salon-Singapore-September-2026",
-    "start": "2026-09-25T10:00:00.000Z",
-    "end": "2026-09-25T13:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "Singapore (location on registration)",
-    "hosts": [
-      "AI Salon",
-      "SGInnovate"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Where is AI value being created, what investors are betting on, defensibility."
-  },
-  {
-    "id": "manual-ai-open-models-oct-2026",
-    "name": "Oct Meetup - AI Open Models (Technology + Agentic AI + Databases)",
-    "url": "https://luma.com/oldmvewn",
-    "start": "2026-10-05T10:00:00.000Z",
-    "end": "2026-10-05T12:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "Singapore (location on registration)",
-    "hosts": [
-      "AINight"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Practical AI agents for search/retrieval over rich content. Date tentative per host."
-  },
-  {
-    "id": "manual-stack-conf-2026",
-    "name": "STACK Conference 2026 (GovTech)",
-    "url": "https://www.tech.gov.sg/events/stack-conference-2026/",
-    "start": "2026-11-04T01:00:00.000Z",
-    "end": "2026-11-05T10:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "Singapore",
-    "hosts": [
-      "GovTech Singapore"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "GovTech flagship developer conference, Nov 4-5; strong AI/agentic tracks."
-  },
-  {
-    "id": "manual-xathon-2026",
-    "name": "Xathon 2026 (BeyondX Lab AI hack weekend)",
-    "url": "https://www.meetup.com/padang-and-co/events/315768706/",
-    "start": "2026-09-26T01:00:00.000Z",
-    "end": "2026-09-27T10:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "BeyondX Building, 21 Keppel Rd",
-    "hosts": [
-      "BeyondX Lab",
-      "Padang & Co"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Two-day AI innovation hack weekend across 4 missions (smart cities, creator economy, mobility/EV, health). Cash prizes; top 3 teams showcase at BeyondXpo Oct 12. Register at xathon.beyondx.co."
-  },
-  {
-    "id": "manual-odsc-context-agents-2026",
-    "name": "Building Context-Aware AI Agents with Real-Time Data (ODSC webinar)",
-    "url": "https://www.createwith.com/event/building-context-aware-ai-agents-with-real-time-data-sep-2026",
-    "start": "2026-09-09T19:00:00.000Z",
-    "end": "2026-09-09T20:00:00.000Z",
-    "tz": "UTC",
-    "virtual": true,
-    "sg": false,
-    "venue": "Online",
-    "hosts": [
-      "ODSC AI Barcelona"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [
-      "Google",
-      "IBM"
-    ],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Free. 19:00 UTC start (Sep 10, 3:00 AM SGT). IBM, Confluent and Google Cloud speakers; live streaming-native agent demo."
-  },
-  {
-    "id": "manual-maven-multi-agent-2026",
-    "name": "How to Engineer a Multi-Agent System (Maven, Stefan Jansen)",
-    "url": "https://maven.com/p/c7565e/how-to-engineer-a-multi-agent-system",
-    "start": "2026-09-09T16:00:00.000Z",
-    "end": "2026-09-09T16:30:00.000Z",
-    "tz": "America/New_York",
-    "virtual": true,
-    "sg": false,
-    "venue": "Online",
-    "hosts": [
-      "Maven",
-      "Stefan Jansen"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Free 30-min session, Sep 9 12:00 PM US Eastern (Sep 10, midnight SGT)."
-  },
-  {
-    "id": "manual-hackerrank-orchestrate-2026",
-    "name": "HackerRank Orchestrate (24h agent hackathon)",
-    "url": "https://www.hackerrank.com/hackerrank-orchestrate-september26",
-    "start": "2026-09-12T12:30:00.000Z",
-    "end": "2026-09-13T12:30:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": true,
-    "sg": false,
-    "venue": "Online",
-    "hosts": [
-      "HackerRank"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "24-hour online agent hackathon starting Sep 12, 8:30 PM SGT. No fee listed."
-  },
-  {
-    "id": "manual-coreshift-2026",
-    "name": "CoreShift 2026 (enterprise + agentic AI virtual summit)",
-    "url": "https://acuvate.com/webinar/coreshift-2026-a-global-virtual-event/",
-    "start": "2026-09-15T12:00:00.000Z",
-    "end": "2026-09-16T15:45:00.000Z",
-    "tz": "Europe/Berlin",
-    "virtual": true,
-    "sg": false,
-    "venue": "Online",
-    "hosts": [
-      "Acuvate"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [
-      "Microsoft"
-    ],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Free 2-day virtual summit, Sep 15-16; sessions run 14:00-17:45 CEST (8:00-11:45 PM SGT)."
-  },
-  {
-    "id": "manual-ms-reactor-agent-swarms-2026",
-    "name": "Orchestrating Secure Parallel Agent Swarms (Microsoft Reactor)",
-    "url": "https://www.meetup.com/microsoft-reactor-redmond/events/315415335/",
-    "start": "2026-09-30T20:00:00.000Z",
-    "end": "2026-09-30T21:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": true,
-    "sg": false,
-    "venue": "Online",
-    "hosts": [
-      "Microsoft Reactor"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [
-      "Microsoft"
-    ],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Online session, Oct 1, 4:00 AM SGT."
-  },
-  {
-    "id": "manual-open-agent-hackathon-2026",
-    "name": "Open Agent Hackathon 2026 (GenAI.Works)",
-    "url": "https://hackathon.genai.works/event/open-agent-hackathon-2026",
-    "start": "2026-10-07T00:00:00.000Z",
-    "end": "2026-10-09T23:59:00.000Z",
-    "tz": "UTC",
-    "virtual": true,
-    "sg": false,
-    "venue": "Online",
-    "hosts": [
-      "GenAI.Works"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "72-hour online hackathon Oct 7-9, teams of 1-5, up to $20k prizes. Registration closes Oct 5.",
-    "credits": "Up to $20k prize pool (winners only)",
-    "credits_kind": "perk"
-  },
-  {
-    "id": "manual-redhat-mcp-webcast-2026",
-    "name": "What Is MCP and Why It Matters (Red Hat / PureAI webcast)",
-    "url": "https://pureai.com/webcasts/2026/10/red-hat-deep-dive-what-is-model-context-protocol-mcp-and-why-it-matters.aspx",
-    "start": "2026-10-07T18:00:00.000Z",
-    "end": "2026-10-07T19:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": true,
-    "sg": false,
-    "venue": "Online",
-    "hosts": [
-      "Red Hat",
-      "PureAI"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Free webcast, Oct 8, 2:00 AM SGT."
-  },
-  {
-    "id": "manual-mcp-agents-skills-meetup-2026",
-    "name": "MCP, Agents and Skills Meetup (Zoom)",
-    "url": "https://www.meetup.com/singapore-computer-vision-meetup/events/316022230/",
-    "start": "2026-10-08T16:00:00.000Z",
-    "end": "2026-10-08T18:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": true,
-    "sg": false,
-    "venue": "Online (Zoom)",
-    "hosts": [
-      "Singapore Computer Vision Meetup"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Virtual meetup, Oct 9, midnight-2:00 AM SGT."
-  },
-  {
-    "id": "manual-whatthehack-2026",
-    "name": "What The Hack 2026 (SUTD)",
-    "url": "https://root.sutd.edu.sg/WhatTheHack2026",
-    "start": "2026-10-09T01:00:00.000Z",
-    "end": "2026-10-11T10:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "Singapore University of Technology and Design",
-    "hosts": [
-      "SUTD"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "8th edition, 36-hour student hackathon (secondary school to university), hardware x software with an AI theme. Dates 9-11 Oct are TENTATIVE per the site; registration/prize details TBA.",
-    "credits": "Prizes planned; details TBA in official announcement",
-    "credits_kind": "perk"
-  },
-  {
-    "id": "manual-sg-india-hackathon-2026",
-    "name": "Singapore-India Hackathon 2026 (4th edition, SMU x AICTE)",
-    "url": "https://iie.smu.edu.sg/singapore-india-hackathon-2026",
-    "start": "2026-11-15T01:00:00.000Z",
-    "end": "2026-11-17T10:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "SMU Connexion, 40 Stamford Road",
-    "hosts": [
-      "SMU IIE",
-      "TiE Singapore",
-      "AICTE"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Bilateral student hackathon (120 students, cross-border teams), 36h build Nov 15-17. Four tracks incl. fintech and emerging tech; teams equipped with AI tools. Registration open to Singapore-based students; shortlist Sep-Oct."
-  },
-  {
-    "id": "manual-containerdays-ai-context-sg-2026",
-    "name": "ContainerDays & AI Context Singapore 2026",
-    "url": "https://www.containerdays.io/containerdays-singapore-2026/",
-    "start": "2026-10-27T01:00:00.000Z",
-    "end": "2026-10-28T09:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "Suntec Singapore Convention & Exhibition Centre, 1 Raffles Boulevard",
-    "hosts": [
-      "Dockland Media Group",
-      "AI Context Series"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Two-day in-person cloud-native and AI engineering conference; AI Context track covers MCP and agentic AI. Official page and ticket page confirm Oct 27-28, 9:00 AM-5:00 PM SGT."
-  },
-  {
-    "id": "manual-big-data-ai-world-asia-2026",
-    "name": "Big Data & AI World Asia 2026",
-    "url": "https://www.singaporetechnologyweek.com/big-data-ai-world/visit",
-    "start": "2026-09-29T01:00:00.000Z",
-    "end": "2026-09-30T09:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "Marina Bay Sands Expo and Convention Centre, 10 Bayfront Avenue",
-    "hosts": [
-      "CloserStill Media",
-      "Tech Week Singapore"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Two-day in-person data and AI conference, Sep 29-30, 9:00 AM-5:00 PM SGT. Complimentary for trade professionals; co-located Tech Week ticket covers all five shows."
-  },
-  {
-    "id": "manual-aigc-singapore-2026",
-    "name": "AIGC Singapore 2026 - Global AI Innovation Competition",
-    "url": "https://www.aigc-singapore.com/",
-    "start": "2026-12-12T01:00:00.000Z",
-    "end": "2026-12-13T10:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "NTU Alumni Club, Singapore",
-    "hosts": [
-      "AIGC Singapore"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "In-person finals Dec 12-13 at NTU Alumni Club. Official page says schedule is tentative and final timings will be confirmed; registration opens soon."
-  },
-  {
-    "id": "manual-agentic-ai-forum-sg-2026",
-    "name": "Singapore Agentic AI Forum 2026",
-    "url": "https://www.agenticaiforum.net/singapore/",
-    "start": "2026-11-04T01:00:00.000Z",
-    "end": "2026-11-04T10:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "Singapore (venue TBA)",
-    "hosts": [
-      "Scribe Minds & Media",
-      "Agentic AI Forum"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Enterprise agentic-AI forum on Nov 4 in Singapore; official page confirms date and city, with exact venue/time not yet listed."
-  },
-  {
-    "id": "manual-ai-engineering-summit-sg-2026",
-    "name": "AI Engineering Summit Singapore 2026",
-    "url": "https://www.eventbrite.com/e/ai-engineering-summit-singapore-2026-tickets-1995178186665",
-    "start": "2026-12-03T01:00:00.000Z",
-    "end": "2026-12-03T09:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "Four Points by Sheraton Singapore, Riverview, 382 Havelock Road",
-    "hosts": [
-      "AI Engineering Summit"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "One-day in-person summit for teams building and scaling production AI systems, Dec 3, 9:00 AM-5:00 PM SGT."
-  },
-  {
-    "id": "manual-supertype-agentic-codealong-2026",
-    "name": "Agentic AI Patterns: Code-Along Classroom",
-    "url": "https://supertype.ai/events/code-along",
-    "start": "2026-11-04T05:00:00.000Z",
-    "end": "2026-11-04T09:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "Waterloo Centre, Singapore",
-    "hosts": [
-      "Supertype",
-      "Samuel Chan"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Four-hour in-person hands-on workshop, Nov 4, 1:00-5:00 PM SGT. Paid event; listed price IDR 1,230,000."
-  },
-  {
-    "id": "manual-aws-kiro-agents-2026",
-    "name": "AWS Startups x JAM: Kiro for Agents",
-    "url": "https://startups.aws.com/events/aws-startups-x-jam-kiro-for-agents",
-    "start": "2026-10-02T05:30:00.000Z",
-    "end": "2026-10-02T09:30:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "AWS Singapore, IOI Central Boulevard, East Tower, Level 2",
-    "hosts": [
-      "AWS Startups",
-      "Just After Midnight"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [
-      "AWS"
-    ],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Small in-person Kiro-for-agents workshop, Oct 2, 1:30-5:30 PM SGT; limited to 30-40 participants."
-  },
-  {
-    "id": "manual-supertype-finance-terminal-2026",
-    "name": "Building Your Personal Finance Terminal",
-    "url": "https://supertype.ai/events/finance-terminal",
-    "start": "2026-09-24T11:00:00.000Z",
-    "end": "2026-09-25T13:30:00.000Z",
-    "tz": "Asia/Jakarta",
-    "virtual": true,
-    "sg": false,
-    "venue": "Online (Zoom)",
-    "hosts": [
-      "Supertype",
-      "Vincentius C. Calvin"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Two-evening online code-along building an AI-powered Telegram finance agent with IDX and SGX data, Sep 24-25, 7:00-9:30 PM SGT."
-  },
-  {
-    "id": "manual-iaim-ntu-2026",
-    "name": "International Conference on AI in Medicine (iAIM) 2026",
-    "url": "https://event.ntu.edu.sg/iAIM",
-    "start": "2026-12-03T00:30:00.000Z",
-    "end": "2026-12-05T10:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "Lee Kong Chian School of Medicine Headquarters, 11 Mandalay Road, Singapore 308232",
-    "hosts": [
-      "NTU Centre of AI in Medicine",
-      "Lee Kong Chian School of Medicine"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Three-day in-person conference, Dec 3-5. Industry Day starts 8:30 AM Dec 3; conference programme runs Dec 4-5. Registration deadline listed as Oct 15."
-  },
-  {
-    "id": "manual-nus-ai-governance-liability-2026",
-    "name": "AI Governance & Liability Conference",
-    "url": "https://law.nus.edu.sg/trail/trailaidec2026-home/",
-    "start": "2026-12-10T01:00:00.000Z",
-    "end": "2026-12-11T10:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "Wee Chong Jin Moot Court, NUS Faculty of Law, 16 College Avenue West",
-    "hosts": [
-      "NUS Centre for Technology, Robotics, Artificial Intelligence and the Law"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Two-day academic and industry conference on AI governance and liability, Dec 10-11. Official page confirms dates and venue."
-  },
-  {
-    "id": "manual-kenx-ai-gxp-sg-2026",
-    "name": "Harness the Power of AI in GxP - Singapore 2026",
-    "url": "https://kenx.org/conferences/harness-the-power-of-ai-in-gxp-singapore-2026/",
-    "start": "2026-11-19T00:00:00.000Z",
-    "end": "2026-11-20T09:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "Singapore (venue not listed)",
-    "hosts": [
-      "Knowledge Exchange Network"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Paid two-day in-person conference for regulated life sciences, Nov 19-20, approximately 8:00 AM-5:00 PM SGT. Venue not yet listed."
-  },
-  {
-    "id": "manual-founders-2-conf-sg-2026",
-    "name": "Founders 2.0 Conference Singapore 2026",
-    "url": "https://www.founders2conf.com/",
-    "start": "2026-12-02T01:00:00.000Z",
-    "end": "2026-12-04T09:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "Marina Bay Sands, Sands Expo & Convention Centre",
-    "hosts": [
-      "Founders 2.0 Conference"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Three-day founder and business summit, Dec 2-4, with substantial AI and innovation programming."
-  },
-  {
-    "id": "manual-databricks-daisi-sg-2026",
-    "name": "Databricks AI Social Impact (DAISI) Challenge Singapore - Demo Day",
-    "url": "https://daisi.online/",
-    "start": "2026-10-27T08:00:00.000Z",
-    "end": "2026-10-27T11:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "",
-    "hosts": [
-      "Databricks"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [
-      "Databricks"
-    ],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Student AI challenge for Singapore IHL students (teams of 1-4); Round 1 submissions closed Oct 6. Official DAISI page lists Demo Day on Oct 27, 4-7pm; the line does not restate a time zone, so Singapore time is inferred from the Singapore Edition page. All teams build free on Databricks; top 3 share US$3,000 in Databricks credits plus training/certification vouchers; total prize value US$24,500.",
-    "credits": "Top 3 teams receive US$3,000 total in Databricks credits ($1,500 / $1,000 / $500 by place), plus training/certification vouchers; total prize value up to US$24,500.",
-    "credits_kind": "perk"
-  },
-  {
-    "id": "manual-openai-codex-bootcamp-201-20260930",
-    "name": "Codex bootcamp 201: Team workflows (OpenAI Academy)",
-    "url": "https://academy.openai.com/public/clubs/builders-etkn1/events/codex-bootcamp-201-team-workflows-05zs2kad9n",
-    "start": "2026-09-30T17:00:00.000Z",
-    "end": "2026-09-30T18:00:00.000Z",
-    "tz": "America/New_York",
-    "virtual": true,
-    "sg": false,
-    "venue": "Online",
-    "hosts": [
-      "OpenAI"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [
-      "OpenAI"
-    ],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Official OpenAI Academy listing, 1-2 PM EDT (Oct 1, 1-2 AM SGT)."
-  },
-  {
-    "id": "manual-openai-codex-bootcamp-301-20261007",
-    "name": "Codex bootcamp 301: Advanced automation (OpenAI Academy)",
-    "url": "https://academy.openai.com/public/clubs/builders-etkn1/events/codex-bootcamp-301-advanced-automation-zejtj1ae6t",
-    "start": "2026-10-07T17:00:00.000Z",
-    "end": "2026-10-07T18:00:00.000Z",
-    "tz": "America/New_York",
-    "virtual": true,
-    "sg": false,
-    "venue": "Online",
-    "hosts": [
-      "OpenAI"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [
-      "OpenAI"
-    ],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Official OpenAI Academy listing, 1-2 PM EDT (Oct 8, 1-2 AM SGT)."
-  },
-  {
-    "id": "manual-mindstone-sg-ai-meetup-20261014",
-    "name": "Mindstone Singapore October AI Meetup",
-    "url": "https://www.meetup.com/mindstone-singapore-ai-meetup/events/316565594/",
-    "start": "2026-10-14T10:30:00.000Z",
-    "end": "2026-10-14T13:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "EHL Campus Singapore, 3 Lady Hill Rd, Singapore 258672",
-    "hosts": [
-      "Mindstone Singapore AI Meetup"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Three AI talks, demos and networking."
-  },
-  {
-    "id": "manual-apac-ai-ml-cv-meetup-20261001",
-    "name": "Oct 1 APAC AI, ML and Computer Vision Meetup",
-    "url": "https://www.meetup.com/singapore-computer-vision-meetup/events/316613760/",
-    "start": "2026-10-02T01:00:00.000Z",
-    "end": "2026-10-02T03:00:00.000Z",
-    "tz": "America/Los_Angeles",
-    "virtual": true,
-    "sg": false,
-    "venue": "Online (Zoom)",
-    "hosts": [
-      "Singapore AI, Machine Learning and Computer Vision Meetup"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Event page says Oct 1, 6-8 PM PDT, corresponding to Oct 2, 9-11 AM SGT."
-  },
-  {
-    "id": "manual-ai-ml-cv-meetup-20261015",
-    "name": "Oct 15 AI, ML, and Computer Vision Meetup",
-    "url": "https://www.meetup.com/singapore-computer-vision-meetup/events/316572341/",
-    "start": "2026-10-15T16:00:00.000Z",
-    "end": "2026-10-15T18:00:00.000Z",
-    "tz": "America/Los_Angeles",
-    "virtual": true,
-    "sg": false,
-    "venue": "Online (Zoom)",
-    "hosts": [
-      "Singapore AI, Machine Learning and Computer Vision Meetup"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Event page says Oct 15, 9-11 AM Pacific (Oct 16, midnight-2 AM SGT)."
-  },
-  {
-    "id": "manual-nov11-ai-ml-cv-meetup-2026",
-    "name": "Nov 11 AI, ML and Computer Vision Meetup",
-    "url": "https://www.meetup.com/singapore-computer-vision-meetup/events/316572580/",
-    "start": "2026-11-11T17:00:00.000Z",
-    "end": "2026-11-11T19:00:00.000Z",
-    "tz": "America/Los_Angeles",
-    "virtual": true,
-    "sg": false,
-    "venue": "Online (Zoom)",
-    "hosts": [
-      "Singapore AI, Machine Learning and Computer Vision Meetup"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Talks on agentic RAG, GeoAI and autonomous research agents. Nov 11 9-11 AM PST = Nov 12 1-3 AM SGT."
-  },
-  {
-    "id": "manual-nov19-lerobot-data-2026",
-    "name": "Nov 19 Visualizing and Debugging Hugging Face's LeRobot Data",
-    "url": "https://www.meetup.com/singapore-computer-vision-meetup/events/316617426/",
-    "start": "2026-11-19T17:00:00.000Z",
-    "end": "2026-11-19T18:00:00.000Z",
-    "tz": "America/Los_Angeles",
-    "virtual": true,
-    "sg": false,
-    "venue": "Online (Zoom)",
-    "hosts": [
-      "Singapore AI, Machine Learning and Computer Vision Meetup"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Hands-on Voxel51 workshop. Nov 19 9-10 AM PST = Nov 20 1-2 AM SGT."
-  },
-  {
-    "id": "manual-uob-ai-ready-changemakers-summit-2026",
-    "name": "UOB AI Ready Changemakers Summit",
-    "url": "https://thefinlab.com/events/uob-ai-ready-changemakers-summit/",
-    "start": "2026-09-28T01:00:00.000Z",
-    "end": "2026-09-28T06:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "Paradox Singapore Merchant Court, 20 Merchant Rd, Singapore 058281",
-    "hosts": [
-      "UOB FinLab"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "SME AI adoption summit, Sep 28 9 AM-2 PM SGT."
-  },
-  {
-    "id": "manual-finlab-gemini-content-creation-2026",
-    "name": "Generative AI Content Creation with Gemini and Other Tools",
-    "url": "https://thefinlab.com/events/generative-ai-content-creation/",
-    "start": "2026-10-02T01:00:00.000Z",
-    "end": "2026-10-03T10:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "Ngee Ann Polytechnic, 535 Clementi Rd, Singapore 599489",
-    "hosts": [
-      "UOB FinLab"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [
-      "Google"
-    ],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Two-day hands-on course, Oct 2-3, 9 AM-6 PM SGT each day; check registration page for any fee."
-  },
-  {
-    "id": "manual-finlab-genai-productivity-2026",
-    "name": "Generative Artificial Intelligence for Productivity",
-    "url": "https://thefinlab.com/events/generative-artificial-intelligence-for-productivity/",
-    "start": "2026-10-21T01:00:00.000Z",
-    "end": "2026-10-21T10:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "Ngee Ann Polytechnic, 535 Clementi Rd, Singapore 599489",
-    "hosts": [
-      "UOB FinLab"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Hands-on AI productivity course, Oct 21 9 AM-6 PM SGT; check registration page for any fee."
-  },
-  {
-    "id": "manual-google-cloud-gaming-ai-powerup-20261008",
-    "name": "Google Cloud Gaming Global Expansion: AI Power-Up Station",
-    "url": "https://luma.com/j7it396i",
-    "start": "2026-10-08T05:30:00.000Z",
-    "end": "2026-10-08T10:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "Google Singapore Office, Block 70, 70 Pasir Panjang Road, #03-71, Singapore",
-    "hosts": [
-      "021Lab",
-      "Google Cloud",
-      "Sieger"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [
-      "Google"
-    ],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Approval required. Public page states Oct 8 1:30-6 PM SGT; embedded Luma metadata says 1 PM and uses a different event title. Timing/title may change, check organizer page. Complimentary Google Cloud/Gemini resources and experience credits possible, terms not stated."
-  },
-  {
-    "id": "manual-anthropic-claude-foundry-rebroadcast-20260930",
-    "name": "Claude in Microsoft Foundry: Tool Integrations in Practice (EMEA rebroadcast)",
-    "url": "https://www.anthropic.com/webinars/claude-in-microsoft-foundry-tool-integrations-in-practice-emea-rebroadcast",
-    "start": "2026-09-30T08:00:00.000Z",
-    "end": "2026-09-30T08:30:00.000Z",
-    "tz": "Europe/London",
-    "virtual": true,
-    "sg": false,
-    "venue": "Online (pre-recorded rebroadcast with live Anthropic Q&A)",
-    "hosts": [
-      "Anthropic",
-      "Microsoft"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [
-      "Anthropic",
-      "Microsoft"
-    ],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Sep 30 9-9:30 AM BST = 4-4:30 PM SGT. Rebroadcast of Sep 3 session; Anthropic team in live chat."
-  },
-  {
-    "id": "manual-lfdt-agent-authorization-20261002",
-    "name": "Policy-Checked, Attributable, Revocable, Provable AI Agent Authorization",
-    "url": "https://www.meetup.com/lfdt-singapore/events/315990284/",
-    "start": "2026-10-02T14:00:00.000Z",
-    "end": "2026-10-02T15:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": true,
-    "sg": false,
-    "venue": "Online",
-    "hosts": [
-      "LFDT Singapore"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Global virtual talk on Caracal agent authorization. 10-11 PM SGT."
-  },
-  {
-    "id": "manual-platform-engineering-ai-20261007",
-    "name": "Platform Engineering in the Age of AI: Scalable Visibility",
-    "url": "https://www.meetup.com/platform-engineering-singapore/events/316419265/",
-    "start": "2026-10-06T17:00:00.000Z",
-    "end": "2026-10-06T17:45:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": true,
-    "sg": false,
-    "venue": "Online",
-    "hosts": [
-      "Platform Engineers Singapore"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "AI-driven and agentic SRE telemetry, 1-1:45 AM SGT Oct 7."
-  },
-  {
-    "id": "manual-fiftyone-vision-workflows-20261007",
-    "name": "Building Composable Vision Workflows in FiftyOne",
-    "url": "https://www.meetup.com/singapore-computer-vision-meetup/events/316064656/",
-    "start": "2026-10-07T16:00:00.000Z",
-    "end": "2026-10-07T18:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": true,
-    "sg": false,
-    "venue": "Online (Zoom)",
-    "hosts": [
-      "Singapore AI, Machine Learning and Computer Vision Meetup"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Meetup structured schedule Oct 8 midnight-2 AM SGT; description says Oct 7 9-10 AM PST, an inconsistent duration/timezone. Confirm with organizer."
-  },
-  {
-    "id": "manual-ksug-ai-sg-49-20261021",
-    "name": "KSUG.AI Singapore #49 Cloud Native & AI Meetup",
-    "url": "https://www.meetup.com/ksug-sg/events/316384465/",
-    "start": "2026-10-21T10:00:00.000Z",
-    "end": "2026-10-21T13:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "IMDA, 10 Pasir Panjang Rd, #03-01 Mapletree Business City, Singapore 117438 (also online)",
-    "hosts": [
-      "KSUG.AI APAC"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Hybrid meetup, Oct 21 6-9 PM SGT. AI talk topics TBC. Food and quiz swag giveaways, not guaranteed."
-  },
-  {
-    "id": "manual-actuarial-agentic-claude-workshop-20261006",
-    "name": "AI Workshop - Introduction to Agentic AI with Claude Code and CoWork",
-    "url": "https://actuaries.org.sg/event/ai-workshop-introduction-to-agentic-ai-with-claude-code-and-cowork-6-oct/",
-    "start": "2026-10-06T04:00:00.000Z",
-    "end": "2026-10-06T08:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "APSN, Kembangan-Chai Chee Community Hub, 11 Jalan Ubi, Block 4, #01-51, Singapore 409074",
-    "hosts": [
-      "Singapore Actuarial Society"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [
-      "Anthropic"
-    ],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Hands-on workshop on Claude Code and CoWork, 12-4 PM SGT. Singapore Actuarial Society page lists member attendance as complimentary and non-member fee as S$70; laptop and preinstalled software required."
-  },
-  {
-    "id": "manual-factor-data-ai-day-singapore-20261007",
-    "name": "Data+AI Day | Singapore",
-    "url": "https://www.factor-insights.com/events/dataai-day-or-singapore-vkl0q7z",
-    "start": "2026-10-07T00:30:00.000Z",
-    "end": "2026-10-07T10:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "Sofitel Singapore City Centre",
-    "hosts": [
-      "Factor"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Data and AI conference; published schedule runs 8:30 AM-6 PM SGT on Oct 7, with enterprise AI talks and hands-on agentic AI workshop."
-  },
-  {
-    "id": "manual-sfa-agentic-ai-20261020",
-    "name": "Beyond Prompting: Architecting Enterprise AI Agents",
-    "url": "https://singaporefintech.org/event/beyond-prompting-architecting-enterprise-ai-agents/",
-    "start": "2026-10-20T07:00:00.000Z",
-    "end": "2026-10-20T10:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "16 Raffles Quay, #24-01, Hong Leong Building, Singapore 048581",
-    "hosts": [
-      "Singapore FinTech Association"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [
-      "Google Gemini Enterprise"
-    ],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Practitioner session with hands-on Gemini Enterprise workflow-agent workshop and expert panel; 3-6 PM SGT."
-  },
-  {
-    "id": "manual-generative-beings-ads-ai-sg-20261015",
-    "name": "Ads & AI Singapore Meetup #12: Agents Buying & Selling",
-    "url": "https://thegenerativebeings.com/events/ads-ai-singapore-meetup-12-agents-buying-selling-vHmX57",
-    "start": "2026-10-15T10:30:00.000Z",
-    "end": "2026-10-15T12:30:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "SQ Collective x Gen-AI Labs, 65 Mohamed Sultan Rd, Singapore 239003",
-    "hosts": [
-      "The Generative Beings"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "AI advertising and agents meetup; date/time shown as 15 Oct, 6:30-8:30 PM GMT+8."
-  },
-  {
-    "id": "manual-zai-aisg-aixtech-meetup-2026",
-    "name": "Build with Frontier Intelligence: AISG × Z.ai AIxTech Community Meetup",
-    "url": "https://lu.ma/ib9bnj2p",
-    "start": "2026-10-22T10:00:00.000Z",
-    "end": "2026-10-22T12:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "Singapore (Luma shows location after registration)",
-    "hosts": [
-      "AI Singapore",
-      "Z.ai"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [
-      "Z.ai"
-    ],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Hands-on GLM-5.2 event with direct API time, date Oct 22; Luma page does not show exact venue publicly."
-  },
-  {
-    "id": "manual-agentic-ai-club-jev-20261002",
-    "name": "The Agentic AI Club: A First Look at Jev, the Model That Won't Write a Word",
-    "url": "https://www.eventbrite.sg/e/the-agentic-ai-club-a-first-look-at-jev-the-model-that-wont-write-a-word-tickets-2002183543877",
-    "start": "2026-10-02T10:00:00.000Z",
-    "end": "2026-10-02T12:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "20 Anson Road, Singapore 079912",
-    "hosts": [
-      "The Agentic AI Club"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Practical session on Jev and where it fits in a real AI stack; 6-8 PM SGT, with networking afterward."
-  },
-  {
-    "id": "manual-sg-agentic-nights-docker-20261029",
-    "name": "SG Agentic Nights - Exclusive Hands on Labs with Docker",
-    "url": "https://globalai.community/e/rjlhdm80",
-    "start": "2026-10-29T08:00:00.000Z",
-    "end": "2026-10-29T11:30:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "UBS Singapore, 9 Penang Road, Singapore 238459",
-    "hosts": [
-      "Global AI Singapore",
-      "Docker",
-      "UBS",
-      "Microsoft"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [
-      "Docker",
-      "Microsoft"
-    ],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Official Global AI Community listing: Thu Oct 29, 4-7:30 PM SGT at UBS Singapore. Technical talks and hands-on learning on agentic applications, security and enterprise AI."
-  },
-  {
-    "id": "manual-databricks-daisi-hackathon-2026",
-    "name": "Databricks AI Social Impact (DAISI) Challenge - Singapore",
-    "url": "https://hackathonsingapore.com/events/databricks-ai-social-impact-daisi-challenge-singapore",
-    "start": "2026-09-16T00:00:00.000Z",
-    "end": "2026-10-07T16:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "Singapore (student challenge; demo-day venue details TBA)",
-    "hosts": [
-      "Databricks Singapore"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [
-      "Databricks"
-    ],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Open to Singapore IHL students; submissions close Oct 7 at 12:00 AM SGT. Teams build on Databricks Free Edition at no cost, with Databricks engineer mentoring; winning teams receive US$24,500 total value in credits, training and certification. Official Devpost and event calendar list a noon deadline while other event summaries say Oct 6 23:59 SGT (same instant); Oct 27 Demo Day listing remains separately tracked.",
-    "credits": "Teams build free on Databricks Free Edition; top 3 teams share US$24,500 in credits, training and certification",
-    "credits_kind": "perk"
-  },
-  {
-    "id": "manual-mindstone-sg-ai-meetup-20261104",
-    "name": "Mindstone Singapore November AI Meetup",
-    "url": "https://www.meetup.com/mindstone-singapore-ai-meetup/events/316567489/",
-    "start": "2026-11-04T10:30:00.000Z",
-    "end": "2026-11-04T13:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "EHL Campus (Singapore), 3 Lady Hill Rd, Singapore 258672",
-    "hosts": [
-      "Mindstone Singapore AI Meetup"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Three AI talks, demos and networking; Meetup page confirms Nov 4, 6:30-9:00 PM SGT and the EHL Campus venue."
-  },
-  {
-    "id": "manual-humanoid-hack-singapore-20261031",
-    "name": "Humanoid Hack Singapore",
-    "url": "https://hackathonsingapore.com/events/humanoid-hack-singapore",
-    "start": "2026-10-31T02:00:00.000Z",
-    "end": "2026-11-01T10:30:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "Singapore (exact address shared with registered guests)",
-    "hosts": [
-      "Orboh, Inc.",
-      "Acacia College"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "In-person humanoid-robot hackathon on Unitree G1 robots, Oct 31-Nov 1. Schedule: Oct 31 10:00 AM-10:00 PM and Nov 1 8:00 AM-6:30 PM SGT. Selection process; free Day 2 public viewer ticket offered to registrants not selected as hackers."
-  },
-  {
-    "id": "manual-nodes-2026-20261112",
-    "name": "NODES 2026",
-    "url": "https://www.meetup.com/graphdb-singapore/events/314437681/",
-    "start": "2026-11-11T20:30:00.000Z",
-    "end": "2026-11-12T06:30:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": true,
-    "sg": false,
-    "venue": "Online",
-    "hosts": [
-      "Neo4j",
-      "Graph Database Singapore"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [
-      "Neo4j"
-    ],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Free online conference; Meetup event metadata explicitly marks eventType ONLINE and VirtualLocation. Listed Nov 12, 4:30 AM-2:30 PM SGT; AI engineering tracks cover generative AI, RAG, agents and intelligent systems."
-  },
-  {
-    "id": "manual-common-ground-makeathon-20261011",
-    "name": "Common Ground Makeathon: Design x Tech x Culture",
-    "url": "https://hackathonsingapore.com/events/common-ground-makeathon-design-x-tech-x-culture",
-    "start": "2026-10-11T01:00:00.000Z",
-    "end": "2026-10-11T09:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "SQ Collective, Singapore",
-    "hosts": [
-      "Common Ground"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [
-      "OpenAI"
-    ],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Free one-day creative-tech makeathon, 9 AM-5 PM SGT; all participants receive Codex credits. USD $5,000 Codex credits prize pool judged across both tracks."
-  },
-  {
-    "id": "manual-replit-tpf-singapore-20261104",
-    "name": "Ship It | Replit x TPF Singapore Edition",
-    "url": "https://luma.com/gizf6zfy",
-    "start": "2026-11-04T10:30:00.000Z",
-    "end": "2026-11-04T13:30:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "Singapore (exact venue on registration)",
-    "hosts": [
-      "The Product Folks"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": 0,
-    "vendors": [
-      "Replit"
-    ],
-    "source": "manual",
-    "kind": "manual",
-    "note": "In-person Replit build session, 6:30-9:30 PM SGT. Event page says attendees leave with Replit credits to continue building after the event; amount and eligibility not specified."
-  },
-  {
-    "id": "manual-aigov-meetup-singapore-20261029",
-    "name": "AIGov Meetup Singapore: Agentic AI Governance",
-    "url": "https://www.meetup.com/collabnix/events/316863949/",
-    "start": "2026-10-29T10:00:00.000Z",
-    "end": "2026-10-29T13:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "ThoughtWorks, 18 Cross St, #12-01 18 Cross, Singapore 048423",
-    "hosts": [
-      "Collabnix",
-      "Docker",
-      "Thoughtworks",
-      "Cloudera"
-    ],
-    "calendar": "",
-    "cover": null,
-    "guests": null,
-    "vendors": [
-      "Docker",
-      "Thoughtworks",
-      "Cloudera"
-    ],
-    "source": "manual",
-    "kind": "manual",
-    "note": "In-person governance meetup. 6:00-9:00 PM SGT; talks on Docker Sandboxes for governing AI coding agents, Thoughtworks and Cloudera. Meetup duplicated this event under two group slugs; retained collabnix URL."
-  },
-  {
-    "id": "manual-sginnovate-physical-ai-webinar-2026-10-22",
-    "name": "Webinar - Physical AI: From Simulation to the Real World",
-    "url": "https://www.sginnovate.com/event/webinar-physical-ai-simulation-real-world-0",
-    "start": "2026-10-22T07:00:00.000Z",
-    "end": "2026-10-22T08:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": true,
-    "sg": false,
-    "venue": "Online",
-    "hosts": [
-      "SGInnovate",
-      "NVIDIA"
-    ],
-    "calendar": "",
-    "calendar_id": null,
-    "cover": null,
-    "guests": null,
-    "vendors": [
-      "NVIDIA"
-    ],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Official SGInnovate page lists Oct 22, 3-4 PM SGT, online. Webinar covers NVIDIA robotics and physical-AI tools for simulation, training and edge deployment."
-  },
-  {
-    "id": "manual-media-learning-agentic-learning-2026-10-22",
-    "name": "Deep Dive into Agentic Learning",
-    "url": "https://media-and-learning.eu/uncategorised/sign-up-for-our-first-deep-dive-into-agentic-learning/",
-    "start": "2026-10-22T12:00:00.000Z",
-    "end": "2026-10-22T15:00:00.000Z",
-    "tz": "Europe/Amsterdam",
-    "virtual": true,
-    "sg": false,
-    "venue": "Online",
-    "hosts": [
-      "Media & Learning Association"
-    ],
-    "calendar": "",
-    "calendar_id": null,
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Official page lists Oct 22, 2-5 PM CEST, online. Hands-on workshop on agents using goals, tools and context to carry out learning and media-production tasks."
-  },
-  {
-    "id": "manual-grok-bot-singapore-meetup-2026-10-23",
-    "name": "Grok Bot Singapore Meetup - Build Your AI Team Before 2027",
-    "url": "https://www.eventbrite.sg/e/grok-bot-singapore-meetup-build-your-ai-team-before-2027-tickets-2003234466214",
-    "start": "2026-10-23T06:00:00.000Z",
-    "end": "2026-10-23T08:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "SG Innovation, 71 Ayer Rajah Crescent, #04-01, Singapore 139951",
-    "hosts": [
-      "AI Hustle - BK Han"
-    ],
-    "calendar": "",
-    "calendar_id": null,
-    "cover": null,
-    "guests": null,
-    "vendors": [
-      "xAI / SpaceXAI"
-    ],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Eventbrite listing confirms Oct 23, 2-4 PM SGT, in person in Singapore; ticket listed at SGD 10. Hands-on no-code AI-agent team workshop."
-  },
-  {
-    "id": "manual-insead-ai-forum-asia-2026-10-30",
-    "name": "AI Forum Asia 2026 (INSEAD)",
-    "url": "https://www.eventbrite.co.uk/e/ai-forum-asia-2026-tickets-2001421235793",
-    "start": "2026-10-30T01:00:00.000Z",
-    "end": "2026-10-31T09:30:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "INSEAD Asia Campus, 1 Ayer Rajah Avenue, Singapore 138676",
-    "hosts": [
-      "INSEAD"
-    ],
-    "calendar": "",
-    "calendar_id": null,
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Eventbrite lists Oct 30-31, in person at INSEAD Asia Campus. A EuroCham partner page gives a 9:00 AM SGT start; Eventbrite lists 9:15 AM, so the exact start differs by 15 minutes across listings. Covers AI in practice, physical AI, geopolitics and the future of work."
-  },
-  {
-    "id": "manual-ainext-conference-singapore-2026-11-03",
-    "name": "AINext Conference Singapore 2026",
-    "url": "https://asia.ainextconference.com/",
-    "start": "2026-11-03T01:15:00.000Z",
-    "end": "2026-11-03T09:30:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "Singapore (venue not listed)",
-    "hosts": [
-      "AINext"
-    ],
-    "calendar": "",
-    "calendar_id": null,
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Official conference page gives Nov 3, 2026 in Singapore; its agenda PDF lists 9:15 AM-5:30 PM. The venue is not stated on the page."
-  },
-  {
-    "id": "manual-sginnovate-ai-salon-tech-talk-2026-11-12",
-    "name": "SGInnovate x AI Salon Singapore Tech Talk",
-    "url": "https://www.sginnovate.com/event/sginnovate-x-ai-salon-singapore-tech-talk-12-nov",
-    "start": "2026-11-12T10:00:00.000Z",
-    "end": "2026-11-12T13:00:00.000Z",
-    "tz": "Asia/Singapore",
-    "virtual": false,
-    "sg": true,
-    "venue": "32 Carpenter Street, Singapore 059911",
-    "hosts": [
-      "SGInnovate",
-      "AI Salon"
-    ],
-    "calendar": "",
-    "calendar_id": null,
-    "cover": null,
-    "guests": null,
-    "vendors": [],
-    "source": "manual",
-    "kind": "manual",
-    "note": "Official SGInnovate page lists Nov 12, 6-9 PM SGT. AI builders, founders and operators; program and speakers to be announced."
-  }
+ {
+  "id": "manual-openai-devday-2026",
+  "name": "OpenAI DevDay 2026 (keynote livestream)",
+  "url": "https://devday.openai.com/",
+  "start": "2026-09-29T17:00:00.000Z",
+  "end": "2026-09-30T02:00:00.000Z",
+  "tz": "America/Los_Angeles",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online livestream (in-person in San Francisco)",
+  "hosts": [
+   "OpenAI"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [
+   "OpenAI"
+  ],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Keynote livestreamed free online; in-person at Fort Mason, San Francisco."
+ },
+ {
+  "id": "manual-switch-2026",
+  "name": "SWITCH 2026 - Singapore Week of Innovation and Technology",
+  "url": "https://www.switchsg.org/",
+  "start": "2026-10-27T01:00:00.000Z",
+  "end": "2026-10-29T10:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Marina Bay Sands, Sands Expo & Convention Centre, Singapore",
+  "hosts": [
+   "Enterprise Singapore"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Flagship innovation week with heavy AI track programming."
+ },
+ {
+  "id": "manual-agenticon-2026",
+  "name": "Agenticon 2026 - Agentic AI Conference for Enterprises & CXOs",
+  "url": "https://www.strategink.com/agenticon/1st-edition/singapore/",
+  "start": "2026-09-24T01:00:00.000Z",
+  "end": "2026-09-24T10:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Singapore",
+  "hosts": [
+   "StrategINK"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Enterprise agentic-AI conference; industry spotlight sessions run Sep 9-23."
+ },
+ {
+  "id": "manual-agentcon-sg-2026",
+  "name": "AgentCon - Singapore",
+  "url": "https://globalai.community/e/awgteae7",
+  "start": "2026-11-05T00:30:00.000Z",
+  "end": "2026-11-05T09:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Singapore University of Technology and Design (SUTD), 8 Somapah Rd, Singapore 487372",
+  "hosts": [
+   "Global AI Community"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Official listing states Nov 5, 8:30 AM-5:00 PM SGT at SUTD, with talks, technical workshops, demos, and AI agents content."
+ },
+ {
+  "id": "manual-sbr-tech-summit-2026",
+  "name": "Singapore Business Review Technology Enterprise Summit 2026",
+  "url": "https://sbr.com.sg/event/singapore-business-review-technology-enterprise-summit-2026-november-12-2026",
+  "start": "2026-11-12T01:00:00.000Z",
+  "end": "2026-11-12T10:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Singapore",
+  "hosts": [
+   "Singapore Business Review"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual"
+ },
+ {
+  "id": "manual-convergence-summit-2026",
+  "name": "Convergence Summit",
+  "url": "https://www.convergencesummit.ai/",
+  "start": "2026-11-13T01:00:00.000Z",
+  "end": "2026-11-13T10:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Singapore",
+  "hosts": [
+   "Convergence"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual"
+ },
+ {
+  "id": "manual-ai-innovation-asia-2026",
+  "name": "AI Innovation Asia (Economist Enterprise)",
+  "url": "https://events.economistenterprise.com/ai-innovation-asia/",
+  "start": "2026-11-26T01:00:00.000Z",
+  "end": "2026-11-26T10:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Singapore",
+  "hosts": [
+   "Economist Enterprise"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual"
+ },
+ {
+  "id": "manual-gic-codetoimpact-2026",
+  "name": "#CODETOIMPACT Hackathon 2026 (GIC x Anthropic)",
+  "url": "https://gic.careers/events/codetoimpact-hackathon-2026/",
+  "start": "2026-09-18T00:30:00.000Z",
+  "end": "2026-09-18T14:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "GIC Singapore Office, Capital Tower, 168 Robinson Road",
+  "hosts": [
+   "GIC",
+   "Anthropic"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [
+   "Anthropic"
+  ],
+  "source": "manual",
+  "kind": "manual",
+  "note": "One-day AI hackathon for undergraduates, in collaboration with Anthropic. Problem statement released online Sep 17 evening."
+ },
+ {
+  "id": "manual-aitinkerers-agents-hack-2026",
+  "name": "Agents, Everywhere: Global Hackathon (AI Tinkerers SG x OpenAI)",
+  "url": "https://singapore.aitinkerers.org/p/agents-everywhere-bots-channels-more-global-hackathon",
+  "start": "2026-09-12T02:00:00.000Z",
+  "end": "2026-09-12T11:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Singapore (location shared upon acceptance)",
+  "hosts": [
+   "AI Tinkerers Singapore",
+   "OpenAI"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [
+   "OpenAI"
+  ],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Global one-day buildathon with OpenAI as headline partner. Application required. Official registration page; Luma mirror: https://lu.ma/b4fdnzoc",
+  "credits": "Codex credit prizes (OpenAI-sponsored)"
+ },
+ {
+  "id": "manual-oasec-2026",
+  "name": "OASec 2026: AI Safety & Security Conference",
+  "url": "https://oasec.org/",
+  "start": "2026-09-28T01:00:00.000Z",
+  "end": "2026-09-28T10:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "PIXEL @ one-north, 10 Central Exchange Green",
+  "hosts": [
+   "OASec"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Technical talks on AI safety/security; complimentary but registration closed Sep 4 (subject to capacity)."
+ },
+ {
+  "id": "manual-aicon-2026",
+  "name": "AICON 2026 - World's #1 AI Consumer Show",
+  "url": "https://luma.com/ong7gwwk",
+  "start": "2026-10-08T01:00:00.000Z",
+  "end": "2026-10-09T13:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "*SCAPE, Singapore",
+  "hosts": [
+   "AICON 2026"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Two-day AI consumer show: showcases, live demos, creator experiences, startup innovations."
+ },
+ {
+  "id": "manual-aim-asean-2026",
+  "name": "AIM ASEAN Singapore 2026: Flagship Forum",
+  "url": "https://luma.com/azljrdvu",
+  "start": "2026-09-15T05:30:00.000Z",
+  "end": "2026-09-15T10:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Singapore Polytechnic Convention Centre",
+  "hosts": [
+   "BlackStorm Group",
+   "Project Asia Data"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "~800 business owners/SME leaders; practical AI adoption. ASEAN Foundation initiative supported by Google + ADB."
+ },
+ {
+  "id": "manual-0g-devday-2026",
+  "name": "0G Dev Day: ZERO TO INFINITY",
+  "url": "https://luma.com/0g-devday-2026",
+  "start": "2026-10-05T01:30:00.000Z",
+  "end": "2026-10-05T09:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "National Gallery Singapore",
+  "hosts": [
+   "0G Foundation"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Keynote, live AI app demos, ecosystem showcase, panels on decentralized AI infrastructure."
+ },
+ {
+  "id": "manual-oracle-apex-ai-2026",
+  "name": "Oracle APEX AI Roadshow 2026, ASEAN Edition (Singapore)",
+  "url": "https://luma.com/pkzmqpgb",
+  "start": "2026-10-02T01:00:00.000Z",
+  "end": "2026-10-02T08:30:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Oracle Singapore @ Fusionopolis",
+  "hosts": [
+   "APAC Oracle User Groups Community"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [
+   "Oracle"
+  ],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Full-day roadshow: generative development, AI agents, AI interactive reports."
+ },
+ {
+  "id": "manual-ai-salon-sep-2026",
+  "name": "AI Salon Singapore x SGInnovate Tech Talk (September 2026)",
+  "url": "https://luma.com/AI-Salon-Singapore-September-2026",
+  "start": "2026-09-25T10:00:00.000Z",
+  "end": "2026-09-25T13:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Singapore (location on registration)",
+  "hosts": [
+   "AI Salon",
+   "SGInnovate"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Where is AI value being created, what investors are betting on, defensibility."
+ },
+ {
+  "id": "manual-ai-open-models-oct-2026",
+  "name": "Oct Meetup - AI Open Models (Technology + Agentic AI + Databases)",
+  "url": "https://luma.com/oldmvewn",
+  "start": "2026-10-05T10:00:00.000Z",
+  "end": "2026-10-05T12:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Singapore (location on registration)",
+  "hosts": [
+   "AINight"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Practical AI agents for search/retrieval over rich content. Date tentative per host."
+ },
+ {
+  "id": "manual-stack-conf-2026",
+  "name": "STACK Conference 2026 (GovTech)",
+  "url": "https://www.tech.gov.sg/events/stack-conference-2026/",
+  "start": "2026-11-04T01:00:00.000Z",
+  "end": "2026-11-05T10:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Singapore",
+  "hosts": [
+   "GovTech Singapore"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "GovTech flagship developer conference, Nov 4-5; strong AI/agentic tracks."
+ },
+ {
+  "id": "manual-xathon-2026",
+  "name": "Xathon 2026 (BeyondX Lab AI hack weekend)",
+  "url": "https://www.meetup.com/padang-and-co/events/315768706/",
+  "start": "2026-09-26T01:00:00.000Z",
+  "end": "2026-09-27T10:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "BeyondX Building, 21 Keppel Rd",
+  "hosts": [
+   "BeyondX Lab",
+   "Padang & Co"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Two-day AI innovation hack weekend across 4 missions (smart cities, creator economy, mobility/EV, health). Cash prizes; top 3 teams showcase at BeyondXpo Oct 12. Register at xathon.beyondx.co."
+ },
+ {
+  "id": "manual-odsc-context-agents-2026",
+  "name": "Building Context-Aware AI Agents with Real-Time Data (ODSC webinar)",
+  "url": "https://www.createwith.com/event/building-context-aware-ai-agents-with-real-time-data-sep-2026",
+  "start": "2026-09-09T19:00:00.000Z",
+  "end": "2026-09-09T20:00:00.000Z",
+  "tz": "UTC",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "ODSC AI Barcelona"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [
+   "Google",
+   "IBM"
+  ],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Free. 19:00 UTC start (Sep 10, 3:00 AM SGT). IBM, Confluent and Google Cloud speakers; live streaming-native agent demo."
+ },
+ {
+  "id": "manual-maven-multi-agent-2026",
+  "name": "How to Engineer a Multi-Agent System (Maven, Stefan Jansen)",
+  "url": "https://maven.com/p/c7565e/how-to-engineer-a-multi-agent-system",
+  "start": "2026-09-09T16:00:00.000Z",
+  "end": "2026-09-09T16:30:00.000Z",
+  "tz": "America/New_York",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Maven",
+   "Stefan Jansen"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Free 30-min session, Sep 9 12:00 PM US Eastern (Sep 10, midnight SGT)."
+ },
+ {
+  "id": "manual-hackerrank-orchestrate-2026",
+  "name": "HackerRank Orchestrate (24h agent hackathon)",
+  "url": "https://www.hackerrank.com/hackerrank-orchestrate-september26",
+  "start": "2026-09-12T12:30:00.000Z",
+  "end": "2026-09-13T12:30:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "HackerRank"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "24-hour online agent hackathon starting Sep 12, 8:30 PM SGT. No fee listed."
+ },
+ {
+  "id": "manual-coreshift-2026",
+  "name": "CoreShift 2026 (enterprise + agentic AI virtual summit)",
+  "url": "https://acuvate.com/webinar/coreshift-2026-a-global-virtual-event/",
+  "start": "2026-09-15T12:00:00.000Z",
+  "end": "2026-09-16T15:45:00.000Z",
+  "tz": "Europe/Berlin",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Acuvate"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [
+   "Microsoft"
+  ],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Free 2-day virtual summit, Sep 15-16; sessions run 14:00-17:45 CEST (8:00-11:45 PM SGT)."
+ },
+ {
+  "id": "manual-ms-reactor-agent-swarms-2026",
+  "name": "Orchestrating Secure Parallel Agent Swarms (Microsoft Reactor)",
+  "url": "https://www.meetup.com/microsoft-reactor-redmond/events/315415335/",
+  "start": "2026-09-30T20:00:00.000Z",
+  "end": "2026-09-30T21:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Microsoft Reactor"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [
+   "Microsoft"
+  ],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Online session, Oct 1, 4:00 AM SGT."
+ },
+ {
+  "id": "manual-open-agent-hackathon-2026",
+  "name": "Open Agent Hackathon 2026 (GenAI.Works)",
+  "url": "https://hackathon.genai.works/event/open-agent-hackathon-2026",
+  "start": "2026-10-07T00:00:00.000Z",
+  "end": "2026-10-09T23:59:00.000Z",
+  "tz": "UTC",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "GenAI.Works"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "72-hour online hackathon Oct 7-9, teams of 1-5, up to $20k prizes. Registration closes Oct 5.",
+  "credits": "Up to $20k prize pool (winners only)",
+  "credits_kind": "perk"
+ },
+ {
+  "id": "manual-redhat-mcp-webcast-2026",
+  "name": "What Is MCP and Why It Matters (Red Hat / PureAI webcast)",
+  "url": "https://pureai.com/webcasts/2026/10/red-hat-deep-dive-what-is-model-context-protocol-mcp-and-why-it-matters.aspx",
+  "start": "2026-10-07T18:00:00.000Z",
+  "end": "2026-10-07T19:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Red Hat",
+   "PureAI"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Free webcast, Oct 8, 2:00 AM SGT."
+ },
+ {
+  "id": "manual-mcp-agents-skills-meetup-2026",
+  "name": "MCP, Agents and Skills Meetup (Zoom)",
+  "url": "https://www.meetup.com/singapore-computer-vision-meetup/events/316022230/",
+  "start": "2026-10-08T16:00:00.000Z",
+  "end": "2026-10-08T18:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online (Zoom)",
+  "hosts": [
+   "Singapore Computer Vision Meetup"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Virtual meetup, Oct 9, midnight-2:00 AM SGT."
+ },
+ {
+  "id": "manual-whatthehack-2026",
+  "name": "What The Hack 2026 (SUTD)",
+  "url": "https://root.sutd.edu.sg/WhatTheHack2026",
+  "start": "2026-10-09T01:00:00.000Z",
+  "end": "2026-10-11T10:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Singapore University of Technology and Design",
+  "hosts": [
+   "SUTD"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "8th edition, 36-hour student hackathon (secondary school to university), hardware x software with an AI theme. Dates 9-11 Oct are TENTATIVE per the site; registration/prize details TBA.",
+  "credits": "Prizes planned; details TBA in official announcement",
+  "credits_kind": "perk"
+ },
+ {
+  "id": "manual-sg-india-hackathon-2026",
+  "name": "Singapore-India Hackathon 2026 (4th edition, SMU x AICTE)",
+  "url": "https://iie.smu.edu.sg/singapore-india-hackathon-2026",
+  "start": "2026-11-15T01:00:00.000Z",
+  "end": "2026-11-17T10:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "SMU Connexion, 40 Stamford Road",
+  "hosts": [
+   "SMU IIE",
+   "TiE Singapore",
+   "AICTE"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Bilateral student hackathon (120 students, cross-border teams), 36h build Nov 15-17. Four tracks incl. fintech and emerging tech; teams equipped with AI tools. Registration open to Singapore-based students; shortlist Sep-Oct."
+ },
+ {
+  "id": "manual-containerdays-ai-context-sg-2026",
+  "name": "ContainerDays & AI Context Singapore 2026",
+  "url": "https://www.containerdays.io/containerdays-singapore-2026/",
+  "start": "2026-10-27T01:00:00.000Z",
+  "end": "2026-10-28T09:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Suntec Singapore Convention & Exhibition Centre, 1 Raffles Boulevard",
+  "hosts": [
+   "Dockland Media Group",
+   "AI Context Series"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Two-day in-person cloud-native and AI engineering conference; AI Context track covers MCP and agentic AI. Official page and ticket page confirm Oct 27-28, 9:00 AM-5:00 PM SGT."
+ },
+ {
+  "id": "manual-big-data-ai-world-asia-2026",
+  "name": "Big Data & AI World Asia 2026",
+  "url": "https://www.singaporetechnologyweek.com/big-data-ai-world/visit",
+  "start": "2026-09-29T01:00:00.000Z",
+  "end": "2026-09-30T09:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Marina Bay Sands Expo and Convention Centre, 10 Bayfront Avenue",
+  "hosts": [
+   "CloserStill Media",
+   "Tech Week Singapore"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Two-day in-person data and AI conference, Sep 29-30, 9:00 AM-5:00 PM SGT. Complimentary for trade professionals; co-located Tech Week ticket covers all five shows."
+ },
+ {
+  "id": "manual-aigc-singapore-2026",
+  "name": "AIGC Singapore 2026 - Global AI Innovation Competition",
+  "url": "https://www.aigc-singapore.com/",
+  "start": "2026-12-12T01:00:00.000Z",
+  "end": "2026-12-13T10:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "NTU Alumni Club, Singapore",
+  "hosts": [
+   "AIGC Singapore"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "In-person finals Dec 12-13 at NTU Alumni Club. Official page says schedule is tentative and final timings will be confirmed; registration opens soon."
+ },
+ {
+  "id": "manual-agentic-ai-forum-sg-2026",
+  "name": "Singapore Agentic AI Forum 2026",
+  "url": "https://www.agenticaiforum.net/singapore/",
+  "start": "2026-11-04T01:00:00.000Z",
+  "end": "2026-11-04T10:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Singapore (venue TBA)",
+  "hosts": [
+   "Scribe Minds & Media",
+   "Agentic AI Forum"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Enterprise agentic-AI forum on Nov 4 in Singapore; official page confirms date and city, with exact venue/time not yet listed."
+ },
+ {
+  "id": "manual-ai-engineering-summit-sg-2026",
+  "name": "AI Engineering Summit Singapore 2026",
+  "url": "https://www.eventbrite.com/e/ai-engineering-summit-singapore-2026-tickets-1995178186665",
+  "start": "2026-12-03T01:00:00.000Z",
+  "end": "2026-12-03T09:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Four Points by Sheraton Singapore, Riverview, 382 Havelock Road",
+  "hosts": [
+   "AI Engineering Summit"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "One-day in-person summit for teams building and scaling production AI systems, Dec 3, 9:00 AM-5:00 PM SGT."
+ },
+ {
+  "id": "manual-supertype-agentic-codealong-2026",
+  "name": "Agentic AI Patterns: Code-Along Classroom",
+  "url": "https://supertype.ai/events/code-along",
+  "start": "2026-11-04T05:00:00.000Z",
+  "end": "2026-11-04T09:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Waterloo Centre, Singapore",
+  "hosts": [
+   "Supertype",
+   "Samuel Chan"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Four-hour in-person hands-on workshop, Nov 4, 1:00-5:00 PM SGT. Paid event; listed price IDR 1,230,000."
+ },
+ {
+  "id": "manual-aws-kiro-agents-2026",
+  "name": "AWS Startups x JAM: Kiro for Agents",
+  "url": "https://startups.aws.com/events/aws-startups-x-jam-kiro-for-agents",
+  "start": "2026-10-02T05:30:00.000Z",
+  "end": "2026-10-02T09:30:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "AWS Singapore, IOI Central Boulevard, East Tower, Level 2",
+  "hosts": [
+   "AWS Startups",
+   "Just After Midnight"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [
+   "AWS"
+  ],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Small in-person Kiro-for-agents workshop, Oct 2, 1:30-5:30 PM SGT; limited to 30-40 participants."
+ },
+ {
+  "id": "manual-supertype-finance-terminal-2026",
+  "name": "Building Your Personal Finance Terminal",
+  "url": "https://supertype.ai/events/finance-terminal",
+  "start": "2026-09-24T11:00:00.000Z",
+  "end": "2026-09-25T13:30:00.000Z",
+  "tz": "Asia/Jakarta",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online (Zoom)",
+  "hosts": [
+   "Supertype",
+   "Vincentius C. Calvin"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Two-evening online code-along building an AI-powered Telegram finance agent with IDX and SGX data, Sep 24-25, 7:00-9:30 PM SGT."
+ },
+ {
+  "id": "manual-iaim-ntu-2026",
+  "name": "International Conference on AI in Medicine (iAIM) 2026",
+  "url": "https://event.ntu.edu.sg/iAIM",
+  "start": "2026-12-03T00:30:00.000Z",
+  "end": "2026-12-05T10:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Lee Kong Chian School of Medicine Headquarters, 11 Mandalay Road, Singapore 308232",
+  "hosts": [
+   "NTU Centre of AI in Medicine",
+   "Lee Kong Chian School of Medicine"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Three-day in-person conference, Dec 3-5. Industry Day starts 8:30 AM Dec 3; conference programme runs Dec 4-5. Registration deadline listed as Oct 15."
+ },
+ {
+  "id": "manual-nus-ai-governance-liability-2026",
+  "name": "AI Governance & Liability Conference",
+  "url": "https://law.nus.edu.sg/trail/trailaidec2026-home/",
+  "start": "2026-12-10T01:00:00.000Z",
+  "end": "2026-12-11T10:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Wee Chong Jin Moot Court, NUS Faculty of Law, 16 College Avenue West",
+  "hosts": [
+   "NUS Centre for Technology, Robotics, Artificial Intelligence and the Law"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Two-day academic and industry conference on AI governance and liability, Dec 10-11. Official page confirms dates and venue."
+ },
+ {
+  "id": "manual-kenx-ai-gxp-sg-2026",
+  "name": "Harness the Power of AI in GxP - Singapore 2026",
+  "url": "https://kenx.org/conferences/harness-the-power-of-ai-in-gxp-singapore-2026/",
+  "start": "2026-11-19T00:00:00.000Z",
+  "end": "2026-11-20T09:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Singapore (venue not listed)",
+  "hosts": [
+   "Knowledge Exchange Network"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Paid two-day in-person conference for regulated life sciences, Nov 19-20, approximately 8:00 AM-5:00 PM SGT. Venue not yet listed."
+ },
+ {
+  "id": "manual-founders-2-conf-sg-2026",
+  "name": "Founders 2.0 Conference Singapore 2026",
+  "url": "https://www.founders2conf.com/",
+  "start": "2026-12-02T01:00:00.000Z",
+  "end": "2026-12-04T09:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Marina Bay Sands, Sands Expo & Convention Centre",
+  "hosts": [
+   "Founders 2.0 Conference"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Three-day founder and business summit, Dec 2-4, with substantial AI and innovation programming."
+ },
+ {
+  "id": "manual-databricks-daisi-sg-2026",
+  "name": "Databricks AI Social Impact (DAISI) Challenge Singapore - Demo Day",
+  "url": "https://daisi.online/",
+  "start": "2026-10-27T08:00:00.000Z",
+  "end": "2026-10-27T11:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "",
+  "hosts": [
+   "Databricks"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [
+   "Databricks"
+  ],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Student AI challenge for Singapore IHL students (teams of 1-4); Round 1 submissions closed Oct 6. Official DAISI page lists Demo Day on Oct 27, 4-7pm; the line does not restate a time zone, so Singapore time is inferred from the Singapore Edition page. All teams build free on Databricks; top 3 share US$3,000 in Databricks credits plus training/certification vouchers; total prize value US$24,500.",
+  "credits": "Top 3 teams receive US$3,000 total in Databricks credits ($1,500 / $1,000 / $500 by place), plus training/certification vouchers; total prize value up to US$24,500.",
+  "credits_kind": "perk"
+ },
+ {
+  "id": "manual-openai-codex-bootcamp-201-20260930",
+  "name": "Codex bootcamp 201: Team workflows (OpenAI Academy)",
+  "url": "https://academy.openai.com/public/clubs/builders-etkn1/events/codex-bootcamp-201-team-workflows-05zs2kad9n",
+  "start": "2026-09-30T17:00:00.000Z",
+  "end": "2026-09-30T18:00:00.000Z",
+  "tz": "America/New_York",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "OpenAI"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [
+   "OpenAI"
+  ],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Official OpenAI Academy listing, 1-2 PM EDT (Oct 1, 1-2 AM SGT)."
+ },
+ {
+  "id": "manual-openai-codex-bootcamp-301-20261007",
+  "name": "Codex bootcamp 301: Advanced automation (OpenAI Academy)",
+  "url": "https://academy.openai.com/public/clubs/builders-etkn1/events/codex-bootcamp-301-advanced-automation-zejtj1ae6t",
+  "start": "2026-10-07T17:00:00.000Z",
+  "end": "2026-10-07T18:00:00.000Z",
+  "tz": "America/New_York",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "OpenAI"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [
+   "OpenAI"
+  ],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Official OpenAI Academy listing, 1-2 PM EDT (Oct 8, 1-2 AM SGT)."
+ },
+ {
+  "id": "manual-mindstone-sg-ai-meetup-20261014",
+  "name": "Mindstone Singapore October AI Meetup",
+  "url": "https://www.meetup.com/mindstone-singapore-ai-meetup/events/316565594/",
+  "start": "2026-10-14T10:30:00.000Z",
+  "end": "2026-10-14T13:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "EHL Campus Singapore, 3 Lady Hill Rd, Singapore 258672",
+  "hosts": [
+   "Mindstone Singapore AI Meetup"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Three AI talks, demos and networking."
+ },
+ {
+  "id": "manual-apac-ai-ml-cv-meetup-20261001",
+  "name": "Oct 1 APAC AI, ML and Computer Vision Meetup",
+  "url": "https://www.meetup.com/singapore-computer-vision-meetup/events/316613760/",
+  "start": "2026-10-02T01:00:00.000Z",
+  "end": "2026-10-02T03:00:00.000Z",
+  "tz": "America/Los_Angeles",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online (Zoom)",
+  "hosts": [
+   "Singapore AI, Machine Learning and Computer Vision Meetup"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Event page says Oct 1, 6-8 PM PDT, corresponding to Oct 2, 9-11 AM SGT."
+ },
+ {
+  "id": "manual-ai-ml-cv-meetup-20261015",
+  "name": "Oct 15 AI, ML, and Computer Vision Meetup",
+  "url": "https://www.meetup.com/singapore-computer-vision-meetup/events/316572341/",
+  "start": "2026-10-15T16:00:00.000Z",
+  "end": "2026-10-15T18:00:00.000Z",
+  "tz": "America/Los_Angeles",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online (Zoom)",
+  "hosts": [
+   "Singapore AI, Machine Learning and Computer Vision Meetup"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Event page says Oct 15, 9-11 AM Pacific (Oct 16, midnight-2 AM SGT)."
+ },
+ {
+  "id": "manual-nov11-ai-ml-cv-meetup-2026",
+  "name": "Nov 11 AI, ML and Computer Vision Meetup",
+  "url": "https://www.meetup.com/singapore-computer-vision-meetup/events/316572580/",
+  "start": "2026-11-11T17:00:00.000Z",
+  "end": "2026-11-11T19:00:00.000Z",
+  "tz": "America/Los_Angeles",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online (Zoom)",
+  "hosts": [
+   "Singapore AI, Machine Learning and Computer Vision Meetup"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Talks on agentic RAG, GeoAI and autonomous research agents. Nov 11 9-11 AM PST = Nov 12 1-3 AM SGT."
+ },
+ {
+  "id": "manual-nov19-lerobot-data-2026",
+  "name": "Nov 19 Visualizing and Debugging Hugging Face's LeRobot Data",
+  "url": "https://www.meetup.com/singapore-computer-vision-meetup/events/316617426/",
+  "start": "2026-11-19T17:00:00.000Z",
+  "end": "2026-11-19T18:00:00.000Z",
+  "tz": "America/Los_Angeles",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online (Zoom)",
+  "hosts": [
+   "Singapore AI, Machine Learning and Computer Vision Meetup"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Hands-on Voxel51 workshop. Nov 19 9-10 AM PST = Nov 20 1-2 AM SGT."
+ },
+ {
+  "id": "manual-uob-ai-ready-changemakers-summit-2026",
+  "name": "UOB AI Ready Changemakers Summit",
+  "url": "https://thefinlab.com/events/uob-ai-ready-changemakers-summit/",
+  "start": "2026-09-28T01:00:00.000Z",
+  "end": "2026-09-28T06:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Paradox Singapore Merchant Court, 20 Merchant Rd, Singapore 058281",
+  "hosts": [
+   "UOB FinLab"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "SME AI adoption summit, Sep 28 9 AM-2 PM SGT."
+ },
+ {
+  "id": "manual-finlab-gemini-content-creation-2026",
+  "name": "Generative AI Content Creation with Gemini and Other Tools",
+  "url": "https://thefinlab.com/events/generative-ai-content-creation/",
+  "start": "2026-10-02T01:00:00.000Z",
+  "end": "2026-10-03T10:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Ngee Ann Polytechnic, 535 Clementi Rd, Singapore 599489",
+  "hosts": [
+   "UOB FinLab"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [
+   "Google"
+  ],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Two-day hands-on course, Oct 2-3, 9 AM-6 PM SGT each day; check registration page for any fee."
+ },
+ {
+  "id": "manual-finlab-genai-productivity-2026",
+  "name": "Generative Artificial Intelligence for Productivity",
+  "url": "https://thefinlab.com/events/generative-artificial-intelligence-for-productivity/",
+  "start": "2026-10-21T01:00:00.000Z",
+  "end": "2026-10-21T10:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Ngee Ann Polytechnic, 535 Clementi Rd, Singapore 599489",
+  "hosts": [
+   "UOB FinLab"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Hands-on AI productivity course, Oct 21 9 AM-6 PM SGT; check registration page for any fee."
+ },
+ {
+  "id": "manual-google-cloud-gaming-ai-powerup-20261008",
+  "name": "Google Cloud Gaming Global Expansion: AI Power-Up Station",
+  "url": "https://luma.com/j7it396i",
+  "start": "2026-10-08T05:30:00.000Z",
+  "end": "2026-10-08T10:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Google Singapore Office, Block 70, 70 Pasir Panjang Road, #03-71, Singapore",
+  "hosts": [
+   "021Lab",
+   "Google Cloud",
+   "Sieger"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [
+   "Google"
+  ],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Approval required. Public page states Oct 8 1:30-6 PM SGT; embedded Luma metadata says 1 PM and uses a different event title. Timing/title may change, check organizer page. Complimentary Google Cloud/Gemini resources and experience credits possible, terms not stated."
+ },
+ {
+  "id": "manual-anthropic-claude-foundry-rebroadcast-20260930",
+  "name": "Claude in Microsoft Foundry: Tool Integrations in Practice (EMEA rebroadcast)",
+  "url": "https://www.anthropic.com/webinars/claude-in-microsoft-foundry-tool-integrations-in-practice-emea-rebroadcast",
+  "start": "2026-09-30T08:00:00.000Z",
+  "end": "2026-09-30T08:30:00.000Z",
+  "tz": "Europe/London",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online (pre-recorded rebroadcast with live Anthropic Q&A)",
+  "hosts": [
+   "Anthropic",
+   "Microsoft"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [
+   "Anthropic",
+   "Microsoft"
+  ],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Sep 30 9-9:30 AM BST = 4-4:30 PM SGT. Rebroadcast of Sep 3 session; Anthropic team in live chat."
+ },
+ {
+  "id": "manual-lfdt-agent-authorization-20261002",
+  "name": "Policy-Checked, Attributable, Revocable, Provable AI Agent Authorization",
+  "url": "https://www.meetup.com/lfdt-singapore/events/315990284/",
+  "start": "2026-10-02T14:00:00.000Z",
+  "end": "2026-10-02T15:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "LFDT Singapore"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Global virtual talk on Caracal agent authorization. 10-11 PM SGT."
+ },
+ {
+  "id": "manual-platform-engineering-ai-20261007",
+  "name": "Platform Engineering in the Age of AI: Scalable Visibility",
+  "url": "https://www.meetup.com/platform-engineering-singapore/events/316419265/",
+  "start": "2026-10-06T17:00:00.000Z",
+  "end": "2026-10-06T17:45:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Platform Engineers Singapore"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "AI-driven and agentic SRE telemetry, 1-1:45 AM SGT Oct 7."
+ },
+ {
+  "id": "manual-fiftyone-vision-workflows-20261007",
+  "name": "Building Composable Vision Workflows in FiftyOne",
+  "url": "https://www.meetup.com/singapore-computer-vision-meetup/events/316064656/",
+  "start": "2026-10-07T16:00:00.000Z",
+  "end": "2026-10-07T18:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online (Zoom)",
+  "hosts": [
+   "Singapore AI, Machine Learning and Computer Vision Meetup"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Meetup structured schedule Oct 8 midnight-2 AM SGT; description says Oct 7 9-10 AM PST, an inconsistent duration/timezone. Confirm with organizer."
+ },
+ {
+  "id": "manual-ksug-ai-sg-49-20261021",
+  "name": "KSUG.AI Singapore #49 Cloud Native & AI Meetup",
+  "url": "https://www.meetup.com/ksug-sg/events/316384465/",
+  "start": "2026-10-21T10:00:00.000Z",
+  "end": "2026-10-21T13:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "IMDA, 10 Pasir Panjang Rd, #03-01 Mapletree Business City, Singapore 117438 (also online)",
+  "hosts": [
+   "KSUG.AI APAC"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Hybrid meetup, Oct 21 6-9 PM SGT. AI talk topics TBC. Food and quiz swag giveaways, not guaranteed."
+ },
+ {
+  "id": "manual-actuarial-agentic-claude-workshop-20261006",
+  "name": "AI Workshop - Introduction to Agentic AI with Claude Code and CoWork",
+  "url": "https://actuaries.org.sg/event/ai-workshop-introduction-to-agentic-ai-with-claude-code-and-cowork-6-oct/",
+  "start": "2026-10-06T04:00:00.000Z",
+  "end": "2026-10-06T08:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "APSN, Kembangan-Chai Chee Community Hub, 11 Jalan Ubi, Block 4, #01-51, Singapore 409074",
+  "hosts": [
+   "Singapore Actuarial Society"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [
+   "Anthropic"
+  ],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Hands-on workshop on Claude Code and CoWork, 12-4 PM SGT. Singapore Actuarial Society page lists member attendance as complimentary and non-member fee as S$70; laptop and preinstalled software required."
+ },
+ {
+  "id": "manual-factor-data-ai-day-singapore-20261007",
+  "name": "Data+AI Day | Singapore",
+  "url": "https://www.factor-insights.com/events/dataai-day-or-singapore-vkl0q7z",
+  "start": "2026-10-07T00:30:00.000Z",
+  "end": "2026-10-07T10:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Sofitel Singapore City Centre",
+  "hosts": [
+   "Factor"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Data and AI conference; published schedule runs 8:30 AM-6 PM SGT on Oct 7, with enterprise AI talks and hands-on agentic AI workshop."
+ },
+ {
+  "id": "manual-sfa-agentic-ai-20261020",
+  "name": "Beyond Prompting: Architecting Enterprise AI Agents",
+  "url": "https://singaporefintech.org/event/beyond-prompting-architecting-enterprise-ai-agents/",
+  "start": "2026-10-20T07:00:00.000Z",
+  "end": "2026-10-20T10:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "16 Raffles Quay, #24-01, Hong Leong Building, Singapore 048581",
+  "hosts": [
+   "Singapore FinTech Association"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [
+   "Google Gemini Enterprise"
+  ],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Practitioner session with hands-on Gemini Enterprise workflow-agent workshop and expert panel; 3-6 PM SGT."
+ },
+ {
+  "id": "manual-generative-beings-ads-ai-sg-20261015",
+  "name": "Ads & AI Singapore Meetup #12: Agents Buying & Selling",
+  "url": "https://thegenerativebeings.com/events/ads-ai-singapore-meetup-12-agents-buying-selling-vHmX57",
+  "start": "2026-10-15T10:30:00.000Z",
+  "end": "2026-10-15T12:30:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "SQ Collective x Gen-AI Labs, 65 Mohamed Sultan Rd, Singapore 239003",
+  "hosts": [
+   "The Generative Beings"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "AI advertising and agents meetup; date/time shown as 15 Oct, 6:30-8:30 PM GMT+8."
+ },
+ {
+  "id": "manual-zai-aisg-aixtech-meetup-2026",
+  "name": "Build with Frontier Intelligence: AISG × Z.ai AIxTech Community Meetup",
+  "url": "https://lu.ma/ib9bnj2p",
+  "start": "2026-10-22T10:00:00.000Z",
+  "end": "2026-10-22T12:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Singapore (Luma shows location after registration)",
+  "hosts": [
+   "AI Singapore",
+   "Z.ai"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [
+   "Z.ai"
+  ],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Hands-on GLM-5.2 event with direct API time, date Oct 22; Luma page does not show exact venue publicly."
+ },
+ {
+  "id": "manual-agentic-ai-club-jev-20261002",
+  "name": "The Agentic AI Club: A First Look at Jev, the Model That Won't Write a Word",
+  "url": "https://www.eventbrite.sg/e/the-agentic-ai-club-a-first-look-at-jev-the-model-that-wont-write-a-word-tickets-2002183543877",
+  "start": "2026-10-02T10:00:00.000Z",
+  "end": "2026-10-02T12:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "20 Anson Road, Singapore 079912",
+  "hosts": [
+   "The Agentic AI Club"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Practical session on Jev and where it fits in a real AI stack; 6-8 PM SGT, with networking afterward."
+ },
+ {
+  "id": "manual-sg-agentic-nights-docker-20261029",
+  "name": "SG Agentic Nights - Exclusive Hands on Labs with Docker",
+  "url": "https://globalai.community/e/rjlhdm80",
+  "start": "2026-10-29T08:00:00.000Z",
+  "end": "2026-10-29T11:30:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "UBS Singapore, 9 Penang Road, Singapore 238459",
+  "hosts": [
+   "Global AI Singapore",
+   "Docker",
+   "UBS",
+   "Microsoft"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [
+   "Docker",
+   "Microsoft"
+  ],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Official Global AI Community listing: Thu Oct 29, 4-7:30 PM SGT at UBS Singapore. Technical talks and hands-on learning on agentic applications, security and enterprise AI."
+ },
+ {
+  "id": "manual-databricks-daisi-hackathon-2026",
+  "name": "Databricks AI Social Impact (DAISI) Challenge - Singapore",
+  "url": "https://hackathonsingapore.com/events/databricks-ai-social-impact-daisi-challenge-singapore",
+  "start": "2026-09-16T00:00:00.000Z",
+  "end": "2026-10-07T16:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Singapore (student challenge; demo-day venue details TBA)",
+  "hosts": [
+   "Databricks Singapore"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [
+   "Databricks"
+  ],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Open to Singapore IHL students; submissions close Oct 7 at 12:00 AM SGT. Teams build on Databricks Free Edition at no cost, with Databricks engineer mentoring; winning teams receive US$24,500 total value in credits, training and certification. Official Devpost and event calendar list a noon deadline while other event summaries say Oct 6 23:59 SGT (same instant); Oct 27 Demo Day listing remains separately tracked.",
+  "credits": "Teams build free on Databricks Free Edition; top 3 teams share US$24,500 in credits, training and certification",
+  "credits_kind": "perk"
+ },
+ {
+  "id": "manual-mindstone-sg-ai-meetup-20261104",
+  "name": "Mindstone Singapore November AI Meetup",
+  "url": "https://www.meetup.com/mindstone-singapore-ai-meetup/events/316567489/",
+  "start": "2026-11-04T10:30:00.000Z",
+  "end": "2026-11-04T13:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "EHL Campus (Singapore), 3 Lady Hill Rd, Singapore 258672",
+  "hosts": [
+   "Mindstone Singapore AI Meetup"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Three AI talks, demos and networking; Meetup page confirms Nov 4, 6:30-9:00 PM SGT and the EHL Campus venue."
+ },
+ {
+  "id": "manual-humanoid-hack-singapore-20261031",
+  "name": "Humanoid Hack Singapore",
+  "url": "https://hackathonsingapore.com/events/humanoid-hack-singapore",
+  "start": "2026-10-31T02:00:00.000Z",
+  "end": "2026-11-01T10:30:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Singapore (exact address shared with registered guests)",
+  "hosts": [
+   "Orboh, Inc.",
+   "Acacia College"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "In-person humanoid-robot hackathon on Unitree G1 robots, Oct 31-Nov 1. Schedule: Oct 31 10:00 AM-10:00 PM and Nov 1 8:00 AM-6:30 PM SGT. Selection process; free Day 2 public viewer ticket offered to registrants not selected as hackers."
+ },
+ {
+  "id": "manual-nodes-2026-20261112",
+  "name": "NODES 2026",
+  "url": "https://www.meetup.com/graphdb-singapore/events/314437681/",
+  "start": "2026-11-11T20:30:00.000Z",
+  "end": "2026-11-12T06:30:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Neo4j",
+   "Graph Database Singapore"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [
+   "Neo4j"
+  ],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Free online conference; Meetup event metadata explicitly marks eventType ONLINE and VirtualLocation. Listed Nov 12, 4:30 AM-2:30 PM SGT; AI engineering tracks cover generative AI, RAG, agents and intelligent systems."
+ },
+ {
+  "id": "manual-common-ground-makeathon-20261011",
+  "name": "Common Ground Makeathon: Design x Tech x Culture",
+  "url": "https://hackathonsingapore.com/events/common-ground-makeathon-design-x-tech-x-culture",
+  "start": "2026-10-11T01:00:00.000Z",
+  "end": "2026-10-11T09:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "SQ Collective, Singapore",
+  "hosts": [
+   "Common Ground"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [
+   "OpenAI"
+  ],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Free one-day creative-tech makeathon, 9 AM-5 PM SGT; all participants receive Codex credits. USD $5,000 Codex credits prize pool judged across both tracks."
+ },
+ {
+  "id": "manual-replit-tpf-singapore-20261104",
+  "name": "Ship It | Replit x TPF Singapore Edition",
+  "url": "https://luma.com/gizf6zfy",
+  "start": "2026-11-04T10:30:00.000Z",
+  "end": "2026-11-04T13:30:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Singapore (exact venue on registration)",
+  "hosts": [
+   "The Product Folks"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": 0,
+  "vendors": [
+   "Replit"
+  ],
+  "source": "manual",
+  "kind": "manual",
+  "note": "In-person Replit build session, 6:30-9:30 PM SGT. Event page says attendees leave with Replit credits to continue building after the event; amount and eligibility not specified."
+ },
+ {
+  "id": "manual-aigov-meetup-singapore-20261029",
+  "name": "AIGov Meetup Singapore: Agentic AI Governance",
+  "url": "https://www.meetup.com/collabnix/events/316863949/",
+  "start": "2026-10-29T10:00:00.000Z",
+  "end": "2026-10-29T13:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "ThoughtWorks, 18 Cross St, #12-01 18 Cross, Singapore 048423",
+  "hosts": [
+   "Collabnix",
+   "Docker",
+   "Thoughtworks",
+   "Cloudera"
+  ],
+  "calendar": "",
+  "cover": null,
+  "guests": null,
+  "vendors": [
+   "Docker",
+   "Thoughtworks",
+   "Cloudera"
+  ],
+  "source": "manual",
+  "kind": "manual",
+  "note": "In-person governance meetup. 6:00-9:00 PM SGT; talks on Docker Sandboxes for governing AI coding agents, Thoughtworks and Cloudera. Meetup duplicated this event under two group slugs; retained collabnix URL."
+ },
+ {
+  "id": "manual-sginnovate-physical-ai-webinar-2026-10-22",
+  "name": "Webinar - Physical AI: From Simulation to the Real World",
+  "url": "https://www.sginnovate.com/event/webinar-physical-ai-simulation-real-world-0",
+  "start": "2026-10-22T07:00:00.000Z",
+  "end": "2026-10-22T08:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "SGInnovate",
+   "NVIDIA"
+  ],
+  "calendar": "",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [
+   "NVIDIA"
+  ],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Official SGInnovate page lists Oct 22, 3-4 PM SGT, online. Webinar covers NVIDIA robotics and physical-AI tools for simulation, training and edge deployment."
+ },
+ {
+  "id": "manual-media-learning-agentic-learning-2026-10-22",
+  "name": "Deep Dive into Agentic Learning",
+  "url": "https://media-and-learning.eu/uncategorised/sign-up-for-our-first-deep-dive-into-agentic-learning/",
+  "start": "2026-10-22T12:00:00.000Z",
+  "end": "2026-10-22T15:00:00.000Z",
+  "tz": "Europe/Amsterdam",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Media & Learning Association"
+  ],
+  "calendar": "",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Official page lists Oct 22, 2-5 PM CEST, online. Hands-on workshop on agents using goals, tools and context to carry out learning and media-production tasks."
+ },
+ {
+  "id": "manual-grok-bot-singapore-meetup-2026-10-23",
+  "name": "Grok Bot Singapore Meetup - Build Your AI Team Before 2027",
+  "url": "https://www.eventbrite.sg/e/grok-bot-singapore-meetup-build-your-ai-team-before-2027-tickets-2003234466214",
+  "start": "2026-10-23T06:00:00.000Z",
+  "end": "2026-10-23T08:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "SG Innovation, 71 Ayer Rajah Crescent, #04-01, Singapore 139951",
+  "hosts": [
+   "AI Hustle - BK Han"
+  ],
+  "calendar": "",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [
+   "xAI / SpaceXAI"
+  ],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Eventbrite listing confirms Oct 23, 2-4 PM SGT, in person in Singapore; ticket listed at SGD 10. Hands-on no-code AI-agent team workshop."
+ },
+ {
+  "id": "manual-insead-ai-forum-asia-2026-10-30",
+  "name": "AI Forum Asia 2026 (INSEAD)",
+  "url": "https://www.eventbrite.co.uk/e/ai-forum-asia-2026-tickets-2001421235793",
+  "start": "2026-10-30T01:00:00.000Z",
+  "end": "2026-10-31T09:30:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "INSEAD Asia Campus, 1 Ayer Rajah Avenue, Singapore 138676",
+  "hosts": [
+   "INSEAD"
+  ],
+  "calendar": "",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Eventbrite lists Oct 30-31, in person at INSEAD Asia Campus. A EuroCham partner page gives a 9:00 AM SGT start; Eventbrite lists 9:15 AM, so the exact start differs by 15 minutes across listings. Covers AI in practice, physical AI, geopolitics and the future of work."
+ },
+ {
+  "id": "manual-ainext-conference-singapore-2026-11-03",
+  "name": "AINext Conference Singapore 2026",
+  "url": "https://asia.ainextconference.com/",
+  "start": "2026-11-03T01:15:00.000Z",
+  "end": "2026-11-03T09:30:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Singapore (venue not listed)",
+  "hosts": [
+   "AINext"
+  ],
+  "calendar": "",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Official conference page gives Nov 3, 2026 in Singapore; its agenda PDF lists 9:15 AM-5:30 PM. The venue is not stated on the page."
+ },
+ {
+  "id": "manual-sginnovate-ai-salon-tech-talk-2026-11-12",
+  "name": "SGInnovate x AI Salon Singapore Tech Talk",
+  "url": "https://www.sginnovate.com/event/sginnovate-x-ai-salon-singapore-tech-talk-12-nov",
+  "start": "2026-11-12T10:00:00.000Z",
+  "end": "2026-11-12T13:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "32 Carpenter Street, Singapore 059911",
+  "hosts": [
+   "SGInnovate",
+   "AI Salon"
+  ],
+  "calendar": "",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Official SGInnovate page lists Nov 12, 6-9 PM SGT. AI builders, founders and operators; program and speakers to be announced."
+ },
+ {
+  "id": "manual-qwenwork-opc-2026",
+  "name": "QwenWork x Hashmeta AI One-Person Company (OPC) Hackathon",
+  "url": "https://luma.com/kxld1xck",
+  "start": "2026-11-17T11:00:00.000Z",
+  "end": "2026-11-17T13:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Singapore (address shown after host approval)",
+  "hosts": [
+   "Alibaba Cloud SG events",
+   "Hashmeta AI"
+  ],
+  "calendar": "",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Kickoff workshop Nov 17, 7-9 PM. Submit a 3-minute demo video by Nov 23; finalists emailed Nov 30; live pitch Dec 11. Free, host approval required, no coding experience needed."
+ },
+ {
+  "id": "manual-vllm-sg-2026",
+  "name": "vLLM Meetup Singapore",
+  "url": "https://luma.com/0k9243bi",
+  "start": "2026-11-13T05:00:00.000Z",
+  "end": "2026-11-13T09:30:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "SQ Collective, 65 Mohamed Sultan Road, Level 4",
+  "hosts": [
+   "SQ Collective",
+   "vLLM",
+   "Inferact",
+   "NVIDIA",
+   "Alibaba Cloud"
+  ],
+  "calendar": "",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Half-day technical meetup on inference, Blackwell and agent infrastructure. Free, host approval required. No credits stated."
+ },
+ {
+  "id": "manual-bitdeer-e27-beneath-model-2026",
+  "name": "Beneath the Model: Evolution of AI Models and Increasing Complexity of AI Transformation",
+  "url": "https://luma.com/4uqz9zxj",
+  "start": "2026-11-11T07:00:00.000Z",
+  "end": "2026-11-11T11:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Singapore (address shown after host approval)",
+  "hosts": [
+   "e27",
+   "Bitdeer AI"
+  ],
+  "calendar": "",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Closed-door style industry session. Free, host approval required. No credits stated on the page."
+ },
+ {
+  "id": "manual-vultr-agent-rush-2026",
+  "name": "Vultr Agent Rush Hackathon (online build phase)",
+  "url": "https://lablab.ai/ai-hackathons/vultr-hackathon",
+  "start": "2026-11-03T16:00:00.000Z",
+  "end": "2026-11-08T15:59:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online (on-site finale in Salt Lake City, USA)",
+  "hosts": [
+   "Vultr",
+   "lablab.ai"
+  ],
+  "calendar": "",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Online build 3-8 Nov. Register on lablab.ai. Teams of 1-6. Organiser says every participant gets $200 in Vultr credits (per the lablab page; a new Vultr account is required per the Vultr community page summary).",
+  "credits": "Every registered participant gets $200 in Vultr credits (new Vultr account; credits are for use during the hackathon, which ends Nov 8).",
+  "credits_kind": "credits"
+ }
 ]

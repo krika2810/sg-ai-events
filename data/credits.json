@@ -1,66 +1,86 @@
 {
-  "https://lu.ma/vytaj7o2": {
-    "text": "$100 Codex credits + $50 OpenAI API credits (registered attendees)",
-    "kind": "credits"
-  },
-  "https://singapore.aitinkerers.org/p/agents-everywhere-bots-channels-more-global-hackathon": {
-    "text": "Winning teams: $1000/$500/$250 Codex credits (1st/2nd/3rd) + 3 months ChatGPT Pro; builder credits/offers for participants",
-    "kind": "perk"
-  },
-  "https://lu.ma/aic-kul-20260910": {
-    "text": "Starbucks Buy-1-Free-1 voucher (stay to the end + complete check-in/check-out forms)",
-    "kind": "perk"
-  },
-  "https://lu.ma/mrn0vt28": {
-    "text": "Free Kimi vouchers (details TBA on page)",
-    "kind": "perk"
-  },
-  "https://lu.ma/6wcmwhqz": {
-    "text": "Platform access + compute credits provided by Bitdeer AI for the workshop",
-    "kind": "credits"
-  },
-  "https://gic.careers/events/codetoimpact-hackathon-2026/": {
-    "text": "Prizes for winners (page says 'amazing prizes', no details given)",
-    "kind": "perk"
-  },
-  "https://luma.com/0g-devday-2026": {
-    "text": "0G Passport stamps redeemable at swag shop for exclusives (0G Panda Labubus etc.)",
-    "kind": "perk"
-  },
-  "https://lu.ma/cqtdcolv": {
-    "text": "Ortcloud credits for attendees to keep building after the workshop (plus a live agent on your own Ortcloud VM)",
-    "kind": "credits"
-  },
-  "https://luma.com/j7it396i": {
-    "text": "Approved attendees may receive complimentary Google Cloud and Gemini resources and experience credits (amount and eligibility not stated)",
-    "kind": "perk"
-  },
-  "https://luma.com/26fqf3hy": {
-    "text": "1,000 credits per registered participant to use Tencent CodeBuddy, WorkBuddy and Tencent Design Miora. All participants receive CodeBuddy and WorkBuddy credits; top Demo Day teams win SGD 10,000 / 5,000 / 2,000.",
-    "kind": "credits"
-  },
-  "https://hackathonsingapore.com/events/common-ground-makeathon-design-x-tech-x-culture": {
-    "text": "All participants receive Codex credits to prototype; USD $5,000 Codex credits prize pool judged across both tracks.",
-    "kind": "perk"
-  },
-  "https://luma.com/gizf6zfy": {
-    "text": "Replit credits to continue building after the event; amount and eligibility not specified.",
-    "kind": "credits"
-  },
-  "https://luma.com/daytonasg1031": {
-    "text": "All participants receive Daytona and Nosana credits to build during the hackathon; winning teams also share sponsor-credit prizes (amounts TBA).",
-    "kind": "credits"
-  },
-  "https://lu.ma/daytonasg1031": {
-    "text": "All participants receive Daytona and Nosana credits to build during the hackathon; winning teams also share sponsor-credit prizes (amounts TBA).",
-    "kind": "credits"
-  },
-  "https://lu.ma/s391bqwl": {
-    "text": "Free creation tokens for registered attendees (Miora and GenTube accounts activated on sign-up); plus SGD 2,000 cash prizes.",
-    "kind": "credits"
-  },
-  "https://lu.ma/olv1aat3": {
-    "text": "ElevenLabs credits for eligible registered participants, subject to confirmation.",
-    "kind": "perk"
-  }
+ "https://lu.ma/vytaj7o2": {
+  "text": "$100 Codex credits + $50 OpenAI API credits (registered attendees)",
+  "kind": "credits"
+ },
+ "https://singapore.aitinkerers.org/p/agents-everywhere-bots-channels-more-global-hackathon": {
+  "text": "Winning teams: $1000/$500/$250 Codex credits (1st/2nd/3rd) + 3 months ChatGPT Pro; builder credits/offers for participants",
+  "kind": "perk"
+ },
+ "https://lu.ma/aic-kul-20260910": {
+  "text": "Starbucks Buy-1-Free-1 voucher (stay to the end + complete check-in/check-out forms)",
+  "kind": "perk"
+ },
+ "https://lu.ma/mrn0vt28": {
+  "text": "Free Kimi vouchers (details TBA on page)",
+  "kind": "perk"
+ },
+ "https://lu.ma/6wcmwhqz": {
+  "text": "Platform access + compute credits provided by Bitdeer AI for the workshop",
+  "kind": "credits"
+ },
+ "https://gic.careers/events/codetoimpact-hackathon-2026/": {
+  "text": "Prizes for winners (page says 'amazing prizes', no details given)",
+  "kind": "perk"
+ },
+ "https://luma.com/0g-devday-2026": {
+  "text": "0G Passport stamps redeemable at swag shop for exclusives (0G Panda Labubus etc.)",
+  "kind": "perk"
+ },
+ "https://lu.ma/cqtdcolv": {
+  "text": "Ortcloud credits for attendees to keep building after the workshop (plus a live agent on your own Ortcloud VM)",
+  "kind": "credits"
+ },
+ "https://luma.com/j7it396i": {
+  "text": "Approved attendees may receive complimentary Google Cloud and Gemini resources and experience credits (amount and eligibility not stated)",
+  "kind": "perk"
+ },
+ "https://luma.com/26fqf3hy": {
+  "text": "1,000 credits per registered participant to use Tencent CodeBuddy, WorkBuddy and Tencent Design Miora. All participants receive CodeBuddy and WorkBuddy credits; top Demo Day teams win SGD 10,000 / 5,000 / 2,000.",
+  "kind": "credits"
+ },
+ "https://hackathonsingapore.com/events/common-ground-makeathon-design-x-tech-x-culture": {
+  "text": "All participants receive Codex credits to prototype; USD $5,000 Codex credits prize pool judged across both tracks.",
+  "kind": "perk"
+ },
+ "https://luma.com/gizf6zfy": {
+  "text": "Replit credits to continue building after the event; amount and eligibility not specified.",
+  "kind": "credits"
+ },
+ "https://luma.com/daytonasg1031": {
+  "text": "All participants receive Daytona and Nosana credits to build during the hackathon; winning teams also share sponsor-credit prizes (amounts TBA).",
+  "kind": "credits"
+ },
+ "https://lu.ma/daytonasg1031": {
+  "text": "All participants receive Daytona and Nosana credits to build during the hackathon; winning teams also share sponsor-credit prizes (amounts TBA).",
+  "kind": "credits"
+ },
+ "https://lu.ma/s391bqwl": {
+  "text": "Free creation tokens for registered attendees (Miora and GenTube accounts activated on sign-up); plus SGD 2,000 cash prizes.",
+  "kind": "credits"
+ },
+ "https://lu.ma/olv1aat3": {
+  "text": "ElevenLabs credits for eligible registered participants, subject to confirmation.",
+  "kind": "perk"
+ },
+ "https://luma.com/daytonasgdec": {
+  "text": "All participants receive Daytona and Nosana credits to build with during the hackathon; winning teams share sponsor credit prizes (amounts not stated).",
+  "kind": "credits"
+ },
+ "https://luma.com/kxld1xck": {
+  "text": "Every approved participant gets a free 1-month QwenWork subscription (a subscription, not API credits; host approval required). Winners share up to S$8,000 cash.",
+  "kind": "perk"
+ },
+ "https://luma.com/6k3jow8e": {
+  "text": "Prizes only: US$6,000 cash plus 3-month Google AI Pro subscriptions and merch for winners. No attendee credits stated.",
+  "kind": "perk"
+ },
+ "https://lu.ma/daytonasgdec": {
+  "text": "All participants receive Daytona and Nosana credits to build with during the hackathon; winning teams share sponsor credit prizes (amounts not stated).",
+  "kind": "credits"
+ },
+ "https://lu.ma/6k3jow8e": {
+  "text": "Prizes only: US$6,000 cash plus 3-month Google AI Pro subscriptions and merch for winners. No attendee credits stated.",
+  "kind": "perk"
+ }
 }
