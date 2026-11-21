@@ -1,8 +1,8 @@
 {
- "refreshed_at": "2026-11-21T10:59:40+00:00",
- "event_count": 81,
- "sg_count": 54,
+ "refreshed_at": "2026-11-21T23:06:05+00:00",
+ "event_count": 83,
+ "sg_count": 56,
  "virtual_count": 27,
- "new_today": 4,
- "coverage_note": "Luma, Meetup and accessible SGInnovate schedules checked 21 Nov. Discovery remains partial; family events without explicit hours and Eventbrite-only listings may be missing."
+ "new_today": 8,
+ "coverage_note": "Luma, Meetup and accessible SGInnovate schedules checked 22 Nov. Coverage is partial: two SGInnovate pages lacked explicit schedule/location data, one individual SGInnovate page could not be fetched, and Eventbrite-only listings may be missing."
 }

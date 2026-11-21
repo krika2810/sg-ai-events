@@ -1953,12 +1953,12 @@
   "kind": "manual",
   "first_seen": "2026-11-06",
   "last_seen": "2026-11-06",
-  "note": "Free online programme. Project submissions close 10 Dec at 7:59 AM SGT (9 Dec 23:59 UTC), not at the programme end. Organiser lists judging on 10-11 Dec but no exact programme closing hour. Test CCD is free testnet currency, not spendable cloud/API credits. Checked 21 Nov 2026.",
+  "note": "Free online programme. Build window runs 19 Nov-9 Dec; project submissions close 9 Dec at 23:59 UTC (10 Dec, 7:59 AM SGT). Judging is listed for 10-11 Dec, but the exact programme end remains unstated. Test CCD is free testnet currency, not spendable cloud/API credits. Rechecked 22 Nov 2026.",
   "vendors": [],
   "end_unconfirmed": true,
-  "schedule_review_due": "2026-11-22",
+  "schedule_review_due": "2026-11-29",
   "submission_deadline": "2026-12-09T23:59:00+00:00",
-  "annotation_checked_at": "2026-11-21T20:39:00+08:00",
+  "annotation_checked_at": "2026-11-22T07:03:00+08:00",
   "annotation_sources": [
    "https://www.concordium.com/article/concordium-trusted-agents-hackathon-encode-club"
   ]

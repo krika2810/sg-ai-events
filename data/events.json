@@ -4,7 +4,7 @@
   "url": "https://lablab.build/ai-hackathons/amd-lablab-ai-academy-challenge",
   "name": "AMD AI League (lablab.ai, online)",
   "start": "2026-09-01T00:00:00.000Z",
-  "end": null,
+  "end": "2026-12-01T19:00:00Z",
   "tz": "Asia/Singapore",
   "virtual": true,
   "sg": false,
@@ -17,15 +17,15 @@
   "kind": "manual",
   "first_seen": "2026-11-06",
   "last_seen": "2026-11-06",
-  "credits": "Organiser currently offers US$100 AMD GPU credits to eligible new AMD Developer Program members. Free AMD sign-in and onboarding; no project build required for onboarding. Closed matches earn points only, not expired match prizes. Checked 21 Nov 2026.",
+  "credits": "The organiser currently advertises US$100 AMD GPU credits and DeepLearning.AI Pro for joining the League. It says the GPU credits can be claimed with a free AMD Developer Program sign-in and no project build; it does not state DeepLearning.AI Pro eligibility, duration or redemption terms. Closed matches still earn points but no match prizes. Rechecked 22 Nov 2026.",
   "credits_kind": "perk",
-  "note": "Exact league closing date is unconfirmed. Current organiser page says it continues through December, with upcoming match dates TBA. Match 4 is inconsistently labelled live and TBA. Check the organiser before planning around a deadline.",
+  "note": "The organiser page structured data lists an end of 1 Dec 2026 at 19:00 UTC (2 Dec, 3:00 AM SGT). Visible copy gives only the month, says upcoming match dates are TBA, and describes the League continuing through December. The exact cutoff remains uncertain; recheck before relying on a deadline.",
   "vendors": [
    "AMD"
   ],
   "end_unconfirmed": true,
-  "schedule_review_due": "2026-11-22",
-  "annotation_checked_at": "2026-11-21T20:39:00+08:00",
+  "schedule_review_due": "2026-11-29",
+  "annotation_checked_at": "2026-11-22T07:09:01+08:00",
   "annotation_sources": [
    "https://lablab.build/ai-hackathons/amd-lablab-ai-academy-challenge"
   ]
@@ -70,67 +70,19 @@
    "Concordium",
    "Encode Club"
   ],
-  "source": "manual",
+  "source": "manual+curated-annotations",
   "kind": "manual",
   "first_seen": "2026-11-06",
   "last_seen": "2026-11-06",
-  "note": "Free online programme. Project submissions close 10 Dec at 7:59 AM SGT (9 Dec 23:59 UTC), not at the programme end. Organiser lists judging on 10-11 Dec but no exact programme closing hour. Test CCD is free testnet currency, not spendable cloud/API credits. Checked 21 Nov 2026.",
+  "note": "Free online programme. Build window runs 19 Nov-9 Dec; project submissions close 9 Dec at 23:59 UTC (10 Dec, 7:59 AM SGT). Judging is listed for 10-11 Dec, but the exact programme end remains unstated. Test CCD is free testnet currency, not spendable cloud/API credits. Rechecked 22 Nov 2026.",
   "vendors": [],
   "end_unconfirmed": true,
-  "schedule_review_due": "2026-11-22",
+  "schedule_review_due": "2026-11-29",
   "submission_deadline": "2026-12-09T23:59:00+00:00",
-  "annotation_checked_at": "2026-11-21T20:39:00+08:00",
+  "annotation_checked_at": "2026-11-22T07:03:00+08:00",
   "annotation_sources": [
    "https://www.concordium.com/article/concordium-trusted-agents-hackathon-encode-club"
   ]
- },
- {
-  "id": "evt-oTWmj2nHbvYLJuZ",
-  "url": "https://lu.ma/spacexai-edqp",
-  "name": "Cursor Hackathon Kampala",
-  "start": "2026-11-21T11:00:00.000Z",
-  "end": "2026-11-21T14:00:00.000Z",
-  "tz": "Africa/Nairobi",
-  "virtual": true,
-  "sg": false,
-  "venue": "Online",
-  "hosts": [
-   "Ronnie 3.0"
-  ],
-  "calendar": "SpaceXSI for Kampala, Uganda, Africa",
-  "calendar_id": "cal-tE3oEItI81poYs6",
-  "cover": "https://images.lumacdn.com/uploads/j3/80bd2ce9-5f1d-4e8f-8c26-695f136d5d52.png",
-  "guests": 66,
-  "vendors": [
-   "Cursor"
-  ],
-  "source": "cal:SpaceXAI Community",
-  "kind": "luma",
-  "first_seen": "2026-11-20",
-  "last_seen": "2026-11-21"
- },
- {
-  "id": "meetup-317449490",
-  "name": "Generative AI to Agentic AI: Understand, Build and Deploy Intelligent AI Agents",
-  "url": "https://www.meetup.com/singapore-artificial-intelligence/events/317449490/",
-  "start": "2026-11-21T22:30:00+08:00",
-  "end": "2026-11-22T00:30:00+08:00",
-  "tz": "Asia/Singapore",
-  "virtual": true,
-  "sg": false,
-  "venue": "Online",
-  "hosts": [
-   "Singapore Artificial Intelligence"
-  ],
-  "calendar": "Singapore Artificial Intelligence",
-  "calendar_id": null,
-  "cover": null,
-  "guests": null,
-  "vendors": [],
-  "source": "meetup:singapore-artificial-intelligence",
-  "kind": "meetup",
-  "first_seen": "2026-11-20",
-  "last_seen": "2026-11-20"
  },
  {
   "id": "evt-SGjzNUgIvx6CGic",
@@ -177,6 +129,59 @@
   "kind": "luma",
   "first_seen": "2026-11-06",
   "last_seen": "2026-11-21"
+ },
+ {
+  "id": "evt-mV6jk82DPsZSpis",
+  "url": "https://lu.ma/fzc6yw8r",
+  "name": "{div0-AISQ} Workshop — How do you build securely with AI?",
+  "start": "2026-11-24T11:00:00.000Z",
+  "end": "2026-11-24T13:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Kingston International College, Singapore Chinese Chamber of Commerce & Industry, 47 Hill St, #06-01 SCCCI) Building, Singapore 179365",
+  "hosts": [
+   "Anna",
+   "Emil Tan",
+   "Esther",
+   "Ethan Seow",
+   "Joshua Chong",
+   "Jerry Tay"
+  ],
+  "calendar": "Div0",
+  "calendar_id": "cal-MBoOIUkPWKSUW2Q",
+  "cover": "https://images.lumacdn.com/uploads/ll/56d32dc1-e163-47cb-9052-590d1092dd09.png",
+  "guests": 0,
+  "vendors": [],
+  "source": "luma-sg-feed+luma-category:cat-ai+luma-category:cat-tech+cal:cal-MBoOIUkPWKSUW2Q",
+  "kind": "luma",
+  "first_seen": "2026-11-21",
+  "last_seen": "2026-11-21"
+ },
+ {
+  "id": "evt-JUcqkT7kGgvIS7Y",
+  "url": "https://lu.ma/aic-du-11-24",
+  "name": "Governing Together: AI Governance in Pakistan: Policies, Progress and Global Relevance (w/ The AI Collective)",
+  "start": "2026-11-24T15:00:00.000Z",
+  "end": "2026-11-24T16:00:00.000Z",
+  "tz": "Asia/Dubai",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "The AI Collective",
+   "AI Governance Corridor"
+  ],
+  "calendar": "The AI Collective",
+  "calendar_id": "cal-E74MDlDKBaeAwXK",
+  "cover": "https://images.lumacdn.com/api-uploads/3x/b609548b-413b-4919-8244-a3a2d0a70658.png",
+  "guests": 0,
+  "vendors": [],
+  "source": "cal:The AI Collective",
+  "kind": "luma",
+  "first_seen": "2026-11-21",
+  "last_seen": "2026-11-21",
+  "note": "Luma showed that registration was closed when checked on 22 Nov 2026; the event remains scheduled online on Google Meet for 24 Nov, 11:00 PM–midnight SGT."
  },
  {
   "id": "evt-AugGgSt8JozkbRV",
@@ -289,7 +294,7 @@
   "calendar": "SpaceXSI for Rio de Janeiro, Brazil",
   "calendar_id": "cal-3n8qWnSHTkv6AOw",
   "cover": "https://images.lumacdn.com/uploads/3b/a95bac01-99de-40bf-bac2-5bc3f7d1e569.png",
-  "guests": 177,
+  "guests": 180,
   "vendors": [
    "xAI / SpaceXAI"
   ],
@@ -368,6 +373,29 @@
   "kind": "meetup",
   "first_seen": "2026-11-20",
   "last_seen": "2026-11-20"
+ },
+ {
+  "id": "evt-XULaC5zGCiNGkWG",
+  "url": "https://lu.ma/aic-du-11-25",
+  "name": "Building Together: Share Your Work, Find Your People (w/ The AI Collective)",
+  "start": "2026-11-25T15:00:00.000Z",
+  "end": "2026-11-25T16:00:00.000Z",
+  "tz": "Asia/Dubai",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "The AI Collective"
+  ],
+  "calendar": "The AI Collective",
+  "calendar_id": "cal-E74MDlDKBaeAwXK",
+  "cover": "https://images.lumacdn.com/api-uploads/mb/7468f05f-47f0-4570-a60e-c2e85a390c6b.png",
+  "guests": 0,
+  "vendors": [],
+  "source": "cal:The AI Collective",
+  "kind": "luma",
+  "first_seen": "2026-11-21",
+  "last_seen": "2026-11-21"
  },
  {
   "id": "meetup-317071246",
@@ -455,7 +483,7 @@
   "calendar": "Let's Nerd it out",
   "calendar_id": "cal-shGsiOpMZsOFocO",
   "cover": "https://images.lumacdn.com/uploads/4x/1a226382-61c0-4403-8eed-0e6cdf411832.png",
-  "guests": 165,
+  "guests": 166,
   "vendors": [],
   "source": "luma-sg-feed+luma-category:cat-ai+luma-category:cat-tech+cal:cal-shGsiOpMZsOFocO",
   "kind": "luma",
@@ -482,7 +510,7 @@
   "vendors": [
    "ClickHouse"
   ],
-  "source": "cal:cal-gmMOid1Rsqc3Hih",
+  "source": "luma-sg-feed+luma-category:cat-ai+luma-category:cat-tech+cal:cal-gmMOid1Rsqc3Hih",
   "kind": "luma",
   "first_seen": "2026-11-06",
   "last_seen": "2026-11-21"
@@ -675,7 +703,7 @@
   "calendar": "Personal",
   "calendar_id": "cal-PcGgD9J40FZQDOQ",
   "cover": "https://images.lumacdn.com/uploads/7l/0a5bc7c6-3562-46a5-9fa5-d4e66fdc33ef.png",
-  "guests": 62,
+  "guests": 74,
   "vendors": [
    "Google"
   ],
@@ -756,6 +784,30 @@
   "kind": "manual",
   "note": "Three-day founder and business summit, Dec 2-4, with substantial AI and innovation programming.",
   "first_seen": "2026-09-18",
+  "last_seen": "2026-11-21"
+ },
+ {
+  "id": "evt-gWK36aWbHFm5wKa",
+  "url": "https://lu.ma/4i3zx1pt",
+  "name": "Conscious Builder Community #3 — The Design Edition: Principles & Practice",
+  "start": "2026-12-02T06:00:00.000Z",
+  "end": "2026-12-02T09:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Padimai Art & Tech Studio, 39 Keppel Rd, #03-02, Singapore 089065",
+  "hosts": [
+   "Flourishing Futures",
+   "Ryan Ho"
+  ],
+  "calendar": "Flourishing Futures | AI for Human Possibilities",
+  "calendar_id": "cal-l8NkM2ubBP0jVhc",
+  "cover": "https://images.lumacdn.com/uploads/t0/71145dca-5cd1-4bbd-89f3-26c7f142698f.png",
+  "guests": 23,
+  "vendors": [],
+  "source": "luma-sg-feed+luma-category:cat-ai+luma-category:cat-tech+cal:cal-l8NkM2ubBP0jVhc",
+  "kind": "luma",
+  "first_seen": "2026-11-21",
   "last_seen": "2026-11-21"
  },
  {
@@ -919,7 +971,7 @@
   "calendar": "AI Tinkerers Singapore",
   "calendar_id": "cal-RJzlehiWa4JSyuL",
   "cover": "https://images.lumacdn.com/uploads/61/d651222f-fa60-4932-8587-f398461579f7.png",
-  "guests": 160,
+  "guests": 162,
   "vendors": [],
   "source": "luma-sg-feed+luma-category:cat-ai+luma-category:cat-tech+cal:cal-RJzlehiWa4JSyuL",
   "kind": "luma",
@@ -1205,7 +1257,7 @@
   "vendors": [
    "Anthropic"
   ],
-  "source": "cal:Claude SG Community",
+  "source": "cal:Claude SG Community+curated-annotations",
   "kind": "luma",
   "first_seen": "2026-11-20",
   "last_seen": "2026-11-21",
@@ -1377,7 +1429,7 @@
   "calendar": "Personal",
   "calendar_id": "cal-7xEpna9688PSFwd",
   "cover": "https://images.lumacdn.com/uploads/ai/41579743-d3a2-49a7-8f32-570e9ad790e2.jpg",
-  "guests": 273,
+  "guests": 276,
   "vendors": [
    "AWS"
   ],
@@ -1607,7 +1659,7 @@
   "calendar": "AI Builders",
   "calendar_id": "cal-PKazQdrRmpFJSXz",
   "cover": "https://images.lumacdn.com/uploads/tv/fa3f965c-5c2b-4a08-bf06-df4aeff6ef99.png",
-  "guests": 122,
+  "guests": 123,
   "vendors": [],
   "source": "cal:AI Builders",
   "kind": "luma",
