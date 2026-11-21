@@ -4,7 +4,7 @@
   "url": "https://lablab.build/ai-hackathons/amd-lablab-ai-academy-challenge",
   "name": "AMD AI League (lablab.ai, online)",
   "start": "2026-09-01T00:00:00.000Z",
-  "end": "2026-12-01T15:59:00.000Z",
+  "end": null,
   "tz": "Asia/Singapore",
   "virtual": true,
   "sg": false,
@@ -17,11 +17,17 @@
   "kind": "manual",
   "first_seen": "2026-11-06",
   "last_seen": "2026-11-06",
-  "credits": "Organiser page: eligible new AMD Developer Program members get $100 AMD GPU credits; free sign-in with AMD, no project build needed to claim. Final Match ends Nov 14; the League concludes by Dec 1. Closed Matches count for points only, with no prizes. Exact end time and timezone are not stated.",
+  "credits": "Organiser currently offers US$100 AMD GPU credits to eligible new AMD Developer Program members. Free AMD sign-in and onboarding; no project build required for onboarding. Closed matches earn points only, not expired match prizes. Checked 21 Nov 2026.",
   "credits_kind": "perk",
-  "note": "Online. New-member condition per organiser page.",
+  "note": "Exact league closing date is unconfirmed. Current organiser page says it continues through December, with upcoming match dates TBA. Match 4 is inconsistently labelled live and TBA. Check the organiser before planning around a deadline.",
   "vendors": [
    "AMD"
+  ],
+  "end_unconfirmed": true,
+  "schedule_review_due": "2026-11-22",
+  "annotation_checked_at": "2026-11-21T20:39:00+08:00",
+  "annotation_sources": [
+   "https://lablab.build/ai-hackathons/amd-lablab-ai-academy-challenge"
   ]
  },
  {
@@ -55,7 +61,7 @@
   "url": "https://www.concordium.com/article/concordium-trusted-agents-hackathon-encode-club",
   "name": "Concordium Trusted Agents Hackathon with Encode Club (online)",
   "start": "2026-11-02T15:00:00.000Z",
-  "end": "2026-12-14T15:00:00.000Z",
+  "end": null,
   "tz": "Asia/Singapore",
   "virtual": true,
   "sg": false,
@@ -68,8 +74,15 @@
   "kind": "manual",
   "first_seen": "2026-11-06",
   "last_seen": "2026-11-06",
-  "note": "Free six-week online programme: live workshops Mon and Wed 15:00 UTC (2 to 18 Nov), then building on testnet. No credits; test CCD is free. Exact end date not stated (shown as six weeks from Nov 2).",
-  "vendors": []
+  "note": "Free online programme. Project submissions close 10 Dec at 7:59 AM SGT (9 Dec 23:59 UTC), not at the programme end. Organiser lists judging on 10-11 Dec but no exact programme closing hour. Test CCD is free testnet currency, not spendable cloud/API credits. Checked 21 Nov 2026.",
+  "vendors": [],
+  "end_unconfirmed": true,
+  "schedule_review_due": "2026-11-22",
+  "submission_deadline": "2026-12-09T23:59:00+00:00",
+  "annotation_checked_at": "2026-11-21T20:39:00+08:00",
+  "annotation_sources": [
+   "https://www.concordium.com/article/concordium-trusted-agents-hackathon-encode-club"
+  ]
  },
  {
   "id": "evt-oTWmj2nHbvYLJuZ",
@@ -1195,7 +1208,12 @@
   "source": "cal:Claude SG Community",
   "kind": "luma",
   "first_seen": "2026-11-20",
-  "last_seen": "2026-11-21"
+  "last_seen": "2026-11-21",
+  "note": "Free to attend, but the organiser asks attendees to bring a paid Claude Pro-or-higher account and Claude Desktop installed. Certificate eligibility is limited to paid Claude subscriptions. Bring a laptop. Registration requires approval. Checked 21 Nov 2026.",
+  "annotation_checked_at": "2026-11-21T20:39:00+08:00",
+  "annotation_sources": [
+   "https://lu.ma/Claudecode101xLifelonglearning"
+  ]
  },
  {
   "id": "meetup-phcqrtyjcqbmb",

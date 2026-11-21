@@ -40,4 +40,16 @@ class SGInnovateSchedule(unittest.TestCase):
   self.assertIsNone(r.sginnovate_schedule('<section class="schedule">Date: 24 Nov 2026 Time: 9:00 PM - 7:00 PM Location: Singapore</section>'))
  def test_same_sginnovate_url(self):
   self.assertEqual(r.event_url_key('https://www.sginnovate.com/event/example'),r.event_url_key('https://sginnovate.com/event/example'))
+class UnknownEnd(unittest.TestCase):
+ def test_amd_has_no_fabricated_end(self):
+  es=json.loads((P/'data/events.json').read_text());e=next(x for x in es if x['id']=='manual-amd-ai-league-2026');self.assertIsNone(e['end']);self.assertTrue(e['end_unconfirmed']);self.assertNotIn('Nov 14',e['credits']);self.assertNotIn('Dec 1',e['credits'])
+ def test_review_date_is_not_expiry(self):
+  e=next(x for x in json.loads((P/'data/events.json').read_text())if x['id']=='manual-amd-ai-league-2026');self.assertEqual(e['schedule_review_due'],'2026-11-22');self.assertNotEqual(e.get('end'),e['schedule_review_due'])
+ def test_live_confirmed_end_clears_uncertainty(self):
+  manual=dict(id='id',url='https://luma.com/x',end=None,end_unconfirmed=True,schedule_review_due='2026-11-22');kept={'id':dict(id='id',url='https://lu.ma/x',end='2026-12-05T10:00:00Z',source='live')};r.merge_curated_events(kept,[manual],{},'2026-11-21');self.assertEqual(kept['id']['end'],'2026-12-05T10:00:00Z');self.assertNotIn('end_unconfirmed',kept['id'])
+class PlanningCaveats(unittest.TestCase):
+ def test_concordium_deadline_separate(self):
+  e=next(x for x in json.loads((P/'data/events.json').read_text())if x['id']=='manual-concordium-trusted-agents-2026');self.assertEqual(e['submission_deadline'],'2026-12-09T23:59:00+00:00');self.assertIsNone(e['end']);self.assertTrue(e['end_unconfirmed']);self.assertIn('judging',e['note']);self.assertIn('7:59 AM SGT',e['note'])
+ def test_claude_prerequisite_persists(self):
+  es=json.loads((P/'data/manual-events.json').read_text());e=next(x for x in es if x['id']=='evt-GVGgTzF2xmBQris');kept={e['id']:dict(e,kind='luma',source='live',note='')};r.merge_curated_events(kept,[e],{e['id']:e},'2026-11-22');self.assertIn('paid Claude Pro',kept[e['id']]['note']);self.assertIn('Free to attend',kept[e['id']]['note'])
 if __name__=='__main__':unittest.main(verbosity=2)

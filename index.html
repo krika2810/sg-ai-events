@@ -159,13 +159,14 @@ let EVENTS=[],state={f:'all',q:'',vendors:new Set()};
 const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const fmt=(d,o)=>d.toLocaleString('en-US',{timeZone:TZ,...o});
 const dayKey=d=>fmt(d,{year:'numeric',month:'2-digit',day:'2-digit'});
-const isPast=e=>{const t=Date.parse(e.end||e.start);return Number.isFinite(t)&&t<NOW};
+const isPast=e=>{if(e.end_unconfirmed)return false;const t=Date.parse(e.end||e.start);return Number.isFinite(t)&&t<NOW};
 const started=e=>Date.parse(e.start)<=NOW;
 const pin='<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 14.5s5-4.2 5-8a5 5 0 1 0-10 0c0 3.8 5 8 5 8Z"/><circle cx="8" cy="6.5" r="1.8"/></svg>';
 const usr='<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="8" cy="5.5" r="2.5"/><path d="M3 13.5c.6-2.4 2.6-3.5 5-3.5s4.4 1.1 5 3.5"/></svg>';
 const globe='<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="8" cy="8" r="6"/><path d="M2 8h12M8 2c2 2 2 10 0 12M8 2c-2 2-2 10 0 12"/></svg>';
 
 function timeText(e){
+  if(e.end_unconfirmed)return 'End date unconfirmed';
   const s=new Date(e.start),en=e.end?new Date(e.end):null;
   const t1=fmt(s,{hour:'numeric',minute:'2-digit'});
   if(!en)return t1;
@@ -197,7 +198,7 @@ function card(e){
   const isNew=e.first_seen&&(NOW-Date.parse(e.first_seen+'T00:00:00Z'))<3*864e5;
   return `<article class="card${isReg?' reg':''}" data-id="${esc(e.id)}">
     <div class="cbody">
-      <div class="time">${live?'<span class="live">Happening now</span>':''}<span>${esc(timeText(e))} SGT</span></div>
+      <div class="time">${live?'<span class="live">Happening now</span>':''}<span>${esc(timeText(e))}${e.end_unconfirmed?'':' SGT'}</span></div>
       <div class="name"><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.name)}</a></div>
       ${hosts?`<div class="row">${usr}<span>By ${esc(hosts)}</span></div>`:''}
       ${(e.vendors&&e.vendors.length)?`<div class="vtags">${e.vendors.map(v=>`<span class="vtag">${esc(v)}</span>`).join('')}</div>`:''}

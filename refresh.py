@@ -411,7 +411,7 @@ def merge_curated_events(kept, manual_events, old_events, today):
     A title prefix is never sufficient to merge two events.
     """
     display_fields = ("note", "fee", "fee_label", "credits", "credits_kind",
-                      "curated_location_note", "annotation_checked_at", "annotation_sources")
+                      "curated_location_note", "annotation_checked_at", "annotation_sources", "end_unconfirmed", "schedule_review_due", "submission_deadline")
     old_by_url = {event_url_key(e.get("url")): e for e in old_events.values()}
     for raw in manual_events:
         m = dict(raw)
@@ -426,6 +426,9 @@ def merge_curated_events(kept, manual_events, old_events, today):
             for field in display_fields:
                 if field in m:
                     live[field] = m[field]
+            if live.get("end"):
+                live.pop("end_unconfirmed", None)
+                live.pop("schedule_review_due", None)
             live["first_seen"] = (previous or {}).get("first_seen") or m.get("first_seen") or today
             live["source"] = live.get("source", "live") + "+curated-annotations"
             kept[stable_id] = live
@@ -604,6 +607,11 @@ def main():
     for e in kept.values():
         if event_url_key(e.get("url")) in excluded or \
                 event_url_key(e.get("calendar_id") or "") in excluded:
+            continue
+        # An unknown end is not the event start and not a fabricated review deadline.
+        if e.get("end_unconfirmed"):
+            print("  WARN end unconfirmed; source review due " + str(e.get("schedule_review_due")) + ": " + e.get("url", ""), file=sys.stderr)
+            final.append(e)
             continue
         end = e.get("end") or e.get("start")
         try:
