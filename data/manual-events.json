@@ -1860,6 +1860,7 @@
  },
  {
   "id": "manual-div0-secure-ai-20261124",
+  "same_event_as": {"id": "evt-mV6jk82DPsZSpis", "url": "https://lu.ma/fzc6yw8r", "checked_at": "2026-11-22", "sources": ["https://sginnovate.com/event/div0-aisq-workshop-how-do-you-build-securely-ai", "https://lu.ma/fzc6yw8r"]},
   "name": "Div0 AISQ: How do you build securely with AI?",
   "url": "https://sginnovate.com/event/div0-aisq-workshop-how-do-you-build-securely-ai",
   "start": "2026-11-24T19:00:00+08:00",

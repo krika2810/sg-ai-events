@@ -423,13 +423,32 @@ def merge_curated_events(kept, manual_events, old_events, today):
     old_by_url = {event_url_key(e.get("url")): e for e in old_events.values()}
     for raw in manual_events:
         m = dict(raw)
+        # Cross-domain mirrors are merged only with an explicitly verified
+        # canonical identity in curated data, never from title similarity.
+        canonical = m.get("same_event_as") or {}
+        if canonical.get("id") and canonical.get("url"):
+            alias_keys = {event_url_key(m.get("url")),
+                          event_url_key(canonical["url"])} - {""}
+            matches = [(eid, e) for eid, e in kept.items()
+                       if event_url_key(e.get("url")) in alias_keys]
+            if matches:
+                # Prefer the owning canonical record's live schedule/location.
+                chosen = next((e for eid, e in matches if eid == canonical["id"]),
+                              next((e for eid, e in matches
+                                    if event_url_key(e.get("url")) ==
+                                    event_url_key(canonical["url"])), matches[0][1]))
+                live = dict(chosen, id=canonical["id"], url=canonical["url"])
+                for eid, _ in matches:
+                    kept.pop(eid)
+                kept[canonical["id"]] = live
+            m["id"], m["url"] = canonical["id"], canonical["url"]
         key = event_url_key(m.get("url"))
         matched_id = next((eid for eid, e in kept.items()
                            if key and event_url_key(e.get("url")) == key), None)
         if matched_id is not None:
             live = dict(kept.pop(matched_id))
             previous = old_by_url.get(key) or old_events.get(m.get("id"))
-            stable_id = (previous or {}).get("id") or live["id"]
+            stable_id = canonical.get("id") or (previous or {}).get("id") or live["id"]
             live["id"] = stable_id
             for field in display_fields:
                 if field in m:
