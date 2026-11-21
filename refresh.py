@@ -403,6 +403,14 @@ def event_url_key(url):
     return host + parts.path.rstrip("/").lower()
 
 
+def with_source(existing, suffix):
+    """Append a provenance suffix once; daily refreshes must not stack it."""
+    parts = [p for p in (existing or "").split("+") if p]
+    if suffix not in parts:
+        parts.append(suffix)
+    return "+".join(parts)
+
+
 def merge_curated_events(kept, manual_events, old_events, today):
     """Keep live scheduling/location, stable IDs and independently checked annotations.
 
@@ -430,7 +438,7 @@ def merge_curated_events(kept, manual_events, old_events, today):
                 live.pop("end_unconfirmed", None)
                 live.pop("schedule_review_due", None)
             live["first_seen"] = (previous or {}).get("first_seen") or m.get("first_seen") or today
-            live["source"] = live.get("source", "live") + "+curated-annotations"
+            live["source"] = with_source(live.get("source", "live"), "curated-annotations")
             kept[stable_id] = live
             continue
         m.setdefault("kind", "manual")
@@ -472,7 +480,7 @@ def main():
                 new_cals[cid] = {"name": n["calendar"], "trusted": False}
             n.pop("_hay", None)
             if n["id"] in kept:
-                kept[n["id"]]["source"] += "+" + source
+                kept[n["id"]]["source"] = with_source(kept[n["id"]].get("source"), source)
                 continue
             prev = old_events.get(n["id"])
             n["first_seen"] = (prev or {}).get("first_seen", today)
