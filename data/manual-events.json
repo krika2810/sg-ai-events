@@ -1827,7 +1827,7 @@
   "tz": "Asia/Singapore",
   "virtual": false,
   "sg": true,
-  "venue": "JTC LaunchPad, Singapore. Block differs: Luma 73A; SGInnovate 73B / The Meeting Point. Check your ticket.",
+  "venue": "JTC LaunchPad, Singapore",
   "hosts": [
    "Alan Brown",
    "An Ting (SGInnovate)",
@@ -1850,7 +1850,13 @@
   "credits": "Organiser states each participant receives US$100 Lovable, US$100 OpenAI API and US$100 Codex credits. Winner prizes are separate. Checked 21 Nov 2026; read the event page for redemption terms.",
   "credits_kind": "credits",
   "first_seen": "2026-11-21",
-  "last_seen": "2026-11-21"
+  "last_seen": "2026-11-21",
+  "curated_location_note": "Venue sources disagree: Luma lists 73A; SGInnovate lists 73B / The Meeting Point. Check the exact block on your ticket.",
+  "annotation_checked_at": "2026-11-21T18:51:00+08:00",
+  "annotation_sources": [
+   "https://luma.com/cheeg4s2",
+   "https://www.sginnovate.com/event/sginnovate-x-jtc-x-pathwise-academy-ai-voice-hackathon"
+  ]
  },
  {
   "id": "manual-div0-secure-ai-20261124",
@@ -1923,6 +1929,10 @@
   "last_seen": "2026-11-21",
   "fee": "Early bird S$35 until 1 Dec; standard S$50. Non-refundable, transferable. Dinner and a drink included. Checked 21 Nov 2026.",
   "fee_label": "Paid event",
-  "note": "AI-themed social trivia and dinner, not a technical workshop. Winner-only gadget prize."
+  "note": "AI-themed social trivia and dinner, not a technical workshop. Winner-only gadget prize.",
+  "annotation_checked_at": "2026-11-21T18:52:00+08:00",
+  "annotation_sources": [
+   "https://lu.ma/uobe2jk1"
+  ]
  }
 ]

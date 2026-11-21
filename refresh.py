@@ -374,6 +374,56 @@ def load_json(path, default):
         return default
 
 
+def event_url_key(url):
+    """Compare canonical event identities, including Luma's two public domains."""
+    parts = urllib.parse.urlsplit(url or "")
+    host = (parts.hostname or "").lower()
+    if host in ("lu.ma", "www.lu.ma", "luma.com", "www.luma.com"):
+        host = "luma.com"
+    return host + parts.path.rstrip("/").lower()
+
+
+def merge_curated_events(kept, manual_events, old_events, today):
+    """Keep live scheduling/location, stable IDs and independently checked annotations.
+
+    Curated source dates describe the annotation check, not a new live verification.
+    Manual-only events remain available, with their original provenance intact.
+    A title prefix is never sufficient to merge two events.
+    """
+    display_fields = ("note", "fee", "fee_label", "credits", "credits_kind",
+                      "curated_location_note", "annotation_checked_at", "annotation_sources")
+    old_by_url = {event_url_key(e.get("url")): e for e in old_events.values()}
+    for raw in manual_events:
+        m = dict(raw)
+        key = event_url_key(m.get("url"))
+        matched_id = next((eid for eid, e in kept.items()
+                           if key and event_url_key(e.get("url")) == key), None)
+        if matched_id is not None:
+            live = dict(kept.pop(matched_id))
+            previous = old_by_url.get(key) or old_events.get(m.get("id"))
+            stable_id = (previous or {}).get("id") or live["id"]
+            live["id"] = stable_id
+            for field in display_fields:
+                if field in m:
+                    live[field] = m[field]
+            live["first_seen"] = (previous or {}).get("first_seen") or m.get("first_seen") or today
+            live["source"] = live.get("source", "live") + "+curated-annotations"
+            kept[stable_id] = live
+            continue
+        m.setdefault("kind", "manual")
+        m.setdefault("vendors", [])
+        m.setdefault("hosts", [])
+        m.setdefault("virtual", False)
+        m.setdefault("sg", True)
+        previous = old_events.get(m["id"]) or old_by_url.get(key) or {}
+        m["id"] = previous.get("id") or m["id"]
+        m["first_seen"] = previous.get("first_seen") or m.get("first_seen") or today
+        # Do not relabel old manually curated content as checked today.
+        m.setdefault("last_seen", previous.get("last_seen"))
+        kept[m["id"]] = m
+    return kept
+
+
 def main():
     DATA.mkdir(exist_ok=True)
     old_events = {e["id"]: e for e in load_json(DATA / "events.json", [])}
@@ -501,32 +551,9 @@ def main():
         else:
             seen_sigs[sig] = eid
 
-    # 4b) drop harvested events that duplicate a manual curated entry
-    #     (same start date + same name prefix, e.g. official non-Luma page)
-    def _sig(name):
-        return _re.sub(r"[^a-z0-9]", "", (name or "").lower())[:12]
-    man_sigs = {(_sig(m.get("name")), (m.get("start") or "")[:10])
-                for m in load_json(DATA / "manual-events.json", [])}
-    for eid in [eid for eid, e in kept.items()
-                if (_sig(e.get("name")), (e.get("start") or "")[:10]) in man_sigs]:
-        del kept[eid]
-
-    # 5) manual curated entries (never overwritten); skip if the same URL
-    #    was already harvested from Luma (avoid duplicates)
-    kept_urls = {(e.get("url") or "").rstrip("/").lower() for e in kept.values()}
-    for m in load_json(DATA / "manual-events.json", []):
-        m = dict(m)
-        m.setdefault("kind", "manual")
-        m.setdefault("vendors", [])
-        m.setdefault("hosts", [])
-        m.setdefault("virtual", False)
-        m.setdefault("sg", True)
-        if (m.get("url") or "").rstrip("/").lower() in kept_urls:
-            continue
-        prev = old_events.get(m["id"])
-        m["first_seen"] = (prev or {}).get("first_seen", today)
-        m["last_seen"] = today
-        kept[m["id"]] = m
+    # Curated annotations overlay an exact owning URL match. Live dates and
+    # location always win; near-title matches must not delete distinct events.
+    merge_curated_events(kept, load_json(DATA / "manual-events.json", []), old_events, today)
 
     # 5b) credits overrides: verified credit offers per event URL (data/credits.json)
     credits_map = load_json(DATA / "credits.json", {})

@@ -204,6 +204,7 @@ function card(e){
       <div class="row">${e.virtual?globe:pin}<span>${esc(where)}</span></div>
       ${e.fee?`<div class="credit fee"><b>${esc(e.fee_label||'Paid workshop proposed')}</b>${esc(e.fee)}</div>`:''}
       ${cr}
+      ${e.curated_location_note?`<div class="row"><span>${esc(e.curated_location_note)}</span></div>`:''}
       ${e.note?`<div class="row"><span>${esc(e.note)}</span></div>`:''}
       <div class="tools"><button class="btn${isReg?' on':''}" data-reg="${esc(e.id)}">${isReg?'Registered':'Mark registered'}</button></div>
     </div>
