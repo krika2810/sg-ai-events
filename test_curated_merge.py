@@ -27,4 +27,17 @@ class CuratedMerge(unittest.TestCase):
   for e in manual:k[e['id']]=dict(e,kind='luma',source='live',start='2027-01-01T01:00:00Z',venue='Fresh live venue',note='',fee='')
   r.merge_curated_events(k,manual,{e['id']:e for e in manual},'2026-11-22');self.assertEqual(len(k),2)
   voice=k['evt-h4LRoWZJwR7H3Bb'];trivia=k['evt-cDvxGxlGoWXA0Vn'];self.assertIn('73B',voice['curated_location_note']);self.assertIn('hotspot',voice['note']);self.assertIn('35',trivia['fee']);self.assertEqual(voice['start'],'2027-01-01T01:00:00Z');self.assertEqual(voice['annotation_checked_at'],'2026-11-21T18:51:00+08:00')
+class SGInnovateSchedule(unittest.TestCase):
+ def test_explicit_end_time_not_assumed_duration(self):
+  x=r.sginnovate_schedule('<section class="schedule">Date: 24 Nov 2026 Time: 7:00 PM - 9:30 PM Location: 47 Hill St, Singapore 179365</section>');self.assertEqual(x[1].hour,21);self.assertEqual(x[1].minute,30)
+ def test_foreign_physical_rejected_despite_sg_footer(self):
+  self.assertIsNone(r.sginnovate_schedule('<section class="schedule">Date: 01 Dec 2026 Time: 10:30 AM - 5:50 PM Location: Kuala Lumpur Convention Centre, Malaysia</section><footer>Singapore</footer>'))
+ def test_missing_clocks_not_invented(self):
+  self.assertIsNone(r.sginnovate_schedule('<section class="schedule">Start Date: 21 Nov 2026 End Date: 26 Nov 2026 Location: Singapore</section>'))
+ def test_online_requires_actual_location(self):
+  x=r.sginnovate_schedule('<section class="schedule">Date: 24 Nov 2026 Time: 7:00 PM - 9:00 PM Location: Google Meet</section>');self.assertTrue(x[3]);self.assertFalse(x[4])
+ def test_invalid_or_reverse_clock_rejected(self):
+  self.assertIsNone(r.sginnovate_schedule('<section class="schedule">Date: 24 Nov 2026 Time: 9:00 PM - 7:00 PM Location: Singapore</section>'))
+ def test_same_sginnovate_url(self):
+  self.assertEqual(r.event_url_key('https://www.sginnovate.com/event/example'),r.event_url_key('https://sginnovate.com/event/example'))
 if __name__=='__main__':unittest.main(verbosity=2)

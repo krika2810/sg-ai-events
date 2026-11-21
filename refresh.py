@@ -280,91 +280,109 @@ def meetup_events(slug, expected_group):
         return []
 
 
+def sginnovate_page(path):
+    """A www origin error must not erase an accessible owning bare-domain page."""
+    errors = []
+    for origin in ("https://www.sginnovate.com", "https://sginnovate.com"):
+        try:
+            req = urllib.request.Request(origin + path, headers=UA)
+            with urllib.request.urlopen(req, timeout=30) as response:
+                body = response.read().decode("utf-8", "replace")
+            if origin == "https://sginnovate.com":
+                print("  SGInnovate bare-domain fallback used: " + path)
+            return body, origin + path
+        except Exception as error:
+            errors.append(type(error).__name__)
+    raise RuntimeError("both owning origins unavailable: " + ", ".join(errors))
+
+
+def sginnovate_schedule(detail):
+    """Return only explicit start/end clocks. Never invent midnight or a duration."""
+    import re, html
+    match = re.search(r'<section[^>]+class=["\']schedule["\'][^>]*>(.*?)</section>', detail, re.S | re.I)
+    if not match:
+        return None
+    text = html.unescape(re.sub(r"<[^>]+>", " ", match.group(1)))
+    text = re.sub(r"\s+", " ", text).strip()
+    date = re.search(r"(?:Start Date|Date):\s*(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})", text, re.I)
+    end_date = re.search(r"End Date:\s*(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})", text, re.I)
+    clocks = re.search(r"(\d{1,2})(?:[:.](\d{2}))?\s*(AM|PM)\s*(?:-|–|to)\s*(\d{1,2})(?:[:.](\d{2}))?\s*(AM|PM)", text, re.I)
+    if not date or not clocks:
+        return None
+    def day(m):
+        month = m.group(2)
+        return datetime.strptime(" ".join(m.group(i) for i in (1, 2, 3)), "%d %b %Y" if len(month) == 3 else "%d %B %Y").date()
+    def clock(hour, minute, ap):
+        hour, minute = int(hour), int(minute or 0)
+        if not 1 <= hour <= 12 or not 0 <= minute < 60:
+            raise ValueError("invalid explicit clock")
+        return hour % 12 + (12 if ap.upper() == "PM" else 0), minute
+    start_day = day(date); finish_day = day(end_date) if end_date else start_day
+    sh, sm = clock(*clocks.group(1, 2, 3)); eh, em = clock(*clocks.group(4, 5, 6))
+    sg = timezone(timedelta(hours=8))
+    start = datetime(start_day.year, start_day.month, start_day.day, sh, sm, tzinfo=sg)
+    end = datetime(finish_day.year, finish_day.month, finish_day.day, eh, em, tzinfo=sg)
+    if end <= start:
+        return None
+    location = re.search(r"Location:\s*(.+?)(?:$|\s+(?:Registration|Agenda|Schedule):)", text, re.I)
+    if not location:
+        return None
+    venue = location.group(1).strip()
+    is_virtual = bool(re.search(r"^(?:Online|Virtual|Zoom|Microsoft Teams|Google Meet)\b", venue, re.I))
+    is_sg = not is_virtual and bool(re.search(r"Singapore|\b\d{6}\b", venue, re.I))
+    if not (is_virtual or is_sg):
+        return None
+    return start, end, venue, is_virtual, is_sg
+
+
 def sginnovate_events():
-    """Read SGInnovate's public upcoming-events cards; retain dated AI items."""
-    url = "https://www.sginnovate.com/events"
+    """Check each dated AI listing independently; partial failure stays explicit."""
+    import re, html
     try:
-        req = urllib.request.Request(url, headers=UA)
-        html = urllib.request.urlopen(req, timeout=30).read().decode("utf-8", "replace")
-        import re
-        out = []
-        for card in re.split(r'<div class="col-md-6 col-lg-4 mb-4">', html):
-            link = re.search(r'href="(/event/[^\"]+)"', card)
-            title_m = re.search(r'<h4[^>]*>.*?<a[^>]*>(.*?)</a>', card, re.S)
-            date_m = re.search(r'<p>([A-Z][a-z]{2} \d{1,2}, 2026)</p>', card)
-            if not (link and title_m and date_m):
-                continue
-            title = re.sub(r"<[^>]+>", " ", title_m.group(1)).strip()
-            hay = title.lower()
-            if not any(k.strip().lower() in hay for k in AI_KW):
-                continue
-            try:
-                day = datetime.strptime(date_m.group(1), "%b %d, %Y").date()
-                start = datetime.combine(day, datetime.min.time(), tzinfo=timezone(timedelta(hours=8)))
-            except ValueError:
-                continue
-            if start.astimezone(timezone.utc) <= NOW:
-                continue
-            path = link.group(1)
-            full_url = "https://www.sginnovate.com" + path
-            # Verify event detail confirms AI relevance and an SG venue / online status.
-            dreq = urllib.request.Request(full_url, headers=UA)
-            detail = urllib.request.urlopen(dreq, timeout=30).read().decode("utf-8", "replace")
-            detail_text = re.sub(r"<[^>]+>", " ", detail)
-            detail_text = re.sub(r"\s+", " ", detail_text)
-            if not any(k.strip().lower() in detail_text.lower() for k in AI_KW):
-                continue
-            if not re.search(r"(Location:\s*(?:Online|[^<]{0,100}(?:Singapore|SG))|Singapore\b)", detail_text, re.I):
-                continue
-            sched = re.search(r"<section class=\"schedule\">(.*?)</section>", detail, re.S)
-            schedule_text = re.sub(r"<[^>]+>", " ", sched.group(1) if sched else detail)
-            schedule_text = re.sub(r"\s+", " ", schedule_text)
-            date_info = re.search(r"(?:ScheduleDate:\s*|Date:\s*)(\d{1,2})\s+([A-Za-z]+)\s+(\d{4}).{0,180}?Time:\s*([^<]+)", schedule_text, re.I|re.S)
-            start_iso, end_iso = start.isoformat(), (start + timedelta(hours=2)).isoformat()
-            if date_info:
-                try:
-                    d = datetime.strptime(" ".join(date_info.group(i) for i in (1,2,3)), "%d %b %Y" if len(date_info.group(2))==3 else "%d %B %Y").date()
-                    tm = re.search(r"(\d{1,2})(?::(\d{2}))?\s*(AM|PM)", date_info.group(4), re.I)
-                    if tm:
-                        hh=int(tm.group(1))%12+(12 if tm.group(3).upper()=="PM" else 0)
-                        start_dt=datetime(d.year,d.month,d.day,hh,int(tm.group(2) or 0),tzinfo=timezone(timedelta(hours=8)))
-                        start_iso=start_dt.isoformat(); end_iso=(start_dt+timedelta(hours=2)).isoformat()
-                except Exception:
-                    pass
-            # Multi-day labs sometimes publish daily hours rather than a single date/time.
-            span = re.search(r"Start Date:\s*(\d{1,2})\s+([A-Za-z]+)\s+(\d{4}).{0,180}?End Date:\s*(\d{1,2})\s+([A-Za-z]+)\s+(\d{4}).{0,120}?(\d{1,2})[.:]?(\d{2})?\s*(AM|PM)\s+to\s+(\d{1,2})[.:]?(\d{2})?\s*(AM|PM)", schedule_text, re.I|re.S)
-            if not date_info and not span:
-                print(f"  WARN SGInnovate schedule could not be parsed; skipping {full_url}", file=sys.stderr)
-                continue
-            if span:
-                try:
-                    d1=datetime.strptime(" ".join(span.group(i) for i in (1,2,3)), "%d %B %Y").date()
-                    d2=datetime.strptime(" ".join(span.group(i) for i in (4,5,6)), "%d %B %Y").date()
-                    def _clock(hh,mm,ap):
-                        return (int(hh)%12)+(12 if ap.upper()=="PM" else 0),int(mm or 0)
-                    sh,sm=_clock(span.group(7),span.group(8),span.group(9));eh,em=_clock(span.group(10),span.group(11),span.group(12))
-                    start_iso=datetime(d1.year,d1.month,d1.day,sh,sm,tzinfo=timezone(timedelta(hours=8))).isoformat()
-                    end_iso=datetime(d2.year,d2.month,d2.day,eh,em,tzinfo=timezone(timedelta(hours=8))).isoformat()
-                except Exception:
-                    pass
-            is_virtual = bool(re.search(r"\bOnline\b", detail_text, re.I))
-            venues = re.findall(r"Location:\s*(.{1,140})", schedule_text, re.I)
-            venue = "Online" if is_virtual else (re.sub(r"\s+", " ", venues[0]).strip() if venues else "Singapore")
-            venue = re.sub(r"\s+", " ", re.sub(r"\s*/?>.*$", "", venue)).strip()
-            out.append({
-                "id":"sginnovate-"+path.rsplit("/",1)[-1], "name":title, "url":full_url,
-                "start":start_iso, "end":end_iso, "tz":"Asia/Singapore",
-                "virtual":is_virtual, "sg":not is_virtual, "venue":venue,
-                "hosts":["SGInnovate"], "calendar":"SGInnovate", "calendar_id":None,
-                "cover":None, "guests":None,
-                "vendors":[v for v,kws in VENDOR_KW.items() if any(k in (title+" "+detail_text).lower() for k in kws)],
-                "source":"sginnovate", "kind":"sginnovate",
-                "first_seen":NOW.date().isoformat(), "last_seen":NOW.date().isoformat(),
-            })
-        return out
-    except Exception as e:
-        print(f"  WARN SGInnovate fetch failed: {e}", file=sys.stderr)
+        listing, listing_url = sginnovate_page("/events")
+    except Exception as error:
+        print("  WARN SGInnovate listing failed: " + str(error), file=sys.stderr)
         return []
+    out, seen = [], set()
+    for card in re.split(r'<div class="col-md-6 col-lg-4 mb-4">', listing):
+        link = re.search(r'href="(/event/[^"#?]+)"', card)
+        title_m = re.search(r'<h4[^>]*>.*?<a[^>]*>(.*?)</a>', card, re.S)
+        if not (link and title_m):
+            continue
+        path = link.group(1)
+        if path in seen:
+            continue
+        seen.add(path)
+        title = html.unescape(re.sub(r"<[^>]+>", " ", title_m.group(1))).strip()
+        if not any(k.strip().lower() in title.lower() for k in AI_KW):
+            continue
+        try:
+            detail, source_url = sginnovate_page(path)
+            parsed = sginnovate_schedule(detail)
+            if not parsed:
+                print("  WARN SGInnovate explicit schedule/location unavailable; skipped " + source_url, file=sys.stderr)
+                continue
+            start, end, venue, is_virtual, is_sg = parsed
+            if end <= NOW:
+                continue
+            detail_text = html.unescape(re.sub(r"<[^>]+>", " ", detail))
+            family_only = bool(re.search(r"(?:Kids|Children|Family|Ages 7)[^<]{0,30}", title, re.I))
+            note = "Family/children-focused event; check age requirements and fees with the organiser." if family_only else "Check the organiser page for registration requirements and fees."
+            out.append({
+                "id": "sginnovate-" + path.rsplit("/", 1)[-1], "name": title,
+                "url": "https://sginnovate.com" + path,
+                "start": start.isoformat(), "end": end.isoformat(), "tz": "Asia/Singapore",
+                "virtual": is_virtual, "sg": is_sg, "venue": venue,
+                "hosts": ["SGInnovate"], "calendar": "SGInnovate", "calendar_id": None,
+                "cover": None, "guests": None, "note": note,
+                "vendors": [v for v, kws in VENDOR_KW.items() if any(k in (title + " " + detail_text).lower() for k in kws)],
+                "source": "sginnovate-owning-page", "kind": "sginnovate",
+                "first_seen": NOW.date().isoformat(), "last_seen": NOW.date().isoformat(),
+            })
+        except Exception as error:
+            print("  WARN SGInnovate individual event failed " + path + ": " + type(error).__name__, file=sys.stderr)
+            continue
+    return out
 
 
 def load_json(path, default):
@@ -380,6 +398,8 @@ def event_url_key(url):
     host = (parts.hostname or "").lower()
     if host in ("lu.ma", "www.lu.ma", "luma.com", "www.luma.com"):
         host = "luma.com"
+    if host == "www.sginnovate.com":
+        host = "sginnovate.com"
     return host + parts.path.rstrip("/").lower()
 
 
@@ -537,7 +557,11 @@ def main():
     def _event_sig(e):
         name = _re.sub(r"\s*\([^)]*\)\s*$", "", e.get("name") or "")
         name = _re.sub(r"[^a-z0-9]", "", name.lower())
-        return (name, e.get("start") or "")
+        try:
+            start_key = datetime.fromisoformat((e.get("start") or "").replace("Z", "+00:00")).timestamp()
+        except (ValueError, TypeError):
+            start_key = e.get("start") or ""
+        return (name, start_key)
     seen_sigs = {}
     for eid in list(kept):
         sig = _event_sig(kept[eid])
@@ -545,7 +569,10 @@ def main():
             # Prefer the older tracked record to keep first_seen stable.
             prev_id = seen_sigs[sig]
             a, b = kept[prev_id], kept[eid]
-            keep_id, drop_id = (prev_id, eid) if a.get("first_seen", today) <= b.get("first_seen", today) else (eid, prev_id)
+            if (prev_id in old_events) != (eid in old_events):
+                keep_id, drop_id = (prev_id, eid) if prev_id in old_events else (eid, prev_id)
+            else:
+                keep_id, drop_id = (prev_id, eid) if a.get("first_seen", today) <= b.get("first_seen", today) else (eid, prev_id)
             seen_sigs[sig] = keep_id
             del kept[drop_id]
         else:
@@ -569,14 +596,14 @@ def main():
                     e["credits"] = v
 
     # 5c) curated exclusions (event URLs or calendar ids): non-AI items pulled in by broad feeds
-    excluded = {u.rstrip("/").lower() for u in load_json(DATA / "excluded-urls.json", [])}
+    excluded = {event_url_key(u) for u in load_json(DATA / "excluded-urls.json", [])}
 
     # 6) prune events whose end time has passed; never show expired events
     final = []
     pruned = 0
     for e in kept.values():
-        if (e.get("url") or "").rstrip("/").lower() in excluded or \
-                (e.get("calendar_id") or "").lower() in excluded:
+        if event_url_key(e.get("url")) in excluded or \
+                event_url_key(e.get("calendar_id") or "") in excluded:
             continue
         end = e.get("end") or e.get("start")
         try:

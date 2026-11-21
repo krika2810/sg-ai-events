@@ -253,7 +253,7 @@
    "Relw.AI"
   ],
   "vendors": [],
-  "source": "manual-owning-page-check",
+  "source": "manual-owning-page-check+curated-annotations",
   "kind": "manual",
   "first_seen": "2026-11-21",
   "last_seen": "2026-11-21",
@@ -395,7 +395,7 @@
    "Singapore Global Network"
   ],
   "vendors": [],
-  "source": "manual-owning-page-check",
+  "source": "manual-owning-page-check+curated-annotations",
   "kind": "manual",
   "first_seen": "2026-11-21",
   "last_seen": "2026-11-21",
@@ -418,7 +418,7 @@
   "cover": null,
   "guests": null,
   "vendors": [],
-  "source": "manual",
+  "source": "manual+curated-annotations",
   "kind": "manual",
   "first_seen": "2026-09-05",
   "last_seen": "2026-11-21"
@@ -628,7 +628,7 @@
    "Lovable",
    "Inworld"
   ],
-  "source": "manual-owning-page-check",
+  "source": "manual-owning-page-check+curated-annotations",
   "kind": "manual",
   "note": "SGInnovate says no venue Wi-Fi: bring a mobile hotspot. Registration requires approval.",
   "credits": "Organiser states each participant receives US$100 Lovable, US$100 OpenAI API and US$100 Codex credits. Winner prizes are separate. Checked 21 Nov 2026; read the event page for redemption terms.",
@@ -723,31 +723,6 @@
   "last_seen": "2026-11-21"
  },
  {
-  "id": "sginnovate-nvidia-training-labs-siggraph-asia-2026",
-  "name": "NVIDIA Training Labs at SIGGRAPH Asia 2026",
-  "url": "https://www.sginnovate.com/event/nvidia-training-labs-siggraph-asia-2026",
-  "start": "2026-12-01T10:30:00+08:00",
-  "end": "2026-12-01T12:30:00+08:00",
-  "tz": "Asia/Singapore",
-  "virtual": false,
-  "sg": true,
-  "venue": "Kuala Lumpur Convention Centre (KLCC), Kuala Lumpur, Malaysia, -",
-  "hosts": [
-   "SGInnovate"
-  ],
-  "calendar": "SGInnovate",
-  "calendar_id": null,
-  "cover": null,
-  "guests": null,
-  "vendors": [
-   "NVIDIA"
-  ],
-  "source": "sginnovate",
-  "kind": "sginnovate",
-  "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
- },
- {
   "id": "manual-founders-2-conf-sg-2026",
   "name": "Founders 2.0 Conference Singapore 2026",
   "url": "https://www.founders2conf.com/",
@@ -764,7 +739,7 @@
   "cover": null,
   "guests": null,
   "vendors": [],
-  "source": "manual",
+  "source": "manual+curated-annotations",
   "kind": "manual",
   "note": "Three-day founder and business summit, Dec 2-4, with substantial AI and innovation programming.",
   "first_seen": "2026-09-18",
@@ -860,7 +835,7 @@
   "cover": null,
   "guests": null,
   "vendors": [],
-  "source": "manual",
+  "source": "manual+curated-annotations",
   "kind": "manual",
   "note": "Three-day in-person conference, Dec 3-5. Industry Day starts 8:30 AM Dec 3; conference programme runs Dec 4-5. Registration deadline listed as Oct 15.",
   "first_seen": "2026-09-17",
@@ -883,7 +858,7 @@
   "cover": null,
   "guests": null,
   "vendors": [],
-  "source": "manual",
+  "source": "manual+curated-annotations",
   "kind": "manual",
   "note": "One-day in-person summit for teams building and scaling production AI systems, Dec 3, 9:00 AM-5:00 PM SGT.",
   "first_seen": "2026-09-16",
@@ -1262,7 +1237,7 @@
   "cover": null,
   "guests": null,
   "vendors": [],
-  "source": "manual",
+  "source": "manual+curated-annotations",
   "kind": "manual",
   "note": "Two-day academic and industry conference on AI governance and liability, Dec 10-11. Official page confirms dates and venue.",
   "first_seen": "2026-09-18",
@@ -1332,7 +1307,7 @@
   "cover": null,
   "guests": null,
   "vendors": [],
-  "source": "manual",
+  "source": "manual+curated-annotations",
   "kind": "manual",
   "note": "In-person finals Dec 12-13 at NTU Alumni Club. Official page says schedule is tentative and final timings will be confirmed; registration opens soon.",
   "first_seen": "2026-09-15",
@@ -1459,13 +1434,13 @@
   "cover": "https://images.lumacdn.com/uploads/59/fc1778c1-c302-4151-bbc3-28edcb30ffb2.png",
   "guests": 0,
   "vendors": [],
-  "source": "cal:cal-shGsiOpMZsOFocO",
+  "source": "cal:cal-shGsiOpMZsOFocO+curated-annotations",
   "kind": "luma",
   "first_seen": "2026-11-21",
   "last_seen": "2026-11-21",
+  "note": "AI-themed social trivia and dinner, not a technical workshop. Winner-only gadget prize.",
   "fee": "Early bird S$35 until 1 Dec; standard S$50. Non-refundable, transferable. Dinner and a drink included. Checked 21 Nov 2026.",
   "fee_label": "Paid event",
-  "note": "AI-themed social trivia and dinner, not a technical workshop. Winner-only gadget prize.",
   "annotation_checked_at": "2026-11-21T18:52:00+08:00",
   "annotation_sources": [
    "https://lu.ma/uobe2jk1"
