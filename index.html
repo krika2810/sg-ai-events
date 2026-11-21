@@ -143,7 +143,7 @@ footer{margin:46px 0 80px;padding-top:18px;border-top:1px solid var(--line);colo
   <div id="days"></div>
   <div class="empty" id="empty" style="display:none">No events match this filter.</div>
   <footer id="foot">
-    <div>Times are Singapore time. Ended events disappear on their own. Many Luma events need host approval, so registering does not guarantee a seat.</div>
+    <div>Coverage is not exhaustive. Eventbrite-only and other unlisted events may be missing.<br>Times are Singapore time. Ended events disappear on their own. Many Luma events need host approval, so registering does not guarantee a seat.</div>
     <div>Credit boxes quote the organiser's page when it was checked. Read the event page for the exact terms before relying on them.</div>
     <div>Registered marks are saved in this browser only and do not sync between devices.</div>
   </footer>
@@ -202,8 +202,9 @@ function card(e){
       ${hosts?`<div class="row">${usr}<span>By ${esc(hosts)}</span></div>`:''}
       ${(e.vendors&&e.vendors.length)?`<div class="vtags">${e.vendors.map(v=>`<span class="vtag">${esc(v)}</span>`).join('')}</div>`:''}
       <div class="row">${e.virtual?globe:pin}<span>${esc(where)}</span></div>
-      ${e.fee?`<div class="credit fee"><b>Paid workshop proposed</b>${esc(e.fee)}</div>`:''}
+      ${e.fee?`<div class="credit fee"><b>${esc(e.fee_label||'Paid workshop proposed')}</b>${esc(e.fee)}</div>`:''}
       ${cr}
+      ${e.note?`<div class="row"><span>${esc(e.note)}</span></div>`:''}
       <div class="tools"><button class="btn${isReg?' on':''}" data-reg="${esc(e.id)}">${isReg?'Registered':'Mark registered'}</button></div>
     </div>
     <div class="thumb">${cov}${cov?'':initial}</div>
