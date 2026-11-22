@@ -20,7 +20,9 @@ class VerifiedMirror(unittest.TestCase):
                            if e['id'] == 'manual-div0-secure-ai-20261124')
         self.cid = self.manual['same_event_as']['id']
         self.live = next(e for e in self.events if e['id'] == self.cid)
-        self.alias = next(e for e in self.events if e['id'] == self.manual['id'])
+        self.alias = copy.deepcopy(self.manual)
+        self.alias.setdefault('kind', 'manual')
+        self.alias.setdefault('vendors', [])
 
     def merge(self, kept, old=None):
         r.merge_curated_events(kept, [copy.deepcopy(self.manual)], old or {}, '2026-11-22')
@@ -28,6 +30,7 @@ class VerifiedMirror(unittest.TestCase):
 
     def test_real_pair_one_canonical_id_and_curated_note(self):
         old = {e['id']: copy.deepcopy(e) for e in self.events}
+        old[self.manual['id']] = copy.deepcopy(self.alias)
         kept = self.merge(copy.deepcopy(old), old)
         self.assertEqual(len(kept), len(old) - 1)
         self.assertNotIn(self.manual['id'], kept)
@@ -38,10 +41,12 @@ class VerifiedMirror(unittest.TestCase):
 
     def test_repeat_daily_refresh_does_not_recreate_alias(self):
         old = {e['id']: copy.deepcopy(e) for e in self.events}
+        old[self.manual['id']] = copy.deepcopy(self.alias)
         for _ in range(5):
             kept = copy.deepcopy(old)
             # Mirror the archive step, plus a freshly discovered canonical entry.
             kept[self.cid] = copy.deepcopy(self.live)
+            kept[self.manual['id']] = copy.deepcopy(self.alias)
             old = self.merge(kept, old)
             self.assertNotIn(self.manual['id'], old)
             self.assertEqual(sum(e['url'] == self.live['url'] for e in old.values()), 1)

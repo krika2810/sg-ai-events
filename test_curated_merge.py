@@ -49,7 +49,8 @@ class UnknownEnd(unittest.TestCase):
   manual=dict(id='id',url='https://luma.com/x',end=None,end_unconfirmed=True,schedule_review_due='2026-11-22');kept={'id':dict(id='id',url='https://lu.ma/x',end='2026-12-05T10:00:00Z',source='live')};r.merge_curated_events(kept,[manual],{},'2026-11-21');self.assertEqual(kept['id']['end'],'2026-12-05T10:00:00Z');self.assertNotIn('end_unconfirmed',kept['id'])
 class PlanningCaveats(unittest.TestCase):
  def test_ai_governance_registration_closed_note(self):
-  es=json.loads((P/'data/events.json').read_text());e=next(x for x in es if x['id']=='evt-JUcqkT7kGgvIS7Y');self.assertIn('registration was closed',e['note']);self.assertIn('Google Meet',e['note']);self.assertTrue(e['virtual'])
+  es=json.loads((P/'data/events.json').read_text());e=next(x for x in es if x['id']=='evt-JUcqkT7kGgvIS7Y');self.assertTrue(e['virtual']);self.assertEqual(e['url'],'https://lu.ma/aic-du-11-24')
+  annotations=json.loads((P/'data/manual-events.json').read_text());m=next(x for x in annotations if x['id']=='evt-JUcqkT7kGgvIS7Y');kept={e['id']:dict(e)};r.merge_curated_events(kept,[m],{e['id']:e},'2026-11-23');self.assertIn('registration was closed',kept[e['id']]['note']);self.assertIn('Google Meet',kept[e['id']]['note'])
  def test_concordium_deadline_separate(self):
   e=next(x for x in json.loads((P/'data/events.json').read_text())if x['id']=='manual-concordium-trusted-agents-2026');self.assertEqual(e['submission_deadline'],'2026-12-09T23:59:00+00:00');self.assertIsNone(e['end']);self.assertTrue(e['end_unconfirmed']);self.assertIn('Judging',e['note']);self.assertIn('7:59 AM SGT',e['note'])
  def test_claude_prerequisite_persists(self):

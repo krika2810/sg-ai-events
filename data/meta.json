@@ -1,8 +1,8 @@
 {
- "refreshed_at": "2026-11-21T23:06:05+00:00",
- "event_count": 83,
- "sg_count": 56,
+ "refreshed_at": "2026-11-22T23:03:28+00:00",
+ "event_count": 84,
+ "sg_count": 57,
  "virtual_count": 27,
- "new_today": 8,
- "coverage_note": "Luma, Meetup and accessible SGInnovate schedules checked 22 Nov. Coverage is partial: two SGInnovate pages lacked explicit schedule/location data, one individual SGInnovate page could not be fetched, and Eventbrite-only listings may be missing."
+ "new_today": 2,
+ "coverage_note": "Luma, Meetup and accessible SGInnovate schedules checked 23 Nov. Coverage is partial: two SGInnovate pages lacked explicit schedule/location data, one individual SGInnovate page could not be fetched, and Eventbrite-only listings may be missing."
 }

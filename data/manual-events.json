@@ -1860,7 +1860,15 @@
  },
  {
   "id": "manual-div0-secure-ai-20261124",
-  "same_event_as": {"id": "evt-mV6jk82DPsZSpis", "url": "https://lu.ma/fzc6yw8r", "checked_at": "2026-11-22", "sources": ["https://sginnovate.com/event/div0-aisq-workshop-how-do-you-build-securely-ai", "https://lu.ma/fzc6yw8r"]},
+  "same_event_as": {
+   "id": "evt-mV6jk82DPsZSpis",
+   "url": "https://lu.ma/fzc6yw8r",
+   "checked_at": "2026-11-22",
+   "sources": [
+    "https://sginnovate.com/event/div0-aisq-workshop-how-do-you-build-securely-ai",
+    "https://lu.ma/fzc6yw8r"
+   ]
+  },
   "name": "Div0 AISQ: How do you build securely with AI?",
   "url": "https://sginnovate.com/event/div0-aisq-workshop-how-do-you-build-securely-ai",
   "start": "2026-11-24T19:00:00+08:00",
@@ -1994,6 +2002,15 @@
   "annotation_checked_at": "2026-11-21T20:39:00+08:00",
   "annotation_sources": [
    "https://lu.ma/Claudecode101xLifelonglearning"
+  ]
+ },
+ {
+  "id": "evt-JUcqkT7kGgvIS7Y",
+  "url": "https://lu.ma/aic-du-11-24",
+  "note": "Luma showed registration was closed when checked on 22 Nov 2026; the event remains scheduled online on Google Meet for 24 Nov, 11:00 PM–midnight SGT.",
+  "annotation_checked_at": "2026-11-22",
+  "annotation_sources": [
+   "https://luma.com/aic-du-11-24"
   ]
  }
 ]
