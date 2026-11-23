@@ -2012,5 +2012,26 @@
   "annotation_sources": [
    "https://luma.com/aic-du-11-24"
   ]
+ },
+ {
+  "id": "manual-yai-ai-agent-safely-taster-2026-12-12",
+  "url": "https://www.eventbrite.com/e/build-an-ai-agent-safely-taster-session-not-yai-registration-tickets-2005067759644",
+  "name": "Build an AI agent safely: Taster session (not YAI registration)",
+  "start": "2026-12-12T16:00:00+08:00",
+  "end": "2026-12-12T16:45:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "YAI Singapore",
+   "Prune"
+  ],
+  "vendors": [],
+  "source": "manual",
+  "kind": "manual",
+  "note": "Free 45-minute online taster for YAI Singapore University division participants aged 18–24, on AI-agent spending caps, model limits, and cost checks. This is not YAI team registration.",
+  "first_seen": "2026-11-24",
+  "last_seen": "2026-11-24"
  }
 ]
