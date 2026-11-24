@@ -19,7 +19,14 @@ class VerifiedMirror(unittest.TestCase):
         self.manual = next(e for e in json.loads((P / 'data/manual-events.json').read_text())
                            if e['id'] == 'manual-div0-secure-ai-20261124')
         self.cid = self.manual['same_event_as']['id']
-        self.live = next(e for e in self.events if e['id'] == self.cid)
+        # The Nov 24 mirror is past on later refreshes. Use a current-shaped
+        # synthetic canonical record so the alias-guard tests stay scoped to
+        # identity/merge behaviour rather than depending on a past event.
+        self.live = next((e for e in self.events if e['id'] == self.cid),
+                         dict(self.manual, id=self.cid, url=self.manual['same_event_as']['url'],
+                              same_event_as=None, start='2026-11-24T11:00:00Z', end='2026-11-24T13:00:00Z',
+                              kind='luma', source='live', first_seen='2026-11-21', last_seen='2026-11-22'))
+        self.live.pop('same_event_as', None)
         self.alias = copy.deepcopy(self.manual)
         self.alias.setdefault('kind', 'manual')
         self.alias.setdefault('vendors', [])
@@ -30,6 +37,9 @@ class VerifiedMirror(unittest.TestCase):
 
     def test_real_pair_one_canonical_id_and_curated_note(self):
         old = {e['id']: copy.deepcopy(e) for e in self.events}
+        # Keep this invariant independent of whether the historical canonical
+        # event is still upcoming in today's production list.
+        old[self.cid] = copy.deepcopy(self.live)
         old[self.manual['id']] = copy.deepcopy(self.alias)
         kept = self.merge(copy.deepcopy(old), old)
         self.assertEqual(len(kept), len(old) - 1)

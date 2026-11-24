@@ -2011,7 +2011,21 @@
   "annotation_checked_at": "2026-11-22",
   "annotation_sources": [
    "https://luma.com/aic-du-11-24"
-  ]
+  ],
+  "name": "Governing Together: AI Governance in Pakistan: Policies, Progress and Global Relevance (w/ The AI Collective)",
+  "start": "2026-11-24T15:00:00.000Z",
+  "end": "2026-11-24T16:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "The AI Collective"
+  ],
+  "source": "manual-annotation-only",
+  "kind": "manual",
+  "first_seen": "2026-11-21",
+  "last_seen": "2026-11-22"
  },
  {
   "id": "manual-yai-ai-agent-safely-taster-2026-12-12",
@@ -2033,5 +2047,35 @@
   "note": "Free 45-minute online taster for YAI Singapore University division participants aged 18–24, on AI-agent spending caps, model limits, and cost checks. This is not YAI team registration.",
   "first_seen": "2026-11-24",
   "last_seen": "2026-11-24"
+ },
+ {
+  "id": "evt-Sg4JP0ERH23jdc4",
+  "url": "https://lu.ma/voy16yle",
+  "name": "Beyond the hotline: Voice AI for Singapore banking",
+  "start": "2026-12-09T10:00:00.000Z",
+  "end": "2026-12-09T12:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "TBC",
+  "hosts": [
+   "Son Le Thanh"
+  ],
+  "calendar": "AI Tinkerers Singapore",
+  "calendar_id": "cal-RJzlehiWa4JSyuL",
+  "cover": "https://images.lumacdn.com/uploads/7z/281def3b-0361-4ea5-b42c-4a618451bd0c.png",
+  "guests": 0,
+  "vendors": [],
+  "source": "manual-source-unavailable",
+  "kind": "manual",
+  "first_seen": "2026-11-23",
+  "last_seen": "2026-11-23",
+  "note": "Previously verified as a scheduled AI Tinkerers Singapore listing. The Luma page and calendar API returned unavailable on 25 Nov, so current event status could not be confirmed. Recheck before relying on the date.",
+  "end_unconfirmed": true,
+  "schedule_review_due": "2026-11-26",
+  "annotation_checked_at": "2026-11-25",
+  "annotation_sources": [
+   "https://lu.ma/voy16yle"
+  ]
  }
 ]
