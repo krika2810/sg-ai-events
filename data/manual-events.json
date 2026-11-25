@@ -2070,12 +2070,29 @@
   "kind": "manual",
   "first_seen": "2026-11-23",
   "last_seen": "2026-11-23",
-  "note": "Previously verified as a scheduled AI Tinkerers Singapore listing. The Luma page and calendar API returned unavailable on 25 Nov, so current event status could not be confirmed. Recheck before relying on the date.",
+  "note": "Previously verified as a scheduled AI Tinkerers Singapore listing. Luma page/API remained unavailable on 26 Nov. The AI Tinkerers Singapore calendar now lists Dec 3 as next event, while DevsGoWhere still lists this Dec 9 session; cancellation/status unresolved. Recheck before relying on the date.",
   "end_unconfirmed": true,
-  "schedule_review_due": "2026-11-26",
-  "annotation_checked_at": "2026-11-25",
+  "schedule_review_due": "2026-11-27",
+  "annotation_checked_at": "2026-11-26",
   "annotation_sources": [
-   "https://lu.ma/voy16yle"
+   "https://lu.ma/voy16yle",
+   "https://singapore.aitinkerers.org/events",
+   "https://devsgowhere.com/events/"
+  ]
+ },
+ {
+  "id": "evt-GYrJqi6MHSaN0rH",
+  "url": "https://lu.ma/lsp2rnhf",
+  "name": "Builder Show & Tell with Supabase and Temus",
+  "source": "manual-organiser-credit-check",
+  "kind": "manual",
+  "note": "Confirmed by the organiser: Supabase credits are available to attendees who check in; amount and redemption terms were not stated. Checked 26 Nov 2026.",
+  "credits": "Supabase credits for checked-in attendees; amount and redemption terms not stated.",
+  "credits_kind": "credits",
+  "annotation_checked_at": "2026-11-26",
+  "annotation_sources": [
+   "https://luma.com/lsp2rnhf",
+   "https://singapore.aitinkerers.org/events"
   ]
  }
 ]

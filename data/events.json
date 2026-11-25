@@ -85,145 +85,6 @@
   ]
  },
  {
-  "id": "evt-ptsQx2BSFjr4PCW",
-  "url": "https://lu.ma/vrtguwjt",
-  "name": "The One About Forward Deployed Engineering",
-  "start": "2026-11-25T07:00:00.000Z",
-  "end": "2026-11-25T09:00:00.000Z",
-  "tz": "Asia/Singapore",
-  "virtual": false,
-  "sg": true,
-  "venue": "Lorong AI @ One-North, 69 Ayer Rajah Cres., Singapore 139961",
-  "hosts": [
-   "Lorong AI"
-  ],
-  "calendar": "Lorong AI",
-  "calendar_id": "cal-6iIeDGNQ7vK8cfx",
-  "cover": "https://images.lumacdn.com/event-covers/z3/b79dda64-61b1-40d5-a865-490604434a7b.png",
-  "guests": 0,
-  "vendors": [],
-  "source": "luma-sg-feed+luma-category:cat-ai+luma-category:cat-tech+cal:cal-6iIeDGNQ7vK8cfx",
-  "kind": "luma",
-  "first_seen": "2026-11-20",
-  "last_seen": "2026-11-24"
- },
- {
-  "id": "evt-HXI5lY5Es4OaLcs",
-  "url": "https://lu.ma/brightdatasg",
-  "name": "VIP Salon: The Web Discovery Workshop",
-  "start": "2026-11-25T10:00:00.000Z",
-  "end": "2026-11-25T13:00:00.000Z",
-  "tz": "Asia/Singapore",
-  "virtual": false,
-  "sg": true,
-  "venue": "Singapore",
-  "hosts": [
-   "AI Builders",
-   "Bright Data",
-   "Joy Song"
-  ],
-  "calendar": "Bright Data",
-  "calendar_id": "cal-PuFzb115XJDoaYO",
-  "cover": "https://images.lumacdn.com/uploads/d1/df855782-df3d-4b2b-a5ab-9b5b011ef800.png",
-  "guests": 0,
-  "vendors": [],
-  "source": "luma-live-archive-check",
-  "kind": "luma",
-  "first_seen": "2026-09-30",
-  "last_seen": "2026-11-24"
- },
- {
-  "id": "meetup-317508969",
-  "name": "Cloud Native & Security Meetup @ Virtual - 25 Nov 2026",
-  "url": "https://www.meetup.com/ksug-sg/events/317508969/",
-  "start": "2026-11-25T15:00:00+08:00",
-  "end": "2026-11-25T17:00:00+08:00",
-  "tz": "Asia/Singapore",
-  "virtual": true,
-  "sg": false,
-  "venue": "Online",
-  "hosts": [
-   "KSUG.AI APAC"
-  ],
-  "calendar": "KSUG.AI APAC",
-  "calendar_id": null,
-  "cover": null,
-  "guests": null,
-  "vendors": [],
-  "source": "meetup:ksug-sg",
-  "kind": "meetup",
-  "first_seen": "2026-11-20",
-  "last_seen": "2026-11-20"
- },
- {
-  "id": "evt-XULaC5zGCiNGkWG",
-  "url": "https://lu.ma/aic-du-11-25",
-  "name": "Building Together: Share Your Work, Find Your People (w/ The AI Collective)",
-  "start": "2026-11-25T15:00:00.000Z",
-  "end": "2026-11-25T16:00:00.000Z",
-  "tz": "Asia/Dubai",
-  "virtual": true,
-  "sg": false,
-  "venue": "Online",
-  "hosts": [
-   "The AI Collective"
-  ],
-  "calendar": "The AI Collective",
-  "calendar_id": "cal-E74MDlDKBaeAwXK",
-  "cover": "https://images.lumacdn.com/api-uploads/mb/7468f05f-47f0-4570-a60e-c2e85a390c6b.png",
-  "guests": 0,
-  "vendors": [],
-  "source": "cal:The AI Collective",
-  "kind": "luma",
-  "first_seen": "2026-11-21",
-  "last_seen": "2026-11-24"
- },
- {
-  "id": "meetup-317071246",
-  "name": "KSUG.AI Singapore #50 Cloud Native & AI Meetup @ Elastic",
-  "url": "https://www.meetup.com/ksug-sg/events/317071246/",
-  "start": "2026-11-25T18:00:00+08:00",
-  "end": "2026-11-25T21:00:00+08:00",
-  "tz": "Asia/Singapore",
-  "virtual": false,
-  "sg": true,
-  "venue": "Elasticsearch Pte. Ltd., Singapore, sg",
-  "hosts": [
-   "KSUG.AI APAC"
-  ],
-  "calendar": "KSUG.AI APAC",
-  "calendar_id": null,
-  "cover": null,
-  "guests": null,
-  "vendors": [],
-  "source": "meetup:ksug-sg",
-  "kind": "meetup",
-  "first_seen": "2026-11-06",
-  "last_seen": "2026-11-06"
- },
- {
-  "id": "manual-ddas-agent-security-20261125",
-  "name": "Autonomous Agents, Dynamic Secrets: Securing AI and Cloud Infrastructure",
-  "url": "https://sginnovate.com/event/autonomous-agents-dynamic-secrets-securing-ai-cloud-infrastructure",
-  "start": "2026-11-25T18:30:00+08:00",
-  "end": "2026-11-25T20:30:00+08:00",
-  "tz": "Asia/Singapore",
-  "virtual": false,
-  "sg": true,
-  "venue": "JustCo @ Marina Square, Singapore 039594",
-  "hosts": [
-   "DDAS",
-   "HashiCorp / IBM",
-   "Singapore Global Network"
-  ],
-  "vendors": [],
-  "source": "manual-owning-page-check+curated-annotations",
-  "kind": "manual",
-  "first_seen": "2026-11-21",
-  "last_seen": "2026-11-21",
-  "note": "Details checked against the organiser listing on 21 Nov 2026. No attendee credits stated."
- },
- {
   "id": "manual-ai-innovation-asia-2026",
   "name": "AI Innovation Asia (Economist Enterprise)",
   "url": "https://events.economistenterprise.com/ai-innovation-asia/",
@@ -264,12 +125,12 @@
   "calendar": "SuperNerds Club",
   "calendar_id": "cal-shGsiOpMZsOFocO",
   "cover": "https://images.lumacdn.com/uploads/4x/1a226382-61c0-4403-8eed-0e6cdf411832.png",
-  "guests": 169,
+  "guests": 186,
   "vendors": [],
   "source": "luma-sg-feed+luma-category:cat-ai+luma-category:cat-tech+cal:cal-shGsiOpMZsOFocO",
   "kind": "luma",
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
  },
  {
   "id": "evt-9D7dzNQtlD0HFxs",
@@ -294,7 +155,7 @@
   "source": "luma-sg-feed+luma-category:cat-ai+luma-category:cat-tech+cal:cal-gmMOid1Rsqc3Hih",
   "kind": "luma",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
  },
  {
   "id": "evt-XD1MVCXcqSdvAEP",
@@ -320,7 +181,7 @@
   "source": "cal:cal-6iIeDGNQ7vK8cfx+cal:cal-aGxCadmRJGhURxa",
   "kind": "luma",
   "first_seen": "2026-11-20",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
  },
  {
   "id": "evt-VCqqrePybmFDd4Q",
@@ -340,14 +201,14 @@
   "calendar": "AI Builders",
   "calendar_id": "cal-PKazQdrRmpFJSXz",
   "cover": "https://images.lumacdn.com/uploads/p6/3e8dedfa-780d-4f56-b191-e1a8e247d555.png",
-  "guests": 103,
+  "guests": 100,
   "vendors": [
    "Base44"
   ],
   "source": "luma-sg-feed+luma-category:cat-ai+luma-category:cat-tech+cal:AI Builders",
   "kind": "luma",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
  },
  {
   "id": "meetup-316597410",
@@ -371,6 +232,29 @@
   "kind": "meetup",
   "first_seen": "2026-10-10",
   "last_seen": "2026-10-10"
+ },
+ {
+  "id": "meetup-317071246",
+  "name": "KSUG.AI Singapore #50 Cloud Native & AI Meetup @ IMDA",
+  "url": "https://www.meetup.com/ksug-sg/events/317071246/",
+  "start": "2026-11-26T18:00:00+08:00",
+  "end": "2026-11-26T21:00:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Infocomm Media Development Authority (IMDA), Singapore, sg",
+  "hosts": [
+   "KSUG.AI APAC"
+  ],
+  "calendar": "KSUG.AI APAC",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "meetup:ksug-sg",
+  "kind": "meetup",
+  "first_seen": "2026-11-25",
+  "last_seen": "2026-11-25"
  },
  {
   "id": "evt-Nk3vp9NqdNijRjv",
@@ -397,7 +281,7 @@
   "source": "cal:cal-6iIeDGNQ7vK8cfx",
   "kind": "luma",
   "first_seen": "2026-11-20",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
  },
  {
   "id": "evt-RB0i5Q4h9QeP5KL",
@@ -422,7 +306,7 @@
   "source": "cal:cal-LVWZwZgOAe63Rwv",
   "kind": "luma",
   "first_seen": "2026-10-02",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
  },
  {
   "id": "evt-h4LRoWZJwR7H3Bb",
@@ -465,6 +349,33 @@
   ]
  },
  {
+  "id": "evt-bkxPwIC9vHw8y8p",
+  "url": "https://lu.ma/9yk2ex2q",
+  "name": "Cambridge Codex Meetup",
+  "start": "2026-11-28T14:00:00.000Z",
+  "end": "2026-11-28T15:00:00.000Z",
+  "tz": "Europe/London",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Alexandra Tran",
+   "Pauline P. Narvas",
+   "Rhiannon Payne"
+  ],
+  "calendar": "Codex Community Events",
+  "calendar_id": "cal-63UOFcweB97l2gc",
+  "cover": "https://images.lumacdn.com/uploads/jr/418bf5e2-9de2-410f-ad65-157f417215e7.jpg",
+  "guests": 29,
+  "vendors": [
+   "OpenAI"
+  ],
+  "source": "cal:Codex Community Events",
+  "kind": "luma",
+  "first_seen": "2026-11-25",
+  "last_seen": "2026-11-25"
+ },
+ {
   "id": "evt-uvWfw0VIHAEzg9k",
   "url": "https://lu.ma/1u8sl5mg",
   "name": "Hebbian x Gemini Robotics and Physical AI Hackathon 2026",
@@ -491,7 +402,7 @@
   "source": "cal:Google DeepMind+cal:cal-6iIeDGNQ7vK8cfx+cal:cal-PcGgD9J40FZQDOQ",
   "kind": "luma",
   "first_seen": "2026-11-20",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
  },
  {
   "id": "evt-sGJ8EMPXA8hpGsX",
@@ -506,19 +417,20 @@
   "hosts": [
    "Kimberly Tan",
    "Freddy Lim",
-   "Angeline D"
+   "Angeline D",
+   "Mark Tay"
   ],
   "calendar": "Claude SG Community",
   "calendar_id": "cal-Dkjza6RmAxAYMWj",
   "cover": "https://images.lumacdn.com/uploads/9e/ec926c91-c418-4d08-bbe6-2b600546c00f.png",
-  "guests": 380,
+  "guests": 400,
   "vendors": [
    "Anthropic"
   ],
   "source": "cal:Claude SG Community",
   "kind": "luma",
   "first_seen": "2026-11-20",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
  },
  {
   "id": "evt-vjP1GzbAMNW01HM",
@@ -542,7 +454,32 @@
   "source": "cal:The AI Collective",
   "kind": "luma",
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
+ },
+ {
+  "id": "evt-7MgAMG3l6epT0rk",
+  "url": "https://lu.ma/spacexsi-yjt7",
+  "name": "Grok Bot for Creators · Nairobi",
+  "start": "2026-12-01T17:00:00.000Z",
+  "end": "2026-12-01T18:00:00.000Z",
+  "tz": "Africa/Nairobi",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Felix Jumason"
+  ],
+  "calendar": "SpaceXSI for Nairobi, Kenya, Africa",
+  "calendar_id": "cal-pUsbylvDdkG2Bhk",
+  "cover": "https://images.lumacdn.com/api-uploads/k3/1ba765a0-fa86-49b0-a3d9-88a198c72a4b.png",
+  "guests": 22,
+  "vendors": [
+   "xAI / SpaceXAI"
+  ],
+  "source": "cal:SpaceXAI Community",
+  "kind": "luma",
+  "first_seen": "2026-11-25",
+  "last_seen": "2026-11-25"
  },
  {
   "id": "manual-founders-2-conf-sg-2026",
@@ -584,12 +521,12 @@
   "calendar": "Flourishing Futures | AI for Human Possibilities",
   "calendar_id": "cal-l8NkM2ubBP0jVhc",
   "cover": "https://images.lumacdn.com/uploads/t0/71145dca-5cd1-4bbd-89f3-26c7f142698f.png",
-  "guests": 34,
+  "guests": 37,
   "vendors": [],
   "source": "luma-sg-feed+luma-category:cat-ai+luma-category:cat-tech+cal:cal-l8NkM2ubBP0jVhc",
   "kind": "luma",
   "first_seen": "2026-11-21",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
  },
  {
   "id": "evt-YbcwgbdhkqK0vf9",
@@ -612,7 +549,7 @@
   "source": "cal:cal-6iIeDGNQ7vK8cfx",
   "kind": "luma",
   "first_seen": "2026-11-24",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
  },
  {
   "id": "evt-XUjOgEoZwWaFGi3",
@@ -633,12 +570,12 @@
   "calendar": "Personal",
   "calendar_id": "cal-57Dw7zs7MJshkMF",
   "cover": "https://images.lumacdn.com/uploads/zg/4c892f2b-fb6f-454f-b991-cfc978a75c6a.png",
-  "guests": 27,
+  "guests": 32,
   "vendors": [],
   "source": "cal:cal-57Dw7zs7MJshkMF",
   "kind": "luma",
   "first_seen": "2026-11-20",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
  },
  {
   "id": "meetup-314946220",
@@ -752,12 +689,12 @@
   "calendar": "The AI Collective",
   "calendar_id": "cal-E74MDlDKBaeAwXK",
   "cover": "https://images.lumacdn.com/uploads/1w/b96d75b8-f247-4e4e-a0a9-cc8b9f80f562.png",
-  "guests": 2,
+  "guests": 17,
   "vendors": [],
   "source": "cal:The AI Collective",
   "kind": "luma",
   "first_seen": "2026-11-24",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
  },
  {
   "id": "evt-cjslzSGyL9JgLol",
@@ -781,7 +718,7 @@
   "source": "luma-sg-feed+luma-category:cat-ai+luma-category:cat-tech+cal:cal-6iIeDGNQ7vK8cfx+cal:cal-5te4xTySvQaS7mT",
   "kind": "luma",
   "first_seen": "2026-11-20",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
  },
  {
   "id": "evt-GYrJqi6MHSaN0rH",
@@ -801,12 +738,20 @@
   "calendar": "AI Tinkerers Singapore",
   "calendar_id": "cal-RJzlehiWa4JSyuL",
   "cover": "https://images.lumacdn.com/uploads/61/d651222f-fa60-4932-8587-f398461579f7.png",
-  "guests": 200,
+  "guests": 212,
   "vendors": [],
-  "source": "luma-sg-feed+luma-category:cat-ai+luma-category:cat-tech+cal:cal-RJzlehiWa4JSyuL",
+  "source": "luma-sg-feed+luma-category:cat-ai+luma-category:cat-tech+cal:cal-RJzlehiWa4JSyuL+curated-annotations",
   "kind": "luma",
   "first_seen": "2026-11-20",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25",
+  "note": "Confirmed by the organiser: Supabase credits are available to attendees who check in; amount and redemption terms were not stated. Checked 26 Nov 2026.",
+  "credits": "Supabase credits for checked-in attendees; amount and redemption terms not stated.",
+  "credits_kind": "credits",
+  "annotation_checked_at": "2026-11-26",
+  "annotation_sources": [
+   "https://luma.com/lsp2rnhf",
+   "https://singapore.aitinkerers.org/events"
+  ]
  },
  {
   "id": "evt-l5Ci1Ahq5DNtm3f",
@@ -828,14 +773,14 @@
   "calendar": "SpaceXSI for Singapore",
   "calendar_id": "cal-RxMeFi4lwLGXWjK",
   "cover": "https://images.lumacdn.com/uploads/h8/6bb8c461-9c9b-4048-baf8-ba0e28dba3f3.png",
-  "guests": 1,
+  "guests": 0,
   "vendors": [
    "xAI / SpaceXAI"
   ],
   "source": "cal:SpaceXAI Community+cal:SpaceXAI for Singapore",
   "kind": "luma",
   "first_seen": "2026-11-24",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
  },
  {
   "id": "manual-codex-bootcamp-101",
@@ -860,6 +805,29 @@
   ]
  },
  {
+  "id": "evt-MR4CCOu8mUMtqGc",
+  "url": "https://lu.ma/0s5smqhc",
+  "name": "City Lead Town Hall",
+  "start": "2026-12-04T01:00:00.000Z",
+  "end": "2026-12-04T01:30:00.000Z",
+  "tz": "America/Los_Angeles",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Annie Liao"
+  ],
+  "calendar": "Build Club",
+  "calendar_id": "cal-yrYsEKDQ91hPMWy",
+  "cover": "https://images.lumacdn.com/uploads/0q/2f309dc7-3c0b-449a-b16e-3e404421e168.png",
+  "guests": 0,
+  "vendors": [],
+  "source": "cal:Build Club",
+  "kind": "luma",
+  "first_seen": "2026-11-25",
+  "last_seen": "2026-11-25"
+ },
+ {
   "id": "evt-CQEefUcdcv4pN0E",
   "url": "https://lu.ma/uc2a3lb5",
   "name": "Side Quest",
@@ -880,7 +848,7 @@
   "source": "cal:cal-6iIeDGNQ7vK8cfx",
   "kind": "luma",
   "first_seen": "2026-11-20",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
  },
  {
   "id": "evt-1mlscjz3NID6ST3",
@@ -907,7 +875,7 @@
   "source": "cal:Google DeepMind+cal:cal-wjMwGmksR3Zpa83",
   "kind": "luma",
   "first_seen": "2026-11-20",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
  },
  {
   "id": "meetup-pqkprtyjcqbgb",
@@ -958,7 +926,7 @@
   "source": "cal:The AI Collective",
   "kind": "luma",
   "first_seen": "2026-11-20",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
  },
  {
   "id": "evt-YE7FBB7D17JO37t",
@@ -989,7 +957,7 @@
   "source": "luma-sg-feed+luma-category:cat-ai+luma-category:cat-tech+cal:Google DeepMind+cal:cal-nKCyp2f0b6rvJUm",
   "kind": "luma",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "credits": "Prizes only: US$6,000 cash plus 3-month Google AI Pro subscriptions and merch for winners. No attendee credits stated.",
   "credits_kind": "perk"
  },
@@ -1010,12 +978,12 @@
   "calendar": "Personal",
   "calendar_id": "cal-7xEpna9688PSFwd",
   "cover": "https://images.lumacdn.com/uploads/oq/351d3a0c-664d-4809-8ab3-7be12c45c749.jpg",
-  "guests": 6,
+  "guests": 7,
   "vendors": [],
   "source": "cal:The AI Capitol / OpenBuilder",
   "kind": "luma",
   "first_seen": "2026-11-22",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
  },
  {
   "id": "evt-4wAAcirY8ptQ1Cc",
@@ -1044,7 +1012,32 @@
   "source": "cal:cal-UayTDXklzBt9tLe+cal:cal-xfRCBuSHDpIoEmp",
   "kind": "luma",
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
+ },
+ {
+  "id": "evt-mStn3NzpkLikVTB",
+  "url": "https://lu.ma/fm7lotyu",
+  "name": "Agent Network Night: OpenBuilder x Five Degrees",
+  "start": "2026-12-08T10:00:00.000Z",
+  "end": "2026-12-08T14:00:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "Singapore",
+  "hosts": [
+   "Lionel Sim",
+   "SMU Artificial Intelligence Club",
+   "Five Degrees AI"
+  ],
+  "calendar": "Personal",
+  "calendar_id": "cal-7xEpna9688PSFwd",
+  "cover": "https://images.lumacdn.com/uploads/sm/50fa7cf7-8f27-4b15-8b1c-3861590d099f.jpg",
+  "guests": 0,
+  "vendors": [],
+  "source": "cal:The AI Capitol / OpenBuilder",
+  "kind": "luma",
+  "first_seen": "2026-11-25",
+  "last_seen": "2026-11-25"
  },
  {
   "id": "evt-yfFxfNQCG2CPk9C",
@@ -1067,7 +1060,7 @@
   "source": "luma-sg-feed+luma-category:cat-ai+luma-category:cat-tech+cal:SG AI & Robotics Demo Nights",
   "kind": "luma",
   "first_seen": "2026-09-05",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
  },
  {
   "id": "evt-XHM6b7Qj7eaIgHM",
@@ -1093,7 +1086,7 @@
   "source": "cal:Claude Community Events",
   "kind": "luma",
   "first_seen": "2026-11-20",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
  },
  {
   "id": "meetup-317415261",
@@ -1140,7 +1133,7 @@
   "source": "cal:The AI Capitol / OpenBuilder",
   "kind": "luma",
   "first_seen": "2026-11-22",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
  },
  {
   "id": "evt-Sg4JP0ERH23jdc4",
@@ -1164,10 +1157,12 @@
   "kind": "manual",
   "first_seen": "2026-11-23",
   "last_seen": "2026-11-23",
-  "note": "Previously verified as a scheduled AI Tinkerers Singapore listing. The Luma page and calendar API returned unavailable on 25 Nov, so current event status could not be confirmed. Recheck before relying on the date.",
-  "annotation_checked_at": "2026-11-25",
+  "note": "Previously verified as a scheduled AI Tinkerers Singapore listing. Luma page/API remained unavailable on 26 Nov. The AI Tinkerers Singapore calendar now lists Dec 3 as next event, while DevsGoWhere still lists this Dec 9 session; cancellation/status unresolved. Recheck before relying on the date.",
+  "annotation_checked_at": "2026-11-26",
   "annotation_sources": [
-   "https://lu.ma/voy16yle"
+   "https://lu.ma/voy16yle",
+   "https://singapore.aitinkerers.org/events",
+   "https://devsgowhere.com/events/"
   ]
  },
  {
@@ -1188,14 +1183,14 @@
   "calendar": "Claude SG Community",
   "calendar_id": "cal-Dkjza6RmAxAYMWj",
   "cover": "https://images.lumacdn.com/uploads/yd/4d6ddc77-1fc5-43db-b93a-0f68ce87a821.png",
-  "guests": 196,
+  "guests": 222,
   "vendors": [
    "Anthropic"
   ],
   "source": "cal:Claude SG Community+curated-annotations",
   "kind": "luma",
   "first_seen": "2026-11-20",
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "note": "Free to attend, but the organiser asks attendees to bring a paid Claude Pro-or-higher account and Claude Desktop installed. Certificate eligibility is limited to paid Claude subscriptions. Bring a laptop. Registration requires approval. Checked 21 Nov 2026.",
   "annotation_checked_at": "2026-11-21T20:39:00+08:00",
   "annotation_sources": [
@@ -1312,12 +1307,12 @@
   "calendar": "Personal",
   "calendar_id": "cal-7xEpna9688PSFwd",
   "cover": "https://images.lumacdn.com/uploads/81/e6cea801-387d-4843-8088-2e2693050874.jpg",
-  "guests": 0,
+  "guests": 5,
   "vendors": [],
   "source": "cal:The AI Capitol / OpenBuilder",
   "kind": "luma",
   "first_seen": "2026-11-24",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
  },
  {
   "id": "manual-aigc-singapore-2026",
@@ -1388,7 +1383,7 @@
   "source": "cal:The AI Collective",
   "kind": "luma",
   "first_seen": "2026-11-20",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
  },
  {
   "id": "evt-U1SPHvLTSEq060y",
@@ -1409,14 +1404,14 @@
   "calendar": "Personal",
   "calendar_id": "cal-7xEpna9688PSFwd",
   "cover": "https://images.lumacdn.com/uploads/ai/41579743-d3a2-49a7-8f32-570e9ad790e2.jpg",
-  "guests": 353,
+  "guests": 373,
   "vendors": [
    "AWS"
   ],
   "source": "luma-sg-feed+luma-category:cat-ai+luma-category:cat-tech+cal:The AI Capitol / OpenBuilder",
   "kind": "luma",
   "first_seen": "2026-11-20",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
  },
  {
   "id": "meetup-nhcqrtyjcqbvb",
@@ -1487,7 +1482,7 @@
   "source": "cal:cal-shGsiOpMZsOFocO+curated-annotations",
   "kind": "luma",
   "first_seen": "2026-11-21",
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "note": "AI-themed social trivia and dinner, not a technical workshop. Winner-only gadget prize.",
   "fee": "Early bird S$35 until 1 Dec; standard S$50. Non-refundable, transferable. Dinner and a drink included. Checked 21 Nov 2026.",
   "fee_label": "Paid event",
@@ -1512,14 +1507,14 @@
   "calendar": "AI Builders",
   "calendar_id": "cal-PKazQdrRmpFJSXz",
   "cover": "https://images.lumacdn.com/uploads/ug/c387a802-59fd-4b2d-8c01-0b394235f520.png",
-  "guests": 47,
+  "guests": 51,
   "vendors": [
    "Base44"
   ],
   "source": "cal:AI Builders",
   "kind": "luma",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
  },
  {
   "id": "evt-wSzc2gjAnK6mW81",
@@ -1542,7 +1537,7 @@
   "calendar": "AI Builders",
   "calendar_id": "cal-PKazQdrRmpFJSXz",
   "cover": "https://images.lumacdn.com/uploads/wu/77f88aee-5514-4f2f-a3ae-9d5b945d106a.png",
-  "guests": 112,
+  "guests": 124,
   "vendors": [
    "Qwen / Alibaba",
    "Daytona",
@@ -1551,7 +1546,7 @@
   "source": "luma-sg-feed+luma-category:cat-ai+luma-category:cat-tech+cal:AI Builders",
   "kind": "luma",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-25",
   "credits": "All participants receive Daytona and Nosana credits to build with during the hackathon; winning teams share sponsor credit prizes (amounts not stated).",
   "credits_kind": "credits"
  },
@@ -1621,7 +1616,7 @@
   "source": "cal:AI Builders",
   "kind": "luma",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
  },
  {
   "id": "evt-Qt4NZ8sfCB8UD48",
@@ -1639,12 +1634,12 @@
   "calendar": "AI Builders",
   "calendar_id": "cal-PKazQdrRmpFJSXz",
   "cover": "https://images.lumacdn.com/uploads/tv/fa3f965c-5c2b-4a08-bf06-df4aeff6ef99.png",
-  "guests": 125,
+  "guests": 130,
   "vendors": [],
   "source": "cal:AI Builders",
   "kind": "luma",
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
  },
  {
   "id": "evt-jxRZH7v0HmRpHZB",
@@ -1667,7 +1662,7 @@
   "source": "cal:SG AI & Robotics Demo Nights",
   "kind": "luma",
   "first_seen": "2026-11-20",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
  },
  {
   "id": "evt-WIRvMehdsoldyhf",
@@ -1694,7 +1689,7 @@
   "source": "cal:The AI Capitol / OpenBuilder",
   "kind": "luma",
   "first_seen": "2026-11-20",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
  },
  {
   "id": "meetup-317403896",
@@ -1773,6 +1768,29 @@
   "last_seen": "2026-11-20"
  },
  {
+  "id": "meetup-317585547",
+  "name": "AnalyticsCLUB JobExpo Virtual Business, Data & Technology Job Expo",
+  "url": "https://www.meetup.com/ac-sin/events/317585547/",
+  "start": "2027-02-05T11:00:00+08:00",
+  "end": "2027-02-05T14:00:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Analytics.Club Singapore"
+  ],
+  "calendar": "Analytics.Club Singapore",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "meetup:ac-sin",
+  "kind": "meetup",
+  "first_seen": "2026-11-25",
+  "last_seen": "2026-11-25"
+ },
+ {
   "id": "meetup-317518741",
   "name": "Feb 10 - Physical AI Meetup: Robot Brains and Models",
   "url": "https://www.meetup.com/singapore-computer-vision-meetup/events/317518741/",
@@ -1816,7 +1834,7 @@
   "source": "cal:SG AI & Robotics Demo Nights",
   "kind": "luma",
   "first_seen": "2026-11-20",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
  },
  {
   "id": "meetup-317571083",
@@ -1842,6 +1860,29 @@
   "last_seen": "2026-11-24"
  },
  {
+  "id": "meetup-rfzdcvykcfbhb",
+  "name": "AnalyticsCLUB JobExpo Virtual Business, Data & Technology Job Expo",
+  "url": "https://www.meetup.com/ac-sin/events/rfzdcvykcfbhb/",
+  "start": "2027-03-05T11:00:00+08:00",
+  "end": "2027-03-05T14:00:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Analytics.Club Singapore"
+  ],
+  "calendar": "Analytics.Club Singapore",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "meetup:ac-sin",
+  "kind": "meetup",
+  "first_seen": "2026-11-25",
+  "last_seen": "2026-11-25"
+ },
+ {
   "id": "evt-0tRpy0u66iGjAoR",
   "url": "https://lu.ma/p0187r52",
   "name": "Singapore AI & Robotics Demo Night (Mar 2027)",
@@ -1862,7 +1903,7 @@
   "source": "cal:SG AI & Robotics Demo Nights",
   "kind": "luma",
   "first_seen": "2026-11-20",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
  },
  {
   "id": "meetup-317554653",
@@ -1888,6 +1929,29 @@
   "last_seen": "2026-11-23"
  },
  {
+  "id": "meetup-rfzdcvykcgbdb",
+  "name": "AnalyticsCLUB JobExpo Virtual Business, Data & Technology Job Expo",
+  "url": "https://www.meetup.com/ac-sin/events/rfzdcvykcgbdb/",
+  "start": "2027-04-02T11:00:00+08:00",
+  "end": "2027-04-02T14:00:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Analytics.Club Singapore"
+  ],
+  "calendar": "Analytics.Club Singapore",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "meetup:ac-sin",
+  "kind": "meetup",
+  "first_seen": "2026-11-25",
+  "last_seen": "2026-11-25"
+ },
+ {
   "id": "evt-66NLLODAPVMrifO",
   "url": "https://lu.ma/z3egx91u",
   "name": "Singapore AI & Robotics Demo Night (Apr 2027)",
@@ -1908,7 +1972,30 @@
   "source": "cal:SG AI & Robotics Demo Nights",
   "kind": "luma",
   "first_seen": "2026-11-20",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
+ },
+ {
+  "id": "meetup-rfzdcvykchbkb",
+  "name": "AnalyticsCLUB JobExpo Virtual Business, Data & Technology Job Expo",
+  "url": "https://www.meetup.com/ac-sin/events/rfzdcvykchbkb/",
+  "start": "2027-05-07T11:00:00+08:00",
+  "end": "2027-05-07T14:00:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Analytics.Club Singapore"
+  ],
+  "calendar": "Analytics.Club Singapore",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "meetup:ac-sin",
+  "kind": "meetup",
+  "first_seen": "2026-11-25",
+  "last_seen": "2026-11-25"
  },
  {
   "id": "evt-9v2BxrWAe2SIU2y",
@@ -1931,7 +2018,30 @@
   "source": "cal:SG AI & Robotics Demo Nights",
   "kind": "luma",
   "first_seen": "2026-11-20",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
+ },
+ {
+  "id": "meetup-rfzdcvykcjbgb",
+  "name": "AnalyticsCLUB JobExpo Virtual Business, Data & Technology Job Expo",
+  "url": "https://www.meetup.com/ac-sin/events/rfzdcvykcjbgb/",
+  "start": "2027-06-04T11:00:00+08:00",
+  "end": "2027-06-04T14:00:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Analytics.Club Singapore"
+  ],
+  "calendar": "Analytics.Club Singapore",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "meetup:ac-sin",
+  "kind": "meetup",
+  "first_seen": "2026-11-25",
+  "last_seen": "2026-11-25"
  },
  {
   "id": "evt-odc6wIGky3uSmtO",
@@ -1954,7 +2064,30 @@
   "source": "cal:SG AI & Robotics Demo Nights",
   "kind": "luma",
   "first_seen": "2026-11-20",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
+ },
+ {
+  "id": "meetup-rfzdcvykckbdb",
+  "name": "AnalyticsCLUB JobExpo Virtual Business, Data & Technology Job Expo",
+  "url": "https://www.meetup.com/ac-sin/events/rfzdcvykckbdb/",
+  "start": "2027-07-02T11:00:00+08:00",
+  "end": "2027-07-02T14:00:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Analytics.Club Singapore"
+  ],
+  "calendar": "Analytics.Club Singapore",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "meetup:ac-sin",
+  "kind": "meetup",
+  "first_seen": "2026-11-25",
+  "last_seen": "2026-11-25"
  },
  {
   "id": "evt-zEpinxr5F2XFcIt",
@@ -1977,7 +2110,30 @@
   "source": "cal:SG AI & Robotics Demo Nights",
   "kind": "luma",
   "first_seen": "2026-11-20",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
+ },
+ {
+  "id": "meetup-rfzdcvykclbjb",
+  "name": "AnalyticsCLUB JobExpo Virtual Business, Data & Technology Job Expo",
+  "url": "https://www.meetup.com/ac-sin/events/rfzdcvykclbjb/",
+  "start": "2027-08-06T11:00:00+08:00",
+  "end": "2027-08-06T14:00:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Analytics.Club Singapore"
+  ],
+  "calendar": "Analytics.Club Singapore",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "meetup:ac-sin",
+  "kind": "meetup",
+  "first_seen": "2026-11-25",
+  "last_seen": "2026-11-25"
  },
  {
   "id": "evt-cVkLIyXVLqQHwYF",
@@ -2000,7 +2156,30 @@
   "source": "cal:SG AI & Robotics Demo Nights",
   "kind": "luma",
   "first_seen": "2026-11-20",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
+ },
+ {
+  "id": "meetup-rfzdcvykcmbfb",
+  "name": "AnalyticsCLUB JobExpo Virtual Business, Data & Technology Job Expo",
+  "url": "https://www.meetup.com/ac-sin/events/rfzdcvykcmbfb/",
+  "start": "2027-09-03T11:00:00+08:00",
+  "end": "2027-09-03T14:00:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Analytics.Club Singapore"
+  ],
+  "calendar": "Analytics.Club Singapore",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "meetup:ac-sin",
+  "kind": "meetup",
+  "first_seen": "2026-11-25",
+  "last_seen": "2026-11-25"
  },
  {
   "id": "evt-viJFRs4ZSvn6Qww",
@@ -2023,7 +2202,30 @@
   "source": "cal:SG AI & Robotics Demo Nights",
   "kind": "luma",
   "first_seen": "2026-11-20",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
+ },
+ {
+  "id": "meetup-rfzdcvykcnbcb",
+  "name": "AnalyticsCLUB JobExpo Virtual Business, Data & Technology Job Expo",
+  "url": "https://www.meetup.com/ac-sin/events/rfzdcvykcnbcb/",
+  "start": "2027-10-01T11:00:00+08:00",
+  "end": "2027-10-01T14:00:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Analytics.Club Singapore"
+  ],
+  "calendar": "Analytics.Club Singapore",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "meetup:ac-sin",
+  "kind": "meetup",
+  "first_seen": "2026-11-25",
+  "last_seen": "2026-11-25"
  },
  {
   "id": "evt-JPdghnvaPZqU1c2",
@@ -2046,7 +2248,30 @@
   "source": "cal:SG AI & Robotics Demo Nights",
   "kind": "luma",
   "first_seen": "2026-11-20",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
+ },
+ {
+  "id": "meetup-rfzdcvykcpbhb",
+  "name": "AnalyticsCLUB JobExpo Virtual Business, Data & Technology Job Expo",
+  "url": "https://www.meetup.com/ac-sin/events/rfzdcvykcpbhb/",
+  "start": "2027-11-05T11:00:00+08:00",
+  "end": "2027-11-05T14:00:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "Analytics.Club Singapore"
+  ],
+  "calendar": "Analytics.Club Singapore",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "meetup:ac-sin",
+  "kind": "meetup",
+  "first_seen": "2026-11-25",
+  "last_seen": "2026-11-25"
  },
  {
   "id": "evt-JK9h7oisfBMIO8U",
@@ -2069,7 +2294,7 @@
   "source": "cal:SG AI & Robotics Demo Nights",
   "kind": "luma",
   "first_seen": "2026-11-20",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
  },
  {
   "id": "evt-AYz7JXkBkECswpi",
@@ -2092,6 +2317,6 @@
   "source": "cal:SG AI & Robotics Demo Nights",
   "kind": "luma",
   "first_seen": "2026-11-20",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-25"
  }
 ]
