@@ -27,6 +27,22 @@ class CuratedMerge(unittest.TestCase):
   for e in manual:k[e['id']]=dict(e,kind='luma',source='live',start='2027-01-01T01:00:00Z',venue='Fresh live venue',note='',fee='')
   r.merge_curated_events(k,manual,{e['id']:e for e in manual},'2026-11-22');self.assertEqual(len(k),2)
   voice=k['evt-h4LRoWZJwR7H3Bb'];trivia=k['evt-cDvxGxlGoWXA0Vn'];self.assertIn('73B',voice['curated_location_note']);self.assertIn('hotspot',voice['note']);self.assertIn('35',trivia['fee']);self.assertEqual(voice['start'],'2027-01-01T01:00:00Z');self.assertEqual(voice['annotation_checked_at'],'2026-11-21T18:51:00+08:00')
+class MeetupRelevance(unittest.TestCase):
+ def test_generic_jobexpo_not_accepted_from_broad_keywords(self):
+  title='AnalyticsCLUB JobExpo Virtual Business, Data & Technology Job Expo'
+  description='Global virtual job fair and remote hiring event for professionals, employers, recruiters and career coaches. Tech networking channels include jobs, networking and career discussion.'
+  self.assertFalse(r.meetup_ai_relevant(title,description))
+  self.assertTrue(r.meetup_is_out_of_scope(title))
+  self.assertFalse(r.meetup_is_out_of_scope('Practical AI at AnalyticsClub job fair'))
+ def test_ai_meetup_still_accepted(self):
+  self.assertTrue(r.meetup_ai_relevant('Analytics Club AI Agents Meetup','Practical agentic AI workflows and LLMs'))
+ def test_out_of_scope_series_is_not_restored_from_archive(self):
+  old={'meetup-old':dict(id='meetup-old',kind='meetup',name='AnalyticsCLUB JobExpo Virtual Business, Data & Technology Job Expo',url='https://meetup.com/ac-sin/events/old',start='2026-12-04T11:00:00+08:00',end='2026-12-04T14:00:00+08:00')}
+  kept={}
+  for eid,prev in old.items():
+   if prev.get('kind')=='meetup' and r.meetup_is_out_of_scope(prev.get('name')):continue
+   kept[eid]=prev
+  self.assertNotIn('meetup-old',kept)
 class SGInnovateSchedule(unittest.TestCase):
  def test_explicit_end_time_not_assumed_duration(self):
   x=r.sginnovate_schedule('<section class="schedule">Date: 24 Nov 2026 Time: 7:00 PM - 9:30 PM Location: 47 Hill St, Singapore 179365</section>');self.assertEqual(x[1].hour,21);self.assertEqual(x[1].minute,30)

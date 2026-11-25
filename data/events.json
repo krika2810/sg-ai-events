@@ -878,29 +878,6 @@
   "last_seen": "2026-11-25"
  },
  {
-  "id": "meetup-pqkprtyjcqbgb",
-  "name": "AnalyticsCLUB JobExpo Virtual Business, Data & Technology Job Expo",
-  "url": "https://www.meetup.com/ac-sin/events/pqkprtyjcqbgb/",
-  "start": "2026-12-04T11:00:00+08:00",
-  "end": "2026-12-04T14:00:00+08:00",
-  "tz": "Asia/Singapore",
-  "virtual": true,
-  "sg": false,
-  "venue": "Online",
-  "hosts": [
-   "Analytics.Club Singapore"
-  ],
-  "calendar": "Analytics.Club Singapore",
-  "calendar_id": null,
-  "cover": null,
-  "guests": null,
-  "vendors": [],
-  "source": "meetup:ac-sin",
-  "kind": "meetup",
-  "first_seen": "2026-10-10",
-  "last_seen": "2026-10-10"
- },
- {
   "id": "evt-tQKCu5Y41ynH0KK",
   "url": "https://lu.ma/aic-si-12-4",
   "name": "Your Career Post AI (w/ The AI Collective)",
@@ -1768,29 +1745,6 @@
   "last_seen": "2026-11-20"
  },
  {
-  "id": "meetup-317585547",
-  "name": "AnalyticsCLUB JobExpo Virtual Business, Data & Technology Job Expo",
-  "url": "https://www.meetup.com/ac-sin/events/317585547/",
-  "start": "2027-02-05T11:00:00+08:00",
-  "end": "2027-02-05T14:00:00+08:00",
-  "tz": "Asia/Singapore",
-  "virtual": true,
-  "sg": false,
-  "venue": "Online",
-  "hosts": [
-   "Analytics.Club Singapore"
-  ],
-  "calendar": "Analytics.Club Singapore",
-  "calendar_id": null,
-  "cover": null,
-  "guests": null,
-  "vendors": [],
-  "source": "meetup:ac-sin",
-  "kind": "meetup",
-  "first_seen": "2026-11-25",
-  "last_seen": "2026-11-25"
- },
- {
   "id": "meetup-317518741",
   "name": "Feb 10 - Physical AI Meetup: Robot Brains and Models",
   "url": "https://www.meetup.com/singapore-computer-vision-meetup/events/317518741/",
@@ -1860,29 +1814,6 @@
   "last_seen": "2026-11-24"
  },
  {
-  "id": "meetup-rfzdcvykcfbhb",
-  "name": "AnalyticsCLUB JobExpo Virtual Business, Data & Technology Job Expo",
-  "url": "https://www.meetup.com/ac-sin/events/rfzdcvykcfbhb/",
-  "start": "2027-03-05T11:00:00+08:00",
-  "end": "2027-03-05T14:00:00+08:00",
-  "tz": "Asia/Singapore",
-  "virtual": true,
-  "sg": false,
-  "venue": "Online",
-  "hosts": [
-   "Analytics.Club Singapore"
-  ],
-  "calendar": "Analytics.Club Singapore",
-  "calendar_id": null,
-  "cover": null,
-  "guests": null,
-  "vendors": [],
-  "source": "meetup:ac-sin",
-  "kind": "meetup",
-  "first_seen": "2026-11-25",
-  "last_seen": "2026-11-25"
- },
- {
   "id": "evt-0tRpy0u66iGjAoR",
   "url": "https://lu.ma/p0187r52",
   "name": "Singapore AI & Robotics Demo Night (Mar 2027)",
@@ -1929,29 +1860,6 @@
   "last_seen": "2026-11-23"
  },
  {
-  "id": "meetup-rfzdcvykcgbdb",
-  "name": "AnalyticsCLUB JobExpo Virtual Business, Data & Technology Job Expo",
-  "url": "https://www.meetup.com/ac-sin/events/rfzdcvykcgbdb/",
-  "start": "2027-04-02T11:00:00+08:00",
-  "end": "2027-04-02T14:00:00+08:00",
-  "tz": "Asia/Singapore",
-  "virtual": true,
-  "sg": false,
-  "venue": "Online",
-  "hosts": [
-   "Analytics.Club Singapore"
-  ],
-  "calendar": "Analytics.Club Singapore",
-  "calendar_id": null,
-  "cover": null,
-  "guests": null,
-  "vendors": [],
-  "source": "meetup:ac-sin",
-  "kind": "meetup",
-  "first_seen": "2026-11-25",
-  "last_seen": "2026-11-25"
- },
- {
   "id": "evt-66NLLODAPVMrifO",
   "url": "https://lu.ma/z3egx91u",
   "name": "Singapore AI & Robotics Demo Night (Apr 2027)",
@@ -1972,29 +1880,6 @@
   "source": "cal:SG AI & Robotics Demo Nights",
   "kind": "luma",
   "first_seen": "2026-11-20",
-  "last_seen": "2026-11-25"
- },
- {
-  "id": "meetup-rfzdcvykchbkb",
-  "name": "AnalyticsCLUB JobExpo Virtual Business, Data & Technology Job Expo",
-  "url": "https://www.meetup.com/ac-sin/events/rfzdcvykchbkb/",
-  "start": "2027-05-07T11:00:00+08:00",
-  "end": "2027-05-07T14:00:00+08:00",
-  "tz": "Asia/Singapore",
-  "virtual": true,
-  "sg": false,
-  "venue": "Online",
-  "hosts": [
-   "Analytics.Club Singapore"
-  ],
-  "calendar": "Analytics.Club Singapore",
-  "calendar_id": null,
-  "cover": null,
-  "guests": null,
-  "vendors": [],
-  "source": "meetup:ac-sin",
-  "kind": "meetup",
-  "first_seen": "2026-11-25",
   "last_seen": "2026-11-25"
  },
  {
@@ -2021,29 +1906,6 @@
   "last_seen": "2026-11-25"
  },
  {
-  "id": "meetup-rfzdcvykcjbgb",
-  "name": "AnalyticsCLUB JobExpo Virtual Business, Data & Technology Job Expo",
-  "url": "https://www.meetup.com/ac-sin/events/rfzdcvykcjbgb/",
-  "start": "2027-06-04T11:00:00+08:00",
-  "end": "2027-06-04T14:00:00+08:00",
-  "tz": "Asia/Singapore",
-  "virtual": true,
-  "sg": false,
-  "venue": "Online",
-  "hosts": [
-   "Analytics.Club Singapore"
-  ],
-  "calendar": "Analytics.Club Singapore",
-  "calendar_id": null,
-  "cover": null,
-  "guests": null,
-  "vendors": [],
-  "source": "meetup:ac-sin",
-  "kind": "meetup",
-  "first_seen": "2026-11-25",
-  "last_seen": "2026-11-25"
- },
- {
   "id": "evt-odc6wIGky3uSmtO",
   "url": "https://lu.ma/6llqsvqv",
   "name": "Singapore AI & Robotics Demo Night (Jun 2027)",
@@ -2064,29 +1926,6 @@
   "source": "cal:SG AI & Robotics Demo Nights",
   "kind": "luma",
   "first_seen": "2026-11-20",
-  "last_seen": "2026-11-25"
- },
- {
-  "id": "meetup-rfzdcvykckbdb",
-  "name": "AnalyticsCLUB JobExpo Virtual Business, Data & Technology Job Expo",
-  "url": "https://www.meetup.com/ac-sin/events/rfzdcvykckbdb/",
-  "start": "2027-07-02T11:00:00+08:00",
-  "end": "2027-07-02T14:00:00+08:00",
-  "tz": "Asia/Singapore",
-  "virtual": true,
-  "sg": false,
-  "venue": "Online",
-  "hosts": [
-   "Analytics.Club Singapore"
-  ],
-  "calendar": "Analytics.Club Singapore",
-  "calendar_id": null,
-  "cover": null,
-  "guests": null,
-  "vendors": [],
-  "source": "meetup:ac-sin",
-  "kind": "meetup",
-  "first_seen": "2026-11-25",
   "last_seen": "2026-11-25"
  },
  {
@@ -2113,29 +1952,6 @@
   "last_seen": "2026-11-25"
  },
  {
-  "id": "meetup-rfzdcvykclbjb",
-  "name": "AnalyticsCLUB JobExpo Virtual Business, Data & Technology Job Expo",
-  "url": "https://www.meetup.com/ac-sin/events/rfzdcvykclbjb/",
-  "start": "2027-08-06T11:00:00+08:00",
-  "end": "2027-08-06T14:00:00+08:00",
-  "tz": "Asia/Singapore",
-  "virtual": true,
-  "sg": false,
-  "venue": "Online",
-  "hosts": [
-   "Analytics.Club Singapore"
-  ],
-  "calendar": "Analytics.Club Singapore",
-  "calendar_id": null,
-  "cover": null,
-  "guests": null,
-  "vendors": [],
-  "source": "meetup:ac-sin",
-  "kind": "meetup",
-  "first_seen": "2026-11-25",
-  "last_seen": "2026-11-25"
- },
- {
   "id": "evt-cVkLIyXVLqQHwYF",
   "url": "https://lu.ma/7dj6fosb",
   "name": "Singapore AI & Robotics Demo Night (Aug 2027)",
@@ -2156,29 +1972,6 @@
   "source": "cal:SG AI & Robotics Demo Nights",
   "kind": "luma",
   "first_seen": "2026-11-20",
-  "last_seen": "2026-11-25"
- },
- {
-  "id": "meetup-rfzdcvykcmbfb",
-  "name": "AnalyticsCLUB JobExpo Virtual Business, Data & Technology Job Expo",
-  "url": "https://www.meetup.com/ac-sin/events/rfzdcvykcmbfb/",
-  "start": "2027-09-03T11:00:00+08:00",
-  "end": "2027-09-03T14:00:00+08:00",
-  "tz": "Asia/Singapore",
-  "virtual": true,
-  "sg": false,
-  "venue": "Online",
-  "hosts": [
-   "Analytics.Club Singapore"
-  ],
-  "calendar": "Analytics.Club Singapore",
-  "calendar_id": null,
-  "cover": null,
-  "guests": null,
-  "vendors": [],
-  "source": "meetup:ac-sin",
-  "kind": "meetup",
-  "first_seen": "2026-11-25",
   "last_seen": "2026-11-25"
  },
  {
@@ -2205,29 +1998,6 @@
   "last_seen": "2026-11-25"
  },
  {
-  "id": "meetup-rfzdcvykcnbcb",
-  "name": "AnalyticsCLUB JobExpo Virtual Business, Data & Technology Job Expo",
-  "url": "https://www.meetup.com/ac-sin/events/rfzdcvykcnbcb/",
-  "start": "2027-10-01T11:00:00+08:00",
-  "end": "2027-10-01T14:00:00+08:00",
-  "tz": "Asia/Singapore",
-  "virtual": true,
-  "sg": false,
-  "venue": "Online",
-  "hosts": [
-   "Analytics.Club Singapore"
-  ],
-  "calendar": "Analytics.Club Singapore",
-  "calendar_id": null,
-  "cover": null,
-  "guests": null,
-  "vendors": [],
-  "source": "meetup:ac-sin",
-  "kind": "meetup",
-  "first_seen": "2026-11-25",
-  "last_seen": "2026-11-25"
- },
- {
   "id": "evt-JPdghnvaPZqU1c2",
   "url": "https://lu.ma/nn5hyc1c",
   "name": "Singapore AI & Robotics Demo Night (Oct 2027)",
@@ -2248,29 +2018,6 @@
   "source": "cal:SG AI & Robotics Demo Nights",
   "kind": "luma",
   "first_seen": "2026-11-20",
-  "last_seen": "2026-11-25"
- },
- {
-  "id": "meetup-rfzdcvykcpbhb",
-  "name": "AnalyticsCLUB JobExpo Virtual Business, Data & Technology Job Expo",
-  "url": "https://www.meetup.com/ac-sin/events/rfzdcvykcpbhb/",
-  "start": "2027-11-05T11:00:00+08:00",
-  "end": "2027-11-05T14:00:00+08:00",
-  "tz": "Asia/Singapore",
-  "virtual": true,
-  "sg": false,
-  "venue": "Online",
-  "hosts": [
-   "Analytics.Club Singapore"
-  ],
-  "calendar": "Analytics.Club Singapore",
-  "calendar_id": null,
-  "cover": null,
-  "guests": null,
-  "vendors": [],
-  "source": "meetup:ac-sin",
-  "kind": "meetup",
-  "first_seen": "2026-11-25",
   "last_seen": "2026-11-25"
  },
  {

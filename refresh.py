@@ -81,6 +81,19 @@ AI_KW = [" ai", "a.i.", "artificial intelligence", "llm", "agentic", "agent", "o
          "langfuse", "rag ", "vector", "foundation model", "vibe", "n8n", "perplexity",
          "minimax", "midjourney", "elevenlabs", "manus", "devin", "windsurf",
          "ai-native", "ai native", "mcp", "text-to", "diffusion", "transformer"]
+NON_AI_MEETUP_TITLE_EXCLUSIONS = ["analyticsclub jobexpo virtual business, data & technology job expo"]
+
+def meetup_ai_relevant(title, description):
+    title = (title or "").strip().lower()
+    hay = (title + " " + (description or "")).lower()
+    if any(exclusion in title for exclusion in NON_AI_MEETUP_TITLE_EXCLUSIONS):
+        return False
+    return any(k.strip().lower() in hay for k in AI_KW)
+
+def meetup_is_out_of_scope(title):
+    title = (title or "").strip().lower()
+    return any(exclusion in title for exclusion in NON_AI_MEETUP_TITLE_EXCLUSIONS)
+
 VENDOR_KW = {
     "OpenAI": ["openai", "chatgpt", "codex", "gpt-"],
     "Anthropic": ["anthropic", "claude"],
@@ -233,7 +246,7 @@ def meetup_events(slug, expected_group):
                 continue
             title, desc = ev.get("title") or "", ev.get("description") or ""
             hay = (title + " " + desc).lower()
-            if not any(k.strip().lower() in hay for k in AI_KW):
+            if not meetup_ai_relevant(title, desc):
                 continue
             start = ev.get("dateTime")
             if not start:
@@ -555,6 +568,8 @@ def main():
     # Stale cached timestamps/location must not keep expired or misclassified entries.
     for eid, prev in old_events.items():
         if eid in kept:
+            continue
+        if prev.get("kind") == "meetup" and meetup_is_out_of_scope(prev.get("name")):
             continue
         if prev.get("kind") == "luma":
             slug = (prev.get("url") or "").rstrip("/").rsplit("/",1)[-1]
