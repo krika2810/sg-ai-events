@@ -669,10 +669,13 @@ def main():
     (DATA / "events.json").write_text(json.dumps(final, indent=1, ensure_ascii=False))
     discovered.update(new_cals)
     (DATA / "calendars.json").write_text(json.dumps(discovered, indent=1, ensure_ascii=False))
+    prior_meta = load_json(DATA / "meta.json", {})
     meta = {"refreshed_at": NOW.isoformat(timespec="seconds"), "event_count": len(final),
             "sg_count": sum(1 for e in final if e.get("sg") and not e.get("virtual")),
             "virtual_count": sum(1 for e in final if e.get("virtual")),
             "new_today": sum(1 for e in final if e.get("first_seen") == today)}
+    if prior_meta.get("coverage_note"):
+        meta["coverage_note"] = prior_meta["coverage_note"]
     (DATA / "meta.json").write_text(json.dumps(meta, indent=1))
     print(json.dumps(meta))
     print(f"pruned {pruned} passed events; watching {len(discovered)} discovered calendars; +{len(new_cals)} new calendars")

@@ -2070,10 +2070,10 @@
   "kind": "manual",
   "first_seen": "2026-11-23",
   "last_seen": "2026-11-23",
-  "note": "Previously verified as a scheduled AI Tinkerers Singapore listing. Luma page/API remained unavailable on 26 Nov. The AI Tinkerers Singapore calendar now lists Dec 3 as next event, while DevsGoWhere still lists this Dec 9 session; cancellation/status unresolved. Recheck before relying on the date.",
+  "note": "Previously verified as scheduled. On 27 Nov, the AI Tinkerers calendar lists Dec 3 as its next event, while DevsGoWhere still lists this Dec 9 session, 6–8 PM SGT, venue TBC. Cancellation/status unresolved; recheck before relying on date.",
   "end_unconfirmed": true,
-  "schedule_review_due": "2026-11-27",
-  "annotation_checked_at": "2026-11-26",
+  "schedule_review_due": "2026-11-30",
+  "annotation_checked_at": "2026-11-27",
   "annotation_sources": [
    "https://lu.ma/voy16yle",
    "https://singapore.aitinkerers.org/events",
@@ -2093,6 +2093,120 @@
   "annotation_sources": [
    "https://luma.com/lsp2rnhf",
    "https://singapore.aitinkerers.org/events"
+  ]
+ },
+ {
+  "id": "evt-yfFxfNQCG2CPk9C",
+  "name": "Singapore AI & Robotics Demo Night (Dec 2026)",
+  "url": "https://lu.ma/iue679ne",
+  "start": "2026-12-08T10:30:00.000Z",
+  "end": "2026-12-08T12:30:00.000Z",
+  "tz": "Asia/Singapore",
+  "virtual": false,
+  "sg": true,
+  "venue": "National Library Board, Level 7 - Launch Programme Room, 100 Victoria St, Singapore 188064",
+  "hosts": [
+   "Singapore AI & Robotics Demo Nights"
+  ],
+  "calendar": "Singapore AI & Robotics Demo Nights",
+  "calendar_id": "cal-fr2yD6OOANXlGm5",
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual-restored-official-listing",
+  "kind": "manual",
+  "note": "Future Dec 8 date and venue confirmed on current Luma listing after the refresh omitted the event. Recheck organiser page before relying on details.",
+  "first_seen": "2026-11-20",
+  "annotation_checked_at": "2026-11-27",
+  "annotation_sources": [
+   "https://luma.com/iue679ne",
+   "https://palaner.com/events/luma-277accb112"
+  ]
+ },
+ {
+  "id": "meetup-317480811",
+  "name": "Build and evaluate a retrieval workflow: evidence before confidence",
+  "url": "https://www.meetup.com/aumos-singapore-ai-builders-open-source/events/317480811/",
+  "start": "2026-12-05T17:00:00+08:00",
+  "end": "2026-12-05T18:30:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "AI for Everyone Singapore | Beginner to Expert",
+   "AumOS"
+  ],
+  "calendar": "AumOS",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual-verified-meetup",
+  "kind": "manual",
+  "note": "Free worldwide virtual workshop; Meetup shares the online room link with RSVPs. Organizer says basic Python/Git are helpful for the hands-on path; a guided observer path is available.",
+  "first_seen": "2026-11-27",
+  "last_seen": "2026-11-27"
+ },
+ {
+  "id": "meetup-317480826",
+  "name": "Make an agent safer to operate: permissions, tests and traces",
+  "url": "https://www.meetup.com/aumos-singapore-ai-builders-open-source/events/317480826/",
+  "start": "2026-12-12T17:00:00+08:00",
+  "end": "2026-12-12T18:30:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "AI for Everyone Singapore | Beginner to Expert",
+   "AumOS"
+  ],
+  "calendar": "AumOS",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual-verified-meetup",
+  "kind": "manual",
+  "note": "Free worldwide virtual workshop; Meetup shares the online room link with RSVPs. Focuses on boundaries, tests and operator evidence for tool-using workflows in a synthetic sandbox.",
+  "first_seen": "2026-11-27",
+  "last_seen": "2026-11-27"
+ },
+ {
+  "id": "meetup-317480841",
+  "name": "Open-source AI contribution clinic: reproduce, review and improve",
+  "url": "https://www.meetup.com/aumos-singapore-ai-builders-open-source/events/317480841/",
+  "start": "2026-12-19T17:00:00+08:00",
+  "end": "2026-12-19T18:30:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "AI for Everyone Singapore | Beginner to Expert",
+   "AumOS"
+  ],
+  "calendar": "AumOS",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual-verified-meetup",
+  "kind": "manual",
+  "note": "Free worldwide virtual workshop; Meetup shares the online room link with RSVPs. Participants prepare a small reproducible contribution proposal from a public issue or documentation problem.",
+  "first_seen": "2026-11-27",
+  "last_seen": "2026-11-27"
+ },
+ {
+  "id": "evt-wSzc2gjAnK6mW81",
+  "url": "https://luma.com/daytonasgdec",
+  "note": "Official event page confirms all participants receive Daytona and Nosana credits for use during the hackathon; winning teams share additional sponsor-credit prizes, amounts not stated. Checked 27 Nov 2026.",
+  "credits": "All participants receive Daytona and Nosana credits to build with during the hackathon; winning teams share additional sponsor-credit prizes, amounts not stated.",
+  "credits_kind": "credits",
+  "annotation_checked_at": "2026-11-27",
+  "annotation_sources": [
+   "https://luma.com/daytonasgdec"
   ]
  }
 ]
