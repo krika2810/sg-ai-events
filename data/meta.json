@@ -1,8 +1,8 @@
 {
- "refreshed_at": "2026-11-26T23:07:43+00:00",
- "event_count": 82,
+ "refreshed_at": "2026-11-28T01:02:07+00:00",
+ "event_count": 84,
  "sg_count": 50,
- "virtual_count": 32,
- "new_today": 4,
- "coverage_note": "Checked Luma feeds and AI/community calendars, selected Meetup groups, SGInnovate, and targeted online AI workshop/hackathon sources on 27 Nov. Coverage is partial; some pages return limited detail, Meetup-only events may be missing, and registration status/availability can change."
+ "virtual_count": 34,
+ "new_today": 3,
+ "coverage_note": "Checked Luma feeds and AI/community calendars, selected Meetup groups, SGInnovate, and targeted online AI workshop/hackathon sources on 28 Nov SGT. Coverage is partial; some pages return limited detail, Meetup-only events may be missing, and registration status/availability can change."
 }

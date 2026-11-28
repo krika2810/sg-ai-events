@@ -2208,5 +2208,69 @@
   "annotation_sources": [
    "https://luma.com/daytonasgdec"
   ]
+ },
+ {
+  "id": "meetup-317491152",
+  "name": "AI from zero: your first hour with AI (no coding, no jargon)",
+  "url": "https://www.meetup.com/aumos-singapore-ai-builders-open-source/events/317491152/",
+  "start": "2026-11-28T13:30:00+08:00",
+  "end": "2026-11-28T14:45:00+08:00",
+  "tz": "Asia/Singapore",
+  "virtual": true,
+  "sg": false,
+  "venue": "Online",
+  "hosts": [
+   "AI for Everyone Singapore | Beginner to Expert",
+   "AumOS"
+  ],
+  "calendar": "AumOS",
+  "calendar_id": null,
+  "cover": null,
+  "guests": null,
+  "vendors": [],
+  "source": "manual-verified-meetup",
+  "kind": "manual",
+  "note": "Free, beginner-only 75-minute worldwide online session; RSVP for room link. No background or paid AI account required; phone or laptop. Free AI chat account optional. Organizer says participants try five everyday AI tasks and learn to protect private data, check answers, and know when not to use AI. No attendee credits or event perks stated.",
+  "first_seen": "2026-11-28",
+  "last_seen": "2026-11-28",
+  "annotation_checked_at": "2026-11-28",
+  "annotation_sources": [
+   "https://www.meetup.com/aumos-singapore-ai-builders-open-source/events/317491152/"
+  ]
+ },
+ {
+  "id": "meetup-317603324",
+  "url": "https://www.meetup.com/ksug-sg/events/317603324/",
+  "source": "manual-verified-meetup",
+  "kind": "manual",
+  "note": "Registration approval required; online link is shared after registration. The host advertises quiz-time swag giveaways, with no guarantee or details stated. Listing advertises ongoing discounts of 30% on Kubernetes certifications (code 30K8SUG) and 20% on FinOps certifications (code KSAI_20); these are ongoing discounts, not event-specific attendee credits.",
+  "annotation_checked_at": "2026-11-28",
+  "annotation_sources": [
+   "https://www.meetup.com/ksug-sg/events/317603324/",
+   "https://luma.com/krfiln47"
+  ]
+ },
+ {
+  "id": "evt-9UaAQsNCyFTUR2l",
+  "url": "https://luma.com/4l1jvkqn",
+  "source": "manual-verified-luma",
+  "kind": "manual",
+  "note": "Host approval required. Listing has no event-specific attendee credits or perks stated.",
+  "annotation_checked_at": "2026-11-28",
+  "annotation_sources": [
+   "https://luma.com/4l1jvkqn"
+  ]
+ },
+ {
+  "id": "evt-mStn3NzpkLikVTB",
+  "url": "https://lu.ma/fm7lotyu",
+  "source": "manual-verified-luma",
+  "kind": "manual",
+  "note": "Organizer's current Luma listing confirms the event closes at 9:00 PM SGT (not 10:00 PM as a secondary listing says), at Singapore Management University. Free; registration requires host approval and capacity is limited to 100. Exact room shared with approved attendees. Listing says registration details, including Quests and Offers, are shared with co-host Five Degrees AI for this event and related follow-up. No event-specific attendee credits stated.",
+  "annotation_checked_at": "2026-11-28",
+  "annotation_sources": [
+   "https://luma.com/fm7lotyu",
+   "https://allevents.in/singapore/agent-network-night-openbuilder-x-five-degrees/4700031128842348"
+  ]
  }
 ]
